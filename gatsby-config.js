@@ -1,11 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Home Comfort Air  `,
+    description: `We install split system air conditioners , throughout Brisbane, Gold Coast and Tweed Heads areas.`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prettier-build`,
+      options: {
+        // default values
+        types: ["html"],
+        concurrency: 20,
+        verbose: true,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
