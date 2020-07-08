@@ -1,28 +1,33 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import Image from "gatsby-image"
+import BackgroundImage from "gatsby-background-image"
 
-const Hero = () => {
+const Hero = props => {
   const data = useStaticQuery(getImages)
   console.log(data)
   return (
     <>
-      <div>
-        <Image fluid={data.fluid.childImageSharp.fluid} className="hero-box" />
-        <div>
-          <h1 class="text-center">Home Comfort Air</h1>
-          <p class="h3 text-center">
-            Gold Coast's Split System Installations Specialists
-          </p>
+      <BackgroundImage id="hero-image" fluid={data.fluid.childImageSharp.fluid}>
+        <div className="white-overlay">
+          <div className="hero-box">
+            <h1 class="text-center hero-heading">
+              <span className="hero-heading-primary">Home Comfort Air</span>
+            </h1>
+            <h2 className="hero-heading-h2">
+              <span className="hero-heading-secondary">
+                Gold Coast's Split System Installations Specialists
+              </span>
+            </h2>
+          </div>
         </div>
-      </div>
+      </BackgroundImage>
     </>
   )
 }
 
 const getImages = graphql`
   {
-    fluid: file(relativePath: { eq: "ac-hero-1.jpg" }) {
+    fluid: file(relativePath: { eq: "hero-4.jpg" }) {
       childImageSharp {
         fluid {
           src

@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <>
       <footer id="footer-main">
-        <div class="footer-grid">
-          <section class="footer-1">
+        <div class="grid-300">
+          <section class="footer-1 text-center">
             <h4>Services 1</h4>
             <p>Our Service a</p>
             <p>Our Service b</p>
@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Our Service d</p>
           </section>
 
-          <section class="footer-2">
+          <section class="footer-2 text-center">
             <h4>Services 2</h4>
             <p>Our Service a</p>
             <p>Our Service b</p>
@@ -21,7 +21,7 @@ const Footer = () => {
             <p>Our Service d</p>
           </section>
 
-          <section class="footer-3">
+          <section class="footer-3 text-center">
             <h4>Services 3</h4>
             <p>Our Service a</p>
             <p>Our Service b</p>
@@ -29,7 +29,7 @@ const Footer = () => {
             <p>Our Service d</p>
           </section>
 
-          <section class="footer-4">
+          <section class="footer-4 text-center">
             <h4>Services 4</h4>
             <p>Our Service a</p>
             <p>Our Service b</p>
