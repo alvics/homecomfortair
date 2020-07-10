@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { Tabs, Tab, Panel } from "@bumaga/tabs"
 
 import Layout from "../components/ui/Layouts/layout"
+import StaticImage from "../components/StaticQueryImages"
 import SEO from "../components/seo"
 
 const MultiHeadSystemsPage = () => (
@@ -10,50 +11,89 @@ const MultiHeadSystemsPage = () => (
     <SEO title="Split Systems A/C" />
     <h1>Hi from the Multi Head Systems</h1>
     <Tabs>
-      <div>
+      <div className="grid-300">
         <Tab>
-          <button>Tab 1</button>
+          <div className="card">
+            <button className="btn btn-primary p-20">Daikin Systems</button>
+          </div>
         </Tab>
         <Tab>
-          <button>Tab 2</button>
+          <div className="card">
+            <button className="btn btn-primary p-20">Samsung Systems</button>
+          </div>
         </Tab>
         <Tab>
-          <button>Tab 3</button>
+          <div className="card">
+            <button className="btn btn-primary p-20">Mitsubishi Systems</button>
+          </div>
+        </Tab>
+        <Tab>
+          <div className="card">
+            <button className="btn btn-primary p-20">Midea Systems</button>
+          </div>
         </Tab>
       </div>
 
       <Panel>
-        <div>
-          <h3>Heading 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            molestiae, beatae exercitationem pariatur iure nostrum.
-          </p>
+        <div className="grid-col-2 section">
+          <div className="p-20">
+            <h5>Daikin Split Systems</h5>
+            <p>
+              Daikin Split Systems are the ferrari when it comes to air
+              conditioning systems. It's clearly the winner in innovations and
+              technology over most brands, like the ferrari it's not the
+              cheapest on the block but Daikin air conditioner are hard to beat,
+              if you can afford one that is. I would highly recommend the Daikin
+              air conditioning systems for your home or space.
+            </p>
+          </div>
+          <div>
+            <StaticImage
+              className="rounded"
+              filename="cas.jpg"
+              alt="ducted air image"
+            />
+          </div>
         </div>
+      </Panel>
 
-        <p>Panel 1</p>
+      <Panel>
+        <div className="grid-col-2 section">
+          <div className="p-20">
+            <h5>Samsung Split Systems</h5>
+            <p>
+              Samsung Air Conditioning is one of our top choices, it's
+              reputation for technology and innovations is one of the best. As a
+              Samsung Air Conditioning Specialist you will be comfortable at
+              home or your office with a Samsung air conditioner.
+            </p>
+          </div>
+          <div>
+            <StaticImage filename="cas.jpg" alt="ducted air image" />
+          </div>
+        </div>
+      </Panel>
+
+      <Panel>
+        <div className="grid-col-2 section">
+          <div>
+            <StaticImage filename="cas.jpg" alt="ducted air image" />
+          </div>
+          <div className="p-20">
+            <h5>Mitsubishi Split Systems</h5>
+            <p>
+              Whether it’s consistent heating and cooling for the home or
+              office, Mitsubishi Electric offers you state-of-the-art technology
+              that is quiet, simple to use, energy efficient and above all,
+              reliable.
+            </p>
+          </div>
+        </div>
       </Panel>
 
       <Panel>
         <div>
-          <h3>Heading 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            molestiae, beatae exercitationem pariatur iure nostrum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Ipsa molestiae, beatae
-            exercitationem pariatur iure nostrum.Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Ipsa molestiae, beatae exercitationem
-            pariatur iure nostrum.Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ipsa molestiae, beatae exercitationem pariatur
-            iure nostrum.
-          </p>
-        </div>
-        <p>Panel 2</p>
-      </Panel>
-
-      <Panel>
-        <div>
-          <h3>Heading 3</h3>
+          <h3>Midea Split Systems</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
             molestiae, beatae exercitationem pariatur iure nostrum. Lorem ipsum

@@ -44,7 +44,7 @@ const IndexPage = () => {
                 />
               </div>
               <div className="card-heading">
-                <h3 className="fw-400 text-dark">Split Systems A/C</h3>
+                <h3 className="fw-600 text-dark">Split Systems A/C</h3>
               </div>
               <div className="card-body">
                 <p className="card-text lead">
@@ -61,7 +61,7 @@ const IndexPage = () => {
                 <StaticImage filename="cas.jpg" alt="ducted air image" />
               </div>
               <div className="card-heading">
-                <h3 className="fw-400 text-dark">Ducted Systems A/C</h3>
+                <h3 className="fw-600 text-dark">Ducted Systems A/C</h3>
               </div>
               <div className="card-body">
                 <p className="card-text lead">
@@ -81,7 +81,7 @@ const IndexPage = () => {
                 />
               </div>
               <div className="card-heading">
-                <h3 className="fw-400 text-dark">Multi Systems A/C</h3>
+                <h3 className="fw-600 text-dark">Multi Systems A/C</h3>
               </div>
               <div className="card-body">
                 <p className="card-text lead">
@@ -98,7 +98,7 @@ const IndexPage = () => {
                 <StaticImage filename="ducted-2.jpg" alt="ducted air image" />
               </div>
               <div className="card-heading">
-                <h3 className="fw-400 text-dark">A/C Breakdowns</h3>
+                <h3 className="fw-600 text-dark">A/C Breakdowns</h3>
               </div>
               <div className="card-body">
                 <p className="card-text lead">

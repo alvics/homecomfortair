@@ -748,6 +748,7 @@ pre tt:after {
     display: block;
     border: 1px solid #eee;
     border-radius: 8px;
+    margin: 0 auto;
     padding: 20px;
     -webkit-transition: -webkit-box-shadow 0.2s;
     transition: -webkit-box-shadow 0.2s;
@@ -798,7 +799,11 @@ pre tt:after {
 }
 
 .p-20 {
-    padding: 20px;
+    padding: 20px !important;
+}
+
+.px-20 {
+    padding: 0 20px;
 }
 
 
@@ -855,7 +860,11 @@ pre tt:after {
 }
 
 .cap {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
+}
+
+.cam {
+    text-transform: capitalize;
 }
 
 .h1 {
@@ -864,6 +873,7 @@ pre tt:after {
 
 .h2 {
     font-size: 2rem;
+    line-height: 2;
 }
 
 .h3 {
@@ -993,6 +1003,18 @@ input {
 .btn-orange {
     background-color: #ef4700;
     color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    width: -moz-fit-content;
 }
 
 .btn:hover {
@@ -1047,5 +1069,11 @@ input {
     }
     .hero-heading-h2 {
         margin-top: -15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .heading-box-color {
+        font-size: 1.5rem;
     }
 }
