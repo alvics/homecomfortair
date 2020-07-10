@@ -697,6 +697,18 @@ pre tt:after {
 
 /* MY STYLES  */
 
+
+/* GRID LAYOUTS */
+
+
+/* 2 COLUMN */
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
 .grid-200 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -760,7 +772,7 @@ pre tt:after {
 }
 
 .text-blue {
-    color: #3498db;
+    color: #2193b0;
 }
 
 .text-orange {
@@ -877,6 +889,13 @@ pre tt:after {
     opacity: 0.9;
 }
 
+.lead-20 {
+    font-size: 20px !important;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+
 .mt-20 {
     margin-top: 20px !important;
 }
@@ -891,6 +910,10 @@ pre tt:after {
 
 .mt-50 {
     margin-top: 50px !important;
+}
+
+.gatsby-image-wrapper {
+    border-radius: 10px;
 }
 
 

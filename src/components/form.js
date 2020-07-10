@@ -25,7 +25,7 @@ export default class MyForm extends React.Component {
         <textarea rows="4" cols="20" name="message" placeholder="Message:" />
 
         {status === "SUCCESS" ? (
-          <p>Thanks!</p>
+          <p>Thanks for submitting a quote, we'll get back to you shortly.</p>
         ) : (
           <button className="btn btn-orange">Submit</button>
         )}
