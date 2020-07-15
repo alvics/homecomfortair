@@ -11,7 +11,7 @@ const SplitPage = () => (
   <Layout>
     <SEO title="Split Systems A/C" />
     <section>
-      <h1 className="h2 cam text-center secondary fw-600 heading-box-color ">
+      <h1 className="h2 cam text-center secondary fw-600 heading-box-color rounded">
         Split systems air conditioning
       </h1>
       <div className="grid-col-2">
@@ -39,7 +39,7 @@ const SplitPage = () => (
     </section>
 
     <section>
-      <h2 className="cam text-center secondary fw-600 heading-box-color">
+      <h2 className="cam text-center secondary fw-600 heading-box-color rounded">
         Brands we recommend
       </h2>
 
@@ -119,7 +119,7 @@ const SplitPage = () => (
     </section>
 
     <section>
-      <h2 className="cam text-center secondary fw-600 heading-box-color">
+      <h2 className="cam text-center secondary fw-600 heading-box-color rounded">
         Brands we recommend
       </h2>
       <Tabs>
@@ -219,7 +219,7 @@ const SplitPage = () => (
     </section>
 
     <section>
-      <h2 className="cam text-center secondary fw-600 heading-box-color">
+      <h2 className="cam text-center secondary fw-600 heading-box-color rounded">
         Get a quick quote
       </h2>
       <div className="grid-col-2">

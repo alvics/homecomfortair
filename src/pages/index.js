@@ -31,7 +31,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Hero />
       <section className="section-1">
-        <h2 className="text-center secondary fw-600 heading-box-color">
+        <h2 className="text-center fw-600 heading-box-color rounded">
           Air Conditioning Solutions For Your Home
         </h2>
         <div className="grid-300">
@@ -109,14 +109,16 @@ const IndexPage = () => {
             </Link>
           </div>
         </div>
-        <h3 className="h2 text-center secondary fw-600 heading-box-color">
+        <h3 className="h2 text-center fw-600 heading-box-color rounded">
           Your Trusted Local Licensed Professional's
         </h3>
       </section>
       <section className="section-2">
         <div className="grid-2">
           <div className="span-col-3">
-            <h4 className="text-dark">Gold Coast Air Conditioning Service</h4>
+            <h4 className="text-dark fw-400">
+              Gold Coast Air Conditioning Service
+            </h4>
             <Image
               fluid={data.fluid.childImageSharp.fluid}
               alt=""
@@ -139,21 +141,23 @@ const IndexPage = () => {
             </p>
           </div>
           <div className="form-quote">
-            <h4 className="text-dark mt-50">Get a quick quote</h4>
+            <h4 className="mt-50 heading-box-color p-20 rounded">
+              Get a quick quote
+            </h4>
             <MyForm />
           </div>
         </div>
       </section>
       <section className="section-3">
-        <h3 className="h2 text-center secondary fw-600 heading-box-color">
+        <h3 className="h2 text-center fw-600 heading-box-color rounded">
           We'll Beat Any Written Quote
         </h3>
         <div>
           <p className="lead">
-            I've been installing air conditioners for over a decade for most of
-            the major builders within Brisbane, Gold Coast and Tweed Heads
-            area's. Including high wall split, and multi head system with major
-            brands like Haier, Kelvinator, Acrton, Daikin, Braemar, LG,
+            We've been installing air conditioners for over a decade for most of
+            the major builders, from Brisbane, Gold Coast and Tweed Heads
+            area's. Specialising in high wall split, and multi head system with
+            major brands like Haier, Kelvinator, Acrton, Daikin, Braemar, LG,
             Mitsubishi and Samsung as well as ducted residential and commercial
             systems with Daikin and Actron.
           </p>
