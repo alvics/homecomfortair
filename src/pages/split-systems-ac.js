@@ -42,112 +42,86 @@ const SplitPage = () => (
       <h2 className="cam text-center secondary fw-600 heading-box-color rounded">
         Brands we recommend
       </h2>
-
-      <div className="grid-300">
-        <div className="card">
-          <Link to="/split-systems-ac">
-            <div className="card-top">
-              <StaticImage filename="cas.jpg" alt="ducted air image" />
-            </div>
-            <div className="card-heading">
-              <h3 className="fw-600 text-dark">Daikin Systems</h3>
-            </div>
-            <div className="card-body">
-              <p className="card-text lead">
-                Daikin Split Systems are the ferrari when it comes to air ...
-              </p>
-            </div>
-            <div className="text-blue text-shadow-2">Learn more >></div>
-          </Link>
-        </div>
-
-        <div className="card">
-          <Link to="/ducted-systems">
-            <div className="card-top">
-              <StaticImage filename="cas.jpg" alt="ducted air image" />
-            </div>
-            <div className="card-heading">
-              <h3 className="fw-600 text-dark">Samsung Systems</h3>
-            </div>
-            <div className="card-body">
-              <p className="card-text lead">
-                Samsung Air Conditioning is of high quality, it's reputation ...
-              </p>
-            </div>
-            <div className="text-blue text-shadow-2">Learn more >></div>
-          </Link>
-        </div>
-
-        <div className="card">
-          <Link to="/multi-head-systems">
-            <div className="card-top">
-              <StaticImage
-                filename="ac-2.jpg"
-                alt="multi head air con systems"
-              />
-            </div>
-            <div className="card-heading">
-              <h3 className="fw-600 text-dark">Mitsubishi Systems</h3>
-            </div>
-            <div className="card-body">
-              <p className="card-text lead">
-                Whether it’s consistent heating and cooling for the home ...
-              </p>
-            </div>
-            <div className="card-action text-shadow-2">Learn more >></div>
-          </Link>
-        </div>
-
-        <div className="card">
-          <Link to="/breakdowns">
-            <div className="card-top">
-              <StaticImage filename="ducted-2.jpg" alt="ducted air image" />
-            </div>
-            <div className="card-heading">
-              <h3 className="fw-600 text-dark">Midea Systems</h3>
-            </div>
-            <div className="card-body">
-              <p className="card-text lead">
-                Powerful and an affordable solution for air conditioners for
-                every type ...
-              </p>
-            </div>
-            <div className="text-blue text-shadow-2">Learn more >></div>
-          </Link>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2 className="cam text-center secondary fw-600 heading-box-color rounded">
-        Brands we recommend
-      </h2>
       <Tabs>
         <div className="grid-300">
           <Tab>
-            <div className="">
-              <button className="btn btn-orange">Daikin Systems</button>
+            <div className="card">
+              <div className="card-top">
+                <StaticImage filename="cas.jpg" alt="ducted air image" />
+              </div>
+              <div className="card-heading">
+                <h3 className="fw-600 text-dark">Daikin Systems</h3>
+              </div>
+              <div className="card-body">
+                <p className="card-text lead">
+                  Daikin Split Systems are the ferrari when it comes to air ...
+                </p>
+              </div>
+
+              <button className="text-blue text-shadow-2">Learn more >></button>
             </div>
           </Tab>
+
           <Tab>
-            <div className="">
-              <button className="btn btn-orange">Samsung Systems</button>
+            <div className="card">
+              <div className="card-top">
+                <StaticImage filename="cas.jpg" alt="ducted air image" />
+              </div>
+              <div className="card-heading">
+                <h3 className="fw-600 text-dark">Samsung Systems</h3>
+              </div>
+              <div className="card-body">
+                <p className="card-text lead">
+                  Samsung Air Conditioning is of high quality, it's reputation
+                  ...
+                </p>
+              </div>
+
+              <button className="text-blue text-shadow-2">Learn more >></button>
             </div>
           </Tab>
+
           <Tab>
-            <div className="">
-              <button className="btn btn-orange">Mitsubishi Systems</button>
+            <div className="card">
+              <div className="card-top">
+                <StaticImage
+                  filename="ac-2.jpg"
+                  alt="multi head air con systems"
+                />
+              </div>
+              <div className="card-heading">
+                <h3 className="fw-600 text-dark">Mitsubishi Systems</h3>
+              </div>
+              <div className="card-body">
+                <p className="card-text lead">
+                  Whether it’s consistent heating and cooling for the home ...
+                </p>
+              </div>
+              <button className="text-blue text-shadow-2">Learn more >></button>
             </div>
           </Tab>
+
           <Tab>
-            <div className="">
-              <button className="btn btn-orange">Midea Systems</button>
+            <div className="card">
+              <div className="card-top">
+                <StaticImage filename="ducted-2.jpg" alt="ducted air image" />
+              </div>
+              <div className="card-heading">
+                <h3 className="fw-600 text-dark">Midea Systems</h3>
+              </div>
+              <div className="card-body">
+                <p className="card-text lead">
+                  Powerful and an affordable solution for air conditioners for
+                  every type ...
+                </p>
+              </div>
+              <button className="text-blue text-shadow-2">Learn more >></button>
             </div>
           </Tab>
         </div>
 
         <Panel>
-          <div className="grid-col-2 section">
+          <div className="grid-col-2 pt-20">
             <div className="p-20">
               <h5>Daikin Split Systems</h5>
               <p>
@@ -170,7 +144,7 @@ const SplitPage = () => (
         </Panel>
 
         <Panel>
-          <div className="grid-col-2 section">
+          <div className="grid-col-2 pt-20">
             <div className="p-20">
               <h5>Samsung Split Systems</h5>
               <p>
@@ -187,7 +161,7 @@ const SplitPage = () => (
         </Panel>
 
         <Panel>
-          <div className="grid-col-2 section">
+          <div className="grid-col-2 pt-20">
             <div>
               <StaticImage filename="cas.jpg" alt="ducted air image" />
             </div>
