@@ -792,7 +792,7 @@ pre tt:after {
 }
 
 .text-blue {
-    color: #2193b0;
+    color: rgb(21, 132, 175);
 }
 
 .text-orange {
@@ -833,7 +833,7 @@ pre tt:after {
 /* TYPOGRAPHY  */
 
 .primary {
-    color: #3498db;
+    color: rgb(21, 132, 175);
 }
 
 .secondary {
@@ -856,12 +856,20 @@ pre tt:after {
 }
 
 .heading-box-color {
-    background: #2193b0;
+    background: rgb(21, 132, 175);
+    /* background: linear-gradient( 90deg, rgba(21, 132, 175, 1) 50%, rgba(16, 175, 194, 1) 100%); */
+    /*  background: #2193b0;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /*background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /*background: linear-gradient(to right, #6dd5ed, #2193b0);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.1);
+}
+
+.heading-box-green {
+    background: #10afc2;
     color: #fff;
     text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.1);
 }
@@ -975,7 +983,7 @@ pre tt:after {
 .hero-heading-primary {
     font-size: 3.125rem;
     font-weight: 300;
-    color: #2193b0;
+    color: rgb(21, 132, 175);
     text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.4);
 }
 
@@ -1013,9 +1021,10 @@ input {
 
 .btn-primary {
     /* background-color: #3498db/* #EF4700; */
-    background: #2193b0;
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
-    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* background: #2193b0; */
+    /* background: -webkit-linear-gradient(to right, 21, 132, 175, 1, 21, 132, 175); */
+    background: rgb(21, 132, 175);
+    background: linear-gradient( 90deg, rgba(21, 132, 175, 1) 50%, rgba(16, 175, 194, 1) 100%);
 }
 
 .btn-orange {
@@ -1058,6 +1067,54 @@ textarea {
 #footer-main {
     background-color: #f8f8f8;
     padding: 60px;
+}
+
+.banner-blue {
+    height: 200px;
+    width: 100%;
+    background-color: #1584af;
+}
+
+.banner-green {
+    height: 70px;
+    width: 100%;
+    background-color: #10afc2;
+}
+
+.green {
+    color: #10afc2;
+}
+
+.footer-img-wrapper {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.footer-img-wrapper .gatsby-image-wrapper {
+    width: 100%;
+    max-width: 100px;
+}
+
+.sensitive-text {
+    margin-left: 20px;
+    padding: 25px 20px 0 0;
+    border-right: 1px solid;
+}
+
+.h4.sensitive-heading {
+    margin-top: 15px;
+    line-height: 1.2em;
+    padding-left: 40px;
+}
+
+.arctick .gatsby-image-wrapper {
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 
 

@@ -88,7 +88,7 @@ const IndexPage = () => {
                   Cool or heat multiple rooms with a single outdoor unit
                 </p>
               </div>
-              <div className="card-action text-shadow-2">Learn more >></div>
+              <div className="text-blue text-shadow-2">Learn more >></div>
             </Link>
           </div>
 
@@ -141,7 +141,7 @@ const IndexPage = () => {
             </p>
           </div>
           <div className="form-quote">
-            <h4 className="mt-50 heading-box-color p-20 rounded">
+            <h4 className="mt-50 heading-box-green p-20 rounded">
               Get a quick quote
             </h4>
             <MyForm />
