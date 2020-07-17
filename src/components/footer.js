@@ -50,17 +50,32 @@ const Footer = () => {
               alt="ducted air image"
             />
             <div className="h4 sensitive-heading">
-              Home Comfort Air <br />A Sensitive Smart Choice
+              Your trusted local
+              <br /> licensed professional's
             </div>
           </div>
         </div>
       </div>
 
-      <div className="banner-green"></div>
+      <div className="banner-green">
+        <div
+          className="text-white"
+          style={{
+            margin: `0 auto`,
+            maxWidth: 1440,
+            padding: `0 1.0875rem 1.45rem`,
+            color: `white`,
+            textAlign: `center`,
+          }}
+        >
+          {" "}
+          <div className="h6 pt-20">Home Comfort Air The Smart Choice</div>
+        </div>
+      </div>
 
       <footer id="footer-main">
         <div className="grid-300">
-          <section class="footer-1 text-center">
+          <section className="footer-1 text-center">
             <h4>Services 1</h4>
             <p>Our Service a</p>
             <p>Our Service b</p>

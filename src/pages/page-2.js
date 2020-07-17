@@ -1,17 +1,20 @@
+// Display the list of products
 import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
+import Products from "../components/Products/Products"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const ProductsPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-
-    <p>Welcome to page 2</p>
+    <SEO title="Product page" />
+    <div style={{ textAlign: "center" }}>
+      <code>Using products page template</code>
+    </div>
+    <Products />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SecondPage
+export default ProductsPage
