@@ -7,6 +7,9 @@ import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Form from "../components/form"
 import SEO from "../components/seo"
 
+import SamsungProducts from "../components/Products/SamsungProducts"
+import MideaProducts from "../components/Products/MideaProducts"
+
 const SplitPage = () => (
   <Layout>
     <SEO title="Split Systems A/C" />
@@ -158,6 +161,7 @@ const SplitPage = () => (
               <StaticImage filename="cas.jpg" alt="ducted air image" />
             </div>
           </div>
+          <SamsungProducts />
         </Panel>
 
         <Panel>
@@ -187,6 +191,7 @@ const SplitPage = () => (
               beatae exercitationem pariatur iure nostrum.
             </p>
           </div>
+          <MideaProducts />
           <p>panel 3</p>
         </Panel>
       </Tabs>

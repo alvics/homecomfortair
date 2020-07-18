@@ -752,11 +752,74 @@ pre tt:after {
 }
 
 
+/* Products grid */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+/* Product card  */
+
+.product-card {
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 300px;
+    -webkit-transition: -webkit-box-shadow 0.2s;
+    transition: -webkit-box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+
+
 /* FORM SECTION  - GET A QUICK QUOTE */
 
 .span-col-3 {
     grid-column: span 3 / auto;
     padding: 20px;
+}
+
+.container-- {
+    display: grid;
+    grid-template-areas: "side content";
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+article {
+    grid-area: content;
+}
+
+aside {
+    grid-area: side;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas: "content" "side";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto/* Header */
+        minmax(75px, auto)/* Nav */
+        1fr/* Content */
+        minmax(75px, auto)/* Sidebar */
+        auto;
+        /* Footer */
+    }
+    nav,
+    aside {
+        margin: 0;
+    }
 }
 
 
@@ -909,6 +972,7 @@ pre tt:after {
 
 .h3 {
     font-size: 1.75rem;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .h4 {
@@ -917,10 +981,12 @@ pre tt:after {
 
 .h5 {
     font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .h6 {
     font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .lead {
@@ -1059,6 +1125,11 @@ textarea {
 
 ::placeholder {
     color: #2193b0;
+}
+
+.archive-img .gatsby-image-wrapper {
+    width: 100%;
+    max-width: 200px;
 }
 
 

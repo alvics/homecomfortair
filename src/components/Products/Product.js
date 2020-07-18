@@ -9,14 +9,24 @@ const Product = ({ title, image, price, url }) => {
   const mainImage = image.childImageSharp.fluid
   return (
     <Link to={`/products/${url}`}>
-      <article>
-        <div>
-          <Image fluid={mainImage} alt={title}></Image>
+      <article className="product-card archive">
+        <div
+          className="archive-img"
+          style={{ display: `flex`, justifyContent: `center` }}
+        >
+          <Image fluid={mainImage} alt={title} />
         </div>
+
         <div>
-          <div>
-            <h3>{title}</h3>
-            <p>{price}</p>
+          <div style={{ textAlign: `center` }}>
+            <h3 className="h6">{title}</h3>
+            <p>
+              Fully installed from{" "}
+              <span style={{ fontWeight: `600` }}>${price}.00</span>
+              <span style={{ opacity: `0.6`, fontSize: `0.7rem` }}>
+                Inc.GST
+              </span>
+            </p>
           </div>
           <div className="log-img" style={{ height: "20px" }}></div>
         </div>

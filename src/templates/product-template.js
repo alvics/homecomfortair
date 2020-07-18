@@ -4,6 +4,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/ui/Layouts/layout"
+import ReactMarkdown from "react-markdown"
 
 // Destructuring all the properties from the query
 const SingleProduct = ({
@@ -20,17 +21,18 @@ const SingleProduct = ({
 }) => {
   return (
     <Layout>
-      <h1 style={{ textAlign: "center", padding: "80px 0" }}>
-        Single Product: {title}
-      </h1>
-      <section className="SingleProduct">
-        <article>
+      <section className="SingleProduct container--">
+        <aside>
           <Image fixed={fixed} alt={title} />
-        </article>
+        </aside>
         <article>
-          <h1>{title}</h1>
-          <h3>${price}</h3>
-          <p>{description}</p>
+          <h1 className="h3">{title}</h1>
+          <h3>
+            Replacement unit installed from{" "}
+            <span style={{ color: `primary` }}>${price}</span> (based on back to
+            back 3 metre pipe length)
+          </h3>
+          <ReactMarkdown source={description} />
           <Link to="/contact" className="addToCartBtn">
             Contact me
           </Link>
@@ -55,7 +57,7 @@ export const query = graphql`
       id
       image {
         childImageSharp {
-          fixed(width: 440) {
+          fixed(width: 325) {
             base64
             width
             height
