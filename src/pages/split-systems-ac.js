@@ -236,14 +236,19 @@ const SplitPage = () => (
         </h2>
         <div className="grid-col-2">
           <div>
-            <h4 className="h5 px-20">Split Installation Quotes</h4>
+            <h5 className=" px-20 cap fw-600">
+              Split System Installation Quotes
+            </h5>
             <p className="px-20">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos recusandae culpa saepe. Debitis commodi inventore a,
-              id accusantium sed esse, natus, facilis similique harum non!
+              We can supply and fully install any brand of split system air
+              conditioner for your home or office, and if you've already
+              purchased a split system and are only looking for installation, we
+              can provide our "installation only service" for you as well.
+              Simply submit your details, and we'll contact you back shortly.
             </p>
           </div>
-          <Form></Form>
+
+          <Form />
         </div>
       </section>
 

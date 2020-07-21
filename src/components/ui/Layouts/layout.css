@@ -867,8 +867,21 @@ aside {
 }
 
 .SingleProduct ul li {
-    font-size: 1rem;
+    font-size: 16px;
+    line-height: 24px;
     font-family: "Nunito Sans", sans-serif;
+}
+
+.SingleProduct p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.markdown h4,
+.markdown h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
 }
 
 .SingleProduct,
@@ -884,6 +897,10 @@ aside {
 
 .markdown p {
     font-size: 1 rem;
+}
+
+.single-products-side .archive p {
+    font-size: 16px !important;
 }
 
 
