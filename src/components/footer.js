@@ -20,38 +20,42 @@ const Footer = () => {
   //  const data = useStaticQuery(getImage)
   return (
     <>
-      <div className="banner-blue">
-        <div
-          className="text-white grid-col-2"
-          style={{
-            margin: `0 auto`,
-            maxWidth: 1440,
-            padding: `0 1.0875rem 1.45rem`,
-            color: `white`,
-          }}
-        >
-          <div className="footer-img-wrapper flex">
-            <StaticImage
-              id="sensitive-img"
-              filename="sensitive-logo.png"
-              alt="ducted air image"
-            />
-            <div className="sensitive-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-              est veritatis provident possimus omnis veniam quia inventore
-              tenetur soluta consequatur.
+      <div className="banner-blue container-fluid">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-2">
+              <div className="footer-img-wrapper">
+                <StaticImage
+                  id="sensitive-img"
+                  filename="sensitive-logo.png"
+                  alt="ducted air image"
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="footer-img-wrapper arctick flex">
-            <StaticImage
-              id="sensitive-img"
-              filename="logo-arctick.png"
-              alt="ducted air image"
-            />
-            <div className="h4 sensitive-heading">
-              Your trusted local
-              <br /> licensed professional's
+            <div className="col">
+              <div className="sensitive-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quaerat est veritatis provident possimus omnis veniam quia
+                inventore tenetur soluta consequatur.
+              </div>
+            </div>
+
+            <div className="col-md-2">
+              <div className="footer-img-wrapper arctick">
+                <StaticImage
+                  id="sensitive-img"
+                  filename="logo-arctick.png"
+                  alt="ducted air image"
+                />
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="h4 sensitive-heading">
+                Your trusted local
+                <br /> licensed professional's
+              </div>
             </div>
           </div>
         </div>
@@ -69,7 +73,12 @@ const Footer = () => {
           }}
         >
           {" "}
-          <div className="h6 pt-20">Home Comfort Air The Smart Choice</div>
+          <div className="h6 pt-20 text-white">
+            HOME COMFORT AIR{" "}
+            <span style={{ fontFamily: `'Caveat', cursive` }}>
+              the smart choice in air conditioning
+            </span>
+          </div>
         </div>
       </div>
 

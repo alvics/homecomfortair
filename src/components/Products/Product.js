@@ -20,8 +20,8 @@ const Product = ({ title, image, price, url }) => {
         <div>
           <div style={{ textAlign: `center` }}>
             <h3 className="h6">{title}</h3>
-            <p>
-              Fully installed from{" "}
+            <p style={{ fontSize: `1rem`, fontWeight: `600` }}>
+              Supply and Installed{" "}
               <span style={{ fontWeight: `600` }}>${price}.00</span>
               <span style={{ opacity: `0.6`, fontSize: `0.7rem` }}>
                 Inc.GST

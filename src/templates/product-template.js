@@ -12,6 +12,9 @@ const SingleProduct = ({
     product: {
       title,
       price,
+      brand,
+      capacity,
+      heating,
       image: {
         childImageSharp: { fixed },
       },
@@ -21,28 +24,55 @@ const SingleProduct = ({
 }) => {
   return (
     <Layout>
-      <section className="SingleProduct container--">
-        <aside>
-          <Image fixed={fixed} alt={title} />
-        </aside>
-        <article>
-          <h1 className="h3">{title}</h1>
-          <h3>
-            Replacement unit installed from{" "}
-            <span style={{ color: `primary` }}>${price}</span> (based on back to
-            back 3 metre pipe length)
-          </h3>
-          <ReactMarkdown source={description} />
-          <Link to="/contact" className="addToCartBtn">
-            Contact me
-          </Link>
-          <Link
-            style={{ textAlign: "center", marginLeft: "20px" }}
-            to="/products"
-          >
-            back to products
-          </Link>
-        </article>
+      <section className="SingleProduct container pt-5">
+        <div className="row">
+          <div className="col-lg-6 text-md-center">
+            <div className="fluid">
+              <Image fixed={fixed} alt={title} />
+            </div>
+          </div>
+
+          <div className="col-lg-6 gx-5">
+            <article className=" p-4">
+              <h2 className="cap brand-single">{brand}</h2>
+              <h1 className="h3">{title}</h1>
+              <span className="price-single primary fw-600">
+                ${price}.00 <span className="GST-text">Inc GST</span>
+              </span>
+              <div style={{ marginTop: `10px`, fontSize: `.9rem` }}>
+                <span>{capacity} Cooling Capacity</span>
+                <br />
+                <span>{heating} Heating Capacity</span>
+              </div>
+              <div className="short-description mt-3">
+                Supply and fully install a new {title}. Based on a back to back
+                installation (indoor to outdoor pipe length 3m). Quote on
+                additional length.
+              </div>
+              <Link
+                to="/job-order"
+                className="btn-- btn-orange-- mt-3 mb-5 text-white"
+              >
+                Order now
+              </Link>
+            </article>
+          </div>
+        </div>
+        <hr />
+        <div className="markdown container py-5">
+          <article>
+            <ReactMarkdown source={description} />
+            <Link to="/contact" className="addToCartBtn">
+              Contact me
+            </Link>
+            <Link
+              style={{ textAlign: "center", marginLeft: "20px" }}
+              to="/products"
+            >
+              back to products
+            </Link>
+          </article>
+        </div>
       </section>
     </Layout>
   )
@@ -53,7 +83,10 @@ export const query = graphql`
     product: strapiProduct(url: { eq: $url }) {
       title
       price
+      brand
       description
+      capacity
+      heating
       id
       image {
         childImageSharp {

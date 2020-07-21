@@ -10,7 +10,7 @@ const Hero = props => {
       <BackgroundImage id="hero-image" fluid={data.fluid.childImageSharp.fluid}>
         <div className="white-overlay">
           <div className="hero-box">
-            <h1 class="text-center hero-heading">
+            <h1 className="text-center hero-heading">
               <span className="hero-heading-primary">Home Comfort Air</span>
             </h1>
             <h2 className="hero-heading-h2">

@@ -1,11 +1,11 @@
-// GET all Midea products Query from strapi
+// GET all Toshiba products Query from strapi
 
 import React from "react"
 import Product from "./Product"
 import { graphql, useStaticQuery } from "gatsby"
 // import styles from "../../css/products.module.css"
 
-const SamsungProducts = () => {
+const ToshibaProducts = () => {
   // Check to see if we have the query
   // const data = useStaticQuery(query)
   // console.log(data)
@@ -16,7 +16,7 @@ const SamsungProducts = () => {
 
   return (
     <section>
-      <div className="product-grid Samsung">
+      <div className="product-grid Toshiba">
         {products.map(product => {
           return <Product key={product.id} {...product} />
         })}
@@ -28,7 +28,7 @@ const SamsungProducts = () => {
 const query = graphql`
   {
     allStrapiProduct(
-      filter: { categories: { elemMatch: { brand: { eq: "Samsung" } } } }
+      filter: { categories: { elemMatch: { brand: { eq: "Toshiba" } } } }
     ) {
       nodes {
         capacity
@@ -42,7 +42,7 @@ const query = graphql`
         url
         image {
           childImageSharp {
-            fluid(maxWidth: 350, maxHeight: 350) {
+            fluid {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -52,4 +52,4 @@ const query = graphql`
   }
 `
 
-export default SamsungProducts
+export default ToshibaProducts

@@ -16,7 +16,6 @@ const MideaProducts = () => {
 
   return (
     <section>
-      <h1>Hello from Starpi Products, Midea!</h1>
       <div className="product-grid midea">
         {products.map(product => {
           return <Product key={product.id} {...product} />

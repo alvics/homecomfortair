@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import "./bootstrap.css";
 html {
     font-family: "Nunito Sans", sans-serif;
     -ms-text-size-adjust: 100%;
@@ -7,6 +9,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #f7f7f7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -24,6 +27,7 @@ nav,
 section,
 summary {
     display: block;
+    position: relative;
 }
 
 audio,
@@ -51,7 +55,7 @@ a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     color: rgb(21, 132, 175) !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:active,
@@ -76,6 +80,7 @@ dfn {
 }
 
 h1 {
+    font-family: "Nunito Sans", sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
 }
@@ -284,7 +289,7 @@ h1 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2.25rem;
@@ -298,7 +303,7 @@ h2 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
@@ -312,7 +317,7 @@ h3 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
@@ -326,7 +331,7 @@ h4 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.5rem;
@@ -340,7 +345,7 @@ h5 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.25rem;
@@ -354,7 +359,7 @@ h6 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -430,6 +435,8 @@ p {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    color: #2a425b;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 figure {
@@ -756,7 +763,7 @@ pre tt:after {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 10px;
     margin: 0 auto;
@@ -779,8 +786,19 @@ pre tt:after {
     transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
 }
 
+.product-card:hover {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
 
 /* FORM SECTION  - GET A QUICK QUOTE */
+
+@media (min-width: 1200px) {
+    .job-order-form {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+}
 
 .span-col-3 {
     grid-column: span 3 / auto;
@@ -793,7 +811,6 @@ pre tt:after {
     grid-template-columns: 350px 1fr;
     grid-template-rows: auto 1fr;
     grid-gap: 10px;
-    height: 100vh;
 }
 
 article {
@@ -806,7 +823,7 @@ aside {
 }
 
 @media (max-width: 768px) {
-    .container {
+    .container-- {
         grid-template-areas: "content" "side";
         grid-template-columns: 1fr;
         grid-template-rows: auto/* Header */
@@ -820,6 +837,53 @@ aside {
     aside {
         margin: 0;
     }
+}
+
+
+/* SIngle Product Page */
+
+.brand-single {
+    font-size: 1rem !important;
+    opacity: 0.7;
+}
+
+.price-single {
+    font-size: 1.25rem;
+}
+
+.short-description {
+    opacity: 0.7;
+}
+
+.GST-text {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.SingleProduct ul {
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 0;
+}
+
+.SingleProduct ul li {
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.SingleProduct,
+.body-wrapper {
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.body-wrapper {
+    padding: 0 24px 36px 24px;
+}
+
+.markdown p {
+    font-size: 1 rem;
 }
 
 
@@ -850,6 +914,11 @@ aside {
     padding: 0;
 }
 
+.card-heading h3 {
+    font-size: 1.5rem !important;
+    padding-top: 10px;
+}
+
 .card-action {
     color: #3498db;
 }
@@ -878,6 +947,10 @@ aside {
 
 .bg-light {
     background-color: #f8f8f8;
+}
+
+.pt-10 {
+    padding-top: 10px;
 }
 
 .p-20 {
@@ -1078,14 +1151,14 @@ input {
     border-radius: 4px;
 }
 
-.btn {
+.btn-- {
     border: none;
     border-radius: 4px;
     padding: 5px 0;
     cursor: pointer;
 }
 
-.btn-primary {
+.btn-primary-- {
     /* background-color: #3498db/* #EF4700; */
     /* background: #2193b0; */
     /* background: -webkit-linear-gradient(to right, 21, 132, 175, 1, 21, 132, 175); */
@@ -1093,7 +1166,7 @@ input {
     background: linear-gradient( 90deg, rgba(21, 132, 175, 1) 50%, rgba(16, 175, 194, 1) 100%);
 }
 
-.btn-orange {
+.btn-orange-- {
     background-color: #ef4700;
     color: #fff;
     display: inline-block;
@@ -1110,7 +1183,7 @@ input {
     width: -moz-fit-content;
 }
 
-.btn:hover {
+.btn--:hover {
     opacity: 0.7;
 }
 
@@ -1132,6 +1205,10 @@ textarea {
     max-width: 200px;
 }
 
+main {
+    background: #fff;
+}
+
 
 /* FOOTER STYLES */
 
@@ -1143,12 +1220,20 @@ textarea {
 .banner-blue {
     height: 200px;
     width: 100%;
+    position: relative;
     background-color: #1584af;
+}
+
+@media (max-width: 1200px) {
+    .banner-blue {
+        height: 240px;
+    }
 }
 
 .banner-green {
     height: 62px;
     width: 100%;
+    position: relative;
     background-color: #10afc2;
 }
 
@@ -1171,21 +1256,46 @@ textarea {
 }
 
 .sensitive-text {
-    margin-left: 20px;
-    padding: 25px 20px 0 0;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 40px;
+    padding: 20px 20px 20px 0;
     border-right: 1px solid;
 }
 
+@media (min-width: 1200px) {
+    .sensitive-text {
+        margin-left: -90px;
+    }
+}
+
 .h4.sensitive-heading {
-    margin-top: 15px;
+    color: #fff;
+    margin-top: 25px;
     line-height: 1.2em;
-    padding-left: 40px;
+    padding: 30px 20px 20px 0px;
 }
 
 .arctick .gatsby-image-wrapper {
     height: 100%;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 70px;
+}
+
+@media (max-width: 1200px) {
+    .arctick {
+        margin-left: -20px;
+    }
+    .h4.sensitive-heading {
+        padding: 30px 0px 20px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-blue {
+        display: none;
+    }
 }
 
 
