@@ -24,7 +24,6 @@ const Header = () => {
     <header
       style={{
         background: `#fff`,
-        marginBottom: `1.45rem`,
         border: `solid 1px #eee`,
       }}
     >

@@ -1,4 +1,4 @@
-// Create product template
+// Create product template (archive cards)
 
 import React from "react"
 // import styles from "../../css/single-product.module.css"

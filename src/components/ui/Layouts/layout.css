@@ -903,6 +903,10 @@ aside {
     font-size: 16px !important;
 }
 
+.slick-slide img {
+    margin: auto;
+}
+
 
 /* CARD CSS */
 
@@ -929,6 +933,10 @@ aside {
     min-height: 170px;
     border-radius: 8px;
     padding: 0;
+}
+
+.split-systems .gatsby-image-wrapper {
+    border-radius: 8px;
 }
 
 .card-heading h3 {
@@ -985,6 +993,10 @@ aside {
 
 /* TYPOGRAPHY  */
 
+.title-blue {
+    color: #2a425b;
+}
+
 .primary {
     color: rgb(21, 132, 175);
 }
@@ -1036,7 +1048,7 @@ aside {
 }
 
 .fw-600 {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .fw-700 {
@@ -1079,6 +1091,13 @@ aside {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.lead-400 {
+    font-size: 18px !important;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
+}
+
 .lead {
     font-size: 18px !important;
     font-weight: 300;
@@ -1116,10 +1135,14 @@ aside {
     height: 65vh;
 }
 
+.form-overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .white-overlay {
     display: -webkit-flex;
     display: flex;
-    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* background-color: rgba(202, 217, 241, 0.5); */
     height: 100%;
     align-items: center;
 }
@@ -1132,10 +1155,6 @@ aside {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.hero-heading-h2 {
-    margin-top: -35px;
-}
-
 .hero-heading-primary {
     font-size: 3.125rem;
     font-weight: 300;
@@ -1144,13 +1163,17 @@ aside {
 }
 
 .hero-heading-secondary {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: rgb(145, 141, 141);
     text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4);
-    text-transform: uppercase;
     letter-spacing: 4.5px;
     word-wrap: break-word;
+    margin-top: -20px;
+}
+
+.hero-heading-h2 {
+    margin-top: -25px;
 }
 
 .section {
@@ -1354,7 +1377,7 @@ main {
         line-height: 21px;
     }
     .hero-heading-h2 {
-        margin-top: -15px;
+        margin-top: -35px;
     }
 }
 

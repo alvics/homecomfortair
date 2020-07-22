@@ -10,11 +10,12 @@ import SEO from "../components/seo"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import MideaProducts from "../components/Products/MideaProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
+import CarrierProducts from "../components/Products/CarrierProducts"
 
 const SplitPage = () => (
   <Layout>
     <SEO title="Split Systems A/C" />
-    <div className="body-wrapper">
+    <div className="body-wrapper split-systems">
       <section>
         <h1 className="cam text-center text-blue py-4 fw-600">
           Split systems air conditioning
@@ -100,7 +101,7 @@ const SplitPage = () => (
                   />
                 </div>
                 <div className="card-heading">
-                  <h3 className="fw-600 text-dark">Mitsubishi Systems</h3>
+                  <h3 className="fw-600 text-dark">Carrier Systems</h3>
                 </div>
                 <div className="card-body--">
                   <p className="card-text lead">
@@ -187,17 +188,16 @@ const SplitPage = () => (
           </Panel>
 
           <Panel>
-            <h5 className="fw-600 cap mt-3 pb-2 ml-2">
-              Mitsubishi Split Systems
-            </h5>
+            <h5 className="fw-600 cap mt-3 pb-2 ml-2">Carrier Split Systems</h5>
+            <CarrierProducts />
             <div className="grid-col-2 pt-20">
               <div className="p-20">
-                <h5>Mitsubishi air conditioning</h5>
+                <h5>Carrier air conditioning</h5>
                 <p>
                   Whether it’s consistent heating and cooling for the home or
-                  office, Mitsubishi Electric offers you state-of-the-art
-                  technology that is quiet, simple to use, energy efficient and
-                  above all, reliable.
+                  office, Carrier air offers you state-of-the-art technology
+                  that is quiet, simple to use, energy efficient and above all,
+                  reliable.
                 </p>
               </div>
               <div>
@@ -207,9 +207,7 @@ const SplitPage = () => (
           </Panel>
 
           <Panel>
-            <h5 className="fw-600 cap mt-3 pb-2 ml-2">
-              Mitsubishi Split Systems
-            </h5>
+            <h5 className="fw-600 cap mt-3 pb-2 ml-2">Midea Split Systems</h5>
 
             <MideaProducts />
             <div className="grid-col-2 pt-20">

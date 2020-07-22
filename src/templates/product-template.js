@@ -130,10 +130,7 @@ const SingleProduct = ({
                 width: `100%`,
               }}
             >
-              <h5 className="p-2 text-white">
-                Already purchased and looking for installation only? Install
-                only service >>
-              </h5>
+              <h5 className="p-2 text-white">View Monthly Specials >></h5>
             </div>
           </div>
         </div>
