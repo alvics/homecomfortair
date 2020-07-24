@@ -55,7 +55,10 @@ const SplitPage = () => (
             <Tab>
               <div className="card">
                 <div className="card-top">
-                  <StaticImage filename="cas.jpg" alt="ducted air image" />
+                  <StaticImage
+                    filename="Toshiba-main.jpg"
+                    alt="ducted air image"
+                  />
                 </div>
                 <div className="card-heading">
                   <h3 className="fw-600 text-dark">Toshiba Systems</h3>
@@ -76,7 +79,10 @@ const SplitPage = () => (
             <Tab>
               <div className="card">
                 <div className="card-top">
-                  <StaticImage filename="cas.jpg" alt="ducted air image" />
+                  <StaticImage
+                    filename="samsung-main.jpg"
+                    alt="ducted air image"
+                  />
                 </div>
                 <div className="card-heading">
                   <h3 className="fw-600 text-dark">Samsung Systems</h3>
@@ -119,7 +125,10 @@ const SplitPage = () => (
             <Tab>
               <div className="card">
                 <div className="card-top">
-                  <StaticImage filename="ducted-2.jpg" alt="ducted air image" />
+                  <StaticImage
+                    filename="midea-main.jpg"
+                    alt="ducted air image"
+                  />
                 </div>
                 <div className="card-heading">
                   <h3 className="fw-600 text-dark">Midea Systems</h3>
@@ -151,9 +160,9 @@ const SplitPage = () => (
                   above the rest. Designed for durability and simplicity, the
                   Toshiba is a superior made air conditioner to with stand the
                   harsh Australian summers, and the cold winter's month. With
-                  their an extended 7-year warranty with parts and labour and
-                  our 5 year installation warranty, it’s definitely the smart
-                  choice when it comes to choosing a new system for your home or
+                  their extended 7-year warranty with parts and labour and our 5
+                  year installation warranty, it’s definitely the smart choice
+                  when it comes to choosing a new system for your home or
                   office.
                 </p>
                 <p>
@@ -163,13 +172,17 @@ const SplitPage = () => (
                   products will come with a 7 year warranty.{" "}
                 </p>
                 <p>
-                  Toshiba range, download brochure <a href={ToshibaPDF}>here</a>
+                  Toshiba range, download brochure{" "}
+                  <a href={ToshibaPDF}>
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
                 </p>
               </div>
               <div>
                 <StaticImage
                   className="rounded"
-                  filename="cas.jpg"
+                  filename="toshiba-mainlg.jpg"
                   alt="ducted air image"
                 />
               </div>
@@ -182,7 +195,7 @@ const SplitPage = () => (
             <div className="grid-col-2 pt-20">
               <div>
                 <StaticImage
-                  filename="cas.jpg"
+                  filename="samsung-main.jpg"
                   alt="ducted air image"
                   className="rounded"
                 />
@@ -193,8 +206,18 @@ const SplitPage = () => (
                   Samsung Air Conditioning is one of our top choices, it's
                   reputation for technology and innovations is one of the best
                   in the air conditioning world. As a Samsung Air Conditioning
-                  installation specialist you will be comfortable at home or
-                  your office with a new Samsung air conditioner.
+                  installation specialist you'll be confident and comfortable at
+                  home or office with a new Samsung air conditioner.
+                </p>
+                <p>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/kuSMH-MA2Gw"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </p>
               </div>
             </div>
@@ -207,16 +230,29 @@ const SplitPage = () => (
               <div className="p-20">
                 <h5>Carrier air conditioning</h5>
                 <p>
-                  Whether it’s consistent heating and cooling for the home or
-                  office, Carrier air offers you state-of-the-art technology
-                  that is quiet, simple to use, energy efficient and above all,
-                  reliable. If your not looking for a big brand and big budget
-                  air conditioner for your space, then the Carrier will
-                  definitely come under budget for you home comfort solution.
+                  Carrier is an American company based in Palm Beach, Florida
+                  and has been manufacturing and distributing heating and
+                  cooling systems since 1915. It flies under the radar here in
+                  Australia but its one of the largest air conditioning
+                  manufactures in the world. Carrier Pearl series is renowned
+                  for better comfort and power saving. The systems inverter
+                  technology will give you a comfortable and energy efficient
+                  cooling and heating solution under budget for your home or
+                  office space.
+                </p>
+                <p>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/pnf4TD_Tr8E"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </p>
               </div>
               <div>
-                <StaticImage filename="cas.jpg" alt="ducted air image" />
+                <StaticImage filename="carrier-1.jpg" alt="ducted air image" />
               </div>
             </div>
           </Panel>
@@ -227,21 +263,29 @@ const SplitPage = () => (
             <MideaProducts />
             <div className="grid-col-2 pt-20">
               <div>
-                <StaticImage filename="cas.jpg" alt="ducted air image" />
+                <StaticImage
+                  filename="midea-main.jpg"
+                  alt="midea split system air image"
+                />
               </div>
               <div className="p-20">
                 <h5 className="fw-600 cap">Midea air conditioning</h5>
                 <p>
-                  Midea have come a long way over the past 50 years, making home
-                  appliances at affordable prices and is one of the main reason
-                  why we have added them to our recommendation list. We don't
-                  get any incentives selling any brands here, it's what we've
-                  used over time and have experience with, and what works best
-                  within peoples budget.For an affordable option, the Midea is
-                  hard to beat!
+                  Midea have come a long way over the past 50 years with its
+                  manufacturing of air conditioners at affordable prices. The
+                  Aurora range is known for its pure comfort, clean filtered
+                  air, quiet operations and smart mobile connect technology. It
+                  has a powerful and fast cooling system that uses an efficient
+                  and effective compressor that allows strong air flow for
+                  immediate comfort. Tested and built to last, the outdoor unit
+                  will with stand our harsh conditions, and all of the Aurora
+                  range is backed by a 5 year warranty.
                 </p>
                 <p>
-                  Download brochure <a href={MideaPDF}>here</a>.
+                  Midea range, download brochure{" "}
+                  <a href={MideaPDF}>
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
                 </p>
               </div>
             </div>
