@@ -18,11 +18,32 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/mleppppp"
         method="POST"
       >
-        <input type="text" name="first_name" placeholder="Name:" />
-        <input type="text" name="phone" placeholder="Phone:" />
-        <input type="email" name="email" placeholder="Email:" />
+        <input
+          style={{ fontWeight: `bold` }}
+          type="text"
+          name="first_name"
+          placeholder="Name:"
+        />
+        <input
+          style={{ fontWeight: `bold` }}
+          type="text"
+          name="phone"
+          placeholder="Phone:"
+        />
+        <input
+          style={{ fontWeight: `bold` }}
+          type="email"
+          name="email"
+          placeholder="Email:"
+        />
 
-        <textarea rows="4" cols="20" name="message" placeholder="Message:" />
+        <textarea
+          style={{ fontWeight: `bold` }}
+          rows="4"
+          cols="20"
+          name="message"
+          placeholder="Message:"
+        />
 
         {status === "SUCCESS" ? (
           <p>Thanks for submitting a quote, we'll get back to you shortly.</p>

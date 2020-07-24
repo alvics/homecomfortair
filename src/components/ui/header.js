@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
+// import FacebookIcon from "@material-ui/icons/Facebook"
 
 const getImage = graphql`
   {
@@ -18,47 +19,59 @@ const getImage = graphql`
   }
 `
 
+// function openNav() {
+//   document.getElementById("mySidenav").style.width = "250px"
+// }
+
+// function closeNav() {
+//   document.getElementById("mySidenav").style.width = "0"
+// }
+
 const Header = () => {
   const data = useStaticQuery(getImage)
   return (
-    <header
-      style={{
-        background: `#fff`,
-        border: `solid 1px #eee`,
-      }}
-    >
-      <div
-        className="grid-col-2"
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1440,
-          padding: `1.45rem 1.0875rem`,
-        }}
-      >
-        <div>
-          <Link id="logo-header" to="/">
-            <Image fluid={data.fluid.childImageSharp.fluid} alt="logo" />
-          </Link>
+    <>
+      <nav className="fixed-top">
+        <div className="container" id="navbar">
+          <div id="logo" className="reverse">
+            <div
+              class="mobile-btn"
+              style={{
+                fontSize: `30px`,
+                cursor: `pointer`,
+                fontWeight: `bold`,
+              }}
+            >
+              &#9776;
+            </div>
+            <div class="logo">
+              <Link id="logo-header" to="/">
+                <Image fluid={data.fluid.childImageSharp.fluid} alt="logo" />
+              </Link>
+            </div>
+          </div>
+          <div id="links">
+            <Link to="/">Home</Link>
+            <Link to="/">About</Link>
+            <Link to="/">Blog</Link>
+            <Link to="/">Service</Link>
+            <Link to="/">Contact</Link>
+          </div>
         </div>
+      </nav>
 
-        <div>
-          <ul className="grid-20">
-            <li className="nav-link">Services</li>
-            <li className="nav-link">Services</li>
-            <li className="nav-link">Services</li>
-          </ul>
+      <div id="mySidenav" className="sidenav">
+        <div style={{ cursor: `pointer` }} className="closebtn">
+          &times;
         </div>
+        <Link to="/">Home</Link>
+        <Link to="/">Gallery</Link>
+        <Link to="/">Blog</Link>
+        <Link to="/">Portfolio</Link>
+        <Link to="/">Contact</Link>
       </div>
-    </header>
+    </>
   )
 }
-
-// Header.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-
-// Header.defaultProps = {
-//   siteTitle: ``,
-// }
 
 export default Header

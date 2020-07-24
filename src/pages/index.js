@@ -30,23 +30,31 @@ const IndexPage = () => {
   return (
     <>
       <Layout>
-        <div className="text-center py-5">
-          <h5 className="" style={{ fontSize: `64px`, fontWeight: `700` }}>
-            Air Conditioning
-          </h5>
-          <p className="lead-400">
-            Checkout our air conditioning <strong>specials</strong> we have at
-            the start of each month, you save hundreds!
-          </p>
-          <div className="text-center">
-            <button className="btn-- btn-orange-- ">VIEW SPECIALS</button>
+        <meta name="pinterest" content="nopin" />
+        <section className="specials-section">
+          <div className="text-center mb-4">
+            <h5
+              className="top-heading pt-3 px-2"
+              style={{ fontSize: `64px`, fontWeight: `700` }}
+            >
+              Air Conditioning
+            </h5>
+            <p className="lead-400 top-text px-4">
+              Check our air conditioning <strong>specials</strong> we have at
+              the start of each month, you save hundreds!
+            </p>
+            <div className="text-center">
+              <button className="btn-- btn-orange-- ">VIEW SPECIALS</button>
+            </div>
           </div>
-        </div>
+        </section>
+
         <Hero />
+
         <SEO title="Home" />
         <div className="body-wrapper">
           <section className="section-1">
-            <h2 className="text-center text-blue py-4 fw-600">
+            <h2 className="h2 text-center text-blue py-3 fw-600 my-2 heading-box-color rounded">
               Air Conditioning Solutions For Your Home
             </h2>
             <div className="grid-300 mb-2">
@@ -56,6 +64,7 @@ const IndexPage = () => {
                     <Image
                       fluid={data.fluid.childImageSharp.fluid}
                       alt="split system air conditioning"
+                      data-pin-nopin="true"
                     />
                   </div>
                   <div className="card-heading">
@@ -76,7 +85,11 @@ const IndexPage = () => {
               <div className="card">
                 <Link to="/ducted-systems">
                   <div className="card-top">
-                    <StaticImage filename="cas.jpg" alt="ducted air image" />
+                    <StaticImage
+                      filename="cas.jpg"
+                      alt="ducted air image"
+                      data-pin-nopin="true"
+                    />
                   </div>
                   <div className="card-heading">
                     <h3 className="fw-600 text-dark">Ducted Systems A/C</h3>
@@ -99,6 +112,7 @@ const IndexPage = () => {
                     <StaticImage
                       filename="ac-2.jpg"
                       alt="multi head air con systems"
+                      data-pin-nopin="true"
                     />
                   </div>
                   <div className="card-heading">
@@ -137,11 +151,11 @@ const IndexPage = () => {
                 </Link>
               </div>
             </div>
+          </section>
+          <section className="section-2">
             <h3 className="h2 text-center fw-600 heading-box-color rounded py-3 mt-5">
               Your Trusted Local Licensed Professional's
             </h3>
-          </section>
-          <section className="section-2">
             <div className="grid-2">
               <div className="span-col-3">
                 <h4 className="text-dark fw-400">
@@ -149,6 +163,7 @@ const IndexPage = () => {
                 </h4>
                 <Image
                   fluid={data.fluid.childImageSharp.fluid}
+                  data-pin-nopin="true"
                   alt=""
                   style={{
                     height: "350px",
@@ -174,7 +189,7 @@ const IndexPage = () => {
                 </p>
               </div>
               <div className="form-quote">
-                <h4 className="mt-50 heading-box-green p-20 rounded">
+                <h4 className="heading-box-green p-20 rounded">
                   Get a quick quote
                 </h4>
                 <MyForm />
@@ -182,20 +197,20 @@ const IndexPage = () => {
             </div>
           </section>
           <section className="section-3">
-            <h3 className="h2 text-center fw-600 heading-box-color rounded py-3">
+            <h3 className="h2 text-center fw-600 heading-box-color rounded p-2">
               We'll Beat Any Written Quote
             </h3>
             <div>
-              <p className="lead">
+              <p className="lead p-3">
                 We've been installing air conditioners for over a decade for
-                most of the major builders, from Brisbane, Gold Coast and Tweed
-                Heads area's. Specialising in high wall split, and multi head
-                system with major brands like Haier, Kelvinator, Acrton, Daikin,
-                Braemar, LG, Mitsubishi and Samsung as well as ducted
+                most of the major builders, around Brisbane, Gold Coast and
+                Tweed Heads area's. Specialising in high wall split, and multi
+                head system with major brands like Haier, Kelvinator, Acrton,
+                Daikin, Braemar, LG, Mitsubishi and Samsung as well as ducted
                 residential and commercial systems with Daikin and Actron.
               </p>
               <div className="why-us">
-                <ul className="bg-light p-20">
+                <ul className="bg-light p-20 mr-4">
                   <li className="text-blue fw-600 text-shadow-2">
                     <span className="text-dark">✓</span> Experienced in
                     Commercial & Residential Installations{" "}
@@ -214,7 +229,7 @@ const IndexPage = () => {
                   </li>
                 </ul>
               </div>
-              <p className="mt-20 lead">
+              <p className="mt-20 lead p-3">
                 If you're looking to get the job done right from a trusted,
                 licensed, and experienced installer, then give us a call on
                 <a href="tel:0404602657"> 0404 602 657</a> we'll guarantee to
@@ -224,7 +239,14 @@ const IndexPage = () => {
               </p>
             </div>
           </section>
-          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
+          <div
+            style={{
+              maxWidth: `340px`,
+              marginBottom: `1.45rem`,
+              border: `none`,
+              overflow: `hidden`,
+            }}
+          ></div>
           <Link to="/page-2/">Go to page 2</Link> <br />
         </div>
       </Layout>

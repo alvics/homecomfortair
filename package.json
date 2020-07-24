@@ -6,6 +6,7 @@
     "author": "Allen Pavic",
     "dependencies": {
         "@bumaga/tabs": "^0.2.0",
+        "@material-ui/icons": "^4.9.1",
         "babel-plugin-styled-components": "^1.10.7",
         "gatsby": "^2.23.12",
         "gatsby-background-image": "^1.1.1",
@@ -14,6 +15,7 @@
         "gatsby-plugin-google-fonts": "^1.0.1",
         "gatsby-plugin-manifest": "^2.4.14",
         "gatsby-plugin-offline": "^3.2.13",
+        "gatsby-plugin-pinterest-twitter-facebook": "^1.11.2",
         "gatsby-plugin-prettier-build": "^0.4.3",
         "gatsby-plugin-react-helmet": "^3.3.6",
         "gatsby-plugin-sharp": "^2.6.14",

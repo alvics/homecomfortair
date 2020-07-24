@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <Header />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `110px auto 0 auto`,
           maxWidth: 1440,
           padding: `0 1.0875rem 1.45rem`,
         }}

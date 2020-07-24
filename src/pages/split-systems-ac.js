@@ -20,7 +20,7 @@ const SplitPage = () => (
         <h1 className="cam text-center text-blue py-4 fw-600">
           Split systems air conditioning
         </h1>
-        <div className="grid-col-2">
+        <div className="grid-col-2 split-systems-top-col">
           <div>
             <h3 className="px-20">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">

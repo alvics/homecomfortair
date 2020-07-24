@@ -48,6 +48,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `pinterest`,
+          content: `nopin`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },

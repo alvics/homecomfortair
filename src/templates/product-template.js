@@ -8,6 +8,7 @@ import ReactMarkdown from "react-markdown"
 import MideaProducts from "../components/Products/MideaProducts"
 
 // Destructuring all the properties from the query
+
 const SingleProduct = ({
   data: {
     product: {
@@ -40,7 +41,13 @@ const SingleProduct = ({
               <span className="price-single primary fw-600">
                 ${price}.00 <span className="GST-text">Inc GST</span>
               </span>
-              <div style={{ marginTop: `10px`, fontSize: `16px` }}>
+              <div
+                style={{
+                  marginTop: `10px`,
+                  fontSize: `14px`,
+                  fontWeight: `600`,
+                }}
+              >
                 <span>{capacity} Cooling Capacity</span>
                 <br />
                 <span>{heating} Heating Capacity</span>
@@ -86,18 +93,22 @@ const SingleProduct = ({
                     Looking for new air conditioning?
                   </span>
                   <br />
-                  <span style={{ fontSize: `.9em`, lineHeight: `1em` }}>
-                    We can supply and install most brands, and if you've already
-                    purchased an air conditioner, we can install it for you.
-                    Contact us for a free instant quote.
+                  <span
+                    className="single-product-cta-contact"
+                    style={{
+                      fontSize: `.9em`,
+                      lineHeight: `1em`,
+                    }}
+                  >
+                    We install all brands, and if you've already purchased an
+                    air conditioner, contact us for a free installation quote.
                   </span>
+                  <br />
                   <span
                     className="btn-- btn-primary btn-sm"
                     style={{
-                      float: `right`,
                       paddingRight: `15px`,
                       paddingLeft: `15px`,
-                      marginRight: `15px`,
                       borderRadius: `5px`,
                     }}
                   >
@@ -152,11 +163,7 @@ export const query = graphql`
       image {
         childImageSharp {
           fixed(width: 325) {
-            base64
-            width
-            height
-            src
-            srcSet
+            ...GatsbyImageSharpFixed_withWebp
           }
         }
       }
