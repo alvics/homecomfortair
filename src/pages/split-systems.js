@@ -26,18 +26,20 @@ const SplitPage = () => (
           <div>
             <h3 className="px-20">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
-              High wall split system air conditioner connects one indoor unit to
-              an outdoor unit. Installs simply and unobtrusively to buildings
-              with no need for ductwork. Delivers a sophisticated solution to
-              single zone interior spaces at an affordable price. Provides a
-              simple solution for one-room additions.
+              High wall split system air conditioners connects one indoor unit,
+              to an outdoor unit. It's process of quickly removing heat and
+              moisture from the interior space to improve the comfort of the
+              room. Delivers a modern and sophisticated solution to single space
+              and at an affordable price. It's the most popular air conditioning
+              system used in today's homes.
             </p>
             <p className="lead-20 px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque quas iure eligendi, rem consequuntur minus hic porro
-              nostrum! Odio repellendus ducimus officia ea facilis quis expedita
-              quas unde obcaecati alias, pariatur repellat veniam nemo, eum quae
-              eligendi voluptatem corporis incidunt!
+              Split systems range from 2.5kW that cool small bedrooms, to the
+              popular 7kW units that cool your average lounge room, to the
+              biggest 10kW unit that can cool larger open style living, lounge
+              and dinning rooms. Most split system are reverse cycle, meaning
+              that they provide both, heating and cooling modes to set your
+              temperatures.
             </p>
           </div>
           <div>
@@ -160,8 +162,8 @@ const SplitPage = () => (
                   above the rest. Designed for durability and simplicity, the
                   Toshiba is a superior made air conditioner to with stand the
                   harsh Australian summers, and the cold winter's month. With
-                  their extended 7-year warranty with parts and labour and our 5
-                  year installation warranty, it’s definitely the smart choice
+                  their extended 7-year warranty with parts and labour and our
+                  5-year installation warranty, it’s definitely the smart choice
                   when it comes to choosing a new system for your home or
                   office.
                 </p>
@@ -169,7 +171,7 @@ const SplitPage = () => (
                   From the 1st of May 2020, all residential installations across
                   the entire Toshiba range of Hi-Wall, Multi Split and Light
                   Commercial equipment including the coveted SMMS VRF suite of
-                  products will come with a 7 year warranty.{" "}
+                  products will come with a 7-year warranty.{" "}
                 </p>
                 <p>
                   Toshiba range, download brochure{" "}
@@ -213,7 +215,7 @@ const SplitPage = () => (
                   <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/kuSMH-MA2Gw"
+                    src="https://www.youtube.com/embed/xZPI44Zh8yM"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -228,14 +230,15 @@ const SplitPage = () => (
             <CarrierProducts />
             <div className="grid-col-2 pt-20">
               <div className="p-20">
-                <h5>Carrier air conditioning</h5>
+                <h5 className="fw-600 cap">Carrier air conditioning</h5>
                 <p>
                   Carrier is an American company based in Palm Beach, Florida
                   and has been manufacturing and distributing heating and
-                  cooling systems since 1915. It flies under the radar here in
+                  cooling system's since 1915. It flies under the radar here in
                   Australia but its one of the largest air conditioning
-                  manufactures in the world. Carrier Pearl series is renowned
-                  for better comfort and power saving. The systems inverter
+                  manufactures in the world. Whether it’s consistent heating and
+                  cooling for the home, Carrier Pearl series is renowned for
+                  better comfort and power saving. The system's inverter
                   technology will give you a comfortable and energy efficient
                   cooling and heating solution under budget for your home or
                   office space.
@@ -278,8 +281,8 @@ const SplitPage = () => (
                   has a powerful and fast cooling system that uses an efficient
                   and effective compressor that allows strong air flow for
                   immediate comfort. Tested and built to last, the outdoor unit
-                  will with stand our harsh conditions, and all of the Aurora
-                  range is backed by a 5 year warranty.
+                  will with stand the Australian harsh conditions, and the whole
+                  Aurora series is backed by a 5-year warranty.
                 </p>
                 <p>
                   Midea range, download brochure{" "}

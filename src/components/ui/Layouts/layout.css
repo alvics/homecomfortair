@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import "./bootstrap.css";
-@import './header.css';
+@import "./header.css";
 html {
     font-family: "Nunito Sans", sans-serif;
     -ms-text-size-adjust: 100%;
@@ -715,7 +715,7 @@ pre tt:after {
 
 /* MY STYLES  */
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     .single-product-cta-contact {
         white-space: nowrap !important;
     }
@@ -727,7 +727,7 @@ pre tt:after {
 
 /* 2 COLUMN */
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .split-systems-top-col {
         grid-template-columns: repeat(1, 1fr) !important;
     }
@@ -803,6 +803,22 @@ pre tt:after {
 .product-card:hover {
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
     cursor: pointer;
+}
+
+.title-cards-archive:hover {
+    color: #3498db;
+}
+
+.text-cards-archive:hover {
+    color: #3498db;
+}
+
+.card-heading .text-dark:hover {
+    color: #3498db !important;
+}
+
+.card-body-- .card-text:hover {
+    color: #3498db !important;
 }
 
 
@@ -905,7 +921,7 @@ aside {
     margin-bottom: 25px;
 }
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     .body-wrapper {
         padding: 0 24px 36px 24px;
     }
@@ -1006,7 +1022,7 @@ aside {
     padding: 0 20px;
 }
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     .section-1 {
         margin: 50px auto;
     }
@@ -1015,7 +1031,7 @@ aside {
     }
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .section-3 {
         margin-top: 50px;
     }
@@ -1051,7 +1067,7 @@ aside {
     text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.4);
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .top-heading {
         font-size: 42px !important;
     }
@@ -1168,9 +1184,9 @@ aside {
 
 /* HERO SECTION   */
 
-@media(min-width:767px) and (max-width:991px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .special-section {
-        margin-bottom: 50px!important;
+        margin-bottom: 50px !important;
     }
     .hero-row,
     .section-1 {
@@ -1178,7 +1194,7 @@ aside {
     }
 }
 
-@media(min-width:991px) and (max-width:1220px) {
+@media (min-width: 991px) and (max-width: 1220px) {
     .hero-row .col-lg-4,
     .hero-row .col-lg-8 {
         max-width: 50% !important;
@@ -1194,9 +1210,9 @@ aside {
     height: 65vh;
 } */
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     .form-overlay {
-        padding: 20px 30px
+        padding: 20px 30px;
     }
 }
 
@@ -1204,7 +1220,7 @@ aside {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .hero-row .col-lg-4 {
         background-color: rgba(255, 255, 255, 0.8);
     }
@@ -1213,9 +1229,9 @@ aside {
     }
 }
 
-@media (min-width:765px) and (max-width:991px) {
+@media (min-width: 765px) and (max-width: 991px) {
     .form-overlay form {
-        max-width: 50% !important
+        max-width: 50% !important;
     }
 }
 
@@ -1235,7 +1251,7 @@ aside {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-@media(max-width:765px) {
+@media (max-width: 765px) {
     .hero-box {
         display: none;
     }
