@@ -11,6 +11,8 @@ import SamsungProducts from "../components/Products/SamsungProducts"
 import MideaProducts from "../components/Products/MideaProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
+import MideaPDF from "../images/Midea.pdf"
+import ToshibaPDF from "../images/Toshiba.pdf"
 
 const SplitPage = () => (
   <Layout>
@@ -145,12 +147,23 @@ const SplitPage = () => (
                 <p>
                   Toshiba prides themselves as being the first company to
                   release the inverter technology to air conditioners back in
-                  1981 and has respectfully maintained a technical advantage
-                  from this. Designed for durability and simplicity, the Toshiba
-                  is a superior made air conditioner to with stand the harsh
-                  Australian summers and cold winter's month. With their
-                  unbelievable 7-year warranty, it’s the smart choice when it
-                  comes to installing a new system for your home or office.
+                  1981 and has respectfully maintained the technical advantage
+                  above the rest. Designed for durability and simplicity, the
+                  Toshiba is a superior made air conditioner to with stand the
+                  harsh Australian summers, and the cold winter's month. With
+                  their an extended 7-year warranty with parts and labour and
+                  our 5 year installation warranty, it’s definitely the smart
+                  choice when it comes to choosing a new system for your home or
+                  office.
+                </p>
+                <p>
+                  From the 1st of May 2020, all residential installations across
+                  the entire Toshiba range of Hi-Wall, Multi Split and Light
+                  Commercial equipment including the coveted SMMS VRF suite of
+                  products will come with a 7 year warranty.{" "}
+                </p>
+                <p>
+                  Toshiba range, download brochure <a href={ToshibaPDF}>here</a>
                 </p>
               </div>
               <div>
@@ -178,10 +191,10 @@ const SplitPage = () => (
                 <h5 className="fw-600 cap">Samsung air conditioning</h5>
                 <p>
                   Samsung Air Conditioning is one of our top choices, it's
-                  reputation for technology and innovations is one of the best.
-                  As a Samsung Air Conditioning Specialist you will be
-                  comfortable at home or your office with a Samsung air
-                  conditioner.
+                  reputation for technology and innovations is one of the best
+                  in the air conditioning world. As a Samsung Air Conditioning
+                  installation specialist you will be comfortable at home or
+                  your office with a new Samsung air conditioner.
                 </p>
               </div>
             </div>
@@ -197,7 +210,9 @@ const SplitPage = () => (
                   Whether it’s consistent heating and cooling for the home or
                   office, Carrier air offers you state-of-the-art technology
                   that is quiet, simple to use, energy efficient and above all,
-                  reliable.
+                  reliable. If your not looking for a big brand and big budget
+                  air conditioner for your space, then the Carrier will
+                  definitely come under budget for you home comfort solution.
                 </p>
               </div>
               <div>
@@ -217,10 +232,16 @@ const SplitPage = () => (
               <div className="p-20">
                 <h5 className="fw-600 cap">Midea air conditioning</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  molestiae, beatae exercitationem pariatur iure nostrum. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  molestiae, beatae exercitationem pariatur iure nostrum.
+                  Midea have come a long way over the past 50 years, making home
+                  appliances at affordable prices and is one of the main reason
+                  why we have added them to our recommendation list. We don't
+                  get any incentives selling any brands here, it's what we've
+                  used over time and have experience with, and what works best
+                  within peoples budget.For an affordable option, the Midea is
+                  hard to beat!
+                </p>
+                <p>
+                  Download brochure <a href={MideaPDF}>here</a>.
                 </p>
               </div>
             </div>
@@ -230,7 +251,7 @@ const SplitPage = () => (
 
       <section>
         <h2 className="cam text-center secondary fw-600 heading-box-color rounded py-3 mt-3">
-          Get a quick quote
+          Receive a quick quote
         </h2>
         <div className="grid-col-2">
           <div>
@@ -238,11 +259,14 @@ const SplitPage = () => (
               Split System Installation Quotes
             </h5>
             <p className="px-20">
-              We can supply and fully install any brand of split system air
-              conditioner for your home or office, and if you've already
+              We can supply and fully install all brands of split system air
+              conditioners for your home or office, and if you've already
               purchased a split system and are only looking for installation, we
               can provide our "installation only service" for you as well.
               Simply submit your details, and we'll contact you back shortly.
+            </p>
+            <p className="font-italic px-20">
+              "You could also leave the best suited time to call you back".
             </p>
           </div>
 

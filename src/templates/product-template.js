@@ -6,6 +6,7 @@ import Image from "gatsby-image"
 import Layout from "../components/ui/Layouts/layout"
 import ReactMarkdown from "react-markdown"
 import MideaProducts from "../components/Products/MideaProducts"
+import CarrierProducts from "../components/Products/CarrierProducts"
 
 // Destructuring all the properties from the query
 
@@ -17,6 +18,7 @@ const SingleProduct = ({
       brand,
       capacity,
       heating,
+      roomsize,
       image: {
         childImageSharp: { fixed },
       },
@@ -75,10 +77,43 @@ const SingleProduct = ({
             {" "}
             <div className="markdown container py-5">
               <article>
+                <h4 className="h3">Suitable for rooms approx {roomsize}m²</h4>
+                <div
+                  className="border capacity-table mb-3"
+                  style={{
+                    backgroundColor: `#f8f9fa`,
+                    border: `1px solid #ccc`,
+                    borderRadius: `8px`,
+                  }}
+                >
+                  <table
+                    class=" table table-light"
+                    style={{
+                      marginBottom: `0px`,
+                    }}
+                  >
+                    <thead>
+                      <tr>
+                        <th scope="col">Brand</th>
+                        <th scope="col">Cooling</th>
+                        <th scope="col">Heating</th>
+                        <th scope="col">Size Room</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">{brand} </th>
+                        <td>{capacity}</td>
+                        <td>{heating}</td>
+                        <td>{roomsize}m²</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <div
                   class="banner-ac mb-4"
                   style={{
-                    backgroundColor: `#f7f7f7`,
+                    backgroundColor: `#f8f9fa`,
                     border: `1px solid #ccc`,
                     borderRadius: `5px`,
                     padding: `15px`,
@@ -143,6 +178,7 @@ const SingleProduct = ({
             >
               <h5 className="p-2 text-white">View Monthly Specials >></h5>
             </div>
+            <CarrierProducts />
           </div>
         </div>
       </section>
@@ -159,6 +195,7 @@ export const query = graphql`
       description
       capacity
       heating
+      roomsize
       id
       image {
         childImageSharp {

@@ -59,7 +59,7 @@ const IndexPage = () => {
             </h2>
             <div className="grid-300 mb-2">
               <div className="card">
-                <Link to="/split-systems-ac">
+                <Link to="/split-systems">
                   <div className="card-top">
                     <Image
                       fluid={data.fluid.childImageSharp.fluid}
@@ -154,7 +154,7 @@ const IndexPage = () => {
           </section>
           <section className="section-2">
             <h3 className="h2 text-center fw-600 heading-box-color rounded py-3 mt-5">
-              Your Trusted Local Licensed Professional's
+              Cooling & Heating That Makes The Difference
             </h3>
             <div className="grid-2">
               <div className="span-col-3">
@@ -173,18 +173,21 @@ const IndexPage = () => {
                 />
                 <p className="cap text-dark">Beat the heat</p>
                 <p className="mt-20 lead">
-                  Are you finding the heat a little to hot to handle? Do you
-                  need a cooler solution? Well your in the right place! With our
+                  Split system's are definitely one of the most affordable
+                  solutions when it comes to deciding on your cooling and
+                  heating solution for your home or office. If you're finding
+                  the heat a little to hot to handle and are looking for a
+                  cooler solution, your in the right place! With our expertise,
                   experience and fast service, we can fully install and supply
                   you the right air conditioning system to suit your
                   requirements. Whether you're looking for a single room or the
                   entire home, we've got you covered. We can help you over the
                   phone, by <a href="mailto:alvicair@hotmail.com"> email</a>,
                   and even face to face with a free consultation to better
-                  understand your needs. We've got years of experience, talk to
-                  us to find out more about all the options, and we can provide
-                  a cost comparison to help you determine the best way to go.{" "}
-                  <br />
+                  understand your needs. We've got over 10 years experience,
+                  talk to us to find out more about all the options, and we can
+                  provide a cost comparison to help you determine the best way
+                  to go. <br />
                   Call <a href="tel:0404602657">0404 602 657</a>
                 </p>
               </div>
@@ -198,16 +201,20 @@ const IndexPage = () => {
           </section>
           <section className="section-3">
             <h3 className="h2 text-center fw-600 heading-box-color rounded p-2">
-              We'll Beat Any Written Quote
+              We're Trusted, Local, and Licensed Professional's
             </h3>
             <div>
               <p className="lead p-3">
                 We've been installing air conditioners for over a decade for
                 most of the major builders, around Brisbane, Gold Coast and
-                Tweed Heads area's. Specialising in high wall split, and multi
-                head system with major brands like Haier, Kelvinator, Acrton,
-                Daikin, Braemar, LG, Mitsubishi and Samsung as well as ducted
-                residential and commercial systems with Daikin and Actron.
+                Tweed Heads area's. Specialising in{" "}
+                <Link to="/split-systems">high wall split</Link>, and multi head
+                system with major brands including Daikin, Haier, Kelvinator,
+                Acrton, Braemar, LG, Mitsubishi and Samsung. Furthermore,
+                installing residential and commercial ducted systems with Daikin
+                and Actron. We service Brisbane, Ipswich and the Gold Coast
+                area's, for a professional, neat and tidy installation to your
+                castle, give us a call or email, we promise we don't bite.
               </p>
               <div className="why-us">
                 <ul className="bg-light p-20 mr-4">

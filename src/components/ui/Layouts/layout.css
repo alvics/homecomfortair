@@ -234,6 +234,7 @@ textarea {
 ::-webkit-input-placeholder {
     color: inherit;
     opacity: 0.54;
+    font-weight: 400;
 }
 
 ::-webkit-file-upload-button {
@@ -1336,6 +1337,7 @@ textarea {
 
 ::placeholder {
     color: #2193b0;
+    font-weight: 400;
 }
 
 .archive-img .gatsby-image-wrapper {
