@@ -144,6 +144,7 @@ select,
 textarea {
     font: inherit;
     margin: 0;
+    font-weight: bold;
 }
 
 optgroup {
@@ -806,19 +807,19 @@ pre tt:after {
 }
 
 .title-cards-archive:hover {
-    color: #3498db;
+    color: rgb(21, 132, 175);
 }
 
 .text-cards-archive:hover {
-    color: #3498db;
+    color: rgb(21, 132, 175);
 }
 
 .card-heading .text-dark:hover {
-    color: #3498db !important;
+    color: rgb(21, 132, 175) !important;
 }
 
 .card-body-- .card-text:hover {
-    color: #3498db !important;
+    color: rgb(21, 132, 175) !important;
 }
 
 
@@ -967,6 +968,10 @@ aside {
     padding: 0;
 }
 
+.home-comfort-air-img .gatsby-image-wrapper {
+    border-radius: 8px;
+}
+
 .split-systems .gatsby-image-wrapper {
     border-radius: 8px;
 }
@@ -1074,9 +1079,12 @@ aside {
 }
 
 .heading-box-color {
-    background: rgb(21, 132, 175);
+    background: #1584af;
+    /*background: #26519e;*/
+    /*background: #0C4B70;
+    /* #0D6F6C */
     /* background: linear-gradient( 90deg, rgba(21, 132, 175, 1) 50%, rgba(16, 175, 194, 1) 100%); */
-    /*  background: #2193b0;
+    /* background: #2193b0;
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -1248,7 +1256,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 765px) {

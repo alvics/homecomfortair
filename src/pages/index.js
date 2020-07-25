@@ -173,17 +173,20 @@ const IndexPage = () => {
                 />
                 <p className="cap text-dark">Beat the heat</p>
                 <p className="mt-20 lead">
-                  Split system's are definitely one of the most affordable
-                  solutions when it comes to deciding on your cooling and
-                  heating solution for your home or office. If you're finding
-                  the heat a little to hot to handle and are looking for a
-                  cooler solution, your in the right place! With our expertise,
-                  experience and fast service, we can fully install and supply
-                  you the right air conditioning system to suit your
-                  requirements. Whether you're looking for a single room or the
-                  entire home, we've got you covered. We can help you over the
-                  phone, by <a href="mailto:alvicair@hotmail.com"> email</a>,
-                  and even face to face with a free consultation to better
+                  Split system air conditioners are definitely one of the most
+                  popular and more affordable option for cooling and heating
+                  your home or office space. With its sleek modern look, easy to
+                  use functionality and new advanced technology's, it's a great
+                  choice when searching for an air conditioning solution. If
+                  you're experiencing uncomfortable temperatures, and looking
+                  for the perfect, clean advanced air temperature systems out
+                  there for your interior, you're in the right place! With our
+                  expertise, experience and fast service, we can fully install
+                  and supply you the right air conditioning system to suit your
+                  comforting needs. Whether you're looking for a single room or
+                  the entire home, we've got you covered. We can help you over
+                  the phone, by <a href="mailto:alvicair@hotmail.com"> email</a>
+                  , and even face to face with a free consultation to better
                   understand your needs. We've got over 10 years experience,
                   talk to us to find out more about all the options, and we can
                   provide a cost comparison to help you determine the best way
@@ -200,50 +203,72 @@ const IndexPage = () => {
             </div>
           </section>
           <section className="section-3">
-            <h3 className="h2 text-center fw-600 heading-box-color rounded p-2">
+            <h3 className="h2 text-center fw-600 heading-box-color rounded p-20">
               We're Trusted, Local, and Licensed Professional's
             </h3>
-            <div>
-              <p className="lead p-3">
-                We've been installing air conditioners for over a decade for
-                most of the major builders, around Brisbane, Gold Coast and
-                Tweed Heads area's. Specialising in{" "}
-                <Link to="/split-systems">high wall split</Link>, and multi head
-                system with major brands including Daikin, Haier, Kelvinator,
-                Acrton, Braemar, LG, Mitsubishi and Samsung. Furthermore,
-                installing residential and commercial ducted systems with Daikin
-                and Actron. We service Brisbane, Ipswich and the Gold Coast
-                area's, for a professional, neat and tidy installation to your
-                castle, give us a call or email, we promise we don't bite.
-              </p>
-              <div className="why-us">
-                <ul className="bg-light p-20 mr-4">
-                  <li className="text-blue fw-600 text-shadow-2">
-                    <span className="text-dark">✓</span> Experienced in
-                    Commercial & Residential Installations{" "}
-                  </li>
-                  <li className="text-blue fw-600 text-shadow-2">
-                    <span className="text-dark">✓</span> Quality workmanship
-                    guaranteed
-                  </li>
-                  <li className="text-blue fw-600 text-shadow-2">
-                    <span className="text-dark">✓</span> Qualified and licensed
-                    to Install Air Conditioners
-                  </li>
-                  <li className="text-blue fw-600 text-shadow-2">
-                    <span className="text-dark">✓</span> Much more affordable,
-                    without the big company price tag
-                  </li>
-                </ul>
+            <div className="row">
+              <div className="col-lg-7">
+                {" "}
+                <div>
+                  <p className="lead mt-3 px-3">
+                    We've been installing air conditioners for over a decade for
+                    most of the major builders, around Brisbane, Gold Coast and
+                    Tweed Heads area's. Specialising in{" "}
+                    <Link to="/split-systems">high wall split</Link>, and multi
+                    head system with major brands including Daikin, Haier,
+                    Kelvinator, Acrton, Braemar, LG, Mitsubishi and Samsung.
+                    Furthermore, installing residential and commercial ducted
+                    systems with Daikin and Actron. We service Brisbane, Ipswich
+                    and the Gold Coast area's, for a professional, neat and tidy
+                    installation to your castle, give us a call or email, we
+                    promise we don't bite.
+                  </p>
+                  <p className="mt-20 lead px-3">
+                    If you're looking to get the job done right from a trusted,
+                    licensed, and experienced installer, then give us a call on
+                    <a href="tel:0404602657"> 0404 602 657</a> we'll guarantee
+                    to beat any written quote. Stop paying too much for your air
+                    conditioning, and contact Home Comfort Air for the best and
+                    fair price in air conditioning installations for your home
+                    or space.
+                  </p>
+                </div>
               </div>
-              <p className="mt-20 lead p-3">
-                If you're looking to get the job done right from a trusted,
-                licensed, and experienced installer, then give us a call on
-                <a href="tel:0404602657"> 0404 602 657</a> we'll guarantee to
-                beat any written quote. Stop paying too much for your air
-                conditioning, and contact Home Comfort Air for the best and fair
-                price in air conditioning installations for your home or space.
-              </p>
+              <div className="col-lg-5">
+                <div className="home-comfort-air-img">
+                  {" "}
+                  <StaticImage
+                    filename="homecomfort.jpg"
+                    alt="home comfort air image"
+                  />
+                </div>
+                HOME COMFORT AIR
+                <span
+                  style={{ fontFamily: `'Caveat', cursive`, marginLeft: `6px` }}
+                >
+                  the smart choice in air conditioning
+                </span>
+              </div>
+            </div>
+            <div className="why-us">
+              <ul className="bg-light p-20 mr-4">
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> Experienced in Commercial
+                  & Residential Installations{" "}
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> Quality workmanship
+                  guaranteed
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> Qualified and licensed to
+                  Install Air Conditioners
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> Much more affordable,
+                  without the big company price tag
+                </li>
+              </ul>
             </div>
           </section>
           <div

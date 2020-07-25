@@ -28,7 +28,7 @@ const SplitPage = () => (
             <p className="lead-20 px-20">
               High wall split system air conditioners connects one indoor unit,
               to an outdoor unit. It's process of quickly removing heat and
-              moisture from the interior space to improve the comfort of the
+              moisture from the interior space, is to improve the comfort of the
               room. Delivers a modern and sophisticated solution to single space
               and at an affordable price. It's the most popular air conditioning
               system used in today's homes.
@@ -213,6 +213,7 @@ const SplitPage = () => (
                 </p>
                 <p>
                   <iframe
+                    title="Samsung air conditioning systems"
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/xZPI44Zh8yM"
@@ -245,6 +246,7 @@ const SplitPage = () => (
                 </p>
                 <p>
                   <iframe
+                    title="Carrier air conditioning systems"
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/pnf4TD_Tr8E"

@@ -19,6 +19,7 @@ const SingleProduct = ({
       capacity,
       heating,
       roomsize,
+      room_sizes,
       image: {
         childImageSharp: { fixed },
       },
@@ -77,7 +78,20 @@ const SingleProduct = ({
             {" "}
             <div className="markdown container py-5">
               <article>
-                <h4 className="h3">Suitable for rooms approx {roomsize}m²</h4>
+                <p className="bg-primary text-white pl-2 py-1 rounded">
+                  {room_sizes.map(item => {
+                    return (
+                      <span>
+                        Suit{" "}
+                        <span style={{ textTransform: `lowercase` }}>
+                          {item.size}
+                        </span>{" "}
+                        size rooms approx {roomsize}m²
+                      </span>
+                    )
+                  })}
+                </p>
+
                 <div
                   className="border capacity-table mb-3"
                   style={{
@@ -203,6 +217,9 @@ export const query = graphql`
             ...GatsbyImageSharpFixed_withWebp
           }
         }
+      }
+      room_sizes {
+        size
       }
     }
   }

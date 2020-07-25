@@ -1,7 +1,7 @@
 // GET all Categories, Query from strapi
 
 import React from "react"
-import Product from "./Product"
+import Product from "../Products/Product"
 import { graphql, useStaticQuery } from "gatsby"
 
 const Categories = () => {

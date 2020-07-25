@@ -12,7 +12,7 @@ const Hero = props => {
         <div className="white-overlay">
           <div className="container">
             <div className="row hero-row">
-              <div className="col-lg-8">
+              <div className="col-lg-8 d-flex align-items-center">
                 {" "}
                 <div className="hero-box py-3">
                   <h1 className="text-center hero-heading">
@@ -29,17 +29,17 @@ const Hero = props => {
                     </span>
                   </h2>
                   <p className="px-5">
-                    If you're looking for air conditioning and/or need to get
-                    your air conditioner installed? We install all brands,
-                    simply submit your details to receive an instant quote for
-                    your <i>home comfort air</i>.
+                    If you're looking for air conditioning and/or need your air
+                    conditioner installed? We install all brands, simply submit
+                    your details to receive an instant quote.
                   </p>
+                  <div className="pb-3">
+                    <button className="btn-- btn-primary--">Best Deals</button>
 
-                  <button className="btn-- btn-primary--">Buy Now</button>
-
-                  <button className="btn-- btn-orange-- ml-2">
-                    View Deals
-                  </button>
+                    <button className="btn-- btn-primary-- ml-2">
+                      Split Systems
+                    </button>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-4">
