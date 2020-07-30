@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import MyForm from "./form"
 
@@ -34,11 +34,17 @@ const Hero = props => {
                     your details to receive an instant quote.
                   </p>
                   <div className="pb-3">
-                    <button className="btn-- btn-primary--">Best Deals</button>
+                    <Link to="/best-deals">
+                      <button className="btn-- btn-primary--">
+                        Best Deals
+                      </button>
+                    </Link>
 
-                    <button className="btn-- btn-primary-- ml-2">
-                      Split Systems
-                    </button>
+                    <Link to="/split-systems">
+                      <button className="btn-- btn-primary-- ml-2">
+                        Split Systems
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -19,12 +19,12 @@ const SplitPage = () => (
     <SEO title="Split Systems A/C" />
     <div className="body-wrapper split-systems">
       <section>
-        <h1 className="cam text-center text-blue py-4 fw-600">
+        <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
           Split systems air conditioning
         </h1>
         <div className="grid-col-2 split-systems-top-col">
           <div>
-            <h3 className="px-20">SINGLE ROOM SOLUTION</h3>
+            <h3 className="h5 fw-600 px-20">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
               High wall split system air conditioners connects one indoor unit,
               to an outdoor unit. It's process of quickly removing heat and
@@ -43,7 +43,11 @@ const SplitPage = () => (
             </p>
           </div>
           <div>
-            <StaticImage filename="hero-3.jpg" alt="ducted air image" />
+            <StaticImage
+              filename="hero-3.jpg"
+              alt="split system air image"
+              height="150"
+            />
           </div>
         </div>
       </section>
