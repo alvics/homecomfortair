@@ -28,7 +28,7 @@
     --bs-gray-dark: #343a40;
     --bs-primary: rgb(21, 132, 175);
     --bs-secondary: #6c757d;
-    --bs-success: #28a745;
+    --bs-success: #10afc2;
     --bs-info: #17a2b8;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -234,12 +234,12 @@ sup {
 }
 
 a {
-    color: #0d6efd;
+    color: #1584af;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #024dbc;
+    color: #1584af;
 }
 
 a:not([href]):not([class]),

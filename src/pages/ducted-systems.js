@@ -11,27 +11,29 @@ const DuctedPage = () => (
     <SEO title="Split Ducted Systems" />
     <div className="body-wrapper split-systems">
       <section>
-        <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
-          Ducted air conditioning systems
-        </h1>
+        <div className="pt-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+            Ducted air conditioning systems
+          </h1>
+        </div>
+
         <div className="grid-col-2 split-systems-top-col">
           <div>
             <h3 className="h5 fw-600 px-20 mt-5">ENTIRE HOME SOLUTION</h3>
             <p className="lead-20 px-20">
               Ducted air conditioning system provides discreet comfort all year
-              round, with reverse cycle heating and cooling modes. Designed for
-              new and existing homes to manage and maintain temperatures
+              round, with reverse cycle heating and cooling technology. Designed
+              for new and existing homes to manage and maintain temperatures
               throughout the entire home, with optional climate zone controls
               for each room. Ducted systems consists of an indoor unit (in the
               roof), an outdoor unit, discharge grills (in all rooms) and a
               return air grill (usually in the hallway).
             </p>
             <p className="lead-20 px-20">
-              Ducted systems range from 5.5kW units that are used for small
-              zoned rooms, to the popular 14kW units that cools and heats your
-              average 4 bedroom, 2 living area's home, to the big 24kW unit that
-              can handle larger homes.Talk to us to find the best option to suit
-              your home and needs.
+              Ducted systems range from 5.5kW used for small zoned rooms, 14kW
+              for the average 4 bedroom, 2 living area's home, to the big 24kW
+              unit that can handle larger homes.Talk to us to find the best
+              option to suit your home and needs.
             </p>
           </div>
           <div className="ducted-air">
@@ -50,11 +52,12 @@ const DuctedPage = () => (
             <p className="lead-20 px-20">
               If you're looking to control the temperature of the entire home,
               then a ducted air conditioning system will be the most effective
-              and efficient way. It is more effective in cooling large areas,
-              has less noise with air flow than other split systems. However, if
-              you're only looking to cool or heat one or two rooms in your home,
-              a wall mounted air conditioning split system would be more
-              suitable.
+              and efficient way. It's more effective in cooling or heating your
+              home by maintaining a consistent temperature throughout multiple
+              rooms in a discreet and quiet way. However, if you're only looking
+              to cool or heat one or two rooms in your home, a wall mounted
+              <Link to="spit-systems"> split system air conditioning</Link>{" "}
+              would be more suitable.
             </p>
           </div>
         </div>
@@ -78,10 +81,12 @@ const DuctedPage = () => (
               <li>*The temperature set</li>
             </ul>
             <p className="lead-20 px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              doloribus totam impedit rerum eum?Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Modi doloribus totam impedit rerum
-              eum?
+              Ducted air conditioning is an important investment, and technology
+              plays a big part in choosing the right system. We only install the
+              leading brands for a number of reasons, energy efficiency, greater
+              life span, durability, advanced technology and guaranteed support.
+              Give us a call when you're thinking about ducted air conditioning
+              system. Home Comfort Air the smart choice in air conditioning.
             </p>
           </div>
           <div className="ducted-air">
@@ -113,9 +118,11 @@ const DuctedPage = () => (
           <Form />
         </div>
       </section>
+
+      <Link to="/split-systems">
+        Go to Split Systems <span style={{ fontWeight: `bold` }}>></span>
+      </Link>
     </div>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

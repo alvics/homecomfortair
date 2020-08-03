@@ -1,16 +1,16 @@
 // Display the list of products
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import Products from "../components/Products/Products"
 import SEO from "../components/seo"
-import RoomSizes from "../components/Queries/RoomSizes"
+// import RoomSizes from "../components/Queries/RoomSizes"
 
 const ProductsPage = ({ data }) => {
-  const {
-    allStrapiProduct: { nodes: roomSizes },
-  } = data
+  // const {
+  //   allStrapiProduct: { nodes: roomSizes },
+  // } = data
 
   return (
     <Layout>
@@ -26,9 +26,7 @@ const ProductsPage = ({ data }) => {
             <Products />
           </div>
           <div className="col-lg-4">
-            <div className="product-grid">
-              <RoomSizes roomSizes={roomSizes} />
-            </div>
+            <div className="product-grid"></div>
           </div>
         </div>
       </div>
@@ -38,28 +36,28 @@ const ProductsPage = ({ data }) => {
   )
 }
 
-export const query = graphql`
-  {
-    allStrapiProduct {
-      nodes {
-        room_sizes {
-          size
-          id
-        }
-        brand
-        title
-        price
-        url
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     allStrapiProduct {
+//       nodes {
+//         room_sizes {
+//           size
+//           id
+//         }
+//         brand
+//         title
+//         price
+//         url
+//         image {
+//           childImageSharp {
+//             fluid {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default ProductsPage

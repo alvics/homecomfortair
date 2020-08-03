@@ -1,32 +1,30 @@
 // Display the list of products
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 
 import SEO from "../components/seo"
-import RoomSizes from "../components/Queries/RoomSizes"
+// import RoomSizes from "../components/Queries/RoomSizes"
 import MideaProducts from "../components/Products/MideaProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
 
 const BestDeals = ({ data }) => {
-  const {
-    allStrapiProduct: { nodes: roomSizes },
-  } = data
+  // const {
+  //   allStrapiProduct: { nodes: roomSizes },
+  // } = data
 
   return (
     <Layout>
-      <SEO title="Product page" />
-      <div style={{ textAlign: "center" }}>
-        <code>Using products page template</code>
-      </div>
+      <SEO title="Best Deals" />
+      <div className="container body-wrapper">
+        <div className="pt-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+            Our Best Deals, Great Value!
+          </h1>
+        </div>
 
-      <hr />
-      <div className="container">
-        <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
-          Our Best Deals
-        </h1>
         <div className="row">
           <div className="col-lg-8">
             <h3 className="h5 cap my-3 fw-600">Supply & Install Midea A/C</h3>
@@ -48,28 +46,28 @@ const BestDeals = ({ data }) => {
   )
 }
 
-export const query = graphql`
-  {
-    allStrapiProduct {
-      nodes {
-        room_sizes {
-          size
-          id
-        }
-        brand
-        title
-        price
-        url
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     allStrapiProduct {
+//       nodes {
+//         room_sizes {
+//           size
+//           id
+//         }
+//         brand
+//         title
+//         price
+//         url
+//         image {
+//           childImageSharp {
+//             fluid {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default BestDeals

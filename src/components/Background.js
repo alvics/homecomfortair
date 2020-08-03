@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import OrderForm from "./OrderForm"
+import Form from "./quoteForm"
 
 const Hero = props => {
   const data = useStaticQuery(getImages)
@@ -13,7 +13,7 @@ const Hero = props => {
           className="d-flex just-content-center"
           style={{ backgroundColor: `rgba(255, 255, 255, 0.9)` }}
         >
-          <OrderForm />
+          <Form />
         </div>
       </BackgroundImage>
     </>

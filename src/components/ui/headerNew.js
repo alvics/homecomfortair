@@ -117,7 +117,7 @@ const HeaderNew = () => {
       <MenuLinks nav={nav}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Home mobile</Link>
           </li>
           <li>
             <Link to="/">Split Systems</Link>

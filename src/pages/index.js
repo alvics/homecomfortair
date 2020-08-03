@@ -8,7 +8,7 @@ import Layout from "../components/ui/Layouts/layout"
 
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import MyForm from "../components/form"
+import MyForm from "../components/quoteForm"
 import StaticImage from "../components/StaticQueryImages"
 // import SimpleSlider from "../components/HeroCarousel"
 

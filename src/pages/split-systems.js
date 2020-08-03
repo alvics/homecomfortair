@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
 import { Tabs, Tab, Panel } from "@bumaga/tabs"
-import Form from "../components/form"
+import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 
 import SamsungProducts from "../components/Products/SamsungProducts"
@@ -14,32 +14,35 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import MideaPDF from "../images/Midea.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
 
-const SplitPage = () => (
+const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
     <SEO title="Split Systems A/C" />
     <div className="body-wrapper split-systems">
       <section>
-        <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
-          Split systems air conditioning
-        </h1>
+        <div className="pt-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+            Split systems air conditioning
+          </h1>
+        </div>
+
         <div className="grid-col-2 split-systems-top-col">
           <div>
             <h3 className="h5 fw-600 px-20">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
-              High wall split system air conditioners connects one indoor unit,
-              to an outdoor unit. It's process of quickly removing heat and
-              moisture from the interior space, is to improve the comfort of the
-              room. Delivers a modern and sophisticated solution to single space
-              and at an affordable price. It's the most popular air conditioning
-              system used in today's homes.
+              The modern split system air conditioner connects one indoor unit,
+              to an outdoor unit. It's process is simply by removing heat and
+              moisture from the interior space, to improve ones comfort of the
+              room. Delivers a sleek and sophisticated look to your space and at
+              an affordable price. It's the perfect choice air conditioning
+              system for a single room.
             </p>
             <p className="lead-20 px-20">
-              Split systems range from 2.5kW that cool small bedrooms, to the
-              popular 7kW units that cool your average lounge room, to the
-              biggest 10kW unit that can cool larger open style living, lounge
-              and dinning rooms. Most split system are reverse cycle, meaning
-              that they provide both, heating and cooling modes to set your
-              temperatures.
+              Split systems range from 2.0kW that cool small bedrooms, the
+              popular 7kW units for your average lounge room, to the big 10kW
+              units that cool larger open style living, lounge and dinning
+              rooms. Most split system are reverse cycle, meaning that you can
+              switch between heating and cooling modes to set your desired
+              temperature.
             </p>
           </div>
           <div>
@@ -76,9 +79,9 @@ const SplitPage = () => (
                   </p>
                 </div>
 
-                <button className="text-blue text-shadow-2 text-left p-0 mt-3">
+                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
                   Learn more >>
-                </button>
+                </div>
               </div>
             </Tab>
 
@@ -100,9 +103,9 @@ const SplitPage = () => (
                   </p>
                 </div>
 
-                <button className="text-blue text-shadow-2 text-left p-0 mt-3">
+                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
                   Learn more >>
-                </button>
+                </div>
               </div>
             </Tab>
 
@@ -122,9 +125,9 @@ const SplitPage = () => (
                     Whether it’s consistent heating and cooling for the home ...
                   </p>
                 </div>
-                <button className="text-blue text-shadow-2 text-left p-0 mt-3">
+                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
                   Learn more >>
-                </button>
+                </div>
               </div>
             </Tab>
 
@@ -145,9 +148,9 @@ const SplitPage = () => (
                     every type ...
                   </p>
                 </div>
-                <button className="text-blue text-shadow-2 text-left p-0 mt-3">
+                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
                   Learn more >>
-                </button>
+                </div>
               </div>
             </Tab>
           </div>
@@ -327,9 +330,21 @@ const SplitPage = () => (
         </div>
       </section>
 
-      <Link to="/">Go back to the homepage</Link>
+      <Link to="/ducted-systems">
+        Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
+      </Link>
     </div>
   </Layout>
 )
+
+export const query = graphql`
+  {
+    allStrapiProduct {
+      nodes {
+        title
+      }
+    }
+  }
+`
 
 export default SplitPage

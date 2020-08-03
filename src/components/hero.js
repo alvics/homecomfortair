@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import MyForm from "./form"
+import MyForm from "./quoteForm"
 
 const Hero = props => {
   const data = useStaticQuery(getImages)
@@ -49,13 +49,16 @@ const Hero = props => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="form-overlay py-4">
+                <div className="form-overlay p-4">
                   <span
                     className="h3 fw-600 d-flex justify-content-center"
                     style={{ opacity: `0.8` }}
                   >
-                    Get instant quote
+                    Get a quote
                   </span>
+                  <i className="text-center text-blue">
+                    We install all major brands
+                  </i>
                   <MyForm />
                 </div>
               </div>

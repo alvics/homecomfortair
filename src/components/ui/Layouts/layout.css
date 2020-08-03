@@ -55,7 +55,7 @@ template {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    color: rgb(21, 132, 175) !important;
+    color: rgb(21, 132, 175);
     text-decoration: none !important;
 }
 
@@ -818,11 +818,24 @@ pre tt:after {
     color: rgb(21, 132, 175) !important;
 }
 
+@media (max-width: 500px) {
+    .split-systems .grid-col-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 /* FORM SECTION  - GET A QUICK QUOTE */
 
 @media (min-width: 1200px) {
-    .job-order-form {
+    .job-order-form,
+    .split-systems .quote-order-form {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact .quote-order-form {
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
@@ -1464,6 +1477,41 @@ textarea {
     height: 100%;
     margin-left: 20px;
     margin-top: 70px;
+}
+
+#slickSlider .gatsby-image-wrapper {
+    max-width: 200px;
+    height: 100%;
+}
+
+
+/* MODAL CSS */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    position: fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
 }
 
 @media (max-width: 1200px) {

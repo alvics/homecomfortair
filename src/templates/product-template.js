@@ -7,6 +7,7 @@ import Layout from "../components/ui/Layouts/layout"
 import ReactMarkdown from "react-markdown"
 import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
+import Modal from "../components/Modal"
 
 // Destructuring all the properties from the query
 
@@ -63,12 +64,16 @@ const SingleProduct = ({
                 installation (indoor to outdoor pipe length 3m). Quote on
                 additional length.
               </div>
-              <Link
-                to="/job-order"
-                className="btn-- btn-orange-- mt-3 mb-5 text-white"
+
+              <button
+                type="button"
+                className="mt-4 btn-- btn-orange--"
+                data-toggle="modal"
+                data-target="#exampleModal"
               >
-                Order now
-              </Link>
+                Order Now
+              </button>
+              <Modal />
             </article>
           </div>
         </div>
