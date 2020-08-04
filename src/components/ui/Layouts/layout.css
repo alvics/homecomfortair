@@ -818,6 +818,30 @@ pre tt:after {
     color: rgb(21, 132, 175) !important;
 }
 
+
+/* Breadcrumbs */
+
+.SingleProduct nav {
+    box-shadow: none !important;
+}
+
+nav.breadcrumb {
+    font-size: 0.8rem;
+}
+
+.breadcrumb {
+    background-color: #fff !important;
+    padding: 0.2rem 0 0 1rem !important;
+    margin-bottom: 0 !important;
+}
+
+.body-wrapper nav {
+    min-height: 15px;
+    box-shadow: none !important;
+    padding-top: 10px !important;
+    margin-bottom: -15px !important;
+}
+
 @media (max-width: 500px) {
     .split-systems .grid-col-2 {
         grid-template-columns: repeat(1, 1fr);
@@ -829,14 +853,15 @@ pre tt:after {
 
 @media (min-width: 1200px) {
     .job-order-form,
-    .split-systems .quote-order-form {
+    .split-systems .quote-order-form,
+    .contact .quote-order-form {
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
 
 @media (min-width: 1200px) {
-    .contact .quote-order-form {
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    .ducted-systems .quote-order-form {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 
@@ -1402,6 +1427,11 @@ textarea {
     margin: 0 auto;
 }
 
+.archive-category a {
+    color: inherit;
+    transition: 300ms;
+}
+
 
 /*  Nav Menu's */
 
@@ -1411,6 +1441,21 @@ textarea {
 #footer-main {
     background-color: #f8f8f8;
     padding: 60px;
+}
+
+#footer-main h4 {
+    font-size: 1rem;
+}
+
+#footer-main a,
+#footer-main p {
+    font-size: 12px;
+    color: inherit;
+    transition: 300ms;
+}
+
+#footer-main a:hover {
+    color: var(--bs-blue);
 }
 
 .banner-blue {

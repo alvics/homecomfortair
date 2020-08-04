@@ -45,10 +45,11 @@ nav {
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: bold;
+    transition: 300ms;
 }
 
 #links a:hover {
-    color: #0474bc;
+    color: rgb(21, 132, 175);
 }
 
 
@@ -62,7 +63,7 @@ nav {
 }
 
 #navbar a {
-    color: #333;
+    color: #2d3136;
 }
 
 .dropbtn {

@@ -70,11 +70,11 @@ const Header = () => {
           <div id="links">
             <Link to="/">Home</Link>
             <Link to="/">About</Link>
-            <Link to="/best-deals">Specials</Link>
+            <Link to="/specials">Specials</Link>
             <Link to="/split-systems">
               <span className="dropdown--">
                 <span className="dropbtn">
-                  Air Conditioning
+                  <Link to="/products">Air Conditioning</Link>
                   <span
                     style={{ fontSize: `inherit`, fontWeight: `bold` }}
                     class="material-icons"
@@ -86,6 +86,7 @@ const Header = () => {
                   <Link to="/split-systems">Split Systems</Link>
                   <Link to="/ducted-systems">Ducted Systems</Link>
                   <Link to="/multi-head-systems">Multi-Head Systems </Link>
+                  <Link to="/products">Supply & Install </Link>
                 </div>
               </span>
             </Link>

@@ -15,6 +15,12 @@ export default class Modal extends React.Component {
   render() {
     const { status } = this.state
 
+    const queryString = window.location.href
+      .replace(/(^\w+:|^)\/\//, "")
+      .split("localhost:8000/products/")
+      .join("")
+    console.log(queryString)
+
     return (
       <div
         class="modal fade"
@@ -72,7 +78,12 @@ export default class Modal extends React.Component {
                     Afternoon (between 12-4pm)
                   </label>
                 </div>
-
+                <input
+                  style={{ fontSize: 13 }}
+                  type="text"
+                  name="title"
+                  value={queryString}
+                />
                 <input type="text" name="first_name" placeholder="Name:" />
                 <input type="text" name="phone" placeholder="Phone:" />
                 <input type="text" name="suburb" placeholder="Suburb:" />
@@ -86,14 +97,18 @@ export default class Modal extends React.Component {
                 />
 
                 {status === "SUCCESS" ? (
-                  <p>
-                    Thanks for submitting a quote, we'll get back to you
+                  <p class="bg-info text-white p-1 rounded">
+                    Thanks for submitting your order, we'll get back to you
                     shortly.
                   </p>
                 ) : (
                   <button className="btn-- btn-orange--">Submit</button>
                 )}
-                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                {status === "ERROR" && (
+                  <p class="bg-danger text-white p-1 rounded">
+                    Ooops! There was an error.
+                  </p>
+                )}
               </form>
             </div>
             <div class="modal-footer bg-light"></div>

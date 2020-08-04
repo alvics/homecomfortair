@@ -10,6 +10,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import MyForm from "../components/quoteForm"
 import StaticImage from "../components/StaticQueryImages"
+
 // import SimpleSlider from "../components/HeroCarousel"
 
 const getImage = graphql`
@@ -44,7 +45,9 @@ const IndexPage = () => {
               the start of each month, you save hundreds!
             </p>
             <div className="text-center">
-              <button className="btn-- btn-orange-- ">VIEW SPECIALS</button>
+              <Link to="/specials">
+                <button className="btn-- btn-orange-- ">VIEW SPECIALS</button>
+              </Link>
             </div>
           </div>
         </section>
@@ -211,26 +214,28 @@ const IndexPage = () => {
                 {" "}
                 <div>
                   <p className="lead mt-3 px-3">
-                    We've been installing air conditioners for over a decade for
-                    most of the major builders, around Brisbane, Gold Coast and
-                    Tweed Heads area's. Specialising in{" "}
-                    <Link to="/split-systems">high wall split</Link>, and multi
-                    head system with major brands including Daikin, Haier,
-                    Kelvinator, Acrton, Braemar, LG, Mitsubishi and Samsung.
-                    Furthermore, installing residential and commercial ducted
-                    systems with Daikin and Actron. We service Brisbane, Ipswich
-                    and the Gold Coast area's, for a professional, neat and tidy
-                    installation to your castle, give us a call or email, we
-                    promise we don't bite.
+                    We've been installing domestic air conditioners for family's
+                    and major builders around Brisbane, Ipswich, Gold Coast and
+                    Tweed Heads area's for over a decade. Everything from high
+                    wall and <Link to="/multi-head-systems">multi head </Link>
+                    split systems including major brands, Kelvinator, Acrton,
+                    Daikin, Braemar, LG, Haier, Mitsubishi and Samsung as well
+                    as <Link to="/ducted-systems">ducted</Link> residential and
+                    commercial systems with Daikin and Actron air conditioners.
+                    Furthermore, we're experienced working in Queensland schools
+                    installing cassette units and wall mounted{" "}
+                    <Link to="/split-systems">split systems</Link> air
+                    conditioners.
                   </p>
                   <p className="mt-20 lead px-3">
-                    If you're looking to get the job done right from a trusted,
-                    licensed, and experienced installer, then give us a call on
-                    <a href="tel:0404602657"> 0404 602 657</a> we'll guarantee
-                    to beat any written quote. Stop paying too much for your air
-                    conditioning, and contact Home Comfort Air for the best and
-                    fair price in air conditioning installations for your home
-                    or space.
+                    We service the Gold Coast, Ipswich and Brisbane areas. Our
+                    staff are licensed experts when it comes to installations or
+                    <Link to="/breakdowns"> repairs</Link>, and we offer a 5
+                    year warranty on the workmanship of new installation. We
+                    pride ourselves on 100% customer satisfaction, so you know
+                    you're in the right hands when choosing Home Comfort Air. We
+                    operate 6 days a week and can be contacted between the hours
+                    of 8am and 5pm.
                   </p>
                 </div>
               </div>
@@ -249,6 +254,11 @@ const IndexPage = () => {
                   the smart choice in air conditioning
                 </span>
               </div>
+              <p className="mt-20 lead px-3">
+                If your looking to get the job done right by professionals, then
+                give us a call on <a href="tel:0404602657">0404 602 657</a> your
+                satisfaction, is our guarantee!{" "}
+              </p>
             </div>
             <div className="why-us">
               <ul className="bg-light p-20 mr-4">
@@ -261,12 +271,24 @@ const IndexPage = () => {
                   guaranteed
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Qualified and licensed to
+                  <span className="text-dark">✓</span> Experts and licensed to
                   Install Air Conditioners
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Much more affordable,
-                  without the big company price tag
+                  <span className="text-dark">✓</span> Professional fast and
+                  efficient service
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> 5 to 7 Year Manufacture
+                  Warranty's
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> 5 Year Installation
+                  Warranty
+                </li>
+                <li className="text-blue fw-600 text-shadow-2">
+                  <span className="text-dark">✓</span> We'll beat any written
+                  quote!
                 </li>
               </ul>
             </div>
@@ -279,7 +301,10 @@ const IndexPage = () => {
               overflow: `hidden`,
             }}
           ></div>
-          <Link to="/page-2/">Go to page 2</Link> <br />
+          <Link to="/products" className="btn-- btn-primary-- text-white">
+            Supply & Install Split Systems
+          </Link>
+          <br />
         </div>
       </Layout>
     </>

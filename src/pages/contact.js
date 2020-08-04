@@ -15,7 +15,7 @@ const Contact = () => (
         <h1 className="heading-box-color p-3 rounded">Contact Us</h1>
 
         <p className="font-italic">
-          Any questions? we'll get back to you ASAP.
+          Submit your request and we'll get back to you ASAP.
         </p>
       </div>
       <div className="grid-300">
@@ -23,16 +23,19 @@ const Contact = () => (
       </div>
       <div
         style={{ backgroundColor: `#5096dc2b` }}
-        className="py-3 text-center mt-5"
+        className="py-3 text-center mt-5 contact-details"
       >
         <a
           className="d-flex justify-content-start text-shadow-1 py-2"
           href="https://www.google.com/maps/place/22+Beitz+Ave,+Labrador+QLD+4215/@-27.9403803,153.396257,17z/data=!3m1!4b1!4m5!3m4!1s0x6b910fd0d0af69d3:0x9dd8867748231113!8m2!3d-27.9403803!4d153.3984457"
         >
-          <span style={{ fontSize: 32 }} class="material-icons">
+          <span style={{ fontSize: 32 }} className="material-icons">
             location_on
           </span>
-          <span style={{ color: `#333` }}>
+          <span
+            style={{ color: `#333`, fontSize: 14 }}
+            className="d-flex align-items-center"
+          >
             Location: 22 Beitz Ave Labrador, QLD 4215
           </span>
         </a>
@@ -41,10 +44,13 @@ const Contact = () => (
           className="d-flex justify-content-start text-shadow-1 py-2"
           href="mailto:homecomfortair.gc@gmail.com"
         >
-          <span style={{ fontSize: 32 }} class="material-icons">
+          <span style={{ fontSize: 32 }} className="material-icons">
             email
           </span>
-          <span style={{ color: `#333`, marginLeft: 5 }}>
+          <span
+            style={{ color: `#333`, marginLeft: 5, fontSize: 14 }}
+            className="d-flex align-items-center"
+          >
             Email: homecomfortair.gc@gmail.com
           </span>
         </a>
@@ -52,10 +58,13 @@ const Contact = () => (
           className="d-flex justify-content-start text-shadow-1 py-2"
           href="tel:0404602657"
         >
-          <span style={{ fontSize: 32 }} class="material-icons">
+          <span style={{ fontSize: 32 }} className="material-icons">
             local_phone
           </span>
-          <span style={{ color: `#333`, marginLeft: 5 }}>
+          <span
+            style={{ color: `#333`, marginLeft: 5, fontSize: 14 }}
+            className="d-flex align-items-center"
+          >
             Phone: 0404 602 657
           </span>
         </a>
@@ -63,10 +72,18 @@ const Contact = () => (
           className="d-flex justify-content-start text-shadow-1 py-2"
           href="tel:0404602657"
         >
-          <span style={{ fontSize: 32, marginLeft: 5 }} class="material-icons">
+          <span
+            style={{ fontSize: 32, marginLeft: 5 }}
+            className="material-icons d-flex"
+          >
             schedule
           </span>
-          <span style={{ color: `#333` }}>Hours: 8.00am to 5.00pm</span>
+          <span
+            style={{ color: `#333`, fontSize: 14 }}
+            className="d-flex align-items-center"
+          >
+            Hours: 8.00am to 5.00pm
+          </span>
         </a>
       </div>
       <Link to="/">Go back to the homepage</Link>

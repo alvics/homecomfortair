@@ -23,6 +23,7 @@ export default class QuoteForm extends React.Component {
           type="text"
           name="first_name"
           placeholder="Name:"
+          required
         />
         <input
           style={{ fontWeight: `bold` }}
@@ -35,12 +36,22 @@ export default class QuoteForm extends React.Component {
           type="text"
           name="suburb"
           placeholder="Suburb:"
+          required
         />
         <input
           style={{ fontWeight: `bold` }}
           type="email"
           name="email"
           placeholder="Email:"
+          required
+        />
+
+        <input
+          style={{ fontWeight: `bold` }}
+          type="file"
+          name="file_upload"
+          placeholder="File:"
+          accept="image/*,.pdf"
         />
 
         <textarea
@@ -49,6 +60,7 @@ export default class QuoteForm extends React.Component {
           cols="20"
           name="message"
           placeholder="Message:"
+          required
         />
 
         {status === "SUCCESS" ? (

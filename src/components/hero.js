@@ -34,9 +34,9 @@ const Hero = props => {
                     your details to receive an instant quote.
                   </p>
                   <div className="pb-3">
-                    <Link to="/best-deals">
+                    <Link to="/job-order">
                       <button className="btn-- btn-primary--">
-                        Best Deals
+                        Book a Service
                       </button>
                     </Link>
 
@@ -52,9 +52,9 @@ const Hero = props => {
                 <div className="form-overlay p-4">
                   <span
                     className="h3 fw-600 d-flex justify-content-center"
-                    style={{ opacity: `0.8` }}
+                    style={{ color: `#2d3136` }}
                   >
-                    Get a quote
+                    Request a quote
                   </span>
                   <i className="text-center text-blue">
                     We install all major brands

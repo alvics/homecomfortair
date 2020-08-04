@@ -64,6 +64,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        useAutoGen: true,
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {

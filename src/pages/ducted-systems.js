@@ -4,12 +4,15 @@ import { Link } from "gatsby"
 import Layout from "../components/ui/Layouts/layout"
 import SEO from "../components/seo"
 import StaticImage from "../components/StaticQueryImages"
-import Form from "../components/form"
+import Form from "../components/quoteForm"
 
 const DuctedPage = () => (
   <Layout>
-    <SEO title="Split Ducted Systems" />
-    <div className="body-wrapper split-systems">
+    <SEO
+      title="Split Ducted Systems"
+      keywords={[`Runaway bay`, `Biggera Waters`, `Coomera`]}
+    />
+    <div className="body-wrapper ducted-systems">
       <section>
         <div className="pt-3">
           <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
@@ -119,7 +122,7 @@ const DuctedPage = () => (
         </div>
       </section>
 
-      <Link to="/split-systems">
+      <Link className="px-20" to="/split-systems">
         Go to Split Systems <span style={{ fontWeight: `bold` }}>></span>
       </Link>
     </div>

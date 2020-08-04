@@ -227,7 +227,7 @@ const MultiHeadSystemsPage = () => (
           </Panel>
         </Tabs>
       </section>
-      <Link to="/ducted-systems">
+      <Link className="px-20" to="/ducted-systems">
         Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
       </Link>
     </div>

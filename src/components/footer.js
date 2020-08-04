@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import StaticImage from "../components/StaticQueryImages"
 
 // import { graphql, useStaticQuery } from "gatsby"
@@ -36,9 +37,10 @@ const Footer = () => {
 
             <div className="col">
               <div className="sensitive-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quaerat est veritatis provident possimus omnis veniam quia
-                inventore tenetur soluta consequatur.
+                We pride ourselves on 100% customer satisfaction, and offer a 5
+                year warranty on the workmanship of new installation. We operate
+                6 days a week and can be contacted between the hours of 8am and
+                5pm.
               </div>
             </div>
 
@@ -86,35 +88,55 @@ const Footer = () => {
       <footer id="footer-main">
         <div className="grid-300">
           <section className="footer-1 text-center">
-            <h4>Services 1</h4>
-            <p>Our Service a</p>
-            <p>Our Service b</p>
-            <p>Our Service c</p>
-            <p>Our Service d</p>
+            <div className="text-left">
+              <h4>Servicing</h4>
+              <p>
+                <Link to="/ipswich-air-conditioning">Ipswich</Link>
+              </p>
+              <p>Brisbane</p>
+              <p>Gold Coast</p>
+              <p>Tweed Heads</p>
+            </div>
           </section>
 
           <section className="footer-2 text-center">
-            <h4>Services 2</h4>
-            <p>Our Service a</p>
-            <p>Our Service b</p>
-            <p>Our Service c</p>
-            <p>Our Service d</p>
+            <div className="text-left">
+              <h4>Air Conditioning</h4>
+              <p>
+                <Link to="/split-systems">Split System Air Conditioning</Link>
+              </p>
+              <p>
+                <Link to="/ducted-systems">Ducted System Air Conditioning</Link>
+              </p>
+              <p>
+                <Link to="/multi-head-systems">
+                  Multi-head Air Conditioning
+                </Link>
+              </p>
+              <p>
+                <Link to="/breakdowns">Breakdowns /Service</Link>
+              </p>
+            </div>
           </section>
 
           <section className="footer-3 text-center">
-            <h4>Services 3</h4>
-            <p>Our Service a</p>
-            <p>Our Service b</p>
-            <p>Our Service c</p>
-            <p>Our Service d</p>
+            <div className="text-left">
+              <h4>Brands</h4>
+              <p>Toshiba</p>
+              <p>Samsung</p>
+              <p>Carrier</p>
+              <p>Midea</p>
+            </div>
           </section>
 
           <section className="footer-4 text-center">
-            <h4>Services 4</h4>
-            <p>Our Service a</p>
-            <p>Our Service b</p>
-            <p>Our Service c</p>
-            <p>Our Service d</p>
+            <div className="text-left">
+              <h4>Services 4</h4>
+              <p>Our Service a</p>
+              <p>Our Service b</p>
+              <p>Our Service c</p>
+              <p>Our Service d</p>
+            </div>
           </section>
         </div>
       </footer>

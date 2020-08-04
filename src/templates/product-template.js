@@ -8,6 +8,7 @@ import ReactMarkdown from "react-markdown"
 import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
 import Modal from "../components/Modal"
+import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 
 // Destructuring all the properties from the query
 
@@ -27,10 +28,18 @@ const SingleProduct = ({
       description,
     },
   },
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
 }) => {
   return (
     <Layout>
       <section className="SingleProduct container pt-5">
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbSeparator=" - "
+          crumbLabel={brand + " " + capacity}
+        />
         <div className="row">
           <div className="col-lg-6 text-md-center">
             <div className="fluid">
@@ -158,7 +167,8 @@ const SingleProduct = ({
                     air conditioner, contact us for a free installation quote.
                   </span>
                   <br />
-                  <span
+                  <Link
+                    to="/contact"
                     className="btn-- btn-primary btn-sm"
                     style={{
                       paddingRight: `15px`,
@@ -167,18 +177,9 @@ const SingleProduct = ({
                     }}
                   >
                     Contact us
-                  </span>
+                  </Link>
                 </div>
                 <ReactMarkdown source={description} />
-                <Link to="/contact" className="addToCartBtn">
-                  Contact me
-                </Link>
-                <Link
-                  style={{ textAlign: "center", marginLeft: "20px" }}
-                  to="/products"
-                >
-                  back to products
-                </Link>
               </article>
             </div>
           </div>

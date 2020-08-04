@@ -16,7 +16,14 @@ import ToshibaPDF from "../images/Toshiba.pdf"
 
 const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
-    <SEO title="Split Systems A/C" />
+    <SEO
+      title="Split Systems A/C"
+      keywords={[
+        `gold coast air conditioning`,
+        `split system installation`,
+        `Ashmore`,
+      ]}
+    />
     <div className="body-wrapper split-systems">
       <section>
         <div className="pt-3">
@@ -319,7 +326,17 @@ const SplitPage = ({ data: { allStrapiProduct: title } }) => (
               conditioners for your home or office, and if you've already
               purchased a split system and are only looking for installation, we
               can provide our "installation only service" for you as well.
-              Simply submit your details, and we'll contact you back shortly.
+            </p>
+            <hr />
+            <h5 className=" px-20 cap fw-600">
+              Replacement Split System Air Conditioning
+            </h5>
+            <p className="px-20">
+              Installation of a new air conditioner and the disposal of your
+              existing air conditioning split system service. We'll beat any
+              written quote on the replacement split system air conditioning in
+              your home. Home Comfort Air, the smart choice in air conditioning,
+              simply submit your details, and we'll contact you back shortly.
             </p>
             <p className="font-italic px-20">
               "You could also leave the best suited time to call you back".
@@ -330,7 +347,7 @@ const SplitPage = ({ data: { allStrapiProduct: title } }) => (
         </div>
       </section>
 
-      <Link to="/ducted-systems">
+      <Link className="px-20" to="/ducted-systems">
         Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
       </Link>
     </div>
