@@ -33,7 +33,7 @@ const IndexPage = () => {
       <Layout>
         <meta name="pinterest" content="nopin" />
         <section className="specials-section">
-          <div className="text-center mb-4">
+          <div className="text-center body-wrapper">
             <h5
               className="top-heading pt-3 px-2"
               style={{ fontSize: `64px`, fontWeight: `700` }}
@@ -41,8 +41,8 @@ const IndexPage = () => {
               Air Conditioning
             </h5>
             <p className="lead-400 top-text px-4">
-              Check our air conditioning <strong>specials</strong> we have at
-              the start of each month, you save hundreds!
+              Check our air conditioning <strong>specials</strong> at the start
+              of each month, and save hundreds!
             </p>
             <div className="text-center">
               <Link to="/specials">
@@ -157,7 +157,7 @@ const IndexPage = () => {
           </section>
           <section className="section-2">
             <h3 className="h2 text-center fw-600 heading-box-color rounded py-3 mt-5">
-              Cooling & Heating That Makes The Difference
+              For Your Home Comfort Cooling & Heating
             </h3>
             <div className="grid-2">
               <div className="span-col-3">

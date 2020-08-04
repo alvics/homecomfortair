@@ -29,9 +29,10 @@ const Hero = props => {
                     </span>
                   </h2>
                   <p className="px-5">
-                    If you're looking for air conditioning and/or need your air
-                    conditioner installed? We install all brands, simply submit
-                    your details to receive an instant quote.
+                    Are you looking for air conditioning or need your air
+                    conditioner installed? We install all the major brands
+                    throughout south east Queensland, from Ipswich, Brisbane to
+                    the Gold Coast.
                   </p>
                   <div className="pb-3">
                     <Link to="/job-order">

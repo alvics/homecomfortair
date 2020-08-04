@@ -131,8 +131,8 @@ const Footer = () => {
 
           <section className="footer-4 text-center">
             <div className="text-left">
-              <h4>Services 4</h4>
-              <p>Our Service a</p>
+              <h4>Latest News</h4>
+              <p>Our Special a</p>
               <p>Our Service b</p>
               <p>Our Service c</p>
               <p>Our Service d</p>

@@ -1224,8 +1224,16 @@ aside {
     margin-top: 50px !important;
 }
 
+.specials-section .body-wrapper {
+    margin-bottom: 0;
+}
+
 
 /* HERO SECTION   */
+
+.hero-row .form-overlay {
+    margin: 15px 0;
+}
 
 @media (min-width: 767px) and (max-width: 991px) {
     .special-section {
