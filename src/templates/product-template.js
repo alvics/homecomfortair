@@ -9,6 +9,7 @@ import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
 import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
+import StaticImage from "../components/StaticQueryImages"
 
 // Destructuring all the properties from the query
 
@@ -16,6 +17,7 @@ const SingleProduct = ({
   data: {
     product: {
       title,
+      saleprice,
       price,
       brand,
       capacity,
@@ -51,9 +53,22 @@ const SingleProduct = ({
             <article className=" p-4">
               <h2 className="cap brand-single">{brand}</h2>
               <h1 className="h3">{title}</h1>
-              <span className="price-single primary fw-600">
-                ${price}.00 <span className="GST-text">Inc GST</span>
-              </span>
+
+              {price && saleprice ? (
+                <span className="price-single primary fw-600">
+                  SALE ${saleprice}.00
+                  <span className="GST-text">
+                    {""}Inc GST
+                    <br />
+                    <del>${price}.00 Inc GST </del>
+                  </span>
+                </span>
+              ) : (
+                <span className="price-single primary fw-600">
+                  ${price}.00 <span className="GST-text">Inc GST</span>
+                </span>
+              )}
+
               <div
                 style={{
                   marginTop: `10px`,
@@ -73,7 +88,6 @@ const SingleProduct = ({
                 installation (indoor to outdoor pipe length 3m). Quote on
                 additional length.
               </div>
-
               <button
                 type="button"
                 className="mt-4 btn-- btn-orange--"
@@ -169,7 +183,7 @@ const SingleProduct = ({
                   <br />
                   <Link
                     to="/contact"
-                    className="btn-- btn-primary btn-sm"
+                    className="btn-- btn-primary btn-sm contact-btn"
                     style={{
                       paddingRight: `15px`,
                       paddingLeft: `15px`,
@@ -187,16 +201,26 @@ const SingleProduct = ({
             <h5 className="mt-5 h6" style={{ fontWeight: `600` }}>
               Also recommended for you
             </h5>
+            <div className="mb-2">
+              <StaticImage
+                filename="midea-add.png"
+                alt="carrier air conditioning"
+              />
+            </div>
+
             <MideaProducts />
             <div
-              className="my-3"
+              className="my-2"
               style={{
                 backgroundColor: `#1584AF`,
                 borderRadius: `5px`,
                 width: `100%`,
               }}
             >
-              <h5 className="p-2 text-white">View Monthly Specials >></h5>
+              <StaticImage
+                filename="carrier-add.png"
+                alt="carrier air conditioning"
+              />
             </div>
             <CarrierProducts />
           </div>
@@ -211,6 +235,7 @@ export const query = graphql`
     product: strapiProduct(url: { eq: $url }) {
       title
       price
+      saleprice
       brand
       description
       capacity

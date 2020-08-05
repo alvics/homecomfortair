@@ -3,15 +3,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
-import Products from "../components/Products/Products"
+
 import SEO from "../components/seo"
-// import RoomSizes from "../components/Queries/RoomSizes"
+import SplitSystems from "../components/Products/AllSplitSystems"
 
-const ProductsPage = ({ data }) => {
-  // const {
-  //   allStrapiProduct: { nodes: roomSizes },
-  // } = data
-
+const ProductsPage = () => {
   return (
     <Layout>
       <SEO title="Product page" />
@@ -23,7 +19,7 @@ const ProductsPage = ({ data }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <Products />
+            <SplitSystems />
           </div>
           <div className="col-lg-4">
             <div className="product-grid"></div>
@@ -35,29 +31,5 @@ const ProductsPage = ({ data }) => {
     </Layout>
   )
 }
-
-// export const query = graphql`
-//   {
-//     allStrapiProduct {
-//       nodes {
-//         room_sizes {
-//           size
-//           id
-//         }
-//         brand
-//         title
-//         price
-//         url
-//         image {
-//           childImageSharp {
-//             fluid {
-//               ...GatsbyImageSharpFluid
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
 
 export default ProductsPage

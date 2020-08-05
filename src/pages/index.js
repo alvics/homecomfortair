@@ -45,7 +45,7 @@ const IndexPage = () => {
               of each month, and save hundreds!
             </p>
             <div className="text-center">
-              <Link to="/specials">
+              <Link to="/products/specials">
                 <button className="btn-- btn-orange-- ">VIEW SPECIALS</button>
               </Link>
             </div>
@@ -295,12 +295,19 @@ const IndexPage = () => {
           </section>
           <div
             style={{
-              maxWidth: `340px`,
+              maxWidth: `640px`,
               marginBottom: `1.45rem`,
               border: `none`,
               overflow: `hidden`,
             }}
-          ></div>
+          >
+            {" "}
+            <StaticImage
+              filename="split-systems-add.png"
+              alt="home comfort air image"
+            />
+          </div>
+
           <Link to="/products" className="btn-- btn-primary-- text-white">
             Supply & Install Split Systems
           </Link>
