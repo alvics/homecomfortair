@@ -5,7 +5,7 @@ import React from "react"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 
-const Product = ({ title, image, price, url }) => {
+const Product = ({ title, image, price, url, saleprice }) => {
   const mainImage = image.childImageSharp.fluid
   return (
     <Link to={`/products/${url}`}>
@@ -25,10 +25,29 @@ const Product = ({ title, image, price, url }) => {
               style={{ fontSize: `1rem`, fontWeight: `600` }}
             >
               Supply and Installed{" "}
-              <span style={{ fontWeight: `600` }}>${price}.00</span>
-              <span style={{ opacity: `0.6`, fontSize: `0.7rem` }}>
-                Inc.GST
-              </span>
+              {price && saleprice ? (
+                <span className="primary fw-600">
+                  ${saleprice}.00
+                  <span
+                    className="GST-text"
+                    style={{ opacity: `0.6`, fontSize: `0.7rem` }}
+                  >
+                    {""}Inc GST
+                    <br />
+                    <del>${price}.00 Inc GST </del>
+                  </span>
+                </span>
+              ) : (
+                <span className="primary fw-600">
+                  ${price}.00{" "}
+                  <span
+                    className="GST-text"
+                    style={{ opacity: `0.6`, fontSize: `0.7rem` }}
+                  >
+                    Inc GST
+                  </span>
+                </span>
+              )}
             </p>
           </div>
           <div className="log-img" style={{ height: "20px" }}></div>

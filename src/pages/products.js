@@ -26,36 +26,74 @@ const ProductsPage = () => {
               <p style={{ fontSize: 12 }}>Showing 27 products</p>
             </div>
             <div className="split-system-archive">
-              <StaticImage
-                filename="midea-add.png"
-                alt="home comfort air image"
-              />
-              <h3 className="h6 fw-600 cap mt-2">Supply and Install Midea</h3>
-              <MideaProducts />
-              <div className="mt-3">
+              <div className="grid-col-2 mb-2">
+                <h3
+                  className="bg-light h6 fw-600 cap mt-2 text-center border rounded"
+                  style={{ padding: `1.3rem 0` }}
+                >
+                  Supply and Install Midea
+                  <br />{" "}
+                  <span className="lead cam">
+                    <small>Air Conditioning Systems</small>
+                  </span>
+                </h3>
                 <StaticImage
-                  filename="carrier-add.png"
+                  filename="midea-add.png"
                   alt="home comfort air image"
                 />
               </div>
 
-              <h3 className="h6 fw-600 cap mt-2">Supply and Install Carrier</h3>
+              <MideaProducts />
+
+              <div className="my-3 grid-col-2 text-center">
+                <StaticImage
+                  filename="carrier-add.png"
+                  alt="home comfort air image"
+                />
+                <h3
+                  className="bg-light h6 fw-600 cap mt-2 border rounded"
+                  style={{ padding: `1.3rem 0` }}
+                >
+                  Supply and Install Carrier
+                  <br />{" "}
+                  <span className="lead cam">
+                    <small>Air Conditioning Systems</small>
+                  </span>
+                </h3>
+              </div>
+
               <CarrierProducts />
-              <div className="mt-3">
+
+              <div className="my-3 grid-col-2 text-center">
+                <h3
+                  className="bg-light h6 fw-600 cap mt-2 border rounded"
+                  style={{ padding: `1.3rem 0` }}
+                >
+                  Supply and Install Toshiba
+                  <br />{" "}
+                  <span className="lead cam">
+                    <small>Air Conditioning Systems</small>
+                  </span>
+                </h3>
                 <StaticImage filename="4.png" alt="home comfort air image" />
               </div>
 
-              <h3 className="h6 fw-600 cap mt-2 pt-3">
-                Supply and Install Toshiba
-              </h3>
               <ToshibaProducts />
-              <div className="mt-3">
+
+              <div className="my-3 grid-col-2 text-center">
                 <StaticImage filename="3.png" alt="home comfort air image" />
+                <h3
+                  className="bg-light h6 fw-600 cap mt-2 border rounded"
+                  style={{ padding: `1.3rem 0` }}
+                >
+                  Supply and Install Samsung
+                  <br />{" "}
+                  <span className="lead cam">
+                    <small>Air Conditioning Systems</small>
+                  </span>
+                </h3>
               </div>
 
-              <h3 className="h6 fw-600 cap mt-2 pt-3">
-                Supply and Install Samsung
-              </h3>
               <SamsungProducts />
             </div>
           </div>
