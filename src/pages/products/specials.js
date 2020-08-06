@@ -14,7 +14,7 @@ import Specials from "../../components/Products/Specials"
 const SpecialsComp = () => {
   return (
     <Layout>
-      <SEO title="Best Deals" />
+      <SEO title="Special Deals" />
       <div className="container body-wrapper">
         <div className="pt-3">
           <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">

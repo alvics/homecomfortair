@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, keywords }) {
+function SEO({ description, lang, meta, title, keywords, url, author }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -18,6 +18,9 @@ function SEO({ description, lang, meta, title, keywords }) {
           siteMetadata {
             title
             description
+            author
+            keywords
+            url
             author
           }
         }
@@ -33,6 +36,8 @@ function SEO({ description, lang, meta, title, keywords }) {
         lang,
       }}
       title={title}
+      url={url}
+      author={author}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
@@ -42,6 +47,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:site_name`,
+          content: `homecomfortair`,
         },
         {
           property: `og:description`,
@@ -54,6 +63,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: `https://homecomfortair.net.au`,
         },
         {
           name: `twitter:card`,
@@ -70,6 +83,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `article:publisher`,
+          content: `https://www.facebook.com/Home-Comfort-Air`,
         },
       ]
         .concat(
@@ -90,6 +107,7 @@ SEO.defaultProps = {
   meta: [],
   description: ``,
   keywords: [],
+  url: ``,
 }
 
 SEO.propTypes = {

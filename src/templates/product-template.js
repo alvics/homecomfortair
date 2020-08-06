@@ -19,6 +19,7 @@ const SingleProduct = ({
       title,
       saleprice,
       price,
+      expires,
       brand,
       capacity,
       heating,
@@ -59,6 +60,10 @@ const SingleProduct = ({
                   SALE ${saleprice}.00
                   <span className="GST-text">
                     {""}Inc GST
+                    <br />
+                    <span className="price-single primary fw-600">
+                      {expires}
+                    </span>
                     <br />
                     <del>${price}.00 Inc GST </del>
                   </span>
@@ -235,6 +240,7 @@ export const query = graphql`
     product: strapiProduct(url: { eq: $url }) {
       title
       price
+      expires
       saleprice
       brand
       description

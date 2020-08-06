@@ -1013,7 +1013,11 @@ aside {
     padding: 0;
 }
 
-.home-comfort-air-img .gatsby-image-wrapper {
+
+/* IMAGES */
+
+.home-comfort-air-img .gatsby-image-wrapper,
+.about-us .gatsby-image-wrapper {
     border-radius: 8px;
 }
 

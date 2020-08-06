@@ -69,7 +69,7 @@ const Header = () => {
           </div>
           <div id="links">
             <Link to="/">Home</Link>
-            <Link to="/">About</Link>
+            <Link to="/about-us">About</Link>
             <Link to="/products/specials">Specials</Link>
             <Link to="/split-systems">
               <span className="dropdown--">

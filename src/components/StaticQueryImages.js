@@ -12,6 +12,7 @@ const StaticImage = props => (
             node {
               relativePath
               name
+              publicURL
               childImageSharp {
                 fluid {
                   ...GatsbyImageSharpFluid

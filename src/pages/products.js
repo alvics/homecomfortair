@@ -14,7 +14,7 @@ import SamsungProducts from "../components/Products/SamsungProducts"
 const ProductsPage = () => {
   return (
     <Layout>
-      <SEO title="Product page" />
+      <SEO title="Product Archive Page" />
 
       <div className="container body-wrapper products-archive">
         <div className="row">
@@ -118,9 +118,8 @@ const ProductsPage = () => {
             <hr />
           </div>
         </div>
+        <Link to="/ducted-systems">Go back to ducted air conditioning</Link>
       </div>
-
-      <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }

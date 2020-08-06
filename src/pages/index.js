@@ -31,6 +31,14 @@ const IndexPage = () => {
   return (
     <>
       <Layout>
+        <SEO
+          title="Home Page"
+          description={`HOMECOMFORTAIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
+          keywords={[
+            `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+          ]}
+        />
         <meta name="pinterest" content="nopin" />
         <section className="specials-section">
           <div className="text-center body-wrapper">

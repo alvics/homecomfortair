@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const BreakdownsPage = () => (
   <Layout>
-    <SEO title="Split Systems A/C" />
+    <SEO title="Breakdowns" />
     <h1>Hi from Breakdowns</h1>
 
     <p>Welcome to page 4</p>

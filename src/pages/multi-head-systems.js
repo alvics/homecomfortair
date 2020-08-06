@@ -10,7 +10,14 @@ import SEO from "../components/seo"
 
 const MultiHeadSystemsPage = () => (
   <Layout>
-    <SEO title="Split Systems A/C" />
+    <SEO
+      title="Multi-head Split Systems"
+      description={`HOMECOMFORTAIR installs mulit-head system air conditioning throughout, Ipswich, Brisbane and the Gold Coast area's.`}
+      keywords={[
+        `Gold,Coast,Air,Conditioning,
+                Split,systems,Ipswich,Brisbane,Specials`,
+      ]}
+    />
     <div className="body-wrapper split-systems">
       <section>
         <div className="pt-3">
@@ -227,6 +234,7 @@ const MultiHeadSystemsPage = () => (
           </Panel>
         </Tabs>
       </section>
+
       <Link className="px-20" to="/ducted-systems">
         Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
       </Link>

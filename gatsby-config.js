@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Home Comfort Air  `,
-    description: `We install split system air conditioners , throughout Brisbane, Gold Coast and Tweed Heads areas.`,
-    author: `@gatsbyjs`,
+    title: `Home Comfort Air, Residential Air Conditioning Solutions `,
+    description: `We install split system air conditioners , throughout Brisbane, Ipswich, Gold Coast and Tweed Heads areas.`,
+    keywords: `split, system, air, conditioning, coomera, oxenford, ashmore, labrador, helensvale, `,
+    url: `https://homecomfortair.net.au`,
+    author: `HOME COMFORT AIR`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

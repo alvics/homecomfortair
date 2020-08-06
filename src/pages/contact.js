@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout>
     <div className="job-order-wrapper py-3 contact">
-      <SEO title="Job order" />
+      <SEO title="Contact Page" />
       <div style={{ textAlign: "center" }}>
         <h1 className="heading-box-color p-3 rounded">Contact Us</h1>
 
@@ -22,6 +22,9 @@ const Contact = () => (
         <Background />
       </div>
       <div
+        itemprop="address"
+        itemscope
+        itemtype="http://schema.org/PostalAddress"
         style={{ backgroundColor: `#5096dc2b` }}
         className="py-3 text-center mt-5 contact-details"
       >
@@ -36,7 +39,12 @@ const Contact = () => (
             style={{ color: `#333`, fontSize: 14 }}
             className="d-flex align-items-center"
           >
-            Location: 22 Beitz Ave Labrador, QLD 4215
+            Location: <span itemprop="streetAddress">22 Beitz Ave, </span>{" "}
+            <span itemprop="addressLocality"> Labrador</span>,{" "}
+            <span itemprop="addressRegion"> Queensland</span>{" "}
+            <span itemprop="postalCode" style={{ paddingLeft: 4 }}>
+              4215
+            </span>
           </span>
         </a>
 
@@ -65,7 +73,7 @@ const Contact = () => (
             style={{ color: `#333`, marginLeft: 5, fontSize: 14 }}
             className="d-flex align-items-center"
           >
-            Phone: 0404 602 657
+            Phone: <span itemprop="telephone">0404 602 657</span>
           </span>
         </a>
         <a
@@ -86,7 +94,7 @@ const Contact = () => (
           </span>
         </a>
       </div>
-      <Link to="/">Go back to the homepage</Link>
+      <Link to="/">Go back home</Link>
     </div>
   </Layout>
 )

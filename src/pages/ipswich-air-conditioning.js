@@ -15,7 +15,7 @@ const Ipswich = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Ipswich" />
+      <SEO title="Servicing Ipswich" />
 
       <div className="pt-3">
         <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
@@ -42,8 +42,6 @@ const Ipswich = ({ data }) => {
           </div>
         </div>
       </div>
-
-      <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }

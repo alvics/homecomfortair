@@ -9,7 +9,7 @@ import Form from "../components/quoteForm"
 const DuctedPage = () => (
   <Layout>
     <SEO
-      title="Split Ducted Systems"
+      title="Ducted Systems Page"
       keywords={[`Runaway bay`, `Biggera Waters`, `Coomera`]}
     />
     <div className="body-wrapper ducted-systems">

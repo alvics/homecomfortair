@@ -1,16 +1,20 @@
 // Display the list of products
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/ui/Layouts/layout"
-
 import SEO from "../components/seo"
 import BookService from "../components/BookServiceForm"
 
 const JobOrder = () => (
   <Layout>
     <div className="job-order-wrapper py-3">
-      <SEO title="Job order" />
+      <SEO
+        title="Breakdown Service"
+        description={`Does your air conditioner need repairing or attention? Book in your job with time and day for your air conditioning breakdown and repair service through our website form.`}
+        keywords={[
+          `Book,Breakdown,Service,
+Split,systems,Ipswich,Brisbane,Maintenance,Fix,Repair`,
+        ]}
+      />
       <div style={{ textAlign: "center" }}>
         <code className="px-2">Does your air conditioner need attention?</code>
         <h1 className="h2 heading-box-color fw-600 p-3 rounded">
