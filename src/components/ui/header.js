@@ -7,9 +7,9 @@ import Image from "gatsby-image"
 
 const getImage = graphql`
   {
-    fluid: file(relativePath: { eq: "logo.jpg" }) {
+    fluid: file(relativePath: { eq: "Home-Comfort-Air-logo-650.png" }) {
       childImageSharp {
-        fluid(maxWidth: 140, quality: 100) {
+        fluid(maxWidth: 240, quality: 100) {
           src
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
@@ -33,11 +33,11 @@ const Header = () => {
     <>
       <div
         style={{ zIndex: 99999 }}
-        className="container-fluid bg-primary fixed-top "
+        className="container-fluid backGroundColor-topNav fixed-top "
       >
         <div className="container text-white">
           <div className="row">
-            <div className="col d-flex-justify-content-start service-area text-shadow-1">
+            <div className="col d-flex-justify-content-start service-area text-shadow-1 mt-1">
               Ipswich | Brisbane | Gold Coast
             </div>
             <div
@@ -45,7 +45,7 @@ const Header = () => {
               className="col d-flex justify-content-end phone-nav"
             >
               <a
-                className="d-flex align-items-center text-shadow-1"
+                className="d-flex align-items-center text-shadow-1 btn btn-primary-- my-1 px-2 "
                 href="tel:0404602657"
               >
                 <span style={{ fontSize: 22 }} class="material-icons">

@@ -29,7 +29,7 @@ const Footer = () => {
               <div className="footer-img-wrapper">
                 <StaticImage
                   id="sensitive-img"
-                  filename="sensitive-logo.png"
+                  filename="Home-Comfort-Air-WHITE-650.png"
                   alt="ducted air image"
                 />
               </div>
@@ -56,8 +56,8 @@ const Footer = () => {
 
             <div className="col">
               <div className="h4 sensitive-heading">
-                Your trusted local
-                <br /> licensed professional's
+                Experts in residential
+                <br /> air conditioning
               </div>
             </div>
           </div>

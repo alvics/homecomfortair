@@ -43,13 +43,14 @@ const ProductsPage = () => {
             </p>
 
             <p className="lead-20 px-20 mt-3">
-              We service the Gold Coast, Ipswich and Brisbane areas. Our staff
-              are licensed experts when it comes to installations or repairs,and
-              we offer a 5 year warranty on the workmanship of new installation.
+              We service the Gold Coast, Ipswich and Brisbane areas installing
+              all major brand air conditioners. Our staff are licensed experts
+              when it comes to installations or repairs, and we offer a 5 year
+              warranty on all new installations of split systems.
               <i>"That's some peace of mind you can be comfortable with".</i> We
-              pride ourselves on 100% customer satisfaction, so you know you're
-              in the right hands when choosing Home Comfort Air. We operate 6
-              days a week and can be contacted between the hours of 8am and 5pm.{" "}
+              pride ourselves on 100% customer satisfaction and quality
+              workmanship. We operate 6 days a week and can be contacted between
+              the hours of 8am and 5pm.{" "}
             </p>
             <p className="lead-20 px-20">
               If your looking to get the job done right by professionals, then

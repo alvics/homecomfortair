@@ -27,7 +27,14 @@ Split,systems,Ipswich,Brisbane,Specials`,
     <div className="body-wrapper split-systems">
       <section>
         <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
+            <span style={{ maxHeight: 305 }}>
+              {" "}
+              <StaticImage
+                filename="Home-Comfort-Air-WHITE-1400.png"
+                alt="home comfort air image"
+              />
+            </span>
             Split systems air conditioning
           </h1>
         </div>
@@ -36,20 +43,19 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <div>
             <h3 className="h5 fw-600 px-20">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
-              The modern split system air conditioner connects one indoor unit,
-              to an outdoor unit. It's process is simply by removing heat and
-              moisture from the interior space, to improve ones comfort of the
-              room. Delivers a sleek and sophisticated look to your space and at
-              an affordable price. It's the perfect choice air conditioning
-              system for a single room.
+              The split system air conditioner is a reliable and flexible
+              comfort solution and ideal for living areas, apartment and single
+              rooms. Keeping you warm and cosy in winter and cool and fresh in
+              summer. It also gives your room a stylish, sleek and sophisticated
+              look, with advanced performance and technology its the perfect
+              solution to take comfort all year round.
             </p>
             <p className="lead-20 px-20">
-              Split systems range from 2.0kW that cool small bedrooms, the
-              popular 7kW units for your average lounge room, to the big 10kW
-              units that cool larger open style living, lounge and dinning
-              rooms. Most split system are reverse cycle, meaning that you can
-              switch between heating and cooling modes to set your desired
-              temperature.
+              Split systems range from 2.5kW for small bedrooms, 7kW units for
+              your average lounge room, to the big 10kW units that cool larger
+              open style living, lounge and dinning rooms. Most split systems
+              are reverse cycle, meaning that you can switch between heating and
+              cooling modes to set your desired temperature.
             </p>
           </div>
           <div>
@@ -172,9 +178,9 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 <p>
                   Toshiba prides themselves as being the first company to
                   release the inverter technology to air conditioners back in
-                  1981 and has respectfully maintained the technical advantage
+                  1981 and have respectfully maintained the technical advantage
                   above the rest. Designed for durability and simplicity, the
-                  Toshiba is a superior made air conditioner to with stand the
+                  Toshiba is a superior made air conditioner to withstand the
                   harsh Australian summers, and the cold winter's month. With
                   their extended 7-year warranty with parts and labour and our
                   5-year installation warranty, it’s definitely the smart choice
@@ -222,8 +228,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Samsung Air Conditioning is one of our top choices, it's
                   reputation for technology and innovations is one of the best
                   in the air conditioning world. As a Samsung Air Conditioning
-                  installation specialist you'll be confident and comfortable at
-                  home or office with a new Samsung air conditioner.
+                  installation specialist, you'll be confident and comfortable
+                  at home or office with a new Samsung air conditioner.
                 </p>
                 <p>
                   <iframe
@@ -250,7 +256,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Carrier is an American company based in Palm Beach, Florida
                   and has been manufacturing and distributing heating and
                   cooling system's since 1915. It flies under the radar here in
-                  Australia but its one of the largest air conditioning
+                  Australia, but its one of the largest air conditioning
                   manufactures in the world. Whether it’s consistent heating and
                   cooling for the home, Carrier Pearl series is renowned for
                   better comfort and power saving. The system's inverter
@@ -292,12 +298,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 <p>
                   Midea have come a long way over the past 50 years with its
                   manufacturing of air conditioners at affordable prices. The
-                  Aurora range is known for its pure comfort, clean filtered
+                  Aurora range is known for its pure comfort, clean, filtered
                   air, quiet operations and smart mobile connect technology. It
                   has a powerful and fast cooling system that uses an efficient
                   and effective compressor that allows strong air flow for
                   immediate comfort. Tested and built to last, the outdoor unit
-                  will with stand the Australian harsh conditions, and the whole
+                  will withstand the Australian harsh conditions, and the whole
                   Aurora series is backed by a 5-year warranty.
                 </p>
                 <p>
@@ -347,9 +353,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
         </div>
       </section>
       <button className="btn">Go back</button>
-      <Link className="px-20" to="/ducted-systems">
-        Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
-      </Link>
     </div>
   </Layout>
 )

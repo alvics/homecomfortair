@@ -21,22 +21,28 @@ const MultiHeadSystemsPage = () => (
     <div className="body-wrapper split-systems">
       <section>
         <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
+            <span>
+              {" "}
+              <StaticImage
+                filename="Home-Comfort-Air-WHITE-1400.png"
+                alt="home comfort air image"
+              />
+            </span>
             Multi-Head Split Systems Air Conditioning
           </h1>
         </div>
 
-        <div className="grid-col-2 split-systems-top-col">
+        <div className="grid-col-2 multi-systems-top-col">
           <div>
-            <h3 className="h5 fw-600 px-20 mt-5 cap">
-              Multiple Rooms Solution
-            </h3>
+            <h3 className="h5 fw-600 px-20 cap">Multiple Rooms Solution</h3>
             <p className="lead-20 px-20">
               Multi-head air conditioning system can connect up to five wall
-              mounted indoor head units to one outdoor unit. Similar look to the
-              wall mounted split systems, the only difference is the outdoor is
-              capable of handling up to 5 indoor units. It's a great choice for
-              cooling multiple rooms without having multiple outdoor units.
+              mounted indoor head units to one outdoor unit. Similar look and
+              functionality to the wall mounted split systems, the only
+              difference is that the outdoor is capable of handling up to 5
+              indoor units. It's a great choice for cooling multiple rooms
+              without having multiple outdoor units.
             </p>
             <p className="lead-20 px-20">
               Multi-head systems range from 5.0kW units that connect 2 indoor
@@ -66,10 +72,10 @@ const MultiHeadSystemsPage = () => (
             <h3 className="h5 fw-600 px-20 cap">Why Multi-Head System?</h3>
             <p className="lead-20 px-20">
               If you're looking to cool individual rooms throughout your home,
-              then the multi-head air conditioning system maybe the right choice
-              for you. It enables you to have different sized air conditioners
-              throughout your home, allowing you to control each room
-              separately. Ideal for limited space for outdoor units or when
+              then the multi-head air conditioning system might be the right
+              choice for you. It enables you to have different sized air
+              conditioners throughout your home, allowing you to control each
+              room separately. Ideal for limited space for outdoor units or when
               there's insufficient ceiling space for a ducted system.
             </p>
           </div>
@@ -84,15 +90,15 @@ const MultiHeadSystemsPage = () => (
             </h3>
             <p className="lead-20 px-20">
               Multi-head split systems use the same innovative technology as the
-              split systems. It has the elegant smooth and curve design, fresh
+              split systems. It has the elegant, smooth and curve design, fresh
               filtered air, easy to use, and avoid using any unnecessary energy
               usage from the inverter control technology.
             </p>
 
             <p className="lead-20 px-20">
-              The Toshiba split systems has great benefits and features, from
+              The Toshiba split systems have great benefits and features, from
               its inverter technology to the outdoor durability and is backed by
-              there 7-year parts and labour warranty.
+              their 7-year parts and labour warranty.
             </p>
           </div>
           <div className="ducted-air text-center">
@@ -234,10 +240,6 @@ const MultiHeadSystemsPage = () => (
           </Panel>
         </Tabs>
       </section>
-
-      <Link className="px-20" to="/ducted-systems">
-        Go to Ducted Systems <span style={{ fontWeight: `bold` }}>></span>
-      </Link>
     </div>
   </Layout>
 )

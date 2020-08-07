@@ -13,7 +13,7 @@
 
 :root {
     --dark-blue: #0d3880;
-    --bs-blue: rgb(21, 132, 175);
+    --bs-blue: rgb(0, 117, 201);
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --pink: #fd0585;
@@ -26,7 +26,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: rgb(21, 132, 175);
+    --bs-primary: rgb(0, 117, 201);
     --bs-secondary: #6c757d;
     --bs-success: #10afc2;
     --bs-info: #17a2b8;

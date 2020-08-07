@@ -65,9 +65,19 @@ Split,systems,Ipswich,Brisbane,Specials`,
         <SEO title="Home" />
         <div className="body-wrapper">
           <section className="section-1">
-            <h2 className="h2 text-center text-blue py-3 fw-600 my-2 heading-box-color rounded">
-              Air Conditioning Solutions For Your Home
-            </h2>
+            <div className="heading-box-color rounded row p-2 d-flex align-items-center mb-2">
+              <div className="col-2 pt-2 px-4 m-auto">
+                <StaticImage
+                  filename="HCA-avatar-WHITE-1400.png"
+                  alt="home comfort air image"
+                />
+              </div>
+              <div className="col">
+                <h3 className="h2 fw-600 mt-2">
+                  Air Conditioning Solutions For Your Home
+                </h3>
+              </div>
+            </div>
             <div className="grid-300 mb-2">
               <div className="card">
                 <Link to="/split-systems">
@@ -164,9 +174,19 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </section>
           <section className="section-2">
-            <h3 className="h2 text-center fw-600 heading-box-color rounded py-3 mt-5">
-              For Your Home Comfort Cooling & Heating
-            </h3>
+            <div className="heading-box-color rounded row p-2 d-flex align-items-center mb-2">
+              <div className="col-2 pt-2 px-4">
+                <StaticImage
+                  filename="HCA-avatar-WHITE-1400.png"
+                  alt="home comfort air image"
+                />
+              </div>
+              <div className="col">
+                <h3 className="h2 fw-600 mt-2 ">
+                  Split Systems Air Conditioning, Cooling & Heating
+                </h3>
+              </div>
+            </div>
             <div className="grid-2">
               <div className="span-col-3">
                 <h4 className="text-dark fw-400">
@@ -184,19 +204,18 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 />
                 <p className="cap text-dark">Beat the heat</p>
                 <p className="mt-20 lead">
-                  Split system air conditioners are definitely one of the most
-                  popular and more affordable option for cooling and heating
-                  your home or office space. With its sleek modern look, easy to
-                  use functionality and new advanced technology's, it's a great
-                  choice when searching for an air conditioning solution. If
-                  you're experiencing uncomfortable temperatures, and looking
-                  for the perfect, clean advanced air temperature systems out
-                  there for your interior, you're in the right place! With our
-                  expertise, experience and fast service, we can fully install
-                  and supply you the right air conditioning system to suit your
-                  comforting needs. Whether you're looking for a single room or
-                  the entire home, we've got you covered. We can help you over
-                  the phone, by <a href="mailto:alvicair@hotmail.com"> email</a>
+                  Split system air conditioners are the most popular and most
+                  affordable option for cooling and heating your home or office
+                  space. With its sleek and modern design, easy to use
+                  functionality and advanced technology's, it's the perfect
+                  solution for single room or space. If you're looking for an
+                  air conditioning systems to help with your comfort you're in
+                  the right place! With our expertise, experience and fast
+                  service, we can supply and fully install the right air
+                  conditioning system to suit your interior. Whether you're
+                  looking for a single room or the entire home, we've got you
+                  covered. We can help you over the phone, by{" "}
+                  <a href="mailto:alvicair@hotmail.com"> email</a>
                   , and even face to face with a free consultation to better
                   understand your needs. We've got over 10 years experience,
                   talk to us to find out more about all the options, and we can
@@ -206,7 +225,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 </p>
               </div>
               <div className="form-quote">
-                <h4 className="heading-box-green p-20 rounded">
+                <h4 className="heading-box-color p-20 rounded">
                   Get a quick quote
                 </h4>
                 <MyForm />
@@ -214,9 +233,20 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </section>
           <section className="section-3">
-            <h3 className="h2 text-center fw-600 heading-box-color rounded p-20">
-              We're Trusted, Local, and Licensed Professional's
-            </h3>
+            <div className="heading-box-color rounded row p-2 d-flex align-items-center mb-2">
+              <div className="col-2 pt-2 px-4">
+                <StaticImage
+                  filename="HCA-avatar-WHITE-1400.png"
+                  alt="home comfort air image"
+                />
+              </div>
+              <div className="col">
+                <h3 className="h2 fw-600 mt-2 ">
+                  Residential Air Conditioning Professionals
+                </h3>
+              </div>
+            </div>
+
             <div className="row">
               <div className="col-lg-7">
                 {" "}
@@ -271,32 +301,30 @@ Split,systems,Ipswich,Brisbane,Specials`,
             <div className="why-us">
               <ul className="bg-light p-20 mr-4">
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Experienced in Commercial
-                  & Residential Installations{" "}
+                  <span className="green">✓</span> Experienced in Commercial &
+                  Residential Installations{" "}
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Quality workmanship
+                  <span className="green">✓</span> Quality workmanship
                   guaranteed
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Experts and licensed to
+                  <span className="green">✓</span> Experts and licensed to
                   Install Air Conditioners
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> Professional fast and
+                  <span className="green">✓</span> Professional fast and
                   efficient service
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> 5 to 7 Year Manufacture
+                  <span className="green">✓</span> 5 to 7 Year Manufacture
                   Warranty's
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> 5 Year Installation
-                  Warranty
+                  <span className="green">✓</span> 5 Year Installation Warranty
                 </li>
                 <li className="text-blue fw-600 text-shadow-2">
-                  <span className="text-dark">✓</span> We'll beat any written
-                  quote!
+                  <span className="green">✓</span> We'll beat any written quote!
                 </li>
               </ul>
             </div>

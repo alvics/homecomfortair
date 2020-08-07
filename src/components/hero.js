@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import MyForm from "./quoteForm"
+import StaticImage from "../components/StaticQueryImages"
 
 const Hero = props => {
   const data = useStaticQuery(getImages)
@@ -14,10 +15,17 @@ const Hero = props => {
             <div className="row hero-row">
               <div className="col-lg-8 d-flex align-items-center">
                 {" "}
-                <div className="hero-box py-3">
+                <div className="hero-box py-3 m-auto">
+                  <StaticImage
+                    filename="HCA-2-avatar.png"
+                    alt="home comfort air image"
+                  />
                   <h1 className="text-center hero-heading">
-                    <span className="hero-heading-primary">
-                      Home Comfort Air
+                    <span
+                      className="hero-heading-primary cap"
+                      style={{ color: `rgb(35,31,32)` }}
+                    >
+                      Home <span style={{ fontWeight: 600 }}>Comfort</span> Air
                     </span>
                   </h1>
                   <h2 className="hero-heading-h2">
@@ -36,7 +44,7 @@ const Hero = props => {
                   </p>
                   <div className="pb-3">
                     <Link to="/job-order">
-                      <button className="btn-- btn-primary--">
+                      <button className="btn-- btn-green--">
                         Book a Service
                       </button>
                     </Link>

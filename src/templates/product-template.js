@@ -7,6 +7,8 @@ import Layout from "../components/ui/Layouts/layout"
 import ReactMarkdown from "react-markdown"
 import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
+import SamsungProducts from "../components/Products/SamsungProducts"
+import ToshibaProducts from "../components/Products/Toshiba"
 import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
@@ -38,7 +40,7 @@ const SingleProduct = ({
 }) => {
   return (
     <Layout>
-      <section className="SingleProduct container pt-5">
+      <section className="SingleProduct container pt-3">
         <Breadcrumb
           crumbs={crumbs}
           crumbSeparator=" - "
@@ -93,9 +95,8 @@ const SingleProduct = ({
                 className="short-description mt-3"
                 style={{ color: `#414042`, fontSize: `16px` }}
               >
-                Supply and fully install a new {title}, based on a back to back
-                installation (indoor to outdoor pipe length 3m). Quote on
-                additional length.
+                Supply and install a new {title}. Price based on a back to back
+                installation (indoor to outdoor maximum pipe length 3m).
               </div>
               <button
                 type="button"
@@ -115,7 +116,7 @@ const SingleProduct = ({
             {" "}
             <div className="markdown container py-5">
               <article>
-                <p className="bg-primary text-white pl-2 py-1 rounded">
+                <p className="text-white pl-2 py-1 rounded heading-box-color">
                   {room_sizes.map(item => {
                     return (
                       <span>
@@ -192,7 +193,7 @@ const SingleProduct = ({
                   <br />
                   <Link
                     to="/contact"
-                    className="btn-- btn-primary btn-sm contact-btn"
+                    className="btn-- btn-primary-- btn-sm contact-btn"
                     style={{
                       paddingRight: `15px`,
                       paddingLeft: `15px`,
@@ -221,28 +222,46 @@ const SingleProduct = ({
             <h5 className="mt-5 h6" style={{ fontWeight: `600` }}>
               Also recommended for you
             </h5>
-            <div className="mb-2">
-              <StaticImage
-                filename="midea-add.png"
-                alt="carrier air conditioning"
-              />
-            </div>
 
-            <MideaProducts />
-            <div
-              className="my-2"
-              style={{
-                backgroundColor: `#1584AF`,
-                borderRadius: `5px`,
-                width: `100%`,
-              }}
-            >
-              <StaticImage
-                filename="carrier-add.png"
-                alt="carrier air conditioning"
-              />
-            </div>
-            <CarrierProducts />
+            {brand == "Midea" ? (
+              <div className="mb-2">
+                <StaticImage
+                  filename="midea-add.png"
+                  alt="carrier air conditioning"
+                />
+                <MideaProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
+            {brand == "Carrier" ? (
+              <div className="single-side-products">
+                <StaticImage
+                  filename="carrier-add.png"
+                  alt="carrier air conditioning"
+                />
+                <CarrierProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
+            {brand == "Samsung" ? (
+              <div className="single-side-products">
+                <StaticImage filename="3.png" alt="carrier air conditioning" />
+                <SamsungProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
+
+            {brand == "Toshiba" ? (
+              <div className="single-side-products">
+                <StaticImage filename="4.png" alt="carrier air conditioning" />
+                <ToshibaProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
           </div>
         </div>
       </section>

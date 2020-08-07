@@ -4,6 +4,11 @@
     grid-gap: 1.5em;
 }
 
+.backGroundColor-topNav {
+    /* background: rgb(0, 117, 201); */
+    background: linear-gradient(90deg, rgb(0, 117, 201), rgb(0, 196, 179));
+}
+
 nav {
     display: grid;
     min-height: 100px;
@@ -16,7 +21,7 @@ nav {
 
 #logo {
     display: block;
-    margin-top: 35px;
+    margin-top: 55px;
     /* justify-content: start;
     align-content: center;
     font-family: "Open Sans", sans-serif;
@@ -27,7 +32,7 @@ nav {
 }
 
 .logo span {
-    color: #0474bc;
+    color: rgb(0, 117, 201);
 }
 
 #links {
@@ -36,7 +41,7 @@ nav {
     align-content: center;
     grid-auto-flow: column;
     grid-gap: 1.5em;
-    margin-top: 30px;
+    margin-top: 36px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -49,7 +54,7 @@ nav {
 }
 
 #links a:hover {
-    color: rgb(21, 132, 175);
+    color: rgb(0, 117, 201);
 }
 
 

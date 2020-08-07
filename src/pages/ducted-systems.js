@@ -15,14 +15,21 @@ const DuctedPage = () => (
     <div className="body-wrapper ducted-systems">
       <section>
         <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
+          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
+            <span style={{ maxHeight: 305 }}>
+              {" "}
+              <StaticImage
+                filename="Home-Comfort-Air-WHITE-1400.png"
+                alt="home comfort air image"
+              />
+            </span>
             Ducted air conditioning systems
           </h1>
         </div>
 
-        <div className="grid-col-2 split-systems-top-col">
+        <div className="grid-col-2 ducted-systems-top-col">
           <div>
-            <h3 className="h5 fw-600 px-20 mt-5">ENTIRE HOME SOLUTION</h3>
+            <h3 className="h5 fw-600 px-20">ENTIRE HOME SOLUTION</h3>
             <p className="lead-20 px-20">
               Ducted air conditioning system provides discreet comfort all year
               round, with reverse cycle heating and cooling technology. Designed

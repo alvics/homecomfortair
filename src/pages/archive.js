@@ -6,10 +6,8 @@ import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
 import Form from "../components/quoteForm"
 import SEO from "../components/seo"
-import MideaProducts from "../components/Products/MideaProducts"
-import CarrierProducts from "../components/Products/CarrierProducts"
-import ToshibaProducts from "../components/Products/Toshiba"
-import SamsungProducts from "../components/Products/SamsungProducts"
+import AllSplitSystems from "../components/Products/AllSplitSystems"
+
 import RoomSizeTable from "../components/RoomSize"
 
 const ProductsPage = () => {
@@ -33,75 +31,7 @@ const ProductsPage = () => {
               <p style={{ fontSize: 12 }}>Showing 27 products</p>
             </div>
             <div className="split-system-archive">
-              <div className="grid-col-2 mb-2">
-                <h3
-                  className="bg-light h6 fw-600 cap mt-2 text-center border rounded"
-                  style={{ padding: `1.3rem 0` }}
-                >
-                  Supply and Install Midea
-                  <br />{" "}
-                  <span className="lead cam">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
-                <StaticImage
-                  filename="midea-add.png"
-                  alt="home comfort air image"
-                />
-              </div>
-
-              <MideaProducts />
-
-              <div className="my-3 grid-col-2 text-center">
-                <StaticImage
-                  filename="carrier-add.png"
-                  alt="home comfort air image"
-                />
-                <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
-                  style={{ padding: `1.3rem 0` }}
-                >
-                  Supply and Install Carrier
-                  <br />{" "}
-                  <span className="lead cam">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
-              </div>
-
-              <CarrierProducts />
-
-              <div className="my-3 grid-col-2 text-center">
-                <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
-                  style={{ padding: `1.3rem 0` }}
-                >
-                  Supply and Install Toshiba
-                  <br />{" "}
-                  <span className="lead cam">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
-                <StaticImage filename="4.png" alt="home comfort air image" />
-              </div>
-
-              <ToshibaProducts />
-
-              <div className="my-3 grid-col-2 text-center">
-                <StaticImage filename="3.png" alt="home comfort air image" />
-                <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
-                  style={{ padding: `1.3rem 0` }}
-                >
-                  Supply and Install Samsung
-                  <br />{" "}
-                  <span className="lead cam">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
-              </div>
-
-              <SamsungProducts />
+              <AllSplitSystems />
             </div>
           </div>
           <div className="col mt-5 archive-category">
