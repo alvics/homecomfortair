@@ -10,6 +10,7 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
+import RoomSizeTable from "../components/RoomSize"
 
 // Destructuring all the properties from the query
 
@@ -56,17 +57,20 @@ const SingleProduct = ({
               <h1 className="h3">{title}</h1>
 
               {price && saleprice ? (
-                <span className="price-single primary fw-600">
-                  SALE ${saleprice}.00
-                  <span className="GST-text">
+                <span>
+                  <span className="price-single primary fw-600">
+                    {" "}
+                    ${saleprice}.00{" "}
+                  </span>
+                  <span className="GST-text primary">
                     {""}Inc GST
                     <br />
-                    <span className="price-single primary fw-600">
-                      {expires}
-                    </span>
+                    <span className="fw-600">Sale ends: {expires}</span>
                     <br />
-                    <del>${price}.00 Inc GST </del>
                   </span>
+                  <small>
+                    Regular Price <del>${price}.00 Inc GST </del>
+                  </small>
                 </span>
               ) : (
                 <span className="price-single primary fw-600">
@@ -149,10 +153,10 @@ const SingleProduct = ({
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">{brand} </th>
-                        <td>{capacity}</td>
-                        <td>{heating}</td>
-                        <td>{roomsize}m²</td>
+                        <th scope="row">*{brand} </th>
+                        <td>*{capacity}</td>
+                        <td>*{heating}</td>
+                        <td>*{roomsize}m²</td>
                       </tr>
                     </tbody>
                   </table>
@@ -200,6 +204,17 @@ const SingleProduct = ({
                 </div>
                 <ReactMarkdown source={description} />
               </article>
+              <hr />
+              <div className="mt-3">
+                <h4>Choose the right size air conditioner for your space</h4>
+                <RoomSizeTable />
+                <small style={{ fontSize: 12 }}>
+                  This is a rough guide only, there are some factors to
+                  consider, large windows with direct sunlight, opened areas and
+                  so on. We can help you determine the right size air
+                  conditioner for your room.
+                </small>
+              </div>
             </div>
           </div>
           <div className="col-lg-4 single-products-side">
