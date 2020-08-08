@@ -1,5 +1,5 @@
 import React from "react"
-
+import StaticImage from "../components/StaticQueryImages"
 // import OrderForm from "./OrderForm"
 // import ProductTemplate from "../templates/product-template"
 
@@ -24,19 +24,26 @@ export default class Modal extends React.Component {
     return (
       <div
         className="modal fade"
-        id="exampleModal"
+        id="serviceModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-header bg-primary">
+            <div className="modal-header heading-box-color">
               <h5
-                className="modal-title text-white cap "
+                className="modal-title text-white cap fw-600"
                 id="exampleModalLabel"
               >
-                Book your Installation
+                <span>
+                  {" "}
+                  <StaticImage
+                    filename="HCA-avatar-WHITE-1400.png"
+                    alt="home comfort air image"
+                  />
+                </span>{" "}
+                Air Conditioning Service/Maintenance
               </h5>{" "}
               <button
                 type="button"
@@ -50,7 +57,8 @@ export default class Modal extends React.Component {
             <div className="modal-body">
               <br />
               <p className="font-italic">
-                We'll contact you, to confirm the date and time.
+                We'll contact you, to confirm the date and time for your A/C
+                service.
               </p>
               <form
                 className="grid-300 job-order-form"
@@ -117,8 +125,8 @@ export default class Modal extends React.Component {
 
                 {status === "SUCCESS" ? (
                   <p className="bg-info text-white p-1 rounded">
-                    Thanks for submitting your order, we'll get back to you
-                    shortly.
+                    Thanks for submitting your service request, we'll get back
+                    to you shortly.
                   </p>
                 ) : (
                   <button className="btn-- btn-orange--">Submit</button>

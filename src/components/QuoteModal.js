@@ -16,46 +16,40 @@ export default class Modal extends React.Component {
   render() {
     const { status } = this.state
 
-    const queryString = window.location.href
-      .replace(/(^\w+:|^)\/\//, "")
-      .split("localhost:8000/products/")
-      .join("")
-    console.log(queryString)
-
     return (
       <div
-        class="modal fade"
+        className="modal fade"
         id="quoteModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header heading-box-color">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header heading-box-color">
               <h5
-                class="modal-title text-white cap fw-600"
+                className="modal-title text-white cap fw-600"
                 id="exampleModalLabel"
               >
                 <span>
                   {" "}
                   <StaticImage
                     filename="HCA-avatar-WHITE-1400.png"
-                    alt="home comfort air image"
+                    alt="home comfort air logo"
                   />
                 </span>{" "}
                 Air Conditioning Quote
               </h5>{" "}
               <button
                 type="button"
-                class="close"
+                className="close"
                 data-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <br />
               <p className="font-italic">
                 Receive your free installation quote.
@@ -66,12 +60,6 @@ export default class Modal extends React.Component {
                 action="https://formspree.io/mleppppp"
                 method="POST"
               >
-                <input
-                  style={{ fontSize: 13 }}
-                  type="text"
-                  name="title"
-                  value={queryString}
-                />
                 <input
                   type="text"
                   name="first_name"
@@ -92,6 +80,62 @@ export default class Modal extends React.Component {
                   placeholder="Email:"
                 />
 
+                <div className="input-group mb-3">
+                  <select
+                    required="required"
+                    className="form-select form-control"
+                    id="inputGroupSelect02 terms"
+                  >
+                    <option selected>Select dwelling type</option>
+                    <option value="1">House - single story</option>
+                    <option value="2">House - double story</option>
+                    <option value="3">Apartment - high rise</option>
+                    <option value="3">Unit - duplex</option>
+                  </select>
+                </div>
+
+                <div className="input-group mb-3">
+                  <select
+                    required="required"
+                    className="form-select"
+                    id="inputGroupSelect02"
+                  >
+                    <option selected>Select dwelling type</option>
+                    <option value="1">Existing dwelling</option>
+                    <option value="2">New construction</option>
+                  </select>
+                </div>
+
+                <div className="list-group text-dark border p-2">
+                  <h5 className="h6 fw-600"> Single Room</h5>
+                  <label className="mb-3 pl-3">
+                    <input
+                      className="form-check-input mr-1"
+                      type="checkbox"
+                      value=""
+                    />
+                    Wall hung split system
+                  </label>
+                  <h5 className="h6 fw-600"> Multi Room</h5>
+                  <label className="mb-3 pl-3">
+                    <input
+                      className="form-check-input mr-1"
+                      type="checkbox"
+                      value=""
+                    />
+                    Multi-head split system
+                  </label>
+                  <h5 className="h6 fw-600"> Entire Home</h5>
+                  <label className="mb-3 pl-3">
+                    <input
+                      className="form-check-input mr-1"
+                      type="checkbox"
+                      value=""
+                    />
+                    Split ducted system
+                  </label>
+                </div>
+
                 <textarea
                   rows="4"
                   cols="20"
@@ -101,20 +145,25 @@ export default class Modal extends React.Component {
                 />
 
                 {status === "SUCCESS" ? (
-                  <p class="bg-info text-white p-1 rounded">
+                  <p className="bg-info text-white p-1 rounded">
                     Thanks for submitting, we'll get back to you shortly.
                   </p>
                 ) : (
                   <button className="btn-- btn-orange--">Submit</button>
                 )}
                 {status === "ERROR" && (
-                  <p class="bg-danger text-white p-1 rounded">
+                  <p className="bg-danger text-white p-1 rounded">
                     Ooops! There was an error.
                   </p>
                 )}
               </form>
             </div>
-            <div class="modal-footer bg-light"></div>
+            <div className="py-2 bg-light">
+              <StaticImage
+                filename="Home-Comfort-Air-logo-650.png"
+                alt="home comfort air logo"
+              />
+            </div>
           </div>
         </div>
       </div>
