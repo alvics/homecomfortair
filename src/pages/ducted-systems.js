@@ -5,30 +5,38 @@ import Layout from "../components/ui/Layouts/layout"
 import SEO from "../components/seo"
 import StaticImage from "../components/StaticQueryImages"
 import Form from "../components/quoteForm"
+import CTA from "../components/CTA"
 
 const DuctedPage = () => (
   <Layout>
     <SEO
       title="Ducted Systems Page"
-      keywords={[`Runaway bay`, `Biggera Waters`, `Coomera`]}
+      description={`HOMECOMFORTAIR installs daikin ducted system air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
+      keywords={[
+        `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+      ]}
     />
     <div className="body-wrapper ducted-systems">
       <section>
-        <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
-            <span style={{ maxHeight: 305 }}>
+        <div className="pt-2 ducted-systems-avatar rounded heading-box-color ">
+          <h1 className="h1 cam text-center text-white fw-600  p-3">
+            <div>
               {" "}
               <StaticImage
-                filename="Home-Comfort-Air-WHITE-1400.png"
+                filename="HCA-avatar-WHITE-1400.png"
                 alt="home comfort air image"
               />
-            </span>
+            </div>
             Ducted air conditioning systems
           </h1>
+          <div className="pb-3">
+            <CTA />
+          </div>
         </div>
 
         <div className="grid-col-2 ducted-systems-top-col">
-          <div>
+          <div class="" style={{ marginTop: `-20px` }}>
             <h3 className="h5 fw-600 px-20">ENTIRE HOME SOLUTION</h3>
             <p className="lead-20 px-20">
               Ducted air conditioning system provides discreet comfort all year
@@ -46,7 +54,7 @@ const DuctedPage = () => (
               option to suit your home and needs.
             </p>
           </div>
-          <div className="ducted-air">
+          <div className="ducted-air mt-2">
             <StaticImage filename="DUCTED-1400.jpg" alt="ducted air image" />
           </div>
         </div>

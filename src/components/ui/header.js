@@ -45,7 +45,7 @@ const Header = () => {
               className="col d-flex justify-content-end phone-nav"
             >
               <a
-                className="d-flex align-items-center text-shadow-1 btn btn-primary-- my-1 px-2 "
+                className="d-flex align-items-center text-shadow-1 btn btn-dark my-1 px-2 "
                 href="tel:0404602657"
               >
                 <span style={{ fontSize: 22 }} class="material-icons">

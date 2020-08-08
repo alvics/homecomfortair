@@ -13,6 +13,7 @@ import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
 import MideaPDF from "../images/Midea.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
+import CTA from "../components/CTA"
 
 const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
@@ -26,22 +27,25 @@ Split,systems,Ipswich,Brisbane,Specials`,
     />
     <div className="body-wrapper split-systems">
       <section>
-        <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
-            <span style={{ maxHeight: 305 }}>
+        <div className="pt-2 split-systems-avatar heading-box-color rounded ">
+          <h1 className="h1 cam text-center text-white fw-600 p-3">
+            <span>
               {" "}
               <StaticImage
-                filename="Home-Comfort-Air-WHITE-1400.png"
+                filename="HCA-avatar-WHITE-1400.png"
                 alt="home comfort air image"
               />
             </span>
             Split systems air conditioning
           </h1>
+          <div className="pb-3">
+            <CTA />
+          </div>
         </div>
 
         <div className="grid-col-2 split-systems-top-col">
           <div>
-            <h3 className="h5 fw-600 px-20">SINGLE ROOM SOLUTION</h3>
+            <h3 className="h5 fw-600 px-20 mt-3">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
               The split system air conditioner is a reliable and flexible
               comfort solution and ideal for living areas, apartment and single

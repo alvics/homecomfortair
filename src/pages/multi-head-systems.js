@@ -7,6 +7,7 @@ import StaticImage from "../components/StaticQueryImages"
 
 import Form from "../components/form"
 import SEO from "../components/seo"
+import CTA from "../components/CTA"
 
 const MultiHeadSystemsPage = () => (
   <Layout>
@@ -18,24 +19,29 @@ const MultiHeadSystemsPage = () => (
                 Split,systems,Ipswich,Brisbane,Specials`,
       ]}
     />
-    <div className="body-wrapper split-systems">
+    <div className="body-wrapper multi-systems">
       <section>
-        <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
-            <span>
+        <div className="pt-2 multi-systems-avatar heading-box-color rounded">
+          <h1 className="h1 cam text-center text-white fw-600 p-3">
+            <span style={{ maxHeight: 305 }}>
               {" "}
               <StaticImage
-                filename="Home-Comfort-Air-WHITE-1400.png"
+                filename="HCA-avatar-WHITE-1400.png"
                 alt="home comfort air image"
               />
             </span>
             Multi-Head Split Systems Air Conditioning
           </h1>
+          <div className="pb-3">
+            <CTA />
+          </div>
         </div>
 
         <div className="grid-col-2 multi-systems-top-col">
           <div>
-            <h3 className="h5 fw-600 px-20 cap">Multiple Rooms Solution</h3>
+            <h3 className="h5 fw-600 px-20 cap mt-3">
+              Multiple Rooms Solution
+            </h3>
             <p className="lead-20 px-20">
               Multi-head air conditioning system can connect up to five wall
               mounted indoor head units to one outdoor unit. Similar look and

@@ -1484,10 +1484,30 @@ textarea {
     max-width: 200px;
 }
 
+.footer-logo .gatsby-image-wrapper {
+    max-width: 220px;
+    margin: 0 auto;
+}
+
 .ducted-air-2 .gatsby-image-wrapper {
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
+}
+
+.heading-avatar .gatsby-image-wrapper {
+    max-width: 100px;
+}
+
+.split-systems-avatar .gatsby-image-wrapper,
+.ducted-systems-avatar .gatsby-image-wrapper,
+.multi-systems-avatar .gatsby-image-wrapper {
+    max-width: 170px;
+    margin: 0 auto;
+}
+
+.split-systems-top-col .gatsby-image-wrapper {
+    margin-top: -20px;
 }
 
 .archive-category a {

@@ -20,15 +20,27 @@ const ProductsPage = () => {
       <div className="container body-wrapper products-archive">
         <div className="row">
           <div className="col-lg-10">
-            <div>
-              <StaticImage
-                filename="splits-add-2.png"
-                alt="home comfort air image"
-              />
+            <div className="pt-3">
+              <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
+                <span style={{ maxHeight: 305 }}>
+                  {" "}
+                  <StaticImage
+                    filename="Home-Comfort-Air-WHITE-1400.png"
+                    alt="home comfort air image"
+                  />
+                </span>
+                Split Systems Air Conditioning
+              </h1>
             </div>
-            <h1 className="h5 fw-600 cap pt-3">
-              Split Systems Air Conditioning
-            </h1>
+            <div className="grid-col-2 my-4">
+              <h2 className="h5 fw-600  pt-3">
+                Split system air conditioning installation
+              </h2>
+              <Link to="/contact">
+                <button className="btn-- btn-green--">Free Quote</button>
+              </Link>
+            </div>
+
             <div className="text-right">
               <p style={{ fontSize: 12 }}>Showing 27 products</p>
             </div>

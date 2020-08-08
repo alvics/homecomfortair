@@ -76,11 +76,12 @@ const Footer = () => {
           }}
         >
           {" "}
-          <div className="h6 pt-20 text-white">
-            HOME COMFORT AIR{" "}
-            <span style={{ fontFamily: `'Caveat', cursive` }}>
-              the smart choice in air conditioning
-            </span>
+          <div className="footer-logo" style={{ paddingTop: 17 }}>
+            <StaticImage
+              id="sensitive-img"
+              filename="Home-Comfort-Air-WHITE-600.png"
+              alt="ducted air image"
+            />
           </div>
         </div>
       </div>
@@ -140,11 +141,17 @@ const Footer = () => {
           </section>
         </div>
       </footer>
-      <div className="text-center">
-        <span style={{ fontSize: "12px" }}>
+
+      <div
+        className="text-center bg-dark"
+        style={{ borderTop: `1px solid #eee` }}
+      >
+        <span className="mt-2 pb-1 text-white" style={{ fontSize: "12px" }}>
           {" "}
           © {new Date().getFullYear()}
-          <a href="https://ewebdesigns.com.au">Powered by | eWebDesigns</a>
+          <a className="mt-2 text-white pl-1" href="https://ewebdesigns.com.au">
+            Powered by | eWebDesigns
+          </a>
         </span>
       </div>
     </>

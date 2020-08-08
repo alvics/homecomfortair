@@ -18,26 +18,17 @@ Split,systems,Ipswich,Brisbane,Maintenance,Fix,Repair`,
       />
       <div style={{ textAlign: "center" }}>
         <code className="px-2">Does your air conditioner need attention?</code>
-        <div className="heading-box-color rounded row p-2 d-flex align-items-center mb-2">
-          <div className="col pt-2 px-4">
-            <div className="" style={{ maxWidth: 300 }}>
+        <div className="pt-2 multi-systems-avatar heading-box-color rounded">
+          <h1 className="h1 cam text-center text-white fw-600 p-3">
+            <span style={{ maxHeight: 305 }}>
               {" "}
               <StaticImage
                 filename="HCA-avatar-WHITE-1400.png"
                 alt="home comfort air image"
               />
-            </div>
-          </div>
-          <div className="col-6">
-            <div className="" style={{ maxWidth: 300 }}>
-              {" "}
-              <StaticImage
-                filename="HCA-avatar-WHITE-1400.png"
-                alt="home comfort air image"
-              />
-            </div>
-            <h1 className="h2 fw-600 mt-2 ">Book your Service</h1>
-          </div>
+            </span>
+            Book your service
+          </h1>
         </div>
         <p className="font-italic">
           For breakdowns, repairs and service. <br />
