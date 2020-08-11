@@ -94,19 +94,44 @@ export default class Modal extends React.Component {
                   </select>
                 </div>
 
-                <div className="input-group mb-3">
-                  <select
-                    required="required"
-                    className="form-select"
-                    id="inputGroupSelect02"
-                  >
-                    <option selected>Select dwelling type</option>
-                    <option value="1">Existing dwelling</option>
-                    <option value="2">New construction</option>
-                  </select>
+                <div className="border p-2 rounded">
+                  <h5 className="h6 fw-600"> Your Home </h5>
+                  <div className="form-check mt-2 pl-5">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label
+                      className="form-check-label text-dark"
+                      for="flexRadioDefault1"
+                    >
+                      Existing dwelling
+                    </label>
+                  </div>
+
+                  <div className="form-check mb-4 pl-5">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label
+                      className="form-check-label text-dark"
+                      for="flexRadioDefault1"
+                    >
+                      New construction
+                    </label>
+                  </div>
                 </div>
 
                 <div className="list-group text-dark border p-2">
+                  <div className="mb-2">
+                    <h4 className="h5 fw-600 mb-2"> Air Conditioning</h4>
+                  </div>
+
                   <h5 className="h6 fw-600"> Single Room</h5>
                   <label className="mb-3 pl-3">
                     <input

@@ -1027,7 +1027,9 @@ aside {
 /* IMAGES */
 
 .home-comfort-air-img .gatsby-image-wrapper,
-.about-us .gatsby-image-wrapper {
+.about-us .gatsby-image-wrapper,
+.ducted-air .gatsby-image-wrapper,
+.tabs-img .gatsby-image-wrapper {
     border-radius: 8px;
 }
 
@@ -1470,7 +1472,8 @@ input {
 }
 
 input,
-textarea {
+textarea,
+select {
     border-color: #2193b0 !important;
 }
 

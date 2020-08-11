@@ -55,11 +55,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
               solution to take comfort all year round.
             </p>
             <p className="lead-20 px-20">
-              Split systems range from 2.5kW for small bedrooms, 7kW units for
-              your average lounge room, to the big 10kW units that cool larger
-              open style living, lounge and dinning rooms. Most split systems
-              are reverse cycle, meaning that you can switch between heating and
-              cooling modes to set your desired temperature.
+              We supply and install split systems from 2.5kW for small bedrooms,
+              7kW units for your average lounge room, to the big 10kW units that
+              cool larger open style living, lounge and dinning rooms. Most
+              split systems are reverse cycle, meaning that you can switch
+              between heating and cooling modes to set your desired temperature.
             </p>
           </div>
           <div>
@@ -205,7 +205,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </a>
                 </p>
               </div>
-              <div>
+              <div className="tabs-img">
                 <StaticImage
                   className="rounded"
                   filename="toshiba-mainlg.jpg"
@@ -219,7 +219,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             <h5 className="fw-600 cap mt-3 pb-2 ml-2">Samsung Split Systems</h5>
             <SamsungProducts />
             <div className="grid-col-2 pt-20">
-              <div>
+              <div className="tabs-img">
                 <StaticImage
                   filename="samsung-main.jpg"
                   alt="ducted air image"
@@ -280,7 +280,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   ></iframe>
                 </p>
               </div>
-              <div>
+              <div className="tabs-img">
                 <StaticImage filename="carrier-1.jpg" alt="ducted air image" />
               </div>
             </div>
@@ -291,7 +291,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
             <MideaProducts />
             <div className="grid-col-2 pt-20">
-              <div>
+              <div className="tabs-img">
                 <StaticImage
                   filename="midea-main.jpg"
                   alt="midea split system air image"
@@ -324,7 +324,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
       <section>
         <h2 className="cam text-center secondary fw-600 heading-box-color rounded py-3 mt-3">
-          Receive a quick quote
+          Receive a free quote
         </h2>
         <div className="grid-col-2">
           <div>

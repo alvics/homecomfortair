@@ -31,7 +31,7 @@ export default class Modal extends React.Component {
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-header bg-primary">
+            <div className="modal-header heading-box-color">
               <h5
                 className="modal-title text-white cap "
                 id="exampleModalLabel"

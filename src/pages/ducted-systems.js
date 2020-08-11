@@ -48,10 +48,10 @@ Split,systems,Ipswich,Brisbane,Specials`,
               return air grill (usually in the hallway).
             </p>
             <p className="lead-20 px-20">
-              Ducted systems range from 5.5kW used for small zoned rooms, 14kW
-              for the average 4 bedroom, 2 living area's home, to the big 24kW
-              unit that can handle larger homes.Talk to us to find the best
-              option to suit your home and needs.
+              We supply and instal ducted systems from 5.5kW used for small
+              zoned rooms, 14kW for the average 4 bedroom, 2 living area's home,
+              to the big 24kW unit that can handle larger homes.Talk to us to
+              find the best option to suit your home and needs.
             </p>
           </div>
           <div className="ducted-air mt-2">
@@ -68,12 +68,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <div>
             <h3 className="h5 fw-600 px-20 cap">Why Ducted Air?</h3>
             <p className="lead-20 px-20">
-              If you're looking to control the temperature of the entire home,
-              then a ducted air conditioning system will be the most effective
-              and efficient way. It's more effective in cooling or heating your
-              home by maintaining a consistent temperature throughout multiple
-              rooms in a discreet and quiet way. However, if you're only looking
-              to cool or heat one or two rooms in your home, a wall mounted
+              Ducted systems can be customised to suit your requirements. If
+              you're looking to control the temperature of the entire home, then
+              a ducted air conditioning system will be the most effective and
+              efficient way. It's more effective in cooling or heating your home
+              by maintaining a consistent temperature throughout multiple rooms
+              in a discreet and quiet way. However, if you're only looking to
+              cool or heat one or two rooms in your home, a wall mounted
               <Link to="spit-systems"> split system air conditioning</Link>{" "}
               would be more suitable.
             </p>
@@ -82,7 +83,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section className="mt-5">
-        <div className="grid-col-2 split-systems-top-col">
+        <div className="grid-col-2 ducted-systems-top-col">
           <div>
             <h3 className="h5 fw-600 px-20 mt-5 cap">
               Cost of running a ducted system
@@ -99,12 +100,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <li>*The temperature set</li>
             </ul>
             <p className="lead-20 px-20">
-              Ducted air conditioning is an important investment, and technology
-              plays a big part in choosing the right system. We only install the
-              leading brands for a number of reasons, energy efficiency, greater
-              life span, durability, advanced technology and guaranteed support.
-              Give us a call when you're thinking about ducted air conditioning
-              system. Home Comfort Air the smart choice in air conditioning.
+              Ducted air conditioning is an important investment in your home,
+              and technology plays a big part when choosing the right system. We
+              only install the leading brands for a number of reasons, energy
+              efficiency, greater life span, durability, advanced technology and
+              guaranteed support. Give us a call when you're thinking about
+              ducted air conditioning system for your home. Home Comfort Air,
+              residential air conditioning specialists.
             </p>
           </div>
           <div className="ducted-air">
@@ -115,7 +117,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
       <section>
         <h2 className="cam text-center secondary fw-600 heading-box-color rounded py-3 mt-3">
-          Receive a quick quote
+          Receive a free quote
         </h2>
         <div className="grid-col-2">
           <div>

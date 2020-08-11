@@ -37,10 +37,9 @@ const Hero = props => {
                     </span>
                   </h2>
                   <p className="px-5">
-                    Are you looking for air conditioning or need your air
-                    conditioner installed? We install all the major brands
-                    throughout south east Queensland, from Ipswich, Brisbane to
-                    the Gold Coast.
+                    Residential air conditioning experts, we supply and install
+                    all major brands throughout south east Queensland, from
+                    Ipswich, Brisbane and the Gold Coast.
                   </p>
                   <div className="pb-3">
                     <Link to="/job-order">
@@ -66,7 +65,7 @@ const Hero = props => {
                     Request a quote
                   </span>
                   <i className="text-center text-blue">
-                    We install all major brands
+                    If you're looking for new air conditioning
                   </i>
                   <MyForm />
                 </div>

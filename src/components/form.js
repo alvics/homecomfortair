@@ -23,32 +23,43 @@ export default class MyForm extends React.Component {
           type="text"
           name="first_name"
           placeholder="Name:"
+          required
         />
         <input
           style={{ fontWeight: `bold` }}
           type="text"
           name="phone"
           placeholder="Phone:"
+          required
         />
         <input
           style={{ fontWeight: `bold` }}
           type="email"
           name="email"
           placeholder="Email:"
+          required
         />
-
-        <textarea
+        <input
           style={{ fontWeight: `bold` }}
-          rows="4"
-          cols="20"
-          name="message"
-          placeholder="Message:"
+          type="text"
+          name="address"
+          placeholder="Street:"
+          required
+        />
+        <input
+          style={{ fontWeight: `bold` }}
+          type="text"
+          name="suburb"
+          placeholder="Suburb:"
+          required
         />
 
         {status === "SUCCESS" ? (
-          <p>Thanks for submitting a quote, we'll get back to you shortly.</p>
+          <p>
+            Thanks for submitting your appraisal, we'll get back to you shortly.
+          </p>
         ) : (
-          <button className="btn-- btn-orange--">Submit</button>
+          <button className="btn-- btn-orange--">Book now</button>
         )}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>

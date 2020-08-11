@@ -5,7 +5,7 @@ import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
 
-import Form from "../components/form"
+import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 import CTA from "../components/CTA"
 
@@ -51,10 +51,10 @@ const MultiHeadSystemsPage = () => (
               without having multiple outdoor units.
             </p>
             <p className="lead-20 px-20">
-              Multi-head systems range from 5.0kW units that connect 2 indoor
-              units to one outdoor, to 12kW units which can connect 5 indoor
-              units to one outdoor. Talk to us to find the best option to suit
-              your home and needs.
+              Home Comfort Air installs Multi-head systems from 5.0kW units that
+              connect 2 indoor units to one outdoor, to 12kW units which can
+              connect 5 indoor units to one outdoor. Talk to us to find the best
+              option to suit your home and needs.
             </p>
           </div>
           <div className="ducted-air">
@@ -123,7 +123,7 @@ const MultiHeadSystemsPage = () => (
 
       <section>
         <h2 className="cam text-center secondary fw-600 heading-box-color rounded py-3 mt-3">
-          Receive a quick quote
+          Receive a free quote
         </h2>
         <div className="grid-col-2">
           <div>

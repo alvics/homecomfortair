@@ -8,7 +8,7 @@ import Layout from "../components/ui/Layouts/layout"
 
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import MyForm from "../components/quoteForm"
+import MyForm from "../components/form"
 import StaticImage from "../components/StaticQueryImages"
 
 // import SimpleSlider from "../components/HeroCarousel"
@@ -224,10 +224,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Call <a href="tel:0404602657">0404 602 657</a>
                 </p>
               </div>
-              <div className="form-quote">
-                <h4 className="heading-box-color p-20 rounded">
-                  Get a quick quote
+              <div className="form-quote mt-5">
+                <h4 className="heading-box-color p-20 rounded cam">
+                  Free in home appraisal
                 </h4>
+                <i></i>
                 <MyForm />
               </div>
             </div>
