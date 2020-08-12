@@ -17,7 +17,7 @@ export default class Modal extends React.Component {
 
     const queryString = window.location.href
       .replace(/(^\w+:|^)\/\//, "")
-      .split("localhost:8000/products/")
+      .split("localhost:8000/")
       .join("")
     console.log(queryString)
 
@@ -33,7 +33,7 @@ export default class Modal extends React.Component {
           <div className="modal-content">
             <div className="modal-header heading-box-color">
               <h5
-                className="modal-title text-white cap fw-600"
+                className="modal-title text-white text-center cap fw-600"
                 id="exampleModalLabel"
               >
                 <span>
@@ -73,19 +73,25 @@ export default class Modal extends React.Component {
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
                   />
-                  <label className="form-check-label" for="flexRadioDefault1">
+                  <label
+                    className="form-check-label text-dark"
+                    for="flexRadioDefault1"
+                  >
                     Morning (between 8-11am)
                   </label>
                 </div>
 
                 <div className="form-check mb-4">
                   <input
-                    className="form-check-input"
+                    className="form-check-input "
                     type="radio"
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
                   />
-                  <label className="form-check-label" for="flexRadioDefault1">
+                  <label
+                    className="form-check-label text-dark"
+                    for="flexRadioDefault1"
+                  >
                     Afternoon (between 12-4pm)
                   </label>
                 </div>

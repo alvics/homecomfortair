@@ -66,7 +66,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
         <div className="body-wrapper">
           <section className="section-1">
             <div className="heading-box-color heading-avatar heading-avatar rounded row p-2 d-flex align-items-center mb-2">
-              <div className="col-2 pt-2 px-4 m-auto">
+              <div className="col-sm-3 col-lg-2 pt-2 px-4 m-auto">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
                   alt="home comfort air image"
@@ -151,7 +151,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <div className="card">
-                <Link to="/breakdowns">
+                <Link to="/service">
                   <div className="card-top">
                     <StaticImage
                       filename="ducted-2.jpg"
@@ -159,11 +159,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
                     />
                   </div>
                   <div className="card-heading">
-                    <h3 className="fw-600 text-dark">A/C Breakdowns</h3>
+                    <h3 className="fw-600 text-dark">A/C Service</h3>
                   </div>
                   <div className="card-body--">
                     <p className="card-text lead">
-                      Fast service for refrigeration and air conditioners
+                      Fast service for split systems air conditioners
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -175,7 +175,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           </section>
           <section className="section-2">
             <div className="heading-box-color heading-avatar rounded row p-2 d-flex align-items-center mb-2">
-              <div className="col-2 pt-2 px-4">
+              <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
                   alt="home comfort air image"
@@ -183,7 +183,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
               <div className="col">
                 <h3 className="h2 fw-600 mt-2 ">
-                  Split Systems Air Conditioning, Cooling & Heating
+                  Split Systems Air Conditioning
                 </h3>
               </div>
             </div>
@@ -235,7 +235,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           </section>
           <section className="section-3">
             <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center mb-2">
-              <div className="col-2 pt-2 px-4">
+              <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
                   alt="home comfort air image"
@@ -269,12 +269,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   <p className="mt-20 lead px-3">
                     We service the Gold Coast, Ipswich and Brisbane areas. Our
                     staff are licensed experts when it comes to installations or
-                    <Link to="/breakdowns"> repairs</Link>, and we offer a 5
-                    year warranty on the workmanship of new installation. We
-                    pride ourselves on 100% customer satisfaction, so you know
-                    you're in the right hands when choosing Home Comfort Air. We
-                    operate 6 days a week and can be contacted between the hours
-                    of 8am and 5pm.
+                    <Link to="/service"> split system service</Link>, and we
+                    offer a 5 year warranty on the workmanship of new
+                    installation. We pride ourselves on 100% customer
+                    satisfaction, so you know you're in the right hands when
+                    choosing Home Comfort Air. We operate 6 days a week and can
+                    be contacted between the hours of 8am and 5pm.
                   </p>
                 </div>
               </div>

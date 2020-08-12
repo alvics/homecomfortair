@@ -122,10 +122,20 @@ const MultiHeadSystemsPage = () => (
       </section>
 
       <section>
-        <h2 className="cam text-center secondary fw-600 heading-box-color rounded py-3 mt-3">
-          Receive a free quote
-        </h2>
+        <div className="heading-box-color grid-col-2  heading-avatar rounded p-2 my-3 mx-0">
+          <div className="">
+            <StaticImage
+              filename="HCA-avatar-WHITE-1400.png"
+              alt="home comfort air image"
+            />
+          </div>
+
+          <div className="text-center">
+            <h3 className="h2 fw-600 mt-2 ">Receive A free Quote</h3>
+          </div>
+        </div>
         <div className="grid-col-2">
+          <Form />
           <div>
             <h5 className=" px-20 cap fw-600">
               Multi-Head System Installation Quotes
@@ -140,8 +150,6 @@ const MultiHeadSystemsPage = () => (
               "You could also leave the best suited time to call you back".
             </p>
           </div>
-
-          <Form />
         </div>
       </section>
 

@@ -54,8 +54,8 @@ const ProductsPage = () => {
             </p>
             <p className="lead-20 px-20">
               If your looking to get the job done right by professionals, then
-              give us a call on 0404 602 657 your satisfaction, is our
-              guarantee!{" "}
+              give us a call on 0404 602 657 HOME COMFORT AIR, residential air
+              conditioning experts. Your satisfaction, is our guarantee!{" "}
             </p>
             <div className="px-3">
               <StaticImage

@@ -20,7 +20,7 @@ const RoomSizeTable = () => {
             <td>3.2kW</td>
           </tr>
           <tr>
-            <th scope="row">Small</th>
+            <th scope="row">Sm/Med</th>
             <td>5.0m x 5.0m (25 m²)</td>
             <td>3.5/3.7kW</td>
             <td>4.3kW</td>
@@ -32,7 +32,7 @@ const RoomSizeTable = () => {
             <td>6.0kW</td>
           </tr>
           <tr>
-            <th scope="row">Medium</th>
+            <th scope="row">Med/lg</th>
             <td>6.3m x 6.3m (40 m²)</td>
             <td>6.0kW</td>
             <td>7.1kW</td>
@@ -44,7 +44,7 @@ const RoomSizeTable = () => {
             <td>8.0kW</td>
           </tr>
           <tr>
-            <th scope="row">Large</th>
+            <th scope="row">XL Large</th>
             <td>7.7m x 7.7m (55 m²)</td>
             <td>8.0/9.2kW</td>
             <td>9.0/10.0kW</td>

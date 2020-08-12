@@ -7,9 +7,9 @@ import Image from "gatsby-image"
 
 const getImage = graphql`
   {
-    fluid: file(relativePath: { eq: "logo.jpg" }) {
+    fluid: file(relativePath: { eq: "Home-Comfort-Air-logo-650.png" }) {
       childImageSharp {
-        fluid(maxWidth: 140, quality: 100) {
+        fluid(maxWidth: 200, quality: 100) {
           src
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
@@ -21,7 +21,7 @@ const getImage = graphql`
 
 const MenuIcon = styled.button`
   position: fixed;
-  top: 2rem;
+  top: 3rem;
   right: 2rem;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ const MenuLinks = styled.nav`
 `
 
 const Logo = styled.div`
-  margin: 20px 0 0 20px;
+  margin: 58px 0 0 20px;
 `
 
 const HeaderNew = () => {
@@ -117,13 +117,16 @@ const HeaderNew = () => {
       <MenuLinks nav={nav}>
         <ul>
           <li>
-            <Link to="/">Home mobile</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Split Systems</Link>
+            <Link to="/split-systems">Split Systems</Link>
           </li>
           <li>
-            <Link to="/">Specials</Link>
+            <Link to="/ducted-systems">Ducted</Link>
+          </li>
+          <li>
+            <Link to="/specials">Specials</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

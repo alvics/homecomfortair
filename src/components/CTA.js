@@ -12,7 +12,7 @@ const Hero = props => {
   return (
     <>
       <div className="col d-flex align-items-center">
-        <div className="pb-3 m-auto">
+        <div className="pb-3 m-auto CTA-btn">
           <button
             type="button"
             data-toggle="modal"

@@ -43,7 +43,7 @@ const SingleProduct = ({
       <section className="SingleProduct container pt-3">
         <Breadcrumb
           crumbs={crumbs}
-          crumbSeparator=" - "
+          crumbSeparator=" / "
           crumbLabel={brand + " " + capacity}
         />
         <div className="row">

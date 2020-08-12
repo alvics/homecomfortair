@@ -27,19 +27,23 @@ export default class Modal extends React.Component {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header heading-box-color">
-              <h5
-                className="modal-title text-white cap fw-600"
-                id="exampleModalLabel"
-              >
-                <span>
-                  {" "}
-                  <StaticImage
-                    filename="HCA-avatar-WHITE-1400.png"
-                    alt="home comfort air logo"
-                  />
-                </span>{" "}
-                Air Conditioning Quote
-              </h5>{" "}
+              <div className="m-auto">
+                {" "}
+                <h5
+                  className="modal-title text-white cap fw-600"
+                  id="exampleModalLabel"
+                >
+                  <span>
+                    {" "}
+                    <StaticImage
+                      filename="HCA-avatar-WHITE-1400.png"
+                      alt="home comfort avatar logo"
+                    />
+                  </span>{" "}
+                  Air Conditioning Quote
+                </h5>
+              </div>
+
               <button
                 type="button"
                 className="close"

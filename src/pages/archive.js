@@ -50,7 +50,7 @@ const ProductsPage = () => {
             </p>
             <hr />
             <p style={{ fontSize: 13 }}>
-              <Link to="/breakdowns">Service / Repairs</Link>
+              <Link to="/service">Service / Maintenance</Link>
             </p>
             <hr />
           </div>

@@ -37,21 +37,23 @@ const Header = () => {
       >
         <div className="container text-white">
           <div className="row">
-            <div className="col d-flex-justify-content-start service-area text-shadow-1 mt-1">
+            <div className="col d-flex-justify-content-start service-area text-shadow-1 pt-1 mt-1">
               Ipswich | Brisbane | Gold Coast
             </div>
             <div
               style={{ PaddingBottom: 5 }}
-              className="col d-flex justify-content-end phone-nav"
+              className="col-4 d-flex justify-content-end phone-nav"
             >
               <a
-                className="d-flex align-items-center text-shadow-1 btn btn-dark my-1 px-2 "
+                className="d-flex align-items-center text-shadow-1 btn btn-green-- btn-sm my-1 px-2 "
                 href="tel:0404602657"
               >
                 <span style={{ fontSize: 22 }} class="material-icons">
                   local_phone
                 </span>{" "}
-                Call today 0404 602 657
+                <span className="phone-num" style={{ whiteSpace: `nowrap` }}>
+                  Call today 0404 602 657
+                </span>
               </a>
             </div>
           </div>
@@ -86,7 +88,7 @@ const Header = () => {
                   <Link to="/split-systems">Split Systems</Link>
                   <Link to="/ducted-systems">Ducted Systems</Link>
                   <Link to="/multi-head-systems">Multi-Head Systems </Link>
-                  <Link to="/products">Supply & Install </Link>
+                  <Link to="/products">Supply & Install Price</Link>
                 </div>
               </span>
             </Link>
