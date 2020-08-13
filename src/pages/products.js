@@ -11,17 +11,18 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import RoomSizeTable from "../components/RoomSize"
+import CTA from "../components/CTA"
 
 const ProductsPage = () => {
   return (
     <Layout>
       <SEO title="Product Archive Page" />
 
-      <div className="container body-wrapper products-archive">
+      <div className="container body-wrapper">
         <div className="row">
           <div className="col-lg-10">
-            <div className="pt-3">
-              <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded p-3">
+            <div className="pt-3  heading-box-color rounded pb-3">
+              <h1 className="h2 cam text-center text-white fw-600  p-3">
                 <span style={{ maxHeight: 305 }}>
                   {" "}
                   <StaticImage
@@ -31,20 +32,13 @@ const ProductsPage = () => {
                 </span>
                 Split Systems Air Conditioning
               </h1>
-            </div>
-            <div className="grid-col-2 my-4">
-              <h2 className="h5 fw-600  pt-3">
-                Split system air conditioning installation
-              </h2>
-              <Link to="/contact">
-                <button className="btn-- btn-green--">Free Quote</button>
-              </Link>
+              <CTA />
             </div>
 
             <div className="text-right">
               <p style={{ fontSize: 12 }}>Showing 27 products</p>
             </div>
-            <div className="split-system-archive">
+            <div className="split-system-archive products-archive">
               <div className="grid-col-2 mb-2">
                 <h3
                   className="bg-light h6 fw-600 cap mt-2 text-center border rounded"
@@ -151,8 +145,8 @@ const ProductsPage = () => {
           </div>
 
           <div className="form-quote mt-5">
-            <h4 className="heading-box-green p-20 rounded">
-              Get a quick quote
+            <h4 className="h5 text-white text-center fw-600 cap heading-box-color p-20 rounded">
+              Get a free quote
             </h4>
             <Form />
           </div>

@@ -15,12 +15,6 @@ export default class Modal extends React.Component {
   render() {
     const { status } = this.state
 
-    const queryString = window.location.href
-      .replace(/(^\w+:|^)\/\//, "")
-      .split("localhost:8000/")
-      .join("")
-    console.log(queryString)
-
     return (
       <div
         className="modal fade"
@@ -37,14 +31,15 @@ export default class Modal extends React.Component {
                 id="exampleModalLabel"
               >
                 <span>
-                  {" "}
                   <StaticImage
                     filename="HCA-avatar-WHITE-1400.png"
                     alt="home comfort air image"
                   />
-                </span>{" "}
-                Air Conditioning Service/Maintenance
-              </h5>{" "}
+                </span>
+                Air Conditioning <br />
+                <span className="h6 text-white">Service/Maintenance</span>
+              </h5>
+
               <button
                 type="button"
                 className="close"
@@ -57,8 +52,8 @@ export default class Modal extends React.Component {
             <div className="modal-body">
               <br />
               <p className="font-italic">
-                We'll contact you, to confirm the date and time for your A/C
-                service.
+                Book your split system service and we'll contact you to confirm
+                your date and time.
               </p>
               <form
                 className="grid-300 job-order-form"
@@ -95,12 +90,7 @@ export default class Modal extends React.Component {
                     Afternoon (between 12-4pm)
                   </label>
                 </div>
-                <input
-                  style={{ fontSize: 13 }}
-                  type="text"
-                  name="title"
-                  value={queryString}
-                />
+
                 <input
                   type="text"
                   name="first_name"
@@ -144,7 +134,12 @@ export default class Modal extends React.Component {
                 )}
               </form>
             </div>
-            <div className="modal-footer bg-light"></div>
+            <div className="py-2 bg-light hca-logo-modal-footer">
+              <StaticImage
+                filename="Home-Comfort-Air-logo-650.png"
+                alt="home comfort air logo"
+              />
+            </div>
           </div>
         </div>
       </div>

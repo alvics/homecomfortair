@@ -225,7 +225,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 </p>
               </div>
               <div className="form-quote mt-5">
-                <h4 className="heading-box-color p-20 rounded cam">
+                <h4 className="h6 text-center text-white fw-600 heading-box-color p-20 rounded cap">
                   Free in home appraisal
                 </h4>
                 <i></i>

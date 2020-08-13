@@ -81,9 +81,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             />
           </div>
           <div className="col">
-            <h2 className="h2 fw-600 mt-2 ">
-              Residential Air Conditioning Professionals
-            </h2>
+            <h2 className="h2 fw-600 mt-2 ">Brands We Recommend</h2>
           </div>
         </div>
         <Tabs>
@@ -333,49 +331,69 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section>
-        <div className="heading-box-color grid-col-2  heading-avatar rounded p-2 my-3 mx-0">
-          <div className="">
+        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center mb-2">
+          <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
               alt="home comfort air image"
             />
           </div>
-
-          <div className="text-center">
-            <h3 className="h2 fw-600 mt-2 ">Receive A free Quote</h3>
+          <div className="col">
+            <h3 className="h2 fw-600 mt-2">
+              Residential Air Conditioning Solution
+            </h3>
           </div>
         </div>
-        <div className="grid-col-2">
-          <Form />
-          <div>
+        <section>
+          <div className="pt-3 mb-4">
             <h5 className=" px-20 cap fw-600">
-              Split System Installation Quotes
+              Split System Installation Service
             </h5>
             <p className="px-20">
               HOME COMFORT AIR can supply and fully install all brands of split
-              system air conditioners for your home or office, and if you've
-              already purchased a split system and are only looking for
-              installation, we can provide our "installation only service" for
-              you as well.
+              system air conditioners for your home or office. Whether you're a
+              builder of 300+ homes a year to a single owner builder looking for
+              the rough in and fit off air conditioning service to an existing
+              home needing full installation, we've got air conditioning
+              solutions for all requirements. Already purchased a split system
+              and are only looking for installation ? We can provide our
+              "installation only service" for you as well.
             </p>
-            <hr />
-            <h5 className=" px-20 cap fw-600">
-              Replacement Split System Air Conditioning
+            <h5 className=" px-20 cap fw-600 mt-4">
+              Replacement Split System Air Conditioning Service
             </h5>
             <p className="px-20">
-              Installation of a new air conditioner and the disposal of your
-              existing air conditioning split system service. We'll beat any
-              written quote on the replacement split system air conditioning in
-              your home. HOME COMFORT AIR, residential air conditioning experts,
-              simply submit your details, and we'll contact you back shortly.
+              Our replacement air conditioning service is widely used by
+              property managers in real estate to home owners throughout South
+              East Queensland. Our service includes the decommissioning and
+              disposal of your old air conditioning system, through to
+              installing, commissioning and testing of the new split system.
+              Once the split system has been checked and functioning correctly,
+              we'll go through the use of the remote controller to operate your
+              new air conditioning system. <br />
+              HOME COMFORT AIR, residential air conditioning experts.
             </p>
-            <p className="font-italic px-20">
-              "You could also leave the best suited time to call you back".
-            </p>
+          </div>
+        </section>
+
+        <div className="row">
+          <div className="col-4 split-systems-wrapper">
+            <h4 className="h5 p-3 heading-box-color text-white rounded cap fw-600 mt-2">
+              Receive a Free Quote
+            </h4>
+            <Form />
+          </div>
+
+          <div className="col p-3">
+            <div className="tabs-img">
+              <StaticImage
+                filename="midea-main.jpg"
+                alt="midea split system air image"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <button className="btn">Go back</button>
     </div>
   </Layout>
 )

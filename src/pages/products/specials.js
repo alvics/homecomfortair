@@ -1,6 +1,8 @@
 // Display the list of products
 import React from "react"
 import { Link } from "gatsby"
+import StaticImage from "../../components/StaticQueryImages"
+import CTA from "../../components/CTA"
 
 import Layout from "../../components/ui/Layouts/layout"
 
@@ -15,18 +17,26 @@ const SpecialsComp = () => {
   return (
     <Layout>
       <SEO title="Special Deals" />
-      <div className="container body-wrapper">
-        <div className="pt-3">
-          <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
-            Monthly Air Conditioning Specials
+      <div className="container body-wrapper ducted-systems">
+        <div className="pt-3 ducted-systems-avatar  heading-box-color rounded pb-3">
+          <h1 className="h2 cam text-center text-white fw-600  p-3">
+            <span style={{ maxHeight: 305 }}>
+              {" "}
+              <StaticImage
+                filename="HCA-avatar-WHITE-1400.png"
+                alt="home comfort air avatar white image"
+              />
+            </span>
+            Split Systems Air Conditioning Specials
           </h1>
+          <CTA />
         </div>
 
         <div className="row">
           <div className="col-lg-8">
-            <h3 className="h5 cap my-3 fw-600">
+            <h2 className="h5 cap my-3 fw-600">
               latest Air Conditioning Deals
-            </h3>
+            </h2>
             <Specials />
           </div>
           <div className="col-lg-4">
@@ -37,8 +47,6 @@ const SpecialsComp = () => {
           </div>
         </div>
       </div>
-
-      <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }

@@ -4,15 +4,20 @@ import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import Background from "../components/Background"
+import StaticImage from "../components/StaticQueryImages"
 
 import SEO from "../components/seo"
 
 const Contact = () => (
   <Layout>
-    <div className="job-order-wrapper py-3 contact">
+    <div className="job-order-wrapper body-wrapper py-3 contact">
       <SEO title="Contact Page" />
       <div style={{ textAlign: "center" }}>
-        <h1 className="heading-box-color p-3 rounded">Contact Us</h1>
+        <StaticImage
+          filename="Home-Comfort-Air-COL-03-650.png"
+          alt="home comfort air image"
+        />
+        <h1 className="p-3 text-dark cap fw-600 h4">Contact Us</h1>
 
         <p className="font-italic">
           Submit your request and we'll get back to you ASAP.
@@ -94,7 +99,6 @@ const Contact = () => (
           </span>
         </a>
       </div>
-      <Link to="/">Go back home</Link>
     </div>
   </Layout>
 )

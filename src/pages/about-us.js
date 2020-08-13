@@ -15,10 +15,20 @@ const ProductsPage = () => {
   return (
     <Layout>
       <SEO title="About Us" />
-      <Hero />
 
-      <div className="container about-us body-wrapper">
-        <div className="row">
+      <div className="container  body-wrapper">
+        <div className="contact pt-2" style={{ textAlign: "center" }}>
+          <StaticImage
+            filename="Home-Comfort-Air-COL-03-650.png"
+            alt="home comfort air image"
+          />
+          <h1 className="p-3 text-dark cap fw-600 h4">About Us</h1>
+
+          <p className="font-italic">
+            Residential Air Conditioning Specialists
+          </p>
+        </div>
+        <div className="row about-us">
           <div className="col-lg-8 pt-3">
             <div className="px-3">
               <StaticImage
@@ -34,17 +44,17 @@ const ProductsPage = () => {
               We've been installing domestic air conditioners for family's and
               major builders around Brisbane, Gold Coast and Tweed Heads area's
               for over a decade. Everything from high wall split and multi head
-              systems with major brands like, Daikin, Haier, Kelvinator,
-              Toshiba, Acrton, Braemar, Carrier, Midea, LG, Mitsubishi and
-              Samsung as well as ducted residential and commercial systems with
-              Daikin and Actron air conditioners. Furthermore, we're experienced
-              working in Queensland schools installing cassettes units and split
-              systems.{" "}
+              systems with major brands, Daikin, Haier, Kelvinator, Toshiba,
+              Acrton, Braemar, Carrier, Midea, LG, Mitsubishi and Samsung as
+              well as ducted residential and commercial systems with Daikin and
+              Actron air conditioners. Furthermore, we're experienced working in
+              Queensland schools installing cassettes units and split systems.{" "}
             </p>
 
             <p className="lead-20 px-20 mt-3">
-              We service the Gold Coast, Ipswich and Brisbane areas installing
-              all major brand air conditioners. Our staff are licensed experts
+              We service South East Queensland installing all major brand air
+              conditioners, if you can see your location on the maps in our
+              service area , we'll come to you. Our staff are licensed experts
               when it comes to installations or repairs, and we offer a 5 year
               warranty on all new installations of split systems.
               <i>"That's some peace of mind you can be comfortable with".</i> We
@@ -69,10 +79,21 @@ const ProductsPage = () => {
           </div>
           <div className="col-lg-4 pt-3">
             <div className="">
-              <div className="mb-1">
-                <StaticImage filename="4.png" alt="home comfort air image" />
+              <div>
+                <h3 className="h5 cap fw-600">Servicing Area's</h3>
               </div>
-              <ToshibaProducts />
+              <div>Gold Coast and surrounding area's</div>
+              <div className="mb-1">
+                <StaticImage
+                  filename="map-gold-coast.png"
+                  alt="map-gold-coast"
+                />
+              </div>
+              <div>Brisbane and surrounding area's</div>
+              <StaticImage
+                filename="map-brisbane-distances-3.png"
+                alt="map-brisbane-distances"
+              />
             </div>
           </div>
         </div>

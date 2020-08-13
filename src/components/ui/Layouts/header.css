@@ -19,14 +19,19 @@ nav {
     box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
 }
 
-@media(min-width:992px) and (max-width:1399px) {
+.logo .gatsby-image-wrapper {
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
     #logo {
         display: block;
         margin-top: 60px !important;
     }
 }
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     #logo {
         display: block;
         margin-top: 55px !important;
@@ -152,7 +157,7 @@ a {
 
 /* Mobile to Tablet  */
 
-@media(max-width: 450px) {
+@media (max-width: 450px) {
     .phone-num {
         display: none;
     }

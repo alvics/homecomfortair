@@ -147,10 +147,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <Form />
         </div>
       </section>
-
-      <Link className="px-20" to="/split-systems">
-        Go to Split Systems <span style={{ fontWeight: `bold` }}>></span>
-      </Link>
     </div>
   </Layout>
 )

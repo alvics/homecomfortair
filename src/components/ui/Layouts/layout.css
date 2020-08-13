@@ -788,13 +788,13 @@ pre tt:after {
     }
 } */
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .CTA-btn {
         text-align: center;
     }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .CTA-btn {
         text-align: center;
     }
@@ -834,19 +834,19 @@ pre tt:after {
 }
 
 .title-cards-archive:hover {
-    color: rgb(21, 132, 175);
+    color: rgb(0, 117, 201);
 }
 
 .text-cards-archive:hover {
-    color: rgb(21, 132, 175);
+    color: rgb(0, 117, 201);
 }
 
 .card-heading .text-dark:hover {
-    color: rgb(21, 132, 175) !important;
+    color: rgb(0, 117, 201) !important;
 }
 
 .card-body-- .card-text:hover {
-    color: rgb(21, 132, 175) !important;
+    color: rgb(0, 117, 201) !important;
 }
 
 
@@ -873,6 +873,10 @@ nav.breadcrumb {
     margin-bottom: -15px !important;
 }
 
+.contact .material-icons {
+    color: rgb(0, 117, 201) !important;
+}
+
 @media (max-width: 500px) {
     .split-systems .grid-col-2 {
         grid-template-columns: repeat(1, 1fr);
@@ -889,7 +893,6 @@ nav.breadcrumb {
 
 @media (min-width: 1200px) {
     .job-order-form,
-    .split-systems .quote-order-form,
     .contact .quote-order-form,
     .multi-systems .quote-order-form,
     .ducted-systems .quote-order-form {
@@ -897,13 +900,11 @@ nav.breadcrumb {
     }
 }
 
-
-/* 
 @media (min-width: 1200px) {
-    .ducted-systems .quote-order-form {
+    .split-systems-wrapper .quote-order-form {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
-} */
+}
 
 .span-col-3 {
     grid-column: span 3 / auto;
@@ -1042,8 +1043,22 @@ aside {
     padding: 0;
 }
 
+.modal-top-logo .gatsby-image-wrapper {
+    border-radius: 0 !important;
+}
+
+.hca-logo-modal-footer .gatsby-image-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 .hero-box .gatsby-image-wrapper {
     max-width: 300px;
+    margin: 0 auto;
+}
+
+.contact .gatsby-image-wrapper {
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -1408,13 +1423,13 @@ input {
     color: #fff;
 }
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
     .ducted-col {
         margin-top: -20px;
     }
 }
 
-@media(max-width:1399px) {
+@media (max-width: 1399px) {
     .ducted-col {
         margin-top: 20px;
     }
@@ -1606,7 +1621,6 @@ select {
 
 .background-green {
     background: rgb(0, 196, 179);
-    ;
 }
 
 .footer-img-wrapper {

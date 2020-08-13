@@ -187,7 +187,7 @@ export default class Modal extends React.Component {
                 )}
               </form>
             </div>
-            <div className="py-2 bg-light">
+            <div className="py-2 bg-light hca-logo-modal-footer">
               <StaticImage
                 filename="Home-Comfort-Air-logo-650.png"
                 alt="home comfort air logo"
