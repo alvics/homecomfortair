@@ -4,6 +4,7 @@ import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import Image from "gatsby-image"
+import DropdownBtn from "../DropDownBtn"
 
 const getImage = graphql`
   {
@@ -20,18 +21,6 @@ const getImage = graphql`
 `
 
 const MenuIcon = styled.button`
-  position: fixed;
-  top: 3rem;
-  right: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: transparent;
-  border: none;
-  border-style: none !important;
-  cursor: pointer;
   z-index: 8;
 
   div {
@@ -69,8 +58,8 @@ const MenuLinks = styled.nav`
   align-items: center;
 
   height: 100vh;
-  width: 100%;
-  background: #d7d7d7;
+  width: 70%;
+  background: #fff;
   position: absolute;
   top: 0;
   right: 0;
@@ -89,7 +78,7 @@ const MenuLinks = styled.nav`
     transition: color 300ms;
 
     :hover {
-      color: blue;
+      color: rgb(0, 117, 201);
     }
   }
 `
@@ -109,28 +98,63 @@ const HeaderNew = () => {
       <Logo>
         <Image fluid={data.fluid.childImageSharp.fluid} alt="logo" />
       </Logo>
-      <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
+      <MenuIcon id="menu-icon--" nav={nav} onClick={() => showNav(!nav)}>
         <div />
         <div />
         <div />
       </MenuIcon>
-      <MenuLinks nav={nav}>
+      <MenuLinks id="menu-wrapper-mobile" nav={nav}>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
+          <div class="dropdown-divider"></div>
           <li>
-            <Link to="/split-systems">Split Systems</Link>
+            <Link to="/about-us">About</Link>
           </li>
+          <div class="dropdown-divider"></div>
           <li>
-            <Link to="/ducted-systems">Ducted</Link>
+            <Link to="/products/specials">Specials</Link>
           </li>
-          <li>
-            <Link to="/specials">Specials</Link>
-          </li>
+          <div class="dropdown-divider"></div>
+          <DropdownBtn />
+          <div class="dropdown-divider"></div>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <div class="dropdown-divider"></div>
+          <li>
+            <a
+              style={{ marginTop: `-3px` }}
+              id="facebook-svg"
+              to="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"
+              target="blank"
+            >
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style={{
+                  background: `new 0 0 512 512`,
+                  maxWidth: 30,
+                  cursor: `pointer`,
+                }}
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80
+			h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <div class="dropdown-divider"></div>
         </ul>
       </MenuLinks>
     </Wrapper>

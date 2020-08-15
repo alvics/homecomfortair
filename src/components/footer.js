@@ -91,9 +91,7 @@ const Footer = () => {
           <section className="footer-1 text-center">
             <div className="text-left">
               <h4>Servicing</h4>
-              <p>
-                <Link to="/ipswich-air-conditioning">Ipswich</Link>
-              </p>
+              <p>Ipswich</p>
               <p>Brisbane</p>
               <p>Gold Coast</p>
               <p>Tweed Heads</p>
@@ -115,7 +113,7 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to="/breakdowns">Breakdowns /Service</Link>
+                <Link to="/service">Service</Link>
               </p>
             </div>
           </section>
@@ -133,10 +131,27 @@ const Footer = () => {
           <section className="footer-4 text-center">
             <div className="text-left">
               <h4>Latest News</h4>
-              <p>Our Special a</p>
-              <p>Our Service b</p>
-              <p>Our Service c</p>
-              <p>Our Service d</p>
+              <p>
+                {" "}
+                <Link to="/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020">
+                  August-Midea 2.6kW
+                </Link>
+              </p>
+              <p>
+                <Link to="/products/samsung-2.5kw-boracay-reverse-cycle-inverter-hi-wall-split-system-specials-july-2020">
+                  July-Samsung 2.5kW
+                </Link>
+              </p>
+              <p>
+                <Link to="/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-specials-june-2020">
+                  June-Toshiba 7.1kW
+                </Link>
+              </p>
+              <p>
+                <Link to="/products/carrier-2.6kw-pearl-reverse-cycle-inverter-hi-wall-split-system-specials-may-2020">
+                  May-Carrier 2.6kW
+                </Link>
+              </p>
             </div>
           </section>
         </div>

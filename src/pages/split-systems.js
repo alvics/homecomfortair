@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
@@ -73,7 +73,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section>
-        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center mb-2">
+        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center my-2 mx-0 ">
           <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
@@ -331,7 +331,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section>
-        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center mb-2">
+        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center my-2 mx-0">
           <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
@@ -364,27 +364,29 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </h5>
             <p className="px-20">
               Our replacement air conditioning service is widely used by
-              property managers in real estate to home owners throughout South
-              East Queensland. Our service includes the decommissioning and
-              disposal of your old air conditioning system, through to
-              installing, commissioning and testing of the new split system.
-              Once the split system has been checked and functioning correctly,
-              we'll go through the use of the remote controller to operate your
-              new air conditioning system. <br />
+              property managers and home owners throughout South East
+              Queensland. Our service includes the decommissioning and disposal
+              of your old air conditioning system, through to installing,
+              commissioning and testing of the new split system. Once the split
+              system has been checked and functioning correctly, we'll go
+              through the use of the remote controller to operate your new air
+              conditioning system. <br />
               HOME COMFORT AIR, residential air conditioning experts.
             </p>
           </div>
         </section>
 
         <div className="row">
-          <div className="col-4 split-systems-wrapper">
+          <div className="col-4-lg split-systems-wrapper">
             <h4 className="h5 p-3 heading-box-color text-white rounded cap fw-600 mt-2">
               Receive a Free Quote
             </h4>
-            <Form />
+            <div className="d-flex">
+              <Form />
+            </div>
           </div>
 
-          <div className="col p-3">
+          <div className="col-lg p-3">
             <div className="tabs-img">
               <StaticImage
                 filename="midea-main.jpg"

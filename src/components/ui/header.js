@@ -37,22 +37,27 @@ const Header = () => {
       >
         <div className="container text-white">
           <div className="row">
-            <div className="col d-flex-justify-content-start service-area text-shadow-1 pt-1 mt-1">
+            <div className="col d-flex-justify-content-start align-items-center service-area text-shadow-1 pt-1 mt-1">
               Ipswich | Brisbane | Gold Coast
             </div>
+
             <div
               style={{ PaddingBottom: 5 }}
               className="col-4 d-flex justify-content-end phone-nav"
             >
               <a
-                className="d-flex align-items-center text-shadow-1 btn btn-green-- btn-sm my-1 px-2 "
+                style={{ fontSize: 13 }}
+                className="call-icon d-flex align-items-center text-shadow-1 btn-- btn-green--  my-1 px-3 "
                 href="tel:0404602657"
               >
                 <span style={{ fontSize: 22 }} class="material-icons">
                   local_phone
                 </span>{" "}
-                <span className="phone-num" style={{ whiteSpace: `nowrap` }}>
-                  Call today 0404 602 657
+                <span
+                  className="phone-num fw-600"
+                  style={{ whiteSpace: `nowrap` }}
+                >
+                  Call 0404 602 657
                 </span>
               </a>
             </div>
@@ -69,7 +74,7 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <div id="links">
+          <div className="desktop-links" id="links">
             <Link to="/">Home</Link>
             <Link to="/about-us">About</Link>
             <Link to="/products/specials">Specials</Link>
@@ -93,6 +98,34 @@ const Header = () => {
               </span>
             </Link>
             <Link to="/contact">Contact</Link>
+            <a
+              style={{ marginTop: `-3px` }}
+              id="facebook-svg"
+              to="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"
+              target="blank"
+            >
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style={{
+                  background: `new 0 0 512 512`,
+                  maxWidth: 25,
+                }}
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80
+			h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
           </div>
         </div>
       </nav>

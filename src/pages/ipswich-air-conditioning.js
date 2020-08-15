@@ -1,18 +1,10 @@
 // Display the list of products
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/ui/Layouts/layout"
-
 import SEO from "../components/seo"
 import MideaProducts from "../components/Products/MideaProducts"
-// import RoomSizes from "../components/Queries/RoomSizes"
 
-const Ipswich = ({ data }) => {
-  // const {
-  //   allStrapiProduct: { nodes: roomSizes },
-  // } = data
-
+const Ipswich = () => {
   return (
     <Layout>
       <SEO title="Servicing Ipswich" />
@@ -45,29 +37,5 @@ const Ipswich = ({ data }) => {
     </Layout>
   )
 }
-
-// export const query = graphql`
-//   {
-//     allStrapiProduct {
-//       nodes {
-//         room_sizes {
-//           size
-//           id
-//         }
-//         brand
-//         title
-//         price
-//         url
-//         image {
-//           childImageSharp {
-//             fluid {
-//               ...GatsbyImageSharpFluid
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
 
 export default Ipswich

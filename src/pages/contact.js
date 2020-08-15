@@ -1,6 +1,5 @@
 // Display the list of products
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import Background from "../components/Background"

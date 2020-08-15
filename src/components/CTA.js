@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-import MyForm from "./quoteForm"
+
 import QuoteModal from "../components/QuoteModal"
 import ServiceModal from "../components/ServiceModal"
 // import StaticImage from "../components/StaticQueryImages"

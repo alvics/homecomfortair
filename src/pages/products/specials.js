@@ -1,11 +1,8 @@
 // Display the list of products
 import React from "react"
-import { Link } from "gatsby"
 import StaticImage from "../../components/StaticQueryImages"
 import CTA from "../../components/CTA"
-
 import Layout from "../../components/ui/Layouts/layout"
-
 import SEO from "../../components/seo"
 // import RoomSizes from "../components/Queries/RoomSizes"
 // import MideaProducts from "../components/Products/MideaProducts"

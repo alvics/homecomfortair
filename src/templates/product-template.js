@@ -223,7 +223,7 @@ const SingleProduct = ({
               Also recommended for you
             </h5>
 
-            {brand == "Midea" ? (
+            {brand === "Midea" ? (
               <div className="mb-2">
                 <StaticImage
                   filename="midea-add.png"
@@ -234,7 +234,7 @@ const SingleProduct = ({
             ) : (
               <div></div>
             )}
-            {brand == "Carrier" ? (
+            {brand === "Carrier" ? (
               <div className="single-side-products">
                 <StaticImage
                   filename="carrier-add.png"
@@ -245,7 +245,7 @@ const SingleProduct = ({
             ) : (
               <div></div>
             )}
-            {brand == "Samsung" ? (
+            {brand === "Samsung" ? (
               <div className="single-side-products">
                 <StaticImage filename="3.png" alt="carrier air conditioning" />
                 <SamsungProducts />
@@ -254,7 +254,7 @@ const SingleProduct = ({
               <div></div>
             )}
 
-            {brand == "Toshiba" ? (
+            {brand === "Toshiba" ? (
               <div className="single-side-products">
                 <StaticImage filename="4.png" alt="carrier air conditioning" />
                 <ToshibaProducts />

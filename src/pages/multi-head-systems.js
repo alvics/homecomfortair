@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Tabs, Tab, Panel } from "@bumaga/tabs"
-
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
-
 import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 import CTA from "../components/CTA"
@@ -89,8 +86,8 @@ const MultiHeadSystemsPage = () => (
       </section>
 
       <section className="mt-5">
-        <div className="grid-col-2 split-systems-top-col">
-          <div>
+        <div className="row plit-systems-top-col">
+          <div className="col-lg-6">
             <h3 className="h5 fw-600 px-20 mt-5 cap">
               Intelligent and Durable Technology
             </h3>
@@ -107,7 +104,7 @@ const MultiHeadSystemsPage = () => (
               their 7-year parts and labour warranty.
             </p>
           </div>
-          <div className="ducted-air text-center">
+          <div className="col-lg-6 ducted-air text-center">
             <iframe
               title="Toshiba air conditioning systems"
               width="560"
@@ -136,7 +133,7 @@ const MultiHeadSystemsPage = () => (
         </div>
         <div className="grid-col-2">
           <Form />
-          <div>
+          <div className="multi-head-quotes-text">
             <h5 className=" px-20 cap fw-600">
               Multi-Head System Installation Quotes
             </h5>
@@ -151,108 +148,6 @@ const MultiHeadSystemsPage = () => (
             </p>
           </div>
         </div>
-      </section>
-
-      <section className="mt-5">
-        <Tabs>
-          <div className="grid-300">
-            <Tab>
-              <div className="card">
-                <button className="btn btn-primary p-20">Daikin Systems</button>
-              </div>
-            </Tab>
-            <Tab>
-              <div className="card">
-                <button className="btn btn-primary p-20">
-                  Samsung Systems
-                </button>
-              </div>
-            </Tab>
-            <Tab>
-              <div className="card">
-                <button className="btn btn-primary p-20">
-                  Mitsubishi Systems
-                </button>
-              </div>
-            </Tab>
-            <Tab>
-              <div className="card">
-                <button className="btn btn-primary p-20">Midea Systems</button>
-              </div>
-            </Tab>
-          </div>
-
-          <Panel>
-            <div className="grid-col-2 section">
-              <div className="p-20">
-                <h5>Daikin Split Systems</h5>
-                <p>
-                  Daikin Split Systems are the ferrari when it comes to air
-                  conditioning systems. It's clearly the winner in innovations
-                  and technology over most brands, like the ferrari it's not the
-                  cheapest on the block but Daikin air conditioner are hard to
-                  beat, if you can afford one that is. I would highly recommend
-                  the Daikin air conditioning systems for your home or space.
-                </p>
-              </div>
-              <div>
-                <StaticImage
-                  className="rounded"
-                  filename="cas.jpg"
-                  alt="ducted air image"
-                />
-              </div>
-            </div>
-          </Panel>
-
-          <Panel>
-            <div className="grid-col-2 section">
-              <div className="p-20">
-                <h5>Samsung Split Systems</h5>
-                <p>
-                  Samsung Air Conditioning is one of our top choices, it's
-                  reputation for technology and innovations is one of the best.
-                  As a Samsung Air Conditioning Specialist you will be
-                  comfortable at home or your office with a Samsung air
-                  conditioner.
-                </p>
-              </div>
-              <div>
-                <StaticImage filename="cas.jpg" alt="ducted air image" />
-              </div>
-            </div>
-          </Panel>
-
-          <Panel>
-            <div className="grid-col-2 section">
-              <div>
-                <StaticImage filename="cas.jpg" alt="ducted air image" />
-              </div>
-              <div className="p-20">
-                <h5>Mitsubishi Split Systems</h5>
-                <p>
-                  Whether it’s consistent heating and cooling for the home or
-                  office, Mitsubishi Electric offers you state-of-the-art
-                  technology that is quiet, simple to use, energy efficient and
-                  above all, reliable.
-                </p>
-              </div>
-            </div>
-          </Panel>
-
-          <Panel>
-            <div>
-              <h3>Midea Split Systems</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                molestiae, beatae exercitationem pariatur iure nostrum. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                molestiae, beatae exercitationem pariatur iure nostrum.
-              </p>
-            </div>
-            <p>panel 3</p>
-          </Panel>
-        </Tabs>
       </section>
     </div>
   </Layout>

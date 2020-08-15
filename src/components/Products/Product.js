@@ -26,7 +26,7 @@ const Product = ({ title, image, price, url, saleprice }) => {
             >
               Supply and Installed{" "}
               {price && saleprice ? (
-                <span className="primary fw-600">
+                <span className="primary fw-600 sale-price">
                   ${saleprice}.00
                   <span
                     className="GST-text"
@@ -38,7 +38,7 @@ const Product = ({ title, image, price, url, saleprice }) => {
                   </span>
                 </span>
               ) : (
-                <span className="primary fw-600">
+                <span className="primary fw-600 price">
                   ${price}.00{" "}
                   <span
                     className="GST-text"

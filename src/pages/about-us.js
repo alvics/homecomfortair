@@ -1,14 +1,10 @@
 // Display the list of products
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/ui/Layouts/layout"
-
 import SEO from "../components/seo"
-import Hero from "../components/hero"
 import StaticImage from "../components/StaticQueryImages"
-import ToshibaProducts from "../components/Products/Toshiba"
-
+// import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
 
 const ProductsPage = () => {
