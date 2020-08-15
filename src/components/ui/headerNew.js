@@ -80,6 +80,10 @@ const MenuLinks = styled.nav`
     :hover {
       color: rgb(0, 117, 201);
     }
+
+    .body-wrapper {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
   }
 `
 

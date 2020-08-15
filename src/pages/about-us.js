@@ -59,9 +59,9 @@ const ProductsPage = () => {
               the hours of 8am and 5pm.{" "}
             </p>
             <p className="lead-20 px-20">
-              If your looking to get the job done right by professionals, then
-              give us a call on 0404 602 657 HOME COMFORT AIR, residential air
-              conditioning experts. Your satisfaction, is our guarantee!{" "}
+              If your looking for professional, quality workmanship, give us a
+              call on 0404 602 657 HOME COMFORT AIR, for residential air
+              conditioning solutions. Your satisfaction, is our guarantee!{" "}
             </p>
             <div className="px-3">
               <StaticImage

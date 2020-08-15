@@ -25,7 +25,7 @@ const Hero = props => {
                       className="hero-heading-primary cap"
                       style={{ color: `rgb(35,31,32)` }}
                     >
-                      Home <span style={{ fontWeight: 600 }}>Comfort</span> Air
+                      Home<span style={{ fontWeight: 600 }}>Comfort</span>Air
                     </span>
                   </h1>
                   <h2 className="hero-heading-h2">

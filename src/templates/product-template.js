@@ -177,7 +177,7 @@ const SingleProduct = ({
                       fontWeight: `600`,
                     }}
                   >
-                    Looking for new air conditioning?
+                    Need new air conditioning?
                   </span>
                   <br />
                   <span
@@ -210,10 +210,11 @@ const SingleProduct = ({
                 <h4>Choose the right size air conditioner for your space</h4>
                 <RoomSizeTable />
                 <small style={{ fontSize: 12 }}>
-                  This is a rough guide only, there are some factors to
-                  consider, large windows with direct sunlight, opened areas and
-                  so on. We can help you determine the right size air
-                  conditioner for your room.
+                  This is a rough guide only, there are some factors to consider
+                  when sizing air conditioners for your room. Whether you have
+                  large windows with direct sunlight, size, opened areas, and so
+                  on. We can help you determine the right size air conditioner
+                  for your room.
                 </small>
               </div>
             </div>

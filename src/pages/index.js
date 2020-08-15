@@ -93,8 +93,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </div>
                   <div className="card-body--">
                     <p className="card-text lead">
-                      Cool or heat a single room space, free quotes on
-                      installation.
+                      Cool or heat a single room or space, with split systems
+                      air conditioning...
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -117,8 +117,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </div>
                   <div className="card-body--">
                     <p className="card-text lead">
-                      Cool or heat your entire home, with Ducted air
-                      conditioners.
+                      Cool or heat your entire home, with ducted air
+                      conditioning...
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -141,7 +141,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </div>
                   <div className="card-body--">
                     <p className="card-text lead">
-                      Cool or heat multiple rooms with a single outdoor unit
+                      Cool or heat multiple rooms with a single outdoor unit...
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -163,7 +163,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </div>
                   <div className="card-body--">
                     <p className="card-text lead">
-                      Fast service for split systems air conditioners
+                      Fast professional service and maintenance for split
+                      systems air conditioners...
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -173,7 +174,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
             </div>
           </section>
-          <section className="section-2">
+          <section className="section-2 split-system-cta">
             <div className="heading-box-color heading-avatar rounded row p-2 d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
@@ -204,23 +205,25 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 />
                 <p className="cap text-dark">Beat the heat</p>
                 <p className="mt-20 lead">
-                  Split system air conditioners are the most popular and most
-                  affordable option for cooling and heating your home or office
-                  space. With its sleek and modern design, easy to use
-                  functionality and advanced technology's, it's the perfect
-                  solution for single room or space. If you're looking for an
-                  air conditioning systems to help with your comfort you're in
-                  the right place! With our expertise, experience and fast
-                  service, we can supply and fully install the right air
-                  conditioning system to suit your interior. Whether you're
-                  looking for a single room or the entire home, we've got you
-                  covered. We can help you over the phone, by{" "}
+                  Wall hung split system air conditioning has come a long way
+                  over the years and is one of the most popular and more
+                  affordable cooling and heating solution for your home or
+                  office space. With its stylish look, and easy to use
+                  operations, it's the perfect solution for a single room or
+                  space to keep you cool in summer and warm in winter. If you're
+                  looking for a new air conditioning system and are a bit
+                  overwhelmed or confused with all the different type of units
+                  that are for sale, you're in the right place! With our
+                  expertise, experience and fast service, we can help you choose
+                  the right air conditioning system to suit your interior.
+                  Whether you're looking for a single room or the entire home,
+                  we've got you covered. We can help you over the phone, by{" "}
                   <a href="mailto:alvicair@hotmail.com"> email</a>
-                  , and even face to face with a free consultation to better
-                  understand your needs. We've got over 10 years experience,
-                  talk to us to find out more about all the options, and we can
-                  provide a cost comparison to help you determine the best way
-                  to go. <br />
+                  , and even face to face with a free in home consultation to
+                  better understand your needs. We've got over 10 years
+                  experience, talk to us to find out more about all the options,
+                  and we can provide a cost comparison to help you determine the
+                  best way to go. <br />
                   Call <a href="tel:0404602657">0404 602 657</a>
                 </p>
               </div>
@@ -229,6 +232,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Free in home appraisal
                 </h4>
                 <i></i>
+
                 <MyForm />
               </div>
             </div>

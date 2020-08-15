@@ -41,7 +41,7 @@ const ProductsPage = () => {
             <div className="split-system-archive products-archive">
               <div className="grid-col-2 mb-2">
                 <h3
-                  className="bg-light h6 fw-600 cap mt-2 text-center border rounded"
+                  className="bg-light h6 fw-600 cap mt-2 px-2 text-center border rounded"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Midea
@@ -51,7 +51,7 @@ const ProductsPage = () => {
                   </span>
                 </h3>
                 <StaticImage
-                  filename="midea-add.png"
+                  filename="midea-add-2.png"
                   alt="home comfort air image"
                 />
               </div>
@@ -64,12 +64,12 @@ const ProductsPage = () => {
                   alt="home comfort air image"
                 />
                 <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
-                  style={{ padding: `1.3rem 0` }}
+                  className="h6 text-white fw-600 cap mt-2 px-2 border rounded"
+                  style={{ padding: `1.3rem 0`, backgroundColor: `#004178` }}
                 >
                   Supply and Install Carrier
                   <br />{" "}
-                  <span className="lead cam">
+                  <span className="lead cam text-white">
                     <small>Air Conditioning Systems</small>
                   </span>
                 </h3>
@@ -79,12 +79,12 @@ const ProductsPage = () => {
 
               <div className="my-3 grid-col-2 text-center">
                 <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
-                  style={{ padding: `1.3rem 0` }}
+                  className="h6 text-white fw-600 cap mt-2 px-2 border rounded"
+                  style={{ padding: `1.3rem 0`, backgroundColor: `#D01C22` }}
                 >
                   Supply and Install Toshiba
                   <br />{" "}
-                  <span className="lead cam">
+                  <span className="lead cam text-white">
                     <small>Air Conditioning Systems</small>
                   </span>
                 </h3>
@@ -96,12 +96,12 @@ const ProductsPage = () => {
               <div className="my-3 grid-col-2 text-center">
                 <StaticImage filename="3.png" alt="home comfort air image" />
                 <h3
-                  className="bg-light h6 fw-600 cap mt-2 border rounded"
+                  className="bg-dark text-white h6 fw-600 cap mt-2 px-2 border rounded"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Samsung
                   <br />{" "}
-                  <span className="lead cam">
+                  <span className="lead cam text-white">
                     <small>Air Conditioning Systems</small>
                   </span>
                 </h3>

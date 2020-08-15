@@ -376,24 +376,34 @@ Split,systems,Ipswich,Brisbane,Specials`,
           </div>
         </section>
 
-        <div className="row">
-          <div className="col-4-lg split-systems-wrapper">
-            <h4 className="h5 p-3 heading-box-color text-white rounded cap fw-600 mt-2">
-              Receive a Free Quote
-            </h4>
-            <div className="d-flex">
-              <Form />
-            </div>
+        <div className="heading-box-color grid-col-2  heading-avatar rounded p-2 my-3 mx-0">
+          <div className="">
+            <StaticImage
+              filename="HCA-avatar-WHITE-1400.png"
+              alt="home comfort air image"
+            />
           </div>
 
-          <div className="col-lg p-3">
-            <div className="tabs-img">
-              <StaticImage
-                filename="midea-main.jpg"
-                alt="midea split system air image"
-              />
-            </div>
+          <div className="text-center">
+            <h3 className="h2 fw-600 mt-2 ">Receive A free Quote</h3>
           </div>
+        </div>
+        <div className="grid-col-2">
+          <div className="split-quotes-text">
+            <h5 className=" px-20 cap fw-600">
+              Split System Installation Quotes
+            </h5>
+            <p className="px-20">
+              We can install a split system air conditioning systems for your
+              home. Whether its new construction, existing home or a
+              replacement, simply submit your details, and we'll contact you
+              back shortly.
+            </p>
+            <p className="font-italic px-20">
+              "You could also leave the best suited time to call you back".
+            </p>
+          </div>
+          <Form />
         </div>
       </section>
     </div>

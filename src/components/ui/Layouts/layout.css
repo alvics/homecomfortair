@@ -733,6 +733,12 @@ pre tt:after {
     .multi-head-quotes-text {
         margin-top: 20px;
     }
+    .split-system-cta .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .split-system-cta .form-quote {
+        margin: 0 auto !important;
+    }
 }
 
 
@@ -927,7 +933,8 @@ nav.breadcrumb {
     .job-order-form,
     .contact .quote-order-form,
     .multi-systems .quote-order-form,
-    .ducted-systems .quote-order-form {
+    .ducted-systems .quote-order-form,
+    .split-systems .quote-order-form {
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }

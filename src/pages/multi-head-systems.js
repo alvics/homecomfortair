@@ -132,7 +132,6 @@ const MultiHeadSystemsPage = () => (
           </div>
         </div>
         <div className="grid-col-2">
-          <Form />
           <div className="multi-head-quotes-text">
             <h5 className=" px-20 cap fw-600">
               Multi-Head System Installation Quotes
@@ -147,6 +146,7 @@ const MultiHeadSystemsPage = () => (
               "You could also leave the best suited time to call you back".
             </p>
           </div>
+          <Form />
         </div>
       </section>
     </div>
