@@ -101,7 +101,7 @@ const Header = () => {
             <a
               style={{ marginTop: `-3px` }}
               id="facebook-svg"
-              to="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"
+              href="https://www.facebook.com/Home-Comfort-Air-1713459065551004/"
               target="blank"
             >
               <svg

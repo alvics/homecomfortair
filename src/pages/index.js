@@ -205,13 +205,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 />
                 <p className="cap text-dark">Beat the heat</p>
                 <p className="mt-20 lead">
-                  Wall hung split system air conditioning has come a long way
-                  over the years and is one of the most popular and more
-                  affordable cooling and heating solution for your home or
-                  office space. With its stylish look, and easy to use
-                  operations, it's the perfect solution for a single room or
-                  space to keep you cool in summer and warm in winter. If you're
-                  looking for a new air conditioning system and are a bit
+                  The split system air conditioner is now more advanced than
+                  ever and has come a long way over the years, making it the
+                  most popular and most affordable cooling and heating solution
+                  for your home or office space. With its stylish look, and easy
+                  to use operations, it's the perfect solution for a single room
+                  or space to keep you cool in summer and warm in winter. If
+                  you're looking for a new air conditioning system and are a bit
                   overwhelmed or confused with all the different type of units
                   that are for sale, you're in the right place! With our
                   expertise, experience and fast service, we can help you choose

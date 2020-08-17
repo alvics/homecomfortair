@@ -1,5 +1,6 @@
 import React from "react"
 import StaticImage from "../components/StaticQueryImages"
+import PageURL from "../components/PageUrl"
 
 // import OrderForm from "./OrderForm"
 // import ProductTemplate from "../templates/product-template"
@@ -8,6 +9,7 @@ export default class Modal extends React.Component {
   constructor(props) {
     super(props)
     this.submitForm = this.submitForm.bind(this)
+
     this.state = {
       status: "",
     }
@@ -16,11 +18,10 @@ export default class Modal extends React.Component {
   render() {
     const { status } = this.state
 
-    const queryString = window.location.href
+    /* const queryString = window.location.href
       .replace(/(^\w+:|^)\/\//, "")
       .split("localhost:8000/products/")
-      .join("")
-    console.log(queryString)
+      .join("") */
 
     return (
       <div
@@ -99,12 +100,8 @@ export default class Modal extends React.Component {
                     <small>Phone</small>
                   </label>
                 </div>
-                <input
-                  style={{ fontSize: 13 }}
-                  type="text"
-                  name="title"
-                  value={queryString}
-                />
+
+                <PageURL />
                 <input
                   type="text"
                   name="first_name"

@@ -81,7 +81,7 @@ module.exports = {
         background_color: `#0075c9`,
         theme_color: `#0075c9`,
         display: `minimal-ui`,
-        icon: `src/images/HCA-2-avatar.png`, // This path is relative to the root of the site.
+        icon: `src/images/avatar-42x42.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -150,7 +150,7 @@ module.exports = {
           // Set this to the querySelector string of the container element where you want to display facebook timeline and like button
           // If you do not define this, facebook timeline and like button will not work
           // Fox example: `.facebook-container` or `#.facebook-timeline`
-          containerSelector: null,
+          containerSelector: "Home-Comfort-Air-1713459065551004/",
           // Set this to the facebook profile or facebook page name you want to use
           // If you do not define this, facebook timeline and like button will not work
           // Do not include `@` symbol here
@@ -178,6 +178,12 @@ module.exports = {
           // No Dynamic Resizing - If you want to adjust the plugin's width on window resize, you manually need to rerender the plugin.
           adaptContainerWidth: true, // default
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-101330928-5`,
       },
     },
   ],

@@ -10,7 +10,14 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout>
     <div className="job-order-wrapper body-wrapper py-3 contact">
-      <SEO title="Contact Page" />
+      <SEO
+        title="Contact Page"
+        description={`Contact HOME COMFORT AIR for split system air conditioning installations, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
+        keywords={[
+          `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+        ]}
+      />
       <div style={{ textAlign: "center" }}>
         <StaticImage
           filename="Home-Comfort-Air-COL-03-650.png"

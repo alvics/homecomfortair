@@ -47,7 +47,7 @@ const ProductsPage = () => {
                   style={{ backgroundColor: `#7DCDFF` }}
                 >
                   <h3
-                    className="h6 fw-600 cap mt-2 px-3  text-white rounded border"
+                    className="h5 fw-600 cap mt-2 px-3  text-white "
                     style={{ padding: `1.3rem 0` }}
                   >
                     Supply and Install Midea
@@ -66,7 +66,7 @@ const ProductsPage = () => {
                 className="my-3 text-center rounded"
               >
                 <h3
-                  className="h6 text-white fw-600 cap mt-2 px-3 rounded border"
+                  className="h5 text-white fw-600 cap mt-2 px-3"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Carrier
@@ -81,10 +81,10 @@ const ProductsPage = () => {
 
               <div
                 style={{ backgroundColor: `#D01C22` }}
-                className="my-3  text-center rounded"
+                className="my-3 text-center rounded"
               >
                 <h3
-                  className="h6 text-white fw-600 cap mt-2 px-3 rounded border"
+                  className="h5 text-white fw-600 cap mt-2 px-3"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Toshiba
@@ -97,9 +97,9 @@ const ProductsPage = () => {
 
               <ToshibaProducts />
 
-              <div s className=" text-center bg-dark my-3 text-center rounded">
+              <div s className="text-center bg-dark my-3 text-center rounded">
                 <h3
-                  className="text-white h6 fw-600 cap mt-2 px-3 border rounded"
+                  className="text-white h5 fw-600 cap mt-2 px-3"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Samsung
@@ -122,7 +122,7 @@ const ProductsPage = () => {
                   Book Your Split System Installation Online
                 </h5>
                 <p className="lead">
-                  Get your air conditioner supplied and installed with our fast,
+                  Get air conditioning supplied and installed with our fast,
                   professional service in a matter of days! Yes you and your
                   family can enjoy the home comforts you desire within days.
                   Receive a free quote to have your air conditioning split

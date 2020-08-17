@@ -10,7 +10,14 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 const ProductsPage = () => {
   return (
     <Layout>
-      <SEO title="About Us" />
+      <SEO
+        title="About Us"
+        description={`We've been working in south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
+        keywords={[
+          `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+        ]}
+      />
 
       <div className="container  body-wrapper">
         <div className="contact pt-2" style={{ textAlign: "center" }}>
