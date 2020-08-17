@@ -1118,6 +1118,10 @@ aside {
     margin: 0 auto;
 }
 
+.d-grid-- {
+    display: grid !important;
+}
+
 
 /* IMAGES */
 
