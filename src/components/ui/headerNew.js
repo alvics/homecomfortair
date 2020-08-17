@@ -56,7 +56,6 @@ const MenuLinks = styled.nav`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
   width: 70%;
   background: #fff;

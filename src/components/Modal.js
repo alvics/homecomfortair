@@ -1,4 +1,5 @@
 import React from "react"
+import StaticImage from "../components/StaticQueryImages"
 
 // import OrderForm from "./OrderForm"
 // import ProductTemplate from "../templates/product-template"
@@ -30,14 +31,27 @@ export default class Modal extends React.Component {
         aria-hidden="true"
       >
         <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header heading-box-color">
-              <h5
-                className="modal-title text-white cap "
-                id="exampleModalLabel"
-              >
-                Book your Installation
-              </h5>{" "}
+          <div className="modal-content enquiry-form">
+            <div className="modal-footer heading-box-color mx-0"></div>
+            <div className="modal-header">
+              <div className="m-auto">
+                {" "}
+                <h5
+                  className="h6 modal-title text-dark cap fw-600"
+                  id="exampleModalLabel"
+                >
+                  <span>
+                    {" "}
+                    <StaticImage
+                      filename="Home-Comfort-Air-COL-03-650.png"
+                      alt="home comfort avatar logo"
+                    />
+                  </span>{" "}
+                  Air Conditioning Installation
+                  <br />
+                  <small>*Enquiry form</small>
+                </h5>
+              </div>
               <button
                 type="button"
                 className="close"
@@ -49,15 +63,20 @@ export default class Modal extends React.Component {
             </div>
             <div className="modal-body">
               <br />
-              <p className="font-italic">
-                We'll contact you, to confirm the date and time.
+              <p
+                style={{ marginTop: `-25px`, paddingBottom: 15 }}
+                className="font-italic border-bottom mb-4"
+              >
+                Complete this form and we'll return to you by email or phone.
               </p>
+
               <form
                 className="grid-300 job-order-form"
                 onSubmit={this.submitForm}
                 action="https://formspree.io/mleppppp"
                 method="POST"
               >
+                <small>Preferred contact method:</small>
                 <div className="form-check mt-2">
                   <input
                     className="form-check-input"
@@ -66,10 +85,9 @@ export default class Modal extends React.Component {
                     id="flexRadioDefault1"
                   />
                   <label className="form-check-label" for="flexRadioDefault1">
-                    Morning (between 8-11am)
+                    <small>Email</small>
                   </label>
                 </div>
-
                 <div className="form-check mb-4">
                   <input
                     className="form-check-input"
@@ -78,7 +96,7 @@ export default class Modal extends React.Component {
                     id="flexRadioDefault1"
                   />
                   <label className="form-check-label" for="flexRadioDefault1">
-                    Afternoon (between 12-4pm)
+                    <small>Phone</small>
                   </label>
                 </div>
                 <input
@@ -94,19 +112,13 @@ export default class Modal extends React.Component {
                   placeholder="Name:"
                 />
                 <input type="text" name="phone" required placeholder="Phone:" />
-                <input
-                  type="text"
-                  name="suburb"
-                  required
-                  placeholder="Suburb:"
-                />
+                <input type="text" name="suburb" placeholder="Suburb:" />
                 <input
                   type="email"
                   name="email"
                   required
                   placeholder="Email:"
                 />
-
                 <textarea
                   rows="4"
                   cols="20"
@@ -114,7 +126,6 @@ export default class Modal extends React.Component {
                   required
                   placeholder="Message:"
                 />
-
                 {status === "SUCCESS" ? (
                   <p className="bg-info text-white p-1 rounded">
                     Thanks for submitting your order, we'll get back to you
@@ -130,7 +141,7 @@ export default class Modal extends React.Component {
                 )}
               </form>
             </div>
-            <div className="modal-footer bg-light"></div>
+            <div className="modal-footer heading-box-color"></div>
           </div>
         </div>
       </div>

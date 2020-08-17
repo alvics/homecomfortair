@@ -37,9 +37,9 @@ const Hero = props => {
                     </span>
                   </h2>
                   <p className="px-5">
-                    Residential air conditioning experts, we supply and install
-                    all major brands throughout south east Queensland, from
-                    Ipswich, Brisbane and the Gold Coast.
+                    Residential air conditioning specialists, we supply and
+                    install all major brands throughout south east Queensland,
+                    from Ipswich, Brisbane and the Gold Coast.
                   </p>
                   <div className="pb-3">
                     <Link to="/job-order">

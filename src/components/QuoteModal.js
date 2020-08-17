@@ -26,21 +26,22 @@ export default class Modal extends React.Component {
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-header heading-box-color">
+            <div className="modal-footer heading-box-color mx-0"></div>
+            <div className="modal-header">
               <div className="m-auto">
                 {" "}
                 <h5
-                  className="modal-title text-white cap fw-600"
+                  className="h6 modal-title text-dark cap fw-600"
                   id="exampleModalLabel"
                 >
                   <span>
                     {" "}
                     <StaticImage
-                      filename="HCA-avatar-WHITE-1400.png"
+                      filename="Home-Comfort-Air-COL-03-650.png"
                       alt="home comfort avatar logo"
                     />
                   </span>{" "}
-                  Air Conditioning Quote
+                  *Air Conditioning Quote
                 </h5>
               </div>
 
@@ -82,6 +83,13 @@ export default class Modal extends React.Component {
                   name="email"
                   required
                   placeholder="Email:"
+                />
+                <input
+                  style={{ fontWeight: `bold`, color: `#333` }}
+                  type="file"
+                  name="file_upload"
+                  placeholder="File:"
+                  accept="image/*,.pdf"
                 />
 
                 <div className="input-group mb-3">
@@ -187,12 +195,7 @@ export default class Modal extends React.Component {
                 )}
               </form>
             </div>
-            <div className="py-2 bg-light hca-logo-modal-footer">
-              <StaticImage
-                filename="Home-Comfort-Air-logo-650.png"
-                alt="home comfort air logo"
-              />
-            </div>
+            <div className="modal-footer heading-box-color mx-0"></div>
           </div>
         </div>
       </div>

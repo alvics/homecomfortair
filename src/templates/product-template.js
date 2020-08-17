@@ -104,7 +104,7 @@ const SingleProduct = ({
                 data-toggle="modal"
                 data-target="#exampleModal"
               >
-                Order Now
+                Enquire Now
               </button>
               <Modal />
             </article>
@@ -203,6 +203,49 @@ const SingleProduct = ({
                     Contact us
                   </Link>
                 </div>
+                <div className="mb-3 single-product-add">
+                  {brand === "Midea" ? (
+                    <div className="mb-2">
+                      <StaticImage
+                        filename="midea-add-11.png"
+                        alt="midea air conditioning by Home Comfort Air"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+                  {brand === "Carrier" ? (
+                    <div className="single-side-products">
+                      <StaticImage
+                        filename="carrier-add-11.png"
+                        alt="carrier air conditioning by Home Comfort Air"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+                  {brand === "Samsung" ? (
+                    <div className="single-side-products">
+                      <StaticImage
+                        filename="samsung-add-11.png"
+                        alt="samsung air conditioning by Home Comfort Air"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+
+                  {brand === "Toshiba" ? (
+                    <div className="single-side-products">
+                      <StaticImage
+                        filename="toshiba-add-11.png"
+                        alt="toshiba air conditioning by Home Comfort Air"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+                </div>
                 <ReactMarkdown source={description} />
               </article>
               <hr />
@@ -226,29 +269,67 @@ const SingleProduct = ({
 
             {brand === "Midea" ? (
               <div className="mb-2">
-                <StaticImage
-                  filename="midea-add.png"
-                  alt="carrier air conditioning"
-                />
+                <div className="mb-2">
+                  <div
+                    className="text-center border rounded"
+                    style={{ backgroundColor: `#7DCDFF` }}
+                  >
+                    <h3
+                      className="h6 fw-600 cap mt-2 text-white"
+                      style={{ padding: `1.3rem 0` }}
+                    >
+                      Supply and Install Midea
+                      <br />{" "}
+                      <span className="lead cam text-white">
+                        <small>Air Conditioning Systems</small>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
                 <MideaProducts />
               </div>
             ) : (
               <div></div>
             )}
             {brand === "Carrier" ? (
-              <div className="single-side-products">
-                <StaticImage
-                  filename="carrier-add.png"
-                  alt="carrier air conditioning"
-                />
+              <div className="single-side-products mb-2">
+                <div
+                  style={{ backgroundColor: `#004178` }}
+                  className="my-2 text-center rounded"
+                >
+                  <h3
+                    className="h6 text-white fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Carrier
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
                 <CarrierProducts />
               </div>
             ) : (
               <div></div>
             )}
             {brand === "Samsung" ? (
-              <div className="single-side-products">
-                <StaticImage filename="3.png" alt="carrier air conditioning" />
+              <div className="single-side-products mb-2">
+                <div
+                  s
+                  className=" text-center bg-dark my-2 text-center rounded"
+                >
+                  <h3
+                    className="text-white h6 fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Samsung
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
                 <SamsungProducts />
               </div>
             ) : (
@@ -257,12 +338,32 @@ const SingleProduct = ({
 
             {brand === "Toshiba" ? (
               <div className="single-side-products">
-                <StaticImage filename="4.png" alt="carrier air conditioning" />
+                <div
+                  style={{ backgroundColor: `#D01C22` }}
+                  className="my-2  text-center rounded"
+                >
+                  <h3
+                    className="h6 text-white fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Toshiba
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
                 <ToshibaProducts />
               </div>
             ) : (
               <div></div>
             )}
+            <div className="mt-2">
+              <StaticImage
+                filename="install.png"
+                alt="toshiba air conditioning by Home Comfort Air"
+              />
+            </div>
           </div>
         </div>
       </section>

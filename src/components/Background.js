@@ -10,7 +10,7 @@ const Hero = props => {
     <>
       <BackgroundImage id="hero-image" fluid={data.fluid.childImageSharp.fluid}>
         <div
-          className="d-flex just-content-center"
+          className="d-flex just-content-center pb-2"
           style={{ backgroundColor: `rgba(255, 255, 255, 0.9)` }}
         >
           <Form />

@@ -21,51 +21,53 @@ const ProductsPage = () => {
       <div className="container body-wrapper">
         <div className="row">
           <div className="col-lg-10">
-            <div className="pt-3  heading-box-color rounded pb-3">
-              <h1 className="h2 cam text-center text-white fw-600  p-3">
-                <span style={{ maxHeight: 305 }}>
+            <div className="pt-2 split-systems-avatar heading-box-color rounded ">
+              <h1 className="h1 cam text-center text-white fw-600 p-3">
+                <span>
                   {" "}
                   <StaticImage
-                    filename="Home-Comfort-Air-WHITE-1400.png"
+                    filename="HCA-avatar-WHITE-1400.png"
                     alt="home comfort air image"
                   />
                 </span>
-                Split Systems Air Conditioning
+                Supply & Install Split Systems
               </h1>
-              <CTA />
+              <div className="pb-3">
+                <CTA />
+              </div>
             </div>
 
-            <div className="text-right">
+            <div className="text-right mt-3">
               <p style={{ fontSize: 12 }}>Showing 27 products</p>
             </div>
             <div className="split-system-archive products-archive">
-              <div className="grid-col-2 mb-2">
-                <h3
-                  className="bg-light h6 fw-600 cap mt-2 px-2 text-center border rounded"
-                  style={{ padding: `1.3rem 0` }}
+              <div className="mb-2">
+                <div
+                  className="text-center border rounded"
+                  style={{ backgroundColor: `#7DCDFF` }}
                 >
-                  Supply and Install Midea
-                  <br />{" "}
-                  <span className="lead cam">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
-                <StaticImage
-                  filename="midea-add-2.png"
-                  alt="home comfort air image"
-                />
+                  <h3
+                    className="h6 fw-600 cap mt-2 px-3  text-white rounded border"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Midea
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
               </div>
 
               <MideaProducts />
 
-              <div className="my-3 grid-col-2 text-center">
-                <StaticImage
-                  filename="carrier-add.png"
-                  alt="home comfort air image"
-                />
+              <div
+                style={{ backgroundColor: `#004178` }}
+                className="my-3 text-center rounded"
+              >
                 <h3
-                  className="h6 text-white fw-600 cap mt-2 px-2 border rounded"
-                  style={{ padding: `1.3rem 0`, backgroundColor: `#004178` }}
+                  className="h6 text-white fw-600 cap mt-2 px-3 rounded border"
+                  style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Carrier
                   <br />{" "}
@@ -77,10 +79,13 @@ const ProductsPage = () => {
 
               <CarrierProducts />
 
-              <div className="my-3 grid-col-2 text-center">
+              <div
+                style={{ backgroundColor: `#D01C22` }}
+                className="my-3  text-center rounded"
+              >
                 <h3
-                  className="h6 text-white fw-600 cap mt-2 px-2 border rounded"
-                  style={{ padding: `1.3rem 0`, backgroundColor: `#D01C22` }}
+                  className="h6 text-white fw-600 cap mt-2 px-3 rounded border"
+                  style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Toshiba
                   <br />{" "}
@@ -88,15 +93,13 @@ const ProductsPage = () => {
                     <small>Air Conditioning Systems</small>
                   </span>
                 </h3>
-                <StaticImage filename="4.png" alt="home comfort air image" />
               </div>
 
               <ToshibaProducts />
 
-              <div className="my-3 grid-col-2 text-center">
-                <StaticImage filename="3.png" alt="home comfort air image" />
+              <div s className=" text-center bg-dark my-3 text-center rounded">
                 <h3
-                  className="bg-dark text-white h6 fw-600 cap mt-2 px-2 border rounded"
+                  className="text-white h6 fw-600 cap mt-2 px-3 border rounded"
                   style={{ padding: `1.3rem 0` }}
                 >
                   Supply and Install Samsung
@@ -108,6 +111,24 @@ const ProductsPage = () => {
               </div>
 
               <SamsungProducts />
+              <div className="mt-3">
+                <StaticImage
+                  filename="splits-add-11-lg.png"
+                  alt="home comfort air image"
+                />
+              </div>
+              <div className="px-2 mt-2">
+                <h5 class="fw-600">
+                  Book Your Split System Installation Online
+                </h5>
+                <p className="lead">
+                  Get your air conditioner supplied and installed with our fast,
+                  professional service in a matter of days! Yes you and your
+                  family can enjoy the home comforts you desire within days.
+                  Receive a free quote to have your air conditioning split
+                  system installed now.
+                </p>
+              </div>
             </div>
           </div>
           <div className="col mt-5 archive-category">
@@ -133,10 +154,10 @@ const ProductsPage = () => {
         </div>
 
         <div className="grid-2">
-          <div className="span-col-3">
-            <h4 className="text-dark fw-400">
-              Gold Coast Air Conditioning Service
-            </h4>
+          <div className="span-col-3 archive-img-cta">
+            <h5 className="h6 text-dark fw-400">
+              Split System Air Conditioning Service
+            </h5>
             <StaticImage
               filename="hero-3.jpg"
               alt="split system air image"
@@ -144,14 +165,14 @@ const ProductsPage = () => {
             />
           </div>
 
-          <div className="form-quote mt-5">
+          <div className="form-quote mt-sm-4 mt-lg-5 p-lg-3">
             <h4 className="h5 text-white text-center fw-600 cap heading-box-color p-20 rounded">
               Get a free quote
             </h4>
             <Form />
           </div>
         </div>
-        <div className="mt-3">
+        <div className="mt-3 p-lg-3">
           <h4>Choose the right size air conditioner for your space</h4>
           <RoomSizeTable />
           <small style={{ fontSize: 12 }}>
