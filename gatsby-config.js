@@ -5,6 +5,7 @@ module.exports = {
     keywords: `split, system, air, conditioning, coomera, oxenford, ashmore, labrador, helensvale, `,
     url: `https://homecomfortair.net.au`,
     author: `HOME COMFORT AIR`,
+    siteUrl: `https://homecomfortair.net.au`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -186,5 +187,38 @@ module.exports = {
         trackingId: `UA-101330928-5`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+   {
+  site {
+    siteMetadata {
+      siteUrl
+    }
+  }
+  allSitePage {
+    edges {
+      node {
+        path
+        context {
+      lastmoddate
+        }
+      }
+    }
+  }
+}
+
+`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              lastmode: edge.node.context.lastmoddate,
+            }
+          }),
+      },
+    },
+    `gatsby-plugin-robots-txt`,
   ],
 }

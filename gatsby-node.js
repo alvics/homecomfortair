@@ -16,6 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
       products: allStrapiProduct {
         nodes {
           url
+          updated_at(formatString: "MMMM DD, YYYY")
         }
       }
     }
@@ -26,6 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: path.resolve(`src/templates/product-template.js`),
       context: {
         url: product.url,
+        lastmoddate: product.updated_at,
       },
     })
   })

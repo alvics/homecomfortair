@@ -21,6 +21,7 @@ const SingleProduct = ({
     product: {
       title,
       saleprice,
+      updated_at,
       price,
       expires,
       brand,
@@ -383,6 +384,7 @@ export const query = graphql`
       capacity
       heating
       roomsize
+      updated_at
       id
       image {
         childImageSharp {
