@@ -214,7 +214,9 @@ module.exports = {
           allSitePage.edges.map(edge => {
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
-              lastmode: edge.node.context.lastmoddate,
+              changefreq: `monthly`,
+              priority: 0.7,
+              lastmod: edge.node.context.lastmoddate,
             }
           }),
       },

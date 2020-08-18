@@ -16,7 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
       products: allStrapiProduct {
         nodes {
           url
-          updated_at(formatString: "MMMM DD, YYYY")
+          updated_at(formatString: "YYYY MM, DD")
         }
       }
     }
