@@ -13,7 +13,7 @@ export default class MyForm extends React.Component {
     const { status } = this.state
     return (
       <form
-        className="grid-300"
+        className="grid-300 form-a"
         onSubmit={this.submitForm}
         action="https://formspree.io/mleppppp"
         method="POST"

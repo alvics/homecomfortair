@@ -67,7 +67,9 @@ const Hero = props => {
                   <i className="text-center text-blue">
                     If you're looking for new air conditioning
                   </i>
-                  <MyForm />
+                  <div id="hero-form">
+                    <MyForm />
+                  </div>
                 </div>
               </div>
             </div>

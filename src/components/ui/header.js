@@ -37,7 +37,7 @@ const Header = () => {
       >
         <div className="container text-white">
           <div className="row">
-            <div className="col d-flex-justify-content-start align-items-center service-area text-shadow-1 pt-1 mt-1">
+            <div className="col d-flex-justify-content-start align-items-center service-area text-shadow-1 pt-1">
               Ipswich | Brisbane | Gold Coast
             </div>
 

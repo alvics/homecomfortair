@@ -227,7 +227,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Call <a href="tel:0404602657">0404 602 657</a>
                 </p>
               </div>
-              <div className="form-quote mt-5">
+              <div className="form-quote home-page mt-5">
                 <h4 className="h6 text-center text-white fw-600 heading-box-color p-20 rounded cap">
                   Free in home appraisal
                 </h4>

@@ -21,7 +21,7 @@ const ProductsPage = () => {
       <div className="container body-wrapper">
         <div className="row">
           <div className="col-lg-10">
-            <div className="pt-2 split-systems-avatar heading-box-color rounded ">
+            <div className="pt-2 split-systems-avatar heading-box-color rounded">
               <h1 className="h1 cam text-center text-white fw-600 p-3">
                 <span>
                   {" "}

@@ -37,7 +37,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
         itemscope
         itemtype="http://schema.org/PostalAddress"
         style={{ backgroundColor: `#5096dc2b` }}
-        className="py-3 text-center mt-5 contact-details"
+        className="py-3 px-2 text-center mt-5 contact-details"
       >
         <a
           className="d-flex justify-content-start text-shadow-1 py-2"
@@ -46,6 +46,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <span style={{ fontSize: 32 }} className="material-icons">
             location_on
           </span>
+
           <span
             style={{ color: `#333`, fontSize: 14 }}
             className="d-flex align-items-center"
@@ -66,6 +67,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <span style={{ fontSize: 32 }} className="material-icons">
             email
           </span>
+
           <span
             style={{ color: `#333`, marginLeft: 5, fontSize: 14 }}
             className="d-flex align-items-center"
@@ -80,6 +82,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <span style={{ fontSize: 32 }} className="material-icons">
             local_phone
           </span>
+
           <span
             style={{ color: `#333`, marginLeft: 5, fontSize: 14 }}
             className="d-flex align-items-center"
@@ -97,6 +100,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           >
             schedule
           </span>
+
           <span
             style={{ color: `#333`, fontSize: 14 }}
             className="d-flex align-items-center"

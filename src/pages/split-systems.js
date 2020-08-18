@@ -62,7 +62,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               between heating and cooling modes to set your desired temperature.
             </p>
           </div>
-          <div>
+          <div className="px-3 pt-2">
             <StaticImage
               filename="hero-3.jpg"
               alt="split system air image"

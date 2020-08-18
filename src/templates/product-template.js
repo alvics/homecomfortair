@@ -119,7 +119,7 @@ const SingleProduct = ({
                 <p className="text-white pl-2 py-1 rounded heading-box-color">
                   {room_sizes.map(item => {
                     return (
-                      <span>
+                      <span id="single-room-size">
                         Suit{" "}
                         <span style={{ textTransform: `lowercase` }}>
                           {item.size}

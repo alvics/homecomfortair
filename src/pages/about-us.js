@@ -33,17 +33,17 @@ Split,systems,Ipswich,Brisbane,Specials`,
         </div>
         <div className="row about-us">
           <div className="col-lg-8 pt-3">
-            <div className="px-3">
+            <div className="wrapper-about-img">
               <StaticImage
                 filename="splits-add-11-pow.png"
                 alt="home comfort air image"
               />
             </div>
-            <div className="pl-3 mt-3">
+            <div className="mt-3">
               <h1 className="h5 cap fw-600">About Us</h1>
             </div>
 
-            <p className="lead-20 px-20">
+            <p className="lead-20">
               We've been installing domestic air conditioners for family's and
               major builders around Brisbane, Gold Coast and Tweed Heads area's
               for over a decade. Everything from high wall split and multi head
@@ -54,7 +54,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               Queensland schools installing air conditioning systems.{" "}
             </p>
 
-            <p className="lead-20 px-20 mt-3">
+            <p className="lead-20 mt-3">
               We service South East Queensland installing all major brand air
               conditioners, if you can see your location on the maps in our
               service area, we'll come to you. Our staff are licensed experts
@@ -64,12 +64,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
               We operate 6 days a week and can be contacted between the hours of
               8am and 5pm.{" "}
             </p>
-            <p className="lead-20 px-20">
+            <p className="lead-20">
               If your looking for professional, quality workmanship, give us a
               call on 0404 602 657 HOME COMFORT AIR, for residential air
               conditioning solutions. Your satisfaction, is our guarantee!{" "}
             </p>
-            <div className="px-3">
+            <div className="img-wrapper-e">
               <StaticImage
                 filename="install-new.png"
                 alt="home comfort air image"

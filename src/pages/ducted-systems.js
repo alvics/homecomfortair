@@ -19,7 +19,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
     />
     <div className="body-wrapper ducted-systems">
       <section>
-        <div className="pt-2 ducted-systems-avatar rounded heading-box-color ">
+        <div className="pt-2 ducted-systems-avatar rounded heading-box-color mx-0 ">
           <h1 className="h1 cam text-center text-white fw-600  p-3">
             <div>
               {" "}
@@ -54,7 +54,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               find the best option to suit your home and needs.
             </p>
           </div>
-          <div className="ducted-air mt-2">
+          <div className="ducted-air mt-2 px-3">
             <StaticImage filename="DUCTED-1400.jpg" alt="ducted air image" />
           </div>
         </div>
@@ -109,7 +109,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               residential air conditioning specialists.
             </p>
           </div>
-          <div className="ducted-air">
+          <div className="ducted-air px-3">
             <StaticImage filename="DUCRED-2-1400.jpg" alt="ducted air image" />
           </div>
         </div>
