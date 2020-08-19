@@ -18,18 +18,25 @@ body {
     margin-right: 0px !important;
 }
 
-
-/* body.modal-open {
+body .modal-open {
     margin-right: 0 !important;
     margin-left: 0 !important;
     overflow: hidden;
-} */
+}
 
 .modal-open .fixed-top {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
+}
+
+.modal-open .logo {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    overflow: hidden;
 }
 
 article,
@@ -761,6 +768,10 @@ pre tt:after {
 
 /* MY STYLES  */
 
+.book-service-form-a {
+    display: grid;
+}
+
 .dropdown-menu {
     border: none !important;
 }
@@ -778,6 +789,12 @@ pre tt:after {
 
 
 /* GRID LAYOUTS */
+
+@media (max-width: 768px) {
+    .col-panel {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
 
 
 /* 2 COLUMN */
@@ -834,14 +851,11 @@ pre tt:after {
     text-align: -moz-right;
 }
 
-
-/* @media(max-width:1400px) {
-    .grid-col-2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
+@media (min-width: 768px) {
+    .CTA-btn .btn-primary-- {
+        margin-left: 10px;
     }
-} */
+}
 
 @media (max-width: 768px) {
     .CTA-btn {
@@ -1398,12 +1412,12 @@ aside {
 }
 
 .form-overlay {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media (max-width: 480px) {
     .hero-row .col-lg-4 {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.9);
     }
     .form-overlay {
         background-color: rgba(255, 255, 255, 0.1);
@@ -1450,7 +1464,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media (max-width: 765px) {

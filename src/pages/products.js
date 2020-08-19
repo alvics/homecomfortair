@@ -117,17 +117,83 @@ const ProductsPage = () => {
                   alt="home comfort air image"
                 />
               </div>
-              <div className="px-2 mt-2">
+              <div className="px-2 my-2">
                 <h5 class="fw-600">
                   Book Your Split System Installation Online
                 </h5>
                 <p className="lead">
-                  Get air conditioning supplied and installed with our fast,
-                  professional service in a matter of days! Yes you and your
+                  Get an air conditioning supplied and installed with our fast,
+                  professional service in a matter of days! Yes, you and your
                   family can enjoy the home comforts you desire within days.
                   Receive a free quote to have your air conditioning split
                   system installed now.
                 </p>
+                <div>
+                  <CTA />
+                </div>
+              </div>
+              <div className="row px-2">
+                <h4 className="h5 fw-600">
+                  Split System Installation Examples
+                </h4>
+
+                <p>
+                  Below we have two house plans images examples to show you the
+                  terminology used in the air conditioning industry, to better
+                  understand the principles of split system installation. These
+                  two installation examples are not the only solutions, but are
+                  the most widely used within the industry. This is to make
+                  communication easier and to have a better understand with some
+                  visual knowledge. We hope this may help :)
+                </p>
+                <h6 className="fw-600">Back to Back</h6>
+                <p>
+                  {" "}
+                  The "Back to Back" is the standard installation carried out
+                  when the indoor and outdoor units are being installed on the
+                  same wall (internal and external). The pipe work connecting to
+                  each unit usually doesn't exceed 3 meters in length, making
+                  this the most affordable option when installing split system
+                  air conditioning.
+                </p>
+                <h6 className="fw-600">Up & Over</h6>
+                <p>
+                  The "Up & Over" (copper pipe is run up and over to new
+                  location) installation is when the outdoor unit location is
+                  away from the indoor unit wall. This could be because of the
+                  layout of the home, and you would like to hide the outdoor
+                  unit so it's not visible from the front of the street or for
+                  many other reasons. *Please note the further away the indoor
+                  unit is from the outdoor the more materials will be use, in
+                  effect the more costly the installation will get. The gotcha
+                  is, the indoor unit wall you locate, will have an exiting
+                  evaporating water drain coming out of the wall, approximately
+                  20-25mm (this is with every air conditioning system).
+                </p>
+
+                <h6 className="fw-600">Takeaways</h6>
+                <p>
+                  Next time when you're thinking of split system air
+                  conditioning and deciding where you would like it installed,
+                  *remember 2 things, <strong>1</strong>. the indoor unit will
+                  always connect to the outdoor unit, and <strong>2</strong>.
+                  the indoor unit will always need to run a drain, to free the
+                  condensed water created by the evaporator.
+                </p>
+                <div className="col-md-6">
+                  {" "}
+                  <StaticImage
+                    filename="back-to-back-img.png"
+                    alt="back to back air conditioning installation house plan example"
+                  />
+                </div>
+                <div className="col-md-6">
+                  {" "}
+                  <StaticImage
+                    filename="up-over-img.png"
+                    alt="up and over air conditioning installation house plan example"
+                  />
+                </div>
               </div>
             </div>
           </div>

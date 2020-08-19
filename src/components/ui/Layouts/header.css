@@ -75,6 +75,7 @@ svg:hover {
 .service-area {
     font-size: 14px;
     color: #fff !important;
+    margin-top: 5px;
 }
 
 #navbar a {

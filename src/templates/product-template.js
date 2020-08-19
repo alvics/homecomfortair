@@ -95,8 +95,11 @@ const SingleProduct = ({
                 className="short-description mt-3"
                 style={{ color: `#414042`, fontSize: `16px` }}
               >
-                Supply and install a new {title}. Price based on a back to back
-                installation (indoor to outdoor maximum pipe length 3m).
+                Supply and install a new {title}.{" "}
+                <small>
+                  Price is based on a standard back to back installation (indoor
+                  to outdoor maximum pipe length 3m).
+                </small>
               </div>
               <button
                 type="button"
@@ -131,7 +134,7 @@ const SingleProduct = ({
                 </p>
 
                 <div
-                  className="border capacity-table mb-3"
+                  className="border capacity-table mb-3 pl-2"
                   style={{
                     backgroundColor: `#f8f9fa`,
                     border: `1px solid #ccc`,

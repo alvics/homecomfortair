@@ -28,7 +28,7 @@ const Hero = props => {
             data-toggle="modal"
             data-target="#quoteModal"
             style={{ fontSize: `0.8rem` }}
-            className="btn-- btn-primary-- ml-2"
+            className="btn-- btn-primary-- mt-md-2"
           >
             Instant Quote
           </button>

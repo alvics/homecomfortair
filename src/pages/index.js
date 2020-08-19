@@ -294,11 +294,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 <span
                   style={{ fontFamily: `'Caveat', cursive`, marginLeft: `6px` }}
                 >
-                  the smart choice in air conditioning
+                  The smart choice in air conditioning
                 </span>
               </div>
               <p className="mt-20 lead px-3">
-                If your looking to get the job done right by professionals, then
+                If you're looking to get the job done right by experts, then
                 give us a call on <a href="tel:0404602657">0404 602 657</a> your
                 satisfaction, is our guarantee!{" "}
               </p>

@@ -42,10 +42,8 @@ const Hero = props => {
                     from Ipswich, Brisbane and the Gold Coast.
                   </p>
                   <div className="pb-3">
-                    <Link to="/job-order">
-                      <button className="btn-- btn-green--">
-                        Book a Service
-                      </button>
+                    <Link to="/products">
+                      <button className="btn-- btn-green--">A/C Pricing</button>
                     </Link>
 
                     <Link to="/split-systems">

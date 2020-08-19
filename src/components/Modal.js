@@ -129,7 +129,18 @@ export default class Modal extends React.Component {
                     shortly.
                   </p>
                 ) : (
-                  <button className="btn-- btn-orange--">Submit</button>
+                  <div>
+                    <button className="btn-- btn-orange--">Send Enquiry</button>
+                    <div
+                      style={{ fontSize: 12 }}
+                      class="alert alert-light"
+                      role="alert"
+                    >
+                      *Please note when sending an enquiry we do not share your
+                      details with any third party, and we'll not spam your
+                      inbox.{" "}
+                    </div>
+                  </div>
                 )}
                 {status === "ERROR" && (
                   <p className="bg-danger text-white p-1 rounded">

@@ -106,7 +106,7 @@ export default class Modal extends React.Component {
                   </select>
                 </div>
 
-                <div className="border p-2 rounded">
+                <div className="border p-2 rounded text-left">
                   <h5 className="h6 fw-600"> Your Home </h5>
                   <div className="form-check mt-2 pl-5">
                     <input
@@ -139,7 +139,7 @@ export default class Modal extends React.Component {
                   </div>
                 </div>
 
-                <div className="list-group text-dark border p-2">
+                <div className="list-group text-dark border p-2 text-left">
                   <div className="mb-2">
                     <h4 className="h5 fw-600 mb-2"> Air Conditioning</h4>
                   </div>

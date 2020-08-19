@@ -225,9 +225,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
           <Panel>
             <h5 className="fw-600 cap mt-3 pb-2 ml-2">Samsung Split Systems</h5>
-            <SamsungProducts />
-            <div className="grid-col-2 pt-20">
-              <div className="tabs-img">
+            <div className="px-3">
+              <SamsungProducts />
+            </div>
+
+            <div className="grid-col-2 col-panel pt-20">
+              <div className="tabs-img px-3">
                 <StaticImage
                   filename="samsung-main.jpg"
                   alt="ducted air image"
@@ -260,8 +263,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
           <Panel>
             <h5 className="fw-600 cap mt-3 pb-2 ml-2">Carrier Split Systems</h5>
-            <CarrierProducts />
-            <div className="grid-col-2 pt-20">
+            <div className="px-3">
+              <CarrierProducts />
+            </div>
+
+            <div className="grid-col-2 col-panel pt-20">
               <div className="p-20">
                 <h5 className="fw-600 cap">Carrier air conditioning</h5>
                 <p>

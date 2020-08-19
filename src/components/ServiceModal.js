@@ -55,84 +55,91 @@ export default class Modal extends React.Component {
                 Book your split system service and we'll contact you to confirm
                 your date and time.
               </p>
-              <form
-                className="grid-300 job-order-form"
-                onSubmit={this.submitForm}
-                action="https://formspree.io/mleppppp"
-                method="POST"
-              >
-                <div className="form-check mt-2">
+              <div className="form-bc">
+                <form
+                  className="grid-300 job-order-form"
+                  onSubmit={this.submitForm}
+                  action="https://formspree.io/mleppppp"
+                  method="POST"
+                >
+                  <div className="form-check mt-2">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label
+                      className="form-check-label text-dark"
+                      for="flexRadioDefault1"
+                    >
+                      Morning (between 8-11am)
+                    </label>
+                  </div>
+
+                  <div className="form-check mb-4">
+                    <input
+                      className="form-check-input "
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label
+                      className="form-check-label text-dark"
+                      for="flexRadioDefault1"
+                    >
+                      Afternoon (between 12-4pm)
+                    </label>
+                  </div>
+
                   <input
-                    className="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    type="text"
+                    name="first_name"
+                    required
+                    placeholder="Name:"
                   />
-                  <label
-                    className="form-check-label text-dark"
-                    for="flexRadioDefault1"
-                  >
-                    Morning (between 8-11am)
-                  </label>
-                </div>
-
-                <div className="form-check mb-4">
                   <input
-                    className="form-check-input "
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
+                    type="text"
+                    name="phone"
+                    required
+                    placeholder="Phone:"
                   />
-                  <label
-                    className="form-check-label text-dark"
-                    for="flexRadioDefault1"
-                  >
-                    Afternoon (between 12-4pm)
-                  </label>
-                </div>
+                  <input
+                    type="text"
+                    name="suburb"
+                    required
+                    placeholder="Suburb:"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Email:"
+                  />
 
-                <input
-                  type="text"
-                  name="first_name"
-                  required
-                  placeholder="Name:"
-                />
-                <input type="text" name="phone" required placeholder="Phone:" />
-                <input
-                  type="text"
-                  name="suburb"
-                  required
-                  placeholder="Suburb:"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="Email:"
-                />
+                  <textarea
+                    rows="4"
+                    cols="20"
+                    name="message"
+                    required
+                    placeholder="Message:"
+                  />
 
-                <textarea
-                  rows="4"
-                  cols="20"
-                  name="message"
-                  required
-                  placeholder="Message:"
-                />
-
-                {status === "SUCCESS" ? (
-                  <p className="bg-info text-white p-1 rounded">
-                    Thanks for submitting your service request, we'll get back
-                    to you shortly.
-                  </p>
-                ) : (
-                  <button className="btn-- btn-orange--">Submit</button>
-                )}
-                {status === "ERROR" && (
-                  <p className="bg-danger text-white p-1 rounded">
-                    Ooops! There was an error.
-                  </p>
-                )}
-              </form>
+                  {status === "SUCCESS" ? (
+                    <p className="bg-info text-white p-1 rounded">
+                      Thanks for submitting your service request, we'll get back
+                      to you shortly.
+                    </p>
+                  ) : (
+                    <button className="btn-- btn-orange--">Submit</button>
+                  )}
+                  {status === "ERROR" && (
+                    <p className="bg-danger text-white p-1 rounded">
+                      Ooops! There was an error.
+                    </p>
+                  )}
+                </form>
+              </div>
             </div>
             <div className="py-2 bg-light hca-logo-modal-footer">
               <StaticImage
