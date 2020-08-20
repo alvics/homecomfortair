@@ -73,7 +73,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section>
-        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center my-2 mx-0 ">
+        <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center my-2 mx-0 ">
           <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
@@ -337,7 +337,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
       </section>
 
       <section>
-        <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center my-2 mx-0">
+        <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center my-2 mx-0">
           <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
@@ -398,7 +398,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           </div>
         </section>
 
-        <div className="heading-box-color grid-col-2  heading-avatar rounded p-2 my-3 mx-0">
+        <div className="heading-box-color grid-col-2 heading-avatar rounded  my-3 mx-0">
           <div className="">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
-@import "./bootstrap.css";
 @import "./header.css";
 html {
     font-family: "Nunito Sans", sans-serif;
@@ -37,6 +36,11 @@ body .modal-open {
     padding-right: 0px !important;
     padding-left: 0px !important;
     overflow: hidden;
+}
+
+.modal-footer {
+    padding: 5px !important;
+    margin: 0 !important
 }
 
 article,
@@ -259,6 +263,7 @@ textarea {
     color: inherit;
     opacity: 0.54;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 ::-webkit-file-upload-button {
@@ -957,6 +962,10 @@ nav.breadcrumb {
     font-weight: 600;
 }
 
+.job-order-form .btn-orange-- {
+    font-size: 1rem;
+}
+
 
 /* FORM SECTION  - GET A QUICK QUOTE */
 
@@ -1425,18 +1434,6 @@ aside {
     #single-room-size {
         font-size: 13px;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    .h1,
-    .h2,
-    .h3,
-    .h4,
-    .h5 {
-        line-height: 1.1 !important;
-    }
     #hero-form .quote-order-form {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
@@ -1502,11 +1499,28 @@ aside {
     border-bottom: 1px solid #eee;
 }
 
+.modal-body {
+    /*  rgb(0, 196, 179) */
+    background-color: #00c4b399;
+    ;
+}
+
+.modal-body input,
+.modal-body textarea {
+    border-color: transparent !important;
+    opacity: 1;
+}
+
+label {
+    font-size: 1rem;
+}
+
 textarea,
 input {
     opacity: 0.5;
     padding: 10px 0 10px 5px;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 .contact-btn {
@@ -1627,6 +1641,7 @@ select {
 ::placeholder {
     color: #2193b0;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .archive-img .gatsby-image-wrapper {
@@ -1718,6 +1733,19 @@ select {
 
 .background-green {
     background: rgb(0, 196, 179);
+}
+
+.bg-green-- {
+    background: rgb(0, 196, 179);
+}
+
+.bg-blue-- {
+    background: rgb(0, 117, 201);
+}
+
+.modal-body {
+    border-top: 2px solid rgb(0, 117, 201);
+    border-bottom: 2px solid rgb(0, 117, 201);
 }
 
 .footer-img-wrapper {
@@ -1861,5 +1889,42 @@ select {
     }
     .contact-details .d-flex {
         display: block !important;
+    }
+}
+
+@media (max-width:1024px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        line-height: 1.1 !important;
+    }
+}
+
+
+/* BS Override */
+
+:root {
+    --dark-blue: #0d3880;
+    --bs-blue: rgb(0, 117, 201);
+    --bs-orange: #fd7e14;
+}
+
+@media (min-width: 1400px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        max-width: 1440px;
     }
 }

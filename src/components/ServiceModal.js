@@ -25,21 +25,7 @@ export default class Modal extends React.Component {
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-header heading-box-color">
-              <h5
-                className="modal-title text-white text-center cap fw-600"
-                id="exampleModalLabel"
-              >
-                <span>
-                  <StaticImage
-                    filename="HCA-avatar-WHITE-1400.png"
-                    alt="home comfort air image"
-                  />
-                </span>
-                Air Conditioning <br />
-                <span className="h6 text-white">Service/Maintenance</span>
-              </h5>
-
+            <div className="modal-footer bg-light top-form border mx-0">
               <button
                 type="button"
                 className="close"
@@ -49,6 +35,26 @@ export default class Modal extends React.Component {
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+
+            <div className="m-auto my-3">
+              {" "}
+              <div
+                className="h6 modal-title text-dark cap fw-600"
+                id="exampleModalLabel"
+              >
+                <div className="my-3">
+                  <StaticImage
+                    filename="Home-Comfort-Air-logo-650.png"
+                    alt="home comfort avatar logo"
+                  />
+                </div>
+
+                <span style={{ fontSize: 20 }} className="mt-3">
+                  *Service Air Conditioning
+                </span>
+              </div>
+            </div>
+
             <div className="modal-body">
               <br />
               <p className="font-italic">

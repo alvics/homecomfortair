@@ -26,25 +26,7 @@ export default class Modal extends React.Component {
       >
         <div className="modal-dialog">
           <div className="modal-content">
-            <div className="modal-footer heading-box-color mx-0"></div>
-            <div className="modal-header">
-              <div className="m-auto">
-                {" "}
-                <h5
-                  className="h6 modal-title text-dark cap fw-600"
-                  id="exampleModalLabel"
-                >
-                  <span>
-                    {" "}
-                    <StaticImage
-                      filename="Home-Comfort-Air-COL-03-650.png"
-                      alt="home comfort avatar logo"
-                    />
-                  </span>{" "}
-                  *Air Conditioning Quote
-                </h5>
-              </div>
-
+            <div className="modal-footer bg-light top-form border mx-0">
               <button
                 type="button"
                 className="close"
@@ -54,11 +36,32 @@ export default class Modal extends React.Component {
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+            <div className="modal-header">
+              <div className="m-auto">
+                {" "}
+                <div
+                  className="h6 modal-title text-dark cap fw-600"
+                  id="exampleModalLabel"
+                >
+                  <div className="my-3">
+                    <StaticImage
+                      filename="Home-Comfort-Air-logo-650.png"
+                      alt="home comfort avatar logo"
+                    />
+                  </div>
+
+                  <span style={{ fontSize: 20 }} className="mt-3">
+                    *Air Conditioning Quote
+                  </span>
+                </div>
+              </div>
+            </div>
             <div className="modal-body">
-              <br />
               <p className="font-italic">
-                Receive your free installation quote.
+                Fill out and submit our form to receive your free air
+                conditioning quote.
               </p>
+
               <form
                 className="grid-300 job-order-form"
                 onSubmit={this.submitForm}
@@ -106,45 +109,46 @@ export default class Modal extends React.Component {
                   </select>
                 </div>
 
-                <div className="border p-2 rounded text-left">
-                  <h5 className="h6 fw-600"> Your Home </h5>
+                <div className="border p-3 rounded text-left">
+                  <h5 className="h6 fw-600 mt-2"> Your Home </h5>
                   <div className="form-check mt-2 pl-5">
-                    <input
-                      className="form-check-input"
-                      type="radio"
-                      name="flexRadioDefault"
-                      id="flexRadioDefault1"
-                    />
                     <label
                       className="form-check-label text-dark"
                       for="flexRadioDefault1"
                     >
+                      <input
+                        className="form-check-input mr-1"
+                        type="checkbox"
+                        value=""
+                      />
                       Existing dwelling
                     </label>
                   </div>
 
                   <div className="form-check mb-4 pl-5">
-                    <input
-                      className="form-check-input"
-                      type="radio"
-                      name="flexRadioDefault"
-                      id="flexRadioDefault1"
-                    />
                     <label
                       className="form-check-label text-dark"
                       for="flexRadioDefault1"
                     >
+                      <input
+                        className="form-check-input mr-1"
+                        type="checkbox"
+                        value=""
+                      />
                       New construction
                     </label>
                   </div>
                 </div>
 
-                <div className="list-group text-dark border p-2 text-left">
-                  <div className="mb-2">
-                    <h4 className="h5 fw-600 mb-2"> Air Conditioning</h4>
+                <div className="list-group text-dark border p-3 text-left ">
+                  <div className="mb-2 bg-blue-- rounded mb-3">
+                    <h4 className="h5 fw-600 my-2 text-white text-center">
+                      {" "}
+                      Air Conditioning
+                    </h4>
                   </div>
 
-                  <h5 className="h6 fw-600"> Single Room</h5>
+                  <h5 className="h6 fw-600 mb-2"> Single Room</h5>
                   <label className="mb-3 pl-3">
                     <input
                       className="form-check-input mr-1"
@@ -153,7 +157,7 @@ export default class Modal extends React.Component {
                     />
                     Wall hung split system
                   </label>
-                  <h5 className="h6 fw-600"> Multi Room</h5>
+                  <h5 className="h6 fw-600 mb-2"> Multi Room</h5>
                   <label className="mb-3 pl-3">
                     <input
                       className="form-check-input mr-1"
@@ -162,7 +166,7 @@ export default class Modal extends React.Component {
                     />
                     Multi-head split system
                   </label>
-                  <h5 className="h6 fw-600"> Entire Home</h5>
+                  <h5 className="h6 fw-600 mb-2"> Entire Home</h5>
                   <label className="mb-3 pl-3">
                     <input
                       className="form-check-input mr-1"
@@ -186,7 +190,16 @@ export default class Modal extends React.Component {
                     Thanks for submitting, we'll get back to you shortly.
                   </p>
                 ) : (
-                  <button className="btn-- btn-orange--">Submit</button>
+                  <div>
+                    <button className="btn-- btn-orange--">Submit</button>
+                    <div className="text-dark mt-2" style={{ fontSize: 12 }}>
+                      <small>
+                        *Please note when you submit a form we do not share your
+                        details with any third party, and we'll not spam your
+                        inbox.
+                      </small>
+                    </div>
+                  </div>
                 )}
                 {status === "ERROR" && (
                   <p className="bg-danger text-white p-1 rounded">
@@ -195,7 +208,12 @@ export default class Modal extends React.Component {
                 )}
               </form>
             </div>
-            <div className="modal-footer heading-box-color mx-0"></div>
+            <div className="py-2 bg-light hca-logo-modal-footer pt-2">
+              <StaticImage
+                filename="Home-Comfort-Air-logo-650.png"
+                alt="home comfort air logo"
+              />
+            </div>
           </div>
         </div>
       </div>

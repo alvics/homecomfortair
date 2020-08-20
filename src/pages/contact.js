@@ -18,7 +18,7 @@ const Contact = () => (
 Split,systems,Ipswich,Brisbane,Specials`,
         ]}
       />
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", padding: 20 }}>
         <StaticImage
           filename="Home-Comfort-Air-COL-03-650.png"
           alt="home comfort air image"
@@ -29,7 +29,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           Submit your request and we'll get back to you ASAP.
         </p>
       </div>
-      <div className="grid-300">
+      <div className="grid-300 px-2">
         <Background />
       </div>
       <div

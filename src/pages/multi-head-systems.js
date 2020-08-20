@@ -119,7 +119,7 @@ const MultiHeadSystemsPage = () => (
       </section>
 
       <section>
-        <div className="heading-box-color grid-col-2  heading-avatar rounded p-2 my-3 mx-0">
+        <div className="heading-box-color grid-col-2 heading-avatar rounded  my-3 mx-0">
           <div className="">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"

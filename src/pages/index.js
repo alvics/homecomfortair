@@ -65,7 +65,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
         <SEO title="Home" />
         <div className="body-wrapper">
           <section className="section-1">
-            <div className="heading-box-color heading-avatar heading-avatar rounded row p-2 d-flex align-items-center mb-2 mx-0">
+            <div className="heading-box-color heading-avatar heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4 m-auto">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
@@ -175,7 +175,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </section>
           <section className="section-2 split-system-cta">
-            <div className="heading-box-color heading-avatar rounded row p-2 d-flex align-items-center mb-2 mx-0">
+            <div className="heading-box-color heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
@@ -238,7 +238,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </section>
           <section className="section-3">
-            <div className="heading-box-color  heading-avatar rounded row p-2 d-flex align-items-center mb-2 mx-0">
+            <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
