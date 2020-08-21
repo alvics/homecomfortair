@@ -58,8 +58,8 @@ export default class Modal extends React.Component {
             <div className="modal-body">
               <br />
               <p className="font-italic">
-                Book your split system service and we'll contact you to confirm
-                your date and time.
+                Complete our form and we'll contact you to confirm your date and
+                time.
               </p>
               <div className="form-bc">
                 <form
@@ -68,48 +68,13 @@ export default class Modal extends React.Component {
                   action="https://formspree.io/mleppppp"
                   method="POST"
                 >
-                  <div className="form-check mt-2">
-                    <input
-                      className="form-check-input"
-                      type="radio"
-                      name="flexRadioDefault"
-                      id="flexRadioDefault1"
-                    />
-                    <label
-                      className="form-check-label text-dark"
-                      for="flexRadioDefault1"
-                    >
-                      Morning (between 8-11am)
-                    </label>
-                  </div>
-
-                  <div className="form-check mb-4">
-                    <input
-                      className="form-check-input "
-                      type="radio"
-                      name="flexRadioDefault"
-                      id="flexRadioDefault1"
-                    />
-                    <label
-                      className="form-check-label text-dark"
-                      for="flexRadioDefault1"
-                    >
-                      Afternoon (between 12-4pm)
-                    </label>
-                  </div>
-
                   <input
                     type="text"
                     name="first_name"
                     required
                     placeholder="Name:"
                   />
-                  <input
-                    type="text"
-                    name="phone"
-                    required
-                    placeholder="Phone:"
-                  />
+                  <input type="text" name="phone" placeholder="Phone:" />
                   <input
                     type="text"
                     name="suburb"
@@ -133,11 +98,22 @@ export default class Modal extends React.Component {
 
                   {status === "SUCCESS" ? (
                     <p className="bg-info text-white p-1 rounded">
-                      Thanks for submitting your service request, we'll get back
-                      to you shortly.
+                      Thank you, your form was successfully submitted, we'll get
+                      back to you shortly..
                     </p>
                   ) : (
-                    <button className="btn-- btn-orange--">Submit</button>
+                    <div>
+                      <button className="btn-- btn-orange--">
+                        Service Request
+                      </button>
+                      <div className="text-dark mt-2" style={{ fontSize: 12 }}>
+                        <small>
+                          *Please note when submitting a form we do not share
+                          your details with any third party, and we'll not spam
+                          your inbox.
+                        </small>
+                      </div>
+                    </div>
                   )}
                   {status === "ERROR" && (
                     <p className="bg-danger text-white p-1 rounded">

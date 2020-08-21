@@ -11,7 +11,7 @@ const Contact = () => (
   <Layout>
     <div className="job-order-wrapper body-wrapper py-3 contact">
       <SEO
-        title="Contact Page"
+        title="Contact Home Comfort Air | Split Systems Gold Coast"
         description={`Contact HOME COMFORT AIR for split system air conditioning installations, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
@@ -28,6 +28,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
         <p className="font-italic">
           Submit your request and we'll get back to you ASAP.
         </p>
+
+        <div className="text-dark mt-2" style={{ fontSize: 12 }}>
+          <small>
+            *Please note when submitting our form we do not share your details
+            with any third party, and we'll not spam your inbox.
+          </small>
+        </div>
       </div>
       <div className="grid-300 px-2">
         <Background />

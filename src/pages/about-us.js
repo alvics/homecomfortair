@@ -6,13 +6,14 @@ import SEO from "../components/seo"
 import StaticImage from "../components/StaticQueryImages"
 // import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
+// import Tabs from "../components/pages/Multi-Systems/MyTabs"
 
 const ProductsPage = () => {
   return (
     <Layout>
       <SEO
-        title="About Us"
-        description={`We've been working in south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
+        title="About Home Comfort Air | Split System Air Conditioning"
+        description={`We've been servicing south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,
@@ -46,27 +47,31 @@ Split,systems,Ipswich,Brisbane,Specials`,
             <p className="lead-20">
               We've been installing domestic air conditioners for family's and
               major builders around Brisbane, Gold Coast and Tweed Heads area's
-              for over a decade. Everything from high wall split and multi head
-              systems with major brands, Daikin, Haier, Kelvinator, Toshiba,
-              Acrton, Braemar, Carrier, Midea, LG, Mitsubishi and Samsung as
-              well as ducted residential and commercial systems with Daikin and
-              Actron air conditioners. Furthermore, experienced working in
-              Queensland schools installing air conditioning systems.{" "}
+              for over a decade. Everything from{" "}
+              <Link to="/split-systems">high wall split</Link> and{" "}
+              <Link to="/multi-head-systems">multi head systems</Link> with
+              major brands, Daikin, Haier, Kelvinator, Toshiba, Acrton, Braemar,
+              Carrier, Midea, LG, Mitsubishi and Samsung as well as{" "}
+              <Link to="/ducted-systems">ducted residential</Link> and
+              commercial systems with Daikin and Actron air conditioners.
+              Furthermore, experienced working in Queensland schools installing
+              air conditioning systems.{" "}
             </p>
 
             <p className="lead-20 mt-3">
-              We service South East Queensland installing all major brand air
-              conditioners, if you can see your location on the maps in our
-              service area, we'll come to you. Our staff are licensed experts
-              when it comes to installations or repairs, and we offer a 5 year
-              warranty on all new installations of split systems. We pride
-              ourselves on 100% customer satisfaction and quality workmanship.
-              We operate 6 days a week and can be contacted between the hours of
-              8am and 5pm.{" "}
+              HOME COMFORT AIR services South East Queensland installing all
+              major brand air conditioners, if you can see your location on the
+              maps in our service area, we'll come to you. Our staff are
+              licensed experts when it comes to installations or repairs, and we
+              offer a 5 year warranty on all new installations of split systems.
+              Furthermore, we pride ourselves on 100% customer satisfaction and
+              quality workmanship. HOME COMFORT AIR operates 6 days a week and
+              can be contacted between the hours of 8am and 5pm.{" "}
             </p>
             <p className="lead-20">
-              If your looking for professional, quality workmanship, give us a
-              call on 0404 602 657 HOME COMFORT AIR, for residential air
+              If your looking for air conditioning with professional and quality
+              workmanship, give HOME COMFORT AIR a call on{" "}
+              <a href="tel:0404602657">0404 602 657</a> for residential air
               conditioning solutions. Your satisfaction, is our guarantee!{" "}
             </p>
             <div className="img-wrapper-e">
@@ -75,6 +80,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 alt="home comfort air image"
               />
             </div>
+
             <div className="mt-2">
               <CarrierProducts />
             </div>

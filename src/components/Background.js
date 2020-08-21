@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import Form from "./quoteForm"
+import Form from "./contactForm"
 
 const Hero = props => {
   const data = useStaticQuery(getImages)

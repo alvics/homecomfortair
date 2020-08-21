@@ -127,6 +127,10 @@ svg:hover {
 ******* Mobile Menu ******
 ========================*/
 
+.menu-wrapper-mobile ul {
+    margin-top: -100px;
+}
+
 .sidenav {
     height: 100%;
     width: 0;

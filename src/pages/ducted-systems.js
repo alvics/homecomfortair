@@ -10,8 +10,8 @@ import CTA from "../components/CTA"
 const DuctedPage = () => (
   <Layout>
     <SEO
-      title="Ducted Systems Page"
-      description={`HOMECOMFORTAIR installs daikin ducted system air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
+      title="Ducted Systems Air Conditioning | Home Comfort Air"
+      description={`HOME COMFORT AIR installs daikin ducted system air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,
@@ -36,8 +36,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
         </div>
 
         <div className="grid-col-2 ducted-systems-top-col">
-          <div class="ducted-col">
-            <h3 className="h5 fw-600 px-20">ENTIRE HOME SOLUTION</h3>
+          <div class="ducted-col mt-3">
+            <h3 className="h5 fw-600 px-20 ">ENTIRE HOME SOLUTION</h3>
             <p className="lead-20 px-20">
               Ducted air conditioning system provides discreet comfort all year
               round, with reverse cycle heating and cooling technology. Designed

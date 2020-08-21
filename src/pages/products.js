@@ -16,8 +16,18 @@ import CTA from "../components/CTA"
 const ProductsPage = () => {
   return (
     <Layout>
-      <SEO title="Product Archive Page" />
-
+      <SEO
+        title="Products Split Systems | Home Comfort Air Gold Coast"
+        description={`Visit HOME COMFORT AIR to check our monthly air conditioning specials, supplied and installed reverse cycle split systems a/c from $1050.`}
+        keywords={[
+          `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+        ]}
+      />
+      <meta
+        property="og:image"
+        content="https://res.cloudinary.com/ewebdesigns/image/upload/v1597706415/Toshiba_lg_8ebbee010f.png"
+      ></meta>
       <div className="container body-wrapper">
         <div className="row">
           <div className="col-lg-10">
@@ -118,7 +128,7 @@ const ProductsPage = () => {
                 />
               </div>
               <div className="px-2 my-2">
-                <h5 class="fw-600">
+                <h5 class="fw-600 mt-3">
                   Book Your Split System Installation Online
                 </h5>
                 <p className="lead">
@@ -126,7 +136,9 @@ const ProductsPage = () => {
                   professional service in a matter of days! Yes, you and your
                   family can enjoy the home comforts you desire within days.
                   Receive a free quote to have your air conditioning split
-                  system installed now.
+                  system installed now. When submitting our form, fill in as
+                  many details as possible, this will help us quickly resolve
+                  your requirements.
                 </p>
                 <div>
                   <CTA />
@@ -138,15 +150,14 @@ const ProductsPage = () => {
                 </h4>
 
                 <p>
-                  Below we have two house plans images examples to show you the
-                  terminology used in the air conditioning industry, to better
-                  understand the principles of split system installation. These
+                  Below we have two house plans images examples to guide you
+                  through the terminology we use day to day, and to help you
+                  understand some principles of split system installation. These
                   two installation examples are not the only solutions, but are
-                  the most widely used within the industry. This is to make
-                  communication easier and to have a better understand with some
-                  visual knowledge. We hope this may help :)
+                  the most widely used within the industry. This may help with
+                  future communication or when submitting and enquiry form.
                 </p>
-                <h6 className="fw-600">Back to Back</h6>
+                <h6 className="fw-600 mb-3">Back to Back</h6>
                 <p>
                   {" "}
                   The "Back to Back" is the standard installation carried out
@@ -156,7 +167,7 @@ const ProductsPage = () => {
                   this the most affordable option when installing split system
                   air conditioning.
                 </p>
-                <h6 className="fw-600">Up & Over</h6>
+                <h6 className="fw-600 mb-3">Up & Over</h6>
                 <p>
                   The "Up & Over" (copper pipe is run up and over to new
                   location) installation is when the outdoor unit location is
@@ -166,28 +177,29 @@ const ProductsPage = () => {
                   many other reasons. *Please note the further away the indoor
                   unit is from the outdoor the more materials will be use, in
                   effect the more costly the installation will get. The gotcha
-                  is, the indoor unit wall you locate, will have an exiting
-                  evaporating water drain coming out of the wall, approximately
-                  20-25mm (this is with every air conditioning system).
+                  here is, the indoor unit wall location, will need to have an
+                  exiting evaporating water drain coming out of the wall,
+                  approximately 20-25mm (this is with every air conditioning
+                  system).
                 </p>
 
-                <h6 className="fw-600">Takeaways</h6>
+                <h6 className="fw-600 mb-3">Takeaways</h6>
                 <p>
                   Next time when you're thinking of split system air
                   conditioning and deciding where you would like it installed,
                   *remember 2 things, <strong>1</strong>. the indoor unit will
                   always connect to the outdoor unit, and <strong>2</strong>.
                   the indoor unit will always need to run a drain, to free the
-                  condensed water created by the evaporator.
+                  water created by the indoor unit.
                 </p>
-                <div className="col-md-6">
+                <div className="col-md-6 p-4">
                   {" "}
                   <StaticImage
                     filename="back-to-back-img.png"
                     alt="back to back air conditioning installation house plan example"
                   />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 p-4">
                   {" "}
                   <StaticImage
                     filename="up-over-img.png"

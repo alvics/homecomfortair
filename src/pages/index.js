@@ -32,13 +32,17 @@ const IndexPage = () => {
     <>
       <Layout>
         <SEO
-          title="Home Page"
-          description={`HOMECOMFORTAIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
+          title="Home Comfort Air | Gold Coast Split Systems A/C"
+          description={`HOME COMFORT AIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
           keywords={[
             `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,
           ]}
         />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/ewebdesigns/image/upload/v1597993348/facebook-cover-3_rzv8bs.png"
+        ></meta>
         <meta name="pinterest" content="nopin" />
         <section className="specials-section">
           <div className="text-center body-wrapper">
@@ -49,8 +53,9 @@ Split,systems,Ipswich,Brisbane,Specials`,
               Air Conditioning
             </h5>
             <p className="lead-400 top-text px-4">
-              Check our air conditioning <strong>specials</strong> at the start
-              of each month, and save hundreds!
+              Check our monthly air conditioning and installation{" "}
+              <strong>specials </strong>
+              you can save hundreds!
             </p>
             <div className="text-center">
               <Link to="/products/specials">
@@ -62,7 +67,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
         <Hero />
 
-        <SEO title="Home" />
         <div className="body-wrapper">
           <section className="section-1">
             <div className="heading-box-color heading-avatar heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
@@ -218,7 +222,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   the right air conditioning system to suit your interior.
                   Whether you're looking for a single room or the entire home,
                   we've got you covered. We can help you over the phone, by{" "}
-                  <a href="mailto:alvicair@hotmail.com"> email</a>
+                  <a href="mailto:homecomfortair.gc@gmail.com"> email</a>
                   , and even face to face with a free in home consultation to
                   better understand your needs. We've got over 10 years
                   experience, talk to us to find out more about all the options,
@@ -254,7 +258,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
             <div className="row">
               <div className="col-lg-7">
-                {" "}
+                <div className="mt-2 px-3">
+                  <h4 className="h5 text-dark fw-400">
+                    Local Air Conditioning Experts
+                  </h4>
+                </div>
                 <div>
                   <p className="lead mt-3 px-3">
                     We've been installing domestic air conditioners for family's
@@ -271,19 +279,19 @@ Split,systems,Ipswich,Brisbane,Specials`,
                     conditioners.
                   </p>
                   <p className="mt-20 lead px-3">
-                    We service the Gold Coast, Ipswich and Brisbane areas. Our
-                    staff are licensed experts when it comes to installations or
-                    <Link to="/service"> split system service</Link>, and we
-                    offer a 5 year warranty on the workmanship of new
-                    installation. We pride ourselves on 100% customer
-                    satisfaction, so you know you're in the right hands when
-                    choosing Home Comfort Air. We operate 6 days a week and can
-                    be contacted between the hours of 8am and 5pm.
+                    We <Link to="/service">service</Link> the Gold Coast,
+                    Ipswich and Brisbane areas. Our staff are licensed experts
+                    in air conditioning, and we offer a 5 year warranty on the
+                    workmanship of new installation. HOME COMFORT AIR prides
+                    itself on 100% customer satisfaction, so you know you're in
+                    the right hands when choosing air conditioning for your
+                    home. Furthermore, we operate 6 days a week and can be
+                    contacted between the hours of 8am and 5pm.
                   </p>
                 </div>
               </div>
               <div className="col-lg-5">
-                <div className="home-comfort-air-img">
+                <div className="home-comfort-air-img mt-3">
                   {" "}
                   <StaticImage
                     filename="homecomfort.jpg"
@@ -297,11 +305,18 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   The smart choice in air conditioning
                 </span>
               </div>
-              <p className="mt-20 lead px-3">
-                If you're looking to get the job done right by experts, then
-                give us a call on <a href="tel:0404602657">0404 602 657</a> your
-                satisfaction, is our guarantee!{" "}
-              </p>
+            </div>
+            <div className="my-4">
+              {" "}
+              <div className="mt-20 h5 text-center px-3">
+                <span>Need air conditioning done right?</span>{" "}
+                <div className="my-2">
+                  <a className="btn btn-green--" href="tel:0404602657">
+                    Call 0404 602 657
+                  </a>{" "}
+                </div>
+                <span>your satisfaction, is our guarantee!</span>
+              </div>
             </div>
             <div className="why-us">
               <ul className="bg-light p-20 mr-4">

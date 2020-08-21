@@ -9,8 +9,8 @@ import CTA from "../components/CTA"
 const MultiHeadSystemsPage = () => (
   <Layout>
     <SEO
-      title="Multi-head Split Systems"
-      description={`HOMECOMFORTAIR installs mulit-head system air conditioning throughout, Ipswich, Brisbane and the Gold Coast area's.`}
+      title="Multi-head Split Systems | Home Comfort Air "
+      description={`HOME COMFORT AIR installs mulit-head system air conditioning throughout, Ipswich, Brisbane and the Gold Coast area's.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
                 Split,systems,Ipswich,Brisbane,Specials`,

@@ -58,7 +58,7 @@ export default class Modal extends React.Component {
             </div>
             <div className="modal-body">
               <p className="font-italic">
-                Fill out and submit our form to receive your free air
+                *Fill out and submit our form to receive your free air
                 conditioning quote.
               </p>
 
@@ -67,6 +67,7 @@ export default class Modal extends React.Component {
                 onSubmit={this.submitForm}
                 action="https://formspree.io/mleppppp"
                 method="POST"
+                encType="multipart/form-data"
               >
                 <input
                   type="text"
@@ -74,7 +75,7 @@ export default class Modal extends React.Component {
                   required
                   placeholder="Name:"
                 />
-                <input type="text" name="phone" required placeholder="Phone:" />
+                <input type="text" name="phone" placeholder="Phone:" />
                 <input
                   type="text"
                   name="suburb"
@@ -90,9 +91,9 @@ export default class Modal extends React.Component {
                 <input
                   style={{ fontWeight: `bold`, color: `#333` }}
                   type="file"
-                  name="file_upload"
+                  name="attachment"
                   placeholder="File:"
-                  accept="image/*,.pdf"
+                  accept="image/png, image/jpeg"
                 />
 
                 <div className="input-group mb-3">
@@ -112,29 +113,31 @@ export default class Modal extends React.Component {
                 <div className="border p-3 rounded text-left">
                   <h5 className="h6 fw-600 mt-2"> Your Home </h5>
                   <div className="form-check mt-2 pl-5">
+                    <input
+                      className="form-check-input mr-1"
+                      type="checkbox"
+                      value=""
+                      id="existing-home-check"
+                    />
                     <label
                       className="form-check-label text-dark"
-                      for="flexRadioDefault1"
+                      for="existing-home-check"
                     >
-                      <input
-                        className="form-check-input mr-1"
-                        type="checkbox"
-                        value=""
-                      />
                       Existing dwelling
                     </label>
                   </div>
 
                   <div className="form-check mb-4 pl-5">
+                    <input
+                      className="form-check-input mr-1"
+                      type="checkbox"
+                      value=""
+                      id="new-home-check"
+                    />
                     <label
                       className="form-check-label text-dark"
-                      for="flexRadioDefault1"
+                      for="new-home-check"
                     >
-                      <input
-                        className="form-check-input mr-1"
-                        type="checkbox"
-                        value=""
-                      />
                       New construction
                     </label>
                   </div>
@@ -151,9 +154,10 @@ export default class Modal extends React.Component {
                   <h5 className="h6 fw-600 mb-2"> Single Room</h5>
                   <label className="mb-3 pl-3">
                     <input
+                      id=""
                       className="form-check-input mr-1"
                       type="checkbox"
-                      value=""
+                      value="Split System"
                     />
                     Wall hung split system
                   </label>
@@ -162,7 +166,7 @@ export default class Modal extends React.Component {
                     <input
                       className="form-check-input mr-1"
                       type="checkbox"
-                      value=""
+                      value="Multi-head"
                     />
                     Multi-head split system
                   </label>
@@ -171,7 +175,7 @@ export default class Modal extends React.Component {
                     <input
                       className="form-check-input mr-1"
                       type="checkbox"
-                      value=""
+                      value="Ducted System"
                     />
                     Split ducted system
                   </label>
@@ -187,14 +191,17 @@ export default class Modal extends React.Component {
 
                 {status === "SUCCESS" ? (
                   <p className="bg-info text-white p-1 rounded">
-                    Thanks for submitting, we'll get back to you shortly.
+                    Thank you, your form was successfully submitted, we'll get
+                    back to you shortly.
                   </p>
                 ) : (
                   <div>
-                    <button className="btn-- btn-orange--">Submit</button>
+                    <button id="primaryBtn" className="btn-- btn-orange--">
+                      Submit
+                    </button>
                     <div className="text-dark mt-2" style={{ fontSize: 12 }}>
                       <small>
-                        *Please note when you submit a form we do not share your
+                        *Please note when submitting a form we do not share your
                         details with any third party, and we'll not spam your
                         inbox.
                       </small>
@@ -222,6 +229,7 @@ export default class Modal extends React.Component {
 
   submitForm(ev) {
     ev.preventDefault()
+
     const form = ev.target
     const data = new FormData(form)
     const xhr = new XMLHttpRequest()

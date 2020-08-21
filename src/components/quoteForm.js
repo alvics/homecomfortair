@@ -46,14 +46,6 @@ export default class QuoteForm extends React.Component {
           required
         />
 
-        <input
-          style={{ fontWeight: `bold` }}
-          type="file"
-          name="file_upload"
-          placeholder="File:"
-          accept="image/*,.pdf"
-        />
-
         <textarea
           style={{ fontWeight: `bold` }}
           rows="4"
@@ -64,7 +56,10 @@ export default class QuoteForm extends React.Component {
         />
 
         {status === "SUCCESS" ? (
-          <p>Thanks for submitting a quote, we'll get back to you shortly.</p>
+          <p>
+            Thank you, your form was successfully submitted, we'll get back to
+            you shortly.
+          </p>
         ) : (
           <button className="btn-- btn-orange--">Submit</button>
         )}

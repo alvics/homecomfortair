@@ -1,6 +1,5 @@
 import React from "react"
 import StaticImage from "../components/StaticQueryImages"
-import PageURL from "../components/PageUrl"
 
 // import OrderForm from "./OrderForm"
 // import ProductTemplate from "../templates/product-template"
@@ -19,9 +18,9 @@ export default class Modal extends React.Component {
     const { status } = this.state
 
     /* const queryString = window.location.href
-      .replace(/(^\w+:|^)\/\//, "")
-      .split("localhost:8000/products/")
-      .join("") */
+          .replace(/(^\w+:|^)\/\//, "")
+          .split("localhost:8000/products/")
+          .join("") */
 
     return (
       <div
@@ -79,7 +78,6 @@ export default class Modal extends React.Component {
                 action="https://formspree.io/mleppppp"
                 method="POST"
               >
-                <PageURL />
                 <input
                   type="text"
                   name="first_name"
@@ -103,16 +101,16 @@ export default class Modal extends React.Component {
                 />
                 {status === "SUCCESS" ? (
                   <p className="bg-info text-white p-1 rounded">
-                    Thank you, your form was successfully submitted, we'll get
-                    back to you shortly.
+                    Thanks, your form was successfully submitted, we'll get back
+                    to you shortly.
                   </p>
                 ) : (
                   <div>
                     <button className="btn-- btn-orange-- mb-3">
-                      Send Enquiry
+                      Receive a Quote
                     </button>
                     <div className="text-dark mt-2" style={{ fontSize: 12 }}>
-                      *Please note when sending an enquiry we do not share your
+                      *Please note when submitting our form we do not share your
                       details with any third party, and we'll not spam your
                       inbox.{" "}
                     </div>

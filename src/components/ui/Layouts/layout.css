@@ -1501,14 +1501,14 @@ aside {
 
 .modal-body {
     /*  rgb(0, 196, 179) */
-    background-color: #00c4b399;
+    background-color: #00c4b399 !important;
     ;
 }
 
 .modal-body input,
 .modal-body textarea {
     border-color: transparent !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 label {
@@ -1744,8 +1744,8 @@ select {
 }
 
 .modal-body {
-    border-top: 2px solid rgb(0, 117, 201);
-    border-bottom: 2px solid rgb(0, 117, 201);
+    border-top: 2px solid rgb(0, 117, 201) !important;
+    border-bottom: 2px solid rgb(0, 117, 201) !important;
 }
 
 .footer-img-wrapper {

@@ -1,15 +1,18 @@
 // Display the dropdown button in Mobile Nav Menu
 import React from "react"
+import StaticImage from "../../StaticQueryImages"
+import { Tabs, Tab, Panel } from "@bumaga/tabs"
+import ToshibaProducts from "../../Products/Toshiba"
 // import { Link } from "gatsby"
 
-const Tabs = () => {
+const MyTabs = () => {
   return (
     <section className="mt-5">
       <Tabs>
         <div className="grid-300">
           <Tab>
             <div className="card">
-              <button className="btn btn-primary p-20">Daikin Systems</button>
+              <button className="btn btn-primary p-20">Toshiba Systems</button>
             </div>
           </Tab>
           <Tab>
@@ -34,7 +37,7 @@ const Tabs = () => {
         <Panel>
           <div className="grid-col-2 section">
             <div className="p-20">
-              <h5>Daikin Split Systems</h5>
+              <h5>Toshiba Split Systems</h5>
               <p>
                 Daikin Split Systems are the ferrari when it comes to air
                 conditioning systems. It's clearly the winner in innovations and
@@ -44,6 +47,7 @@ const Tabs = () => {
                 the Daikin air conditioning systems for your home or space.
               </p>
             </div>
+
             <div>
               <StaticImage
                 className="rounded"
@@ -52,6 +56,7 @@ const Tabs = () => {
               />
             </div>
           </div>
+          <ToshibaProducts />
         </Panel>
 
         <Panel>
@@ -105,4 +110,4 @@ const Tabs = () => {
   )
 }
 
-export default Tabs
+export default MyTabs

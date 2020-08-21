@@ -8,7 +8,7 @@ const PageURL = () => {
       style={{ fontSize: 13 }}
       type="text"
       readOnly="readonly"
-      value={url}
+      value={url.toString().substring(29)}
     />
   )
 }

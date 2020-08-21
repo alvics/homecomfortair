@@ -13,6 +13,7 @@ import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
 import RoomSizeTable from "../components/RoomSize"
+import BackToBack from "../components/BackToBack"
 
 // Destructuring all the properties from the query
 
@@ -95,10 +96,21 @@ const SingleProduct = ({
                 className="short-description mt-3"
                 style={{ color: `#414042`, fontSize: `16px` }}
               >
-                Supply and install a new {title}.{" "}
+                {room_sizes.map(item => {
+                  return (
+                    <span id="single-room-size">
+                      Supply and install a new {title}. Suit{" "}
+                      <span style={{ textTransform: `lowercase` }}>
+                        {item.size}
+                      </span>{" "}
+                      size room approx {roomsize}m².{" "}
+                    </span>
+                  )
+                })}
+
                 <small>
-                  Price is based on a standard back to back installation (indoor
-                  to outdoor maximum pipe length 3m).
+                  *Price is based on a <a href="#backtoback">back to back</a>{" "}
+                  installation (maximum pipe length 3 metres).
                 </small>
               </div>
               <button
@@ -119,20 +131,6 @@ const SingleProduct = ({
             {" "}
             <div className="markdown container py-5">
               <article>
-                <p className="text-white pl-2 py-1 rounded heading-box-color">
-                  {room_sizes.map(item => {
-                    return (
-                      <span id="single-room-size">
-                        Suit{" "}
-                        <span style={{ textTransform: `lowercase` }}>
-                          {item.size}
-                        </span>{" "}
-                        size rooms approx {roomsize}m²
-                      </span>
-                    )
-                  })}
-                </p>
-
                 <div
                   className="border capacity-table mb-3 pl-2"
                   style={{
@@ -166,7 +164,7 @@ const SingleProduct = ({
                   </table>
                 </div>
                 <div
-                  class="banner-ac mb-4"
+                  class="banner-ac mb-3"
                   style={{
                     backgroundColor: `#f8f9fa`,
                     border: `1px solid #ccc`,
@@ -206,6 +204,7 @@ const SingleProduct = ({
                     Contact us
                   </Link>
                 </div>
+
                 <div className="mb-3 single-product-add">
                   {brand === "Midea" ? (
                     <div className="mb-2">
@@ -252,8 +251,38 @@ const SingleProduct = ({
                 <ReactMarkdown source={description} />
               </article>
               <hr />
-              <div className="mt-3">
+              <div id="backtoback">
+                <h5>Installation examples</h5>
+                <p>
+                  Are you looking for new split system air conditioning? Here
+                  are a couple of installation options for your home or space.
+                </p>
+
+                <BackToBack />
+              </div>
+              <hr />
+              <div className="mt-4">
                 <h4>Choose the right size air conditioner for your space</h4>
+                <div style={{ fontSize: 16 }} className="bg-light pl-2 pt-2 ">
+                  {" "}
+                  *You selected a {brand} <strong>{capacity}</strong> air
+                  conditioner
+                </div>
+                <div>
+                  <p className="bg-light pl-2 py-1 ">
+                    {room_sizes.map(item => {
+                      return (
+                        <span id="single-room-size">
+                          *Suit{" "}
+                          <span style={{ textTransform: `lowercase` }}>
+                            {item.size}
+                          </span>{" "}
+                          size room approx {roomsize}m²
+                        </span>
+                      )
+                    })}
+                  </p>
+                </div>
                 <RoomSizeTable />
                 <small style={{ fontSize: 12 }}>
                   This is a rough guide only, there are some factors to consider
@@ -262,6 +291,24 @@ const SingleProduct = ({
                   on. We can help you determine the right size air conditioner
                   for your room.
                 </small>
+              </div>
+              <div className="border rounded bg-green-- my-3">
+                <blockquote style={{ color: `#f8f8f8` }} className="mt-20 ">
+                  <i style={{ fontSize: 15 }}>
+                    *We offer seniors and pensioners discounts on new air
+                    conditioning installation. You can save 10% with our supply
+                    and install offers
+                    <button
+                      style={{ color: `#0075C9` }}
+                      type="button"
+                      className=""
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      enquire now
+                    </button>
+                  </i>
+                </blockquote>
               </div>
             </div>
           </div>

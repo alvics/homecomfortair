@@ -1,11 +1,10 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
-import QuoteModal from "../components/QuoteModal"
+import Modal from "../components/InstantQuoteForm"
 import ServiceModal from "../components/ServiceModal"
-// import StaticImage from "../components/StaticQueryImages"
 
-const Hero = props => {
+const CTA = () => {
   const data = useStaticQuery(getImages)
   console.log(data)
   return (
@@ -26,14 +25,14 @@ const Hero = props => {
           <button
             type="button"
             data-toggle="modal"
-            data-target="#quoteModal"
+            data-target="#exampleModal"
             style={{ fontSize: `0.8rem` }}
             className="btn-- btn-primary-- mt-md-2"
           >
             Instant Quote
           </button>
 
-          <QuoteModal />
+          <Modal />
         </div>
       </div>
     </>
@@ -53,4 +52,4 @@ const getImages = graphql`
   }
 `
 
-export default Hero
+export default CTA

@@ -10,8 +10,8 @@ import CTA from "../components/CTA"
 const ServicePage = () => (
   <Layout>
     <SEO
-      title="Service Page"
-      description={`HOME COMFORT AIR service and maintenance air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
+      title="Service Gold Coast | Ipswich Brisbane Air Conditioning"
+      description={`HOME COMFORT AIR installations, service and maintenance air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,

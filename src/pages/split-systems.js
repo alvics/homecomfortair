@@ -18,13 +18,17 @@ import CTA from "../components/CTA"
 const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
     <SEO
-      title="Split Systems A/C"
+      title="Split Systems A/C | Home Comfort Air Gold Coast"
       description={`HOME COMFORT AIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,
       ]}
     />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/ewebdesigns/image/upload/v1587019232/install_h0mq9m.jpg"
+    ></meta>
     <div className="body-wrapper split-systems">
       <section>
         <div className="pt-2 split-systems-avatar heading-box-color rounded ">
@@ -48,7 +52,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             <h3 className="h5 fw-600 px-20 mt-3">SINGLE ROOM SOLUTION</h3>
             <p className="lead-20 px-20">
               The split system air conditioner is a reliable and flexible
-              comfort solution and ideal for living areas, apartment and single
+              comfort solution ideal for living areas, apartments and single
               rooms. Keeping you warm and cosy in winter and cool and fresh in
               summer. It also gives your room a stylish, sleek and sophisticated
               look, with advanced performance and technology its the perfect
@@ -59,7 +63,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
               7kW units for your average lounge room, to the big 10kW units that
               cool larger open style living, lounge and dinning rooms. Most
               split systems are reverse cycle, meaning that you can switch
-              between heating and cooling modes to set your desired temperature.
+              between heating and cooling modes for setting your desired
+              temperature.
             </p>
           </div>
           <div className="px-3 pt-2">
@@ -242,8 +247,10 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 <p>
                   Samsung Air Conditioning is one of our top choices, it's
                   reputation for technology and innovations is one of the best
-                  in the air conditioning world. As a Samsung Air Conditioning
-                  installation specialist, you'll be confident and comfortable
+                  in the air conditioning world. Designed to automatically
+                  select the Operating mode based on surrounding temperature.
+                  This allows the Air Conditioner to heat or cool as required to
+                  maintain set temperature. You can be confident and comfortable
                   at home or office with a new Samsung air conditioner.
                 </p>
                 <p>

@@ -13,7 +13,14 @@ import Specials from "../../components/Products/Specials"
 const SpecialsComp = () => {
   return (
     <Layout>
-      <SEO title="Special Deals" />
+      <SEO
+        title="Specials Monthly Air Conditioning | Home Comfort Air"
+        description={`Visit HOME COMFORT AIR to check our monthly air conditioning specials, supplied and installed reverse cycle split systems a/c from $1050.`}
+        keywords={[
+          `Gold,Coast,Air,Conditioning,
+Split,systems,Ipswich,Brisbane,Specials`,
+        ]}
+      />
       <div className="container body-wrapper ducted-systems">
         <div className="pt-3 ducted-systems-avatar  heading-box-color rounded pb-3">
           <h1 className="h2 cam text-center text-white fw-600  p-3">
