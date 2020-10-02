@@ -24,7 +24,7 @@ const Product = ({ title, image, price, url, saleprice }) => {
               className="text-cards-archive"
               style={{ fontSize: `1rem`, fontWeight: `600` }}
             >
-              Supply and Installed{" "}
+              Supply and Install{" "}
               {price && saleprice ? (
                 <span className="primary fw-600 sale-price">
                   ${saleprice}.00

@@ -132,6 +132,11 @@ const Footer = () => {
             <div className="text-left">
               <h4>Latest News</h4>
               <p>
+                <Link to="/products/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-september-2020-special">
+                  September-Samsung 6.8kW
+                </Link>
+              </p>
+              <p>
                 {" "}
                 <Link to="/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020">
                   August-Midea 2.6kW
@@ -145,11 +150,6 @@ const Footer = () => {
               <p>
                 <Link to="/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-specials-june-2020">
                   June-Toshiba 7.1kW
-                </Link>
-              </p>
-              <p>
-                <Link to="/products/carrier-2.6kw-pearl-reverse-cycle-inverter-hi-wall-split-system-specials-may-2020">
-                  May-Carrier 2.6kW
                 </Link>
               </p>
             </div>

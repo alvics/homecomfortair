@@ -295,7 +295,7 @@ const SingleProduct = ({
               <div className="border rounded bg-green-- my-3">
                 <blockquote style={{ color: `#f8f8f8` }} className="mt-20 ">
                   <i style={{ fontSize: 15 }}>
-                    *We offer seniors and pensioners discounts on new air
+                    *We offer seniors and pensioners discounts for new air
                     conditioning installation. You can save 10% with our supply
                     and install offers
                     <button
