@@ -190,7 +190,7 @@ const SingleProduct = ({
            <li>* Non back to back installations.</li>
              <li>* Extra piping.</li>
                <li>* Poly slab Installation (if not already present).</li>
-                 <li>* Brackets (eg. wall or roof).</li>
+                 <li>* Brackets (e.g. wall or roof).</li>
                  <li>* Mounting blocks.</li>
                  <li>* Electrical work (e.g circuit upgrades).
                  </li>
