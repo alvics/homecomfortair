@@ -93,7 +93,9 @@ const Footer = () => {
               <h4>Servicing</h4>
               <p>Ipswich</p>
               <p>Brisbane</p>
-              <p>Gold Coast</p>
+              <p>
+                <Link to="/gold-coast-air-conditioning">Gold Coast</Link>
+              </p>
               <p>Tweed Heads</p>
             </div>
           </section>
@@ -132,6 +134,11 @@ const Footer = () => {
             <div className="text-left">
               <h4>Latest News</h4>
               <p>
+                <Link to="/products/carrier-5.0kw-pearl-reverse-cycle-inverter-hi-wall-split-system-specials-october-2020">
+                  October-Carrier 5.0kW
+                </Link>
+              </p>
+              <p>
                 <Link to="/products/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-september-2020-special">
                   September-Samsung 6.8kW
                 </Link>
@@ -145,11 +152,6 @@ const Footer = () => {
               <p>
                 <Link to="/products/samsung-2.5kw-boracay-reverse-cycle-inverter-hi-wall-split-system-specials-july-2020">
                   July-Samsung 2.5kW
-                </Link>
-              </p>
-              <p>
-                <Link to="/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-specials-june-2020">
-                  June-Toshiba 7.1kW
                 </Link>
               </p>
             </div>

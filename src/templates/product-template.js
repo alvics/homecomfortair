@@ -126,7 +126,7 @@ const SingleProduct = ({
           </div>
         </div>
         <hr />
-        <div className="row">
+ <div className="row">
           <div className="col-lg-8">
             {" "}
             <div className="markdown container py-5">
@@ -163,6 +163,43 @@ const SingleProduct = ({
                     </tbody>
                   </table>
                 </div>
+
+        <div className="mt-4">
+        <h5>What's included:</h5>
+        <p>Your new air conditioning system package includes standard single storey back to back installation. This package includes:</p>
+         <div>
+            <ul className="pl-3">
+        <li>* Licensed Installers.</li>
+        <li>* Up to 3 meters of pipework connecting indoor to outdoor unit.</li>
+        <li>* Up to 20 meters of electrical cable run in the roof to an existing and available circuit. Does NOT include additional electrical work, or new circuit added. </li>
+        <li>* New mounted weatherproof safety isolation switch.</li>
+        <li>* PVC ducting to conceal pipe connection and electrical work.</li>
+        <li>* 5 year manufacturer warranty.</li>
+        <li>* 5 year Installation warranty.</li>
+        </ul>
+         </div>
+
+
+         <div className="mb-4">
+         <h5>Additional charges:</h5>
+         <p>The requirements for installation may vary depending on the layout and structure of your house. As a result, some additional costs may apply.
+         </p>
+         <p>The most common reasons for additional costs are:</p>
+         <ul className="pl-3">
+         <li>* Double storey properties.</li>
+           <li>* Non back to back installations.</li>
+             <li>* Extra piping.</li>
+               <li>* Poly slab Installation (if not already present).</li>
+                 <li>* Brackets (eg. wall or roof).</li>
+                 <li>* Mounting blocks.</li>
+                 <li>* Electrical work (e.g circuit upgrades).
+                 </li>
+         </ul>
+         <small>Note: your installer will explain the reasons and requirements for the additional charges (if there are any) before proceeding.</small>
+         </div>
+     
+        </div>
+       
                 <div
                   class="banner-ac mb-3"
                   style={{
@@ -413,6 +450,10 @@ const SingleProduct = ({
                 filename="install.png"
                 alt="toshiba air conditioning by Home Comfort Air"
               />
+              <ul>
+              
+        <li>* 5 year Installation warranty.</li>
+              </ul>
             </div>
           </div>
         </div>

@@ -357,54 +357,56 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </h3>
           </div>
         </div>
-        <section>
-          <div className="row">
-            <div className=" col-lg-6 pt-3 mb-4">
-              <h5 className=" px-20 cap fw-600">
-                Split System Installation Service
-              </h5>
-              <p className="px-20">
-                HOME COMFORT AIR can supply and fully install all brands of
-                split system air conditioners for your home or office. Whether
-                you're a builder of new construction and are looking for our
-                "rough in" and "fit off" service to an existing home needing
-                full installation, we've got air conditioning solutions for all
-                requirements. Already purchased a split system and are only
-                looking for installation ? We can provide our "installation only
-                service" for you as well.
-              </p>
-              <h5 className=" px-20 cap fw-600 mt-4">
-                Replacement Split System Air Conditioning Service
-              </h5>
-              <p className="px-20">
-                Our replacement air conditioning service is widely used by
-                property managers and home owners throughout South East
-                Queensland. Our service includes the decommissioning and
-                disposal of your old air conditioning system, through to
-                installing, commissioning and testing of the new split system.
-                Once your split system has been checked and functioning
-                correctly, we'll go through and show you the use of the remote
-                controller to operate your new air conditioning system. <br />
-                HOME COMFORT AIR, residential air conditioning specialists.
-              </p>
-            </div>
-            <div className="col-lg-6 ">
-              <div className="mt-2 split-systems-bottom">
+      </section>
+
+      <section>
+        <div className="row">
+          <div className=" col-lg-6 pt-3 mb-4">
+            <h5 className=" px-20 cap fw-600">
+              Split System Installation Service
+            </h5>
+            <p className="px-20">
+              HOME COMFORT AIR can supply and fully install all brands of split
+              system air conditioners for your home or office. Whether you're a
+              builder of new construction and are looking for our "rough in" and
+              "fit off" service to an existing home needing full installation,
+              we've got air conditioning solutions for all requirements. Already
+              purchased a split system and are only looking for installation ?
+              We can provide our "installation only service" for you as well.
+            </p>
+            <h5 className=" px-20 cap fw-600 mt-4">
+              Replacement Split System Air Conditioning Service
+            </h5>
+            <p className="px-20">
+              Our replacement air conditioning service is widely used by
+              property managers and home owners throughout South East
+              Queensland. Our service includes the decommissioning and disposal
+              of your old air conditioning system, through to installing,
+              commissioning and testing of the new split system. Once your split
+              system has been checked and functioning correctly, we'll go
+              through and show you the use of the remote controller to operate
+              your new air conditioning system. <br />
+              HOME COMFORT AIR, residential air conditioning specialists.
+            </p>
+          </div>
+          <div className="col-lg-6 ">
+            <div className="mt-2 split-systems-bottom">
+              <StaticImage
+                filename="install-new.png"
+                alt="air conditioning installation from $300 by Home Comfort Air"
+              />
+              <div className="mt-3">
                 <StaticImage
-                  filename="install-new.png"
-                  alt="air conditioning installation from $300 by Home Comfort Air"
+                  filename="hero-4.jpg"
+                  alt="split system air conditioning by Home Comfort Air"
                 />
-                <div className="mt-3">
-                  <StaticImage
-                    filename="hero-4.jpg"
-                    alt="split system air conditioning by Home Comfort Air"
-                  />
-                </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section>
         <div className="heading-box-color grid-col-2 heading-avatar rounded  my-3 mx-0">
           <div className="">
             <StaticImage

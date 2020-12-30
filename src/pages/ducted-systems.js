@@ -48,9 +48,9 @@ Split,systems,Ipswich,Brisbane,Specials`,
               return air grill (usually in the hallway).
             </p>
             <p className="lead-20 px-20">
-              We supply and instal ducted systems from 5.5kW used for small
+              We supply and install ducted systems from 5.5kW which can be used for small
               zoned rooms, 14kW for the average 4 bedroom, 2 living area's home,
-              to the big 24kW unit that can handle larger homes.Talk to us to
+              to the big 25kW unit that can handle larger homes.Talk to us to
               find the best option to suit your home and needs.
             </p>
           </div>
