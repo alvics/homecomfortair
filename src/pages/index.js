@@ -44,10 +44,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           content="https://res.cloudinary.com/ewebdesigns/image/upload/v1597993348/facebook-cover-3_rzv8bs.png"
         ></meta>
         <meta name="pinterest" content="nopin" />
-          <StaticImage
-                    filename="christmas_background.png"
-                    alt="christmas image"
-                  />
+      
         <section className="specials-section">
           <div className="text-center body-wrapper">
             <h5
