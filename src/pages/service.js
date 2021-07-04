@@ -99,7 +99,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <div>
             <h5 className=" px-20 cap fw-600">Split System Service Quote</h5>
             <p className="px-20">
-              We can service your split system air conditioning for your home.
+              We service and clean your split system air conditioning system for your home.
               Simply submit your details, and we'll contact you back shortly.
             </p>
             <p className="font-italic px-20">

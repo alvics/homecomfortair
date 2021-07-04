@@ -10,6 +10,7 @@ import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import SamsungProducts from "../components/Products/SamsungProducts"
+import DaikinProducts from "../components/Products/Daikin"
 import RoomSizeTable from "../components/RoomSize"
 import CTA from "../components/CTA"
 
@@ -48,9 +49,10 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
 
             <div className="text-right mt-3">
-              <p style={{ fontSize: 12 }}>Showing 27 products</p>
+              <p style={{ fontSize: 12 }}>Showing 36 products</p>
             </div>
             <div className="split-system-archive products-archive">
+
               <div className="mb-2">
                 <div
                   className="text-center border rounded"
@@ -121,6 +123,26 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <SamsungProducts />
+
+                <div className="mb-2">
+                <div
+                  className="text-center border rounded"
+                  style={{ backgroundColor: `#00a1e5` }}
+                >
+                  <h3
+                    className="h5 fw-600 cap mt-2 px-3  text-white "
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Daikin
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+              </div>
+              <DaikinProducts />
+
               <div className="mt-3">
                 <StaticImage
                   filename="splits-add-11-lg.png"
@@ -132,7 +154,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   Book Your Split System Installation Online
                 </h5>
                 <p className="lead">
-                  Get an air conditioning supplied and installed with our fast,
+                  Get your air conditioning supplied and installed with our fast,
                   professional service in a matter of days! Yes, you and your
                   family can enjoy the home comforts you desire within days.
                   Receive a free quote to have your air conditioning split

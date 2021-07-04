@@ -134,9 +134,9 @@ Split,systems,Ipswich,Brisbane,Specials`,
               Ducted System Installation Quotes
             </h5>
             <p className="px-20">
-              We can fully install a ducted air conditioning system for your
-              home. Whether its new construction, existing home or a
-              replacement, simply submit your details, and we'll contact you
+              We install ducted air conditioning systems for
+              new construction and existing homes.
+             Need a replacement unit or a new installation? Submit your details, and we'll contact you
               back shortly.
             </p>
             <p className="font-italic px-20">

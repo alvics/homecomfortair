@@ -9,6 +9,7 @@ import MideaProducts from "../components/Products/MideaProducts"
 import CarrierProducts from "../components/Products/CarrierProducts"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
+import DaikinProducts from "../components/Products/Daikin"
 import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
@@ -174,7 +175,7 @@ const SingleProduct = ({
         <li>* Up to 20 meters of electrical cable run in the roof to an existing and available circuit. Does NOT include additional electrical work, or new circuit added. </li>
         <li>* New mounted weatherproof safety isolation switch.</li>
         <li>* PVC ducting to conceal pipe connection and electrical work.</li>
-        <li>* 5 year manufacturer warranty.</li>
+        <li>  {brand === "Toshiba"  ? "* 7 year manufacturer warranty." : "* 5 year manufacturer warranty."}</li> 
         <li>* 5 year Installation warranty.</li>
         </ul>
          </div>
@@ -268,6 +269,17 @@ const SingleProduct = ({
                       <StaticImage
                         filename="samsung-add-11.png"
                         alt="samsung air conditioning by Home Comfort Air"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+
+                     {brand === "Daikin" ? (
+                    <div className="single-side-products">
+                      <StaticImage
+                        filename="daikin-cora.png"
+                        alt="daikin air conditioning by Home Comfort Air"
                       />
                     </div>
                   ) : (
@@ -400,6 +412,7 @@ const SingleProduct = ({
             ) : (
               <div></div>
             )}
+
             {brand === "Samsung" ? (
               <div className="single-side-products mb-2">
                 <div
@@ -418,6 +431,30 @@ const SingleProduct = ({
                   </h3>
                 </div>
                 <SamsungProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
+
+                  {brand === "Daikin" ? (
+              <div className="single-side-products mb-2">
+                <div
+                  s
+                  className=" text-center  my-2 text-center rounded"
+                  style={{backgroundColor: `#00a1e5`}}
+                >
+                  <h3
+                    className="text-white h6 fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Daikin
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+                <DaikinProducts />
               </div>
             ) : (
               <div></div>
@@ -451,7 +488,6 @@ const SingleProduct = ({
                 alt="toshiba air conditioning by Home Comfort Air"
               />
               <ul>
-              
         <li>* 5 year Installation warranty.</li>
               </ul>
             </div>

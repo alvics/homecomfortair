@@ -33,7 +33,7 @@ const IndexPage = () => {
       <Layout>
         <SEO
           title="Home Comfort Air | Gold Coast Split Systems A/C"
-          description={`HOME COMFORT AIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's. Book your installation through our website today.`}
+          description={`Home Comfort Air installation of split system air conditioning here on the Gold Coast. From replacements units to new construction contact us today, call 0404602657  `}
           keywords={[
             `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,

@@ -12,7 +12,7 @@ const Gold_Coast = () => {
   return (
     <Layout>
       <SEO
-        title="Gold Coast Air Conditioning"
+        title="Gold Coast Air Conditioning | Home Comfort Air"
         description={`Are you looking for a split system air conditioner to be installed in your home? Wall hung and ducted split system air conditioning for Gold Coast homes here in sunny Queensland Australia.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
@@ -48,9 +48,9 @@ Split,systems,runaway,bay,ashmore, burleigh`,
               </div>
 
               <p className="mt-3">
-                Are you looking for a split system air conditioner to be
-                installed in your home? Do you need your old worn out system
-                replaced before the sweltering summer? Here at Home Comfort Air
+                Are you looking for a new split system air conditioner to be
+                installed in your home or space? Do you have an old worn out system that needs
+                replacing? Here at Home Comfort Air
                 we install <a href="/split-systems">wall hung</a> and{" "}
                 <a href="/ducted-systems">ducted</a> split system air
                 conditioning for Gold Coast homes here in sunny Queensland
@@ -127,10 +127,10 @@ Split,systems,runaway,bay,ashmore, burleigh`,
                       Gold Coast Split System Installation Quotes
                     </h5>
                     <p className="px-20">
-                      We install all brands of split system air conditioning for
-                      your home. Whether its new construction, existing home or
-                      a replacement, simply submit your details, and we'll
-                      contact you back shortly.
+                      We install all brands of split system air conditioners for
+                      new construction and existing homes. If your are looking for a
+              replacement unit or a new installation? Submit your details, and we'll contact you
+              back shortly.
                     </p>
                     <p className="font-italic px-20">
                       "You could also leave the best suited time to call you

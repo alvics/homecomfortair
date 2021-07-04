@@ -123,10 +123,12 @@ const Footer = () => {
           <section className="footer-3 text-center">
             <div className="text-left">
               <h4>Brands</h4>
-              <p>Toshiba</p>
-              <p>Samsung</p>
-              <p>Carrier</p>
-              <p>Midea</p>
+              <p>
+              <Link to="/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20">Daikin</Link>
+              </p>
+              <p><Link to="/products/toshiba-2.5kw-inverter-reverse-cycle-wall-mount-split-system-hcasm1">Toshiba</Link></p>
+              <p><Link to="/products/carrier-2.6kw-pearl-reverse-cycle-inverter-hi-wall-split-system-42qhc026-hcas2">Carrier</Link></p>
+              <p> <Link to="/products/midea-2.6kw-aurora-wall-mounted-split-system-AURMI26">Midea</Link></p>
             </div>
           </section>
 

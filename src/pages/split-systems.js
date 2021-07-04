@@ -7,7 +7,8 @@ import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 
-import SamsungProducts from "../components/Products/SamsungProducts"
+// import SamsungProducts from "../components/Products/SamsungProducts"
+import DaikinProducts from "../components/Products/Daikin"
 import MideaProducts from "../components/Products/MideaProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
@@ -91,6 +92,31 @@ Split,systems,Ipswich,Brisbane,Specials`,
         </div>
         <Tabs>
           <div className="grid-300">
+
+            <Tab>
+              <div className="card">
+                <div className="card-top">
+                  <StaticImage
+                    filename="samsung-main.jpg"
+                    alt="ducted air image"
+                  />
+                </div>
+                <div className="card-heading">
+                  <h3 className="fw-600 text-dark">Daikin Systems</h3>
+                </div>
+                <div className="card-body--">
+                  <p className="card-text lead">
+                    Daikin delivers industry leading energy efficiency and superior 
+                    ...
+                  </p>
+                </div>
+
+                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
+                  Learn more >>
+                </div>
+              </div>
+            </Tab>
+
             <Tab>
               <div className="card">
                 <div className="card-top">
@@ -115,29 +141,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
             </Tab>
 
-            <Tab>
-              <div className="card">
-                <div className="card-top">
-                  <StaticImage
-                    filename="samsung-main.jpg"
-                    alt="ducted air image"
-                  />
-                </div>
-                <div className="card-heading">
-                  <h3 className="fw-600 text-dark">Samsung Systems</h3>
-                </div>
-                <div className="card-body--">
-                  <p className="card-text lead">
-                    Samsung Air Conditioning is of high quality, it's reputation
-                    ...
-                  </p>
-                </div>
-
-                <div className="text-blue text-shadow-2 text-left p-0 mt-3">
-                  Learn more >>
-                </div>
-              </div>
-            </Tab>
+            
 
             <Tab>
               <div className="card">
@@ -185,6 +189,39 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </Tab>
           </div>
 
+          
+          <Panel>
+            <h5 className="fw-600 cap mt-3 pb-2 ml-2">Daikin Split Systems</h5>
+            <div className="px-3">
+              <DaikinProducts />
+            </div>
+          
+
+            <div className="grid-col-2 col-panel pt-20">
+              
+              <div className="p-20">
+                <h5 className="fw-600 cap">Daikin air conditioning</h5>
+                <p>
+                  Daikin Air Conditioning is one of our top choices, it's
+                  reputation for technology and innovations is one of the best
+                  in the air conditioning world. Daikin Split Systems are ideal for air conditioning one room or a specific area of a home. A wide variety of models are offered to suit your requirements and are available in either wall mounted or floor standing type.
+                </p>
+              </div>
+                
+                <div>
+                  <iframe
+                    title="Daikin Cora air conditioning systems"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/V08an_jBBgI"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  </div>
+              </div>
+          </Panel>
+
           <Panel>
             <h5 className="fw-600 cap mt-3 pb-2 ml-2">Toshiba Split Systems</h5>
             <ToshibaProducts />
@@ -228,45 +265,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </Panel>
 
-          <Panel>
-            <h5 className="fw-600 cap mt-3 pb-2 ml-2">Samsung Split Systems</h5>
-            <div className="px-3">
-              <SamsungProducts />
-            </div>
-
-            <div className="grid-col-2 col-panel pt-20">
-              <div className="tabs-img px-3">
-                <StaticImage
-                  filename="samsung-main.jpg"
-                  alt="ducted air image"
-                  className="rounded"
-                />
-              </div>
-              <div className="p-20">
-                <h5 className="fw-600 cap">Samsung air conditioning</h5>
-                <p>
-                  Samsung Air Conditioning is one of our top choices, it's
-                  reputation for technology and innovations is one of the best
-                  in the air conditioning world. Designed to automatically
-                  select the Operating mode based on surrounding temperature.
-                  This allows the Air Conditioner to heat or cool as required to
-                  maintain set temperature. You can be confident and comfortable
-                  at home or office with a new Samsung air conditioner.
-                </p>
-                <p>
-                  <iframe
-                    title="Samsung air conditioning systems"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/xZPI44Zh8yM"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </p>
-              </div>
-            </div>
-          </Panel>
 
           <Panel>
             <h5 className="fw-600 cap mt-3 pb-2 ml-2">Carrier Split Systems</h5>
@@ -425,13 +423,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
               Split System Installation Quotes
             </h5>
             <p className="px-20">
-              We can install a split system air conditioning systems for your
-              home. Whether its new construction, existing home or a
-              replacement, simply submit your details, and we'll contact you
+             For new construction and existing homes.
+              Need a replacement unit or a new installation? Submit your details, and we'll contact you
               back shortly.
             </p>
             <p className="font-italic px-20">
-              "You could also leave the best suited time to call you back".
+              <p className="font-italic">"You could also leave the best suited time to call you back".</p>
             </p>
           </div>
           <Form />
