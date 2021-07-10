@@ -423,13 +423,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
               Split System Installation Quotes
             </h5>
             <p className="px-20">
-             For new construction and existing homes.
+              For new construction and existing homes.
               Need a replacement unit or a new installation? Submit your details, and we'll contact you
               back shortly.
             </p>
-            <p className="font-italic px-20">
-              <p className="font-italic">"You could also leave the best suited time to call you back".</p>
-            </p>
+            <p className="font-italic px-20">"You could also leave the best suited time to call you back".</p>
           </div>
           <Form />
         </div>

@@ -1805,6 +1805,13 @@ select {
 }
 
 
+/* HUB SPOT */
+
+body div#hubspot-messages-iframe-container .hqnutI {
+    display: none!important;
+}
+
+
 /* MODAL CSS */
 
 .modal {
