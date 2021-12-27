@@ -303,9 +303,7 @@ const SingleProduct = ({
               <div id="backtoback">
                 <h5>Installation examples</h5>
                 <p>
-                  Are you looking for new split system air conditioning? Here
-                  are a couple of installation options for your home or space.
-                </p>
+                  Here are some trade basics for your split system installation. As seen here, image 1. a "back to back" and image 2. an "up and over" are terms used for these process. "Back to back" is a basic installation that uses minimal amounts of materials eg. copper pipe, electrical cable and drain (usually approx up to 3 meters), and is a much more affordable option. Whilst the "up and over" the installation uses much more materials as the indoor and out door units are further away from each other. Talk to us to find the best option available for your space.</p>
 
                 <BackToBack />
               </div>

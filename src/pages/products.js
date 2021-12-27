@@ -11,8 +11,11 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import DaikinProducts from "../components/Products/Daikin"
+import HaierProducts from "../components/Products/Haier"
 import RoomSizeTable from "../components/RoomSize"
+import SplitsHero from "../components/BackgroundSplits"
 import CTA from "../components/CTA"
+// import GetCategories from "../components/Queries/GetCategories"
 
 const ProductsPage = () => {
   return (
@@ -46,13 +49,51 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <div className="pb-3">
                 <CTA />
               </div>
+              
+            </div>
+            <div className="w-100">
+            <SplitsHero />
             </div>
 
             <div className="text-right mt-3">
               <p style={{ fontSize: 12 }}>Showing 36 products</p>
             </div>
+
             <div className="split-system-archive products-archive">
 
+                 {/* *******************************************************************************
+                 ********************* Haier Products banner start *********************************
+                 ******************************************************************************** */}
+
+                <div className="mb-2">
+                <div
+                  className="text-center border rounded"
+                  style={{ backgroundColor: `#005AAB` }}
+                >
+                  <h3
+                    className="h5 fw-600 cap mt-2 px-3  text-white "
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Haier
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+              </div>
+
+              <HaierProducts />
+
+               {/* ********************************************************************************
+               ********************* Haier Products end/ ******************************************
+               ******************************************************************************** */}
+
+
+
+                {/* *******************************************************************************
+                ********************* Midea Products banner start *********************************
+                ******************************************************************************** */}     
               <div className="mb-2">
                 <div
                   className="text-center border rounded"
@@ -72,6 +113,15 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <MideaProducts />
+              {/* ********************************************************************************
+              ********************* Midea Products banner end/ ***********************************
+              ******************************************************************************** */} 
+
+
+
+              {/* ********************************************************************************
+              ********************* Carrier Products banner start ********************************
+              ******************************************************************************** */} 
 
               <div
                 style={{ backgroundColor: `#004178` }}
@@ -90,6 +140,15 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <CarrierProducts />
+              {/* *********************************************************************************
+                ********************* Carrier Products end/ ***************************************
+                ******************************************************************************** */} 
+
+
+
+              {/* ********************************************************************************
+              ********************* Toshiba Products banner start ********************************
+              ******************************************************************************** */} 
 
               <div
                 style={{ backgroundColor: `#D01C22` }}
@@ -108,6 +167,15 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <ToshibaProducts />
+                {/* ********************************************************************************
+                ********************* Toshiba Products end/  ***************************************
+                ******************************************************************************** */} 
+
+
+
+                {/* *******************************************************************************
+                ********************* Samsung Products banner start *******************************
+                ******************************************************************************** */} 
 
               <div s className="text-center bg-dark my-3 text-center rounded">
                 <h3
@@ -123,6 +191,15 @@ Split,systems,Ipswich,Brisbane,Specials`,
               </div>
 
               <SamsungProducts />
+              {/* *******************************************************************************
+              ********************* Samsung Products banner end/ ********************************
+              ******************************************************************************** */} 
+
+
+
+              {/* *******************************************************************************
+              ********************* Daikin Products banner start ********************************
+              ******************************************************************************** */} 
 
                 <div className="mb-2">
                 <div
@@ -141,7 +218,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </h3>
                 </div>
               </div>
+
               <DaikinProducts />
+              {/* *******************************************************************************
+              ********************* Daikin Products end/  ***************************************
+              ******************************************************************************** */} 
 
               <div className="mt-3">
                 <StaticImage
@@ -149,6 +230,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   alt="home comfort air image"
                 />
               </div>
+
               <div className="px-2 my-2">
                 <h5 class="fw-600 mt-3">
                   Book Your Split System Installation Online
@@ -166,6 +248,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   <CTA />
                 </div>
               </div>
+
               <div className="row px-2">
                 <h4 className="h5 fw-600">
                   Split System Installation Examples
@@ -229,10 +312,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   />
                 </div>
               </div>
+
             </div>
           </div>
           <div className="col mt-5 archive-category">
             <h3 className="h6 fw-600">Categories</h3>
+           
             <hr />
             <p style={{ fontSize: 13 }}>
               <Link to="/split-systems">Split Systems</Link>
@@ -250,6 +335,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <Link to="/service">Service / Maintenance</Link>
             </p>
             <hr />
+            
           </div>
         </div>
 

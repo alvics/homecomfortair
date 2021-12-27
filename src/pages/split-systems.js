@@ -112,7 +112,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 </div>
 
                 <div className="text-blue text-shadow-2 text-left p-0 mt-3">
-                  Learn more >>
+                  Learn more >
                 </div>
               </div>
             </Tab>
@@ -136,7 +136,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 </div>
 
                 <div className="text-blue text-shadow-2 text-left p-0 mt-3">
-                  Learn more >>
+                  Learn more >
                 </div>
               </div>
             </Tab>
@@ -160,7 +160,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </p>
                 </div>
                 <div className="text-blue text-shadow-2 text-left p-0 mt-3">
-                  Learn more >>
+                  Learn more >
                 </div>
               </div>
             </Tab>
@@ -183,7 +183,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </p>
                 </div>
                 <div className="text-blue text-shadow-2 text-left p-0 mt-3">
-                  Learn more >>
+                  Learn more >
                 </div>
               </div>
             </Tab>
@@ -213,7 +213,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                     title="Daikin Cora air conditioning systems"
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/V08an_jBBgI"
+                    src="https://www.youtube.com/embed/6qWzED8rpmA"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen

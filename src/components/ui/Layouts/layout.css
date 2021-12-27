@@ -1283,7 +1283,7 @@ aside {
 
 .heading-box-color {
     /* background-color: var(--bs-blue); */
-    background: linear-gradient(90deg, rgb(0, 117, 201), rgb(0, 196, 179));
+    background: linear-gradient(190deg, rgb(0, 117, 201), rgb(0, 196, 179));
     color: #fff;
     text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.1);
 }
@@ -1292,6 +1292,11 @@ aside {
     background: rgb(0, 196, 179);
     color: #fff;
     text-shadow: 0.02em 0.02em 0.02em rgba(0, 0, 0, 0.1);
+}
+
+.hidden-form {
+    height: 500px;
+    width: 100%;
 }
 
 .fw-300 {

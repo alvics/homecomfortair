@@ -68,7 +68,7 @@ const Header = () => {
       <nav id="desktop-nav" className="fixed-top ">
         <div className="container" id="navbar">
           <div id="logo" className="reverse">
-            <div class="logo">
+            <div className="logo">
               <Link id="logo-header" to="/">
                 <Image fluid={data.fluid.childImageSharp.fluid} alt="logo" />
               </Link>
