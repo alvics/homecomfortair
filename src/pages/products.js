@@ -21,7 +21,7 @@ const ProductsPage = () => {
   return (
     <Layout>
       <SEO
-        title="Products Split Systems | Home Comfort Air Gold Coast"
+        title="Split Systems Air | Home Comfort Air Gold Coast"
         description={`Visit HOME COMFORT AIR to check our monthly air conditioning specials, supplied and installed reverse cycle split systems a/c from $1050.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
@@ -56,7 +56,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
 
             <div className="text-right mt-3">
-              <p style={{ fontSize: 12 }}>Showing 36 products</p>
+              <p style={{ fontSize: 12 }}>Showing 40 products</p>
             </div>
 
             <div className="split-system-archive products-archive">
