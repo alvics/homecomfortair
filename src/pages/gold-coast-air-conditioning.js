@@ -2,8 +2,8 @@
 import React from "react"
 import Layout from "../components/ui/Layouts/layout"
 import SEO from "../components/seo"
-import Specials from "../components/Products/Specials"
-// import MideaProducts from "../components/Products/MideaProducts"
+// import Specials from "../components/Products/Specials"
+import HaierProducts from "../components/Products/Haier"
 import StaticImage from "../components/StaticQueryImages"
 import CTA from "../components/CTA"
 import Form from "../components/quoteForm"
@@ -13,7 +13,7 @@ const Gold_Coast = () => {
     <Layout>
       <SEO
         title="Gold Coast Air Conditioning | Home Comfort Air"
-        description={`Are you looking for a split system air conditioner to be installed in your home? Wall hung and ducted split system air conditioning for Gold Coast homes here in sunny Queensland Australia.`}
+        description={`Gold Coast split system air conditioning installations. Wall hung and ducted split system air conditioning for Gold Coast homes here in sunny Queensland Australia.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
 Split,systems,runaway,bay,ashmore, burleigh`,
@@ -58,8 +58,8 @@ Split,systems,runaway,bay,ashmore, burleigh`,
                 monthly <a href="/products/specials">specials</a>. Here at Home
                 Comfort Air we offer to our local customers great deals on home
                 air conditioning split systems. We can replace your system
-                starting as low as $999.00 includes GST for a 2.6kW split
-                systems for your home. Check out our website and book or enquire
+                starting as low as $999.00 includes GST for a bedroom split
+                systems. Check out our website and book or enquire
                 your home's new air conditioning system with Home Comfort Air
                 where you can save with our monthly specials.
               </p>
@@ -150,10 +150,10 @@ Split,systems,runaway,bay,ashmore, burleigh`,
               </div>
             </div>
             <div className="fw-600">
-              <article>Monthly Specials</article>
+              <article>Haier Tempo Air</article>
             </div>
             <div className="product-grid">
-              <Specials />
+              <HaierProducts />
             </div>
           </div>
         </div>

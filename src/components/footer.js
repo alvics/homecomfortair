@@ -91,12 +91,10 @@ const Footer = () => {
           <section className="footer-1 text-center">
             <div className="text-left">
               <h4>Servicing</h4>
-              <p>Ipswich</p>
-              <p>Brisbane</p>
-              <p>
-                <Link to="/gold-coast-air-conditioning">Gold Coast</Link>
-              </p>
-              <p>Tweed Heads</p>
+              <p><Link to="/ipswich-air-conditioning">Ipswich</Link></p>
+              <p><Link to="/brisbane-air-conditioning">Brisbane</Link></p>
+              <p><Link to="/gold-coast-air-conditioning">Gold Coast</Link></p>
+              <p><Link to="/tweed-heads-air-conditioning">Tweed Heads</Link></p>
             </div>
           </section>
 

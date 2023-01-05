@@ -1,35 +1,37 @@
-// import React from "react"
-// import Product from "../Products/Product"
-// import { graphql, useStaticQuery  } from "gatsby"
+// import { StaticQuery, graphql, Link } from "gatsby"
 
-// const query = graphql`
-//   {
-//     allStrapiProduct {
-//       nodes {
-//         categories {
+// const ProductsList = () => (
+//   <StaticQuery
+//     query={graphql`
+//       {
+//      allStrapiProduct {
+//       edges {
+//         node {
+//           room_sizes {
+//             id
+//             size
+//           }
 //           brand
 //         }
 //       }
 //     }
 //   }
-// `
+// `}
 
-//   const {
-//     allStrapiProduct: { nodes: categories },
-//   } = useStaticQuery(query)
-
-//     return (
-//     <section>
-//       <h1>Hello from Starpi categories, Categories!</h1>
-//       <div className="product-grid midea">
-//         {categories.map(product => {
-//           console.log(product)
-//           return <Product key={product.id} {...product} />
-//         })}
+//     render={data => (
+      
+//       <div>
+//         {data.allStrapiProduct.edges.map(({ node }) => (
+//           <div key={node.id}>
+//             <h3>{node.room_size.brand}</h3>
+//             <p>Room size: {node.room_sizes.size}</p>
+//             <Link to={`/products/${node.id}`}>View product</Link>
+//           </div>
+//         ))}
 //       </div>
-//     </section>
-//   )
+//     )}
+//   />
+// )
 
+// export default ProductsList
 
-
-// export default GetCategories
