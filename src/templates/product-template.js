@@ -193,7 +193,7 @@ const SingleProduct = ({
                <li>* Poly slab Installation (if not already present).</li>
                  <li>* Brackets (e.g. wall or roof).</li>
                  <li>* Mounting blocks.</li>
-                 <li>* Electrical work (e.g circuit upgrades).
+                 <li>* Electrical work (e.g new circuit).
                  </li>
          </ul>
          <small>Note: your installer will explain the reasons and requirements for the additional charges (if there are any) before proceeding.</small>

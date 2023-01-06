@@ -90,6 +90,7 @@ const Header = () => {
                   </span>
                 </span>
                 <div className="dropdown-content">
+                   <Link to="/service-areas">Service area's</Link>
                   <Link to="/split-systems">Split Systems</Link>
                   <Link to="/ducted-systems">Ducted Systems</Link>
                   <Link to="/multi-head-systems">Multi-Head Systems </Link>

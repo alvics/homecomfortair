@@ -69,13 +69,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
   <ul className="list-group">
             <l1><Link to="/service-areas/advancetown">Advancetown</Link></l1>
             <l1><Link to="/service-areas/ashmore">Ashmore</Link></l1>
-            <l1><Link to="/service-areas/arundel">Arundel</Link></l1>
+            <l1><Link to="/service-areas/arundel" >Arundel</Link></l1>
             <l1><Link to="/service-areas/beenleigh">Beenleigh</Link></l1>
             <l1><Link to="/service-areas/benowa">Benowa</Link></l1>
-            <l1><Link to="/service-areas/bonogin">Bonogin</Link></l1>
+            <l1><Link to="/service-areas/bonogin" >Bonogin</Link></l1>
             <l1><Link to="/service-areas/broadbeach">Broadbeach</Link></l1>
-            <l1><Link to="/service-areas/bundall">Bundall</Link></l1>
-            <l1><Link to="/service-areas/burleigh">Burleigh</Link></l1>
+            <l1><Link to="/service-areas/bundall" >Bundall</Link></l1>
+            <l1><Link to="/service-areas/burleigh" >Burleigh</Link></l1>
             <l1><Link to="/service-areas/carrara">Carrara</Link></l1>
             <l1><Link to="/service-areas/clear-island-waters">Clear Island Waters</Link></l1>
             <l1><Link to="/service-areas/coolangatta">Coolangatta</Link></l1>
