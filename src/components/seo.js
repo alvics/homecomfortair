@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import {  useLocation } from 'react-router-dom';
 
 
 
@@ -34,10 +35,13 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-
+  // Using react hook to get the current url of the page
+  const location = useLocation();
+  const urlPath = location.pathname;
 
   return (
-    <Helmet
+
+      <Helmet
       htmlAttributes={{
         lang,
       }}
@@ -76,7 +80,7 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         },
        {
           property: `og:url`,
-          content: url ,
+          content: `https://homecomfortair.net.au${urlPath}` ,
         },
         {
           property: `og:type`,
@@ -129,11 +133,12 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         )
         .concat(meta)}
     >
-    <link rel="canonical" href= {url} />
+    <link rel="canonical" href={`https://homecomfortair.net.au${urlPath}`} />
     
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/8357275.js"></script>
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/8357275.js"></script>
 
-    </Helmet>
+      </Helmet>
+   
   )
 }
 
