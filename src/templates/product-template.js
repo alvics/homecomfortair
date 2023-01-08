@@ -15,6 +15,7 @@ import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
 import RoomSizeTable from "../components/RoomSize"
 import BackToBack from "../components/BackToBack"
+import SEO from "../components/seo"
 
 // Destructuring all the properties from the query
 
@@ -42,6 +43,14 @@ const SingleProduct = ({
 }) => {
   return (
     <Layout>
+      <SEO
+        title={ `${brand} Air Conditioning | Home Comfort Air` } 
+        description={`Supply and install a new ${title} for $${price} incl GST.`}
+        keywords={[
+          `${brand},installation,Air,Conditioning,
+Split,systems,clean,service`,
+        ]}
+      />
       <section className="SingleProduct container pt-3">
         <Breadcrumb
           crumbs={crumbs}

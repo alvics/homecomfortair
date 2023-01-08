@@ -20,10 +20,10 @@ const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
     <SEO
       title="Split Systems A/C | Home Comfort Air Gold Coast"
-      description={`HOME COMFORT AIR installs split system air conditioning from $300 dollars, throughout Ipswich, Brisbane and the Gold Coast area's.`}
+      description={`Check out how HOME COMFORT AIR affordable air conditioning services throughout Ipswich, Brisbane and the Gold Coast area's. New ac from $1099 incl GST.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
-Split,systems,Ipswich,Brisbane,Specials`,
+Split,systems,service,supply,install`,
       ]}
     />
     <meta

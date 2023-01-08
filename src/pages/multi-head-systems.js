@@ -10,10 +10,10 @@ const MultiHeadSystemsPage = () => (
   <Layout>
     <SEO
       title="Multi-head Split Systems | Home Comfort Air Gold Coast"
-      description={`HOME COMFORT AIR installs mulit-head system air conditioning throughout, Ipswich, Brisbane and the Gold Coast area's.`}
+      description={`Discover how HOME COMFORT AIR Multi-head air conditioning system can connect up to five wall mounted indoor head units to one outdoor unit.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
-                Split,systems,Ipswich,Brisbane,Specials`,
+                Split,systems,multi,head,service`,
       ]}
     />
     <div className="body-wrapper multi-systems">

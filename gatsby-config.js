@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Home Comfort Air | Residential Air Conditioning Solutions `,
+    title: ` `,
     description: `Discover Home Comfort Air residential air conditioning services throughout Brisbane, Ipswich, Gold Coast and Tweed Heads areas. Affordable sales, service and installations.`,
     keywords: `split, system, air, conditioning, service, installation, domestic, ducted, sales, `,
     url: `https://homecomfortair.net.au`,
