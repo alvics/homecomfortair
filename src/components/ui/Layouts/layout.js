@@ -8,8 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-// add Router to component to use react hook, to get the current url of the page. From seo.js
-import { BrowserRouter as Router } from 'react-router-dom';
 import HeaderMobile from "../headerNew"
 import Header from "../header"
 import Footer from "../../footer"
@@ -27,7 +25,7 @@ const Layout = ({ children }) => {
   // `)
 
   return (
-    <Router>
+    <div>
       <Header />
       <HeaderMobile />
       <div
@@ -40,7 +38,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <Footer />
-    </Router>
+    </div>
   )
 }
 
