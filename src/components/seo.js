@@ -76,7 +76,7 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         },
        {
           property: `og:url`,
-          content: `https://homecomfortair.net.au${window.location.pathname}` ,
+          content: url ,
         },
         {
           property: `og:type`,
@@ -129,7 +129,7 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         )
         .concat(meta)}
     >
-    <link rel="canonical" href={`https://homecomfortair.net.au${window.location.pathname}`} />
+    <link rel="canonical" href= {url} />
     
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/8357275.js"></script>
 

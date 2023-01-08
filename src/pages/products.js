@@ -61,35 +61,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
             <div className="split-system-archive products-archive">
 
-                 {/* *******************************************************************************
-                 ********************* Haier Products banner start *********************************
-                 ******************************************************************************** */}
-
-                <div className="mb-2">
-                <div
-                  className="text-center border rounded"
-                  style={{ backgroundColor: `#005AAB` }}
-                >
-                  <h3
-                    className="h5 fw-600 cap mt-2 px-3  text-white "
-                    style={{ padding: `1.3rem 0` }}
-                  >
-                    Supply and Install Haier
-                    <br />{" "}
-                    <span className="lead cam text-white">
-                      <small>Air Conditioning Systems</small>
-                    </span>
-                  </h3>
-                </div>
-              </div>
-
-              <HaierProducts />
-
-               {/* ********************************************************************************
-               ********************* Haier Products end/ ******************************************
-               ******************************************************************************** */}
-
-
 
                 {/* *******************************************************************************
                 ********************* Midea Products banner start *********************************
@@ -111,7 +82,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
                   </h3>
                 </div>
               </div>
-
+<div className="mt-5">
+                <h5 className="range">
+                Our entry-level range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
               <MideaProducts />
               {/* ********************************************************************************
               ********************* Midea Products banner end/ ***********************************
@@ -144,36 +120,41 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 ********************* Carrier Products end/ ***************************************
                 ******************************************************************************** */} 
 
+  {/* *******************************************************************************
+                 ********************* Haier Products banner start *********************************
+                 ******************************************************************************** */}
 
-
-              {/* ********************************************************************************
-              ********************* Toshiba Products banner start ********************************
-              ******************************************************************************** */} 
-
-              <div
-                style={{ backgroundColor: `#D01C22` }}
-                className="my-3 text-center rounded"
-              >
-                <h3
-                  className="h5 text-white fw-600 cap mt-2 px-3"
-                  style={{ padding: `1.3rem 0` }}
+                <div className="mb-2">
+                <div
+                  className="text-center border rounded"
+                  style={{ backgroundColor: `#005AAB` }}
                 >
-                  Supply and Install Toshiba
-                  <br />{" "}
-                  <span className="lead cam text-white">
-                    <small>Air Conditioning Systems</small>
-                  </span>
-                </h3>
+                  <h3
+                    className="h5 fw-600 cap mt-2 px-3  text-white "
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Haier
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
               </div>
+<div className="mt-5">
+                <h5 className="range">
+                Our standard range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
+              <HaierProducts />
 
-              <ToshibaProducts />
-                {/* ********************************************************************************
-                ********************* Toshiba Products end/  ***************************************
-                ******************************************************************************** */} 
+               {/* ********************************************************************************
+               ********************* Haier Products end/ ******************************************
+               ******************************************************************************** */}
 
 
-
-                {/* *******************************************************************************
+               {/* *******************************************************************************
                 ********************* Samsung Products banner start *******************************
                 ******************************************************************************** */} 
 
@@ -196,7 +177,41 @@ Split,systems,Ipswich,Brisbane,Specials`,
               ******************************************************************************** */} 
 
 
+              {/* ********************************************************************************
+              ********************* Toshiba Products banner start ********************************
+              ******************************************************************************** */} 
 
+              <div
+                style={{ backgroundColor: `#D01C22` }}
+                className="my-3 text-center rounded"
+              >
+                <h3
+                  className="h5 text-white fw-600 cap mt-2 px-3"
+                  style={{ padding: `1.3rem 0` }}
+                >
+                  Supply and Install Toshiba
+                  <br />{" "}
+                  <span className="lead cam text-white">
+                    <small>Air Conditioning Systems</small>
+                  </span>
+                </h3>
+              </div>
+
+              <div className="mt-5">
+                <h5 className="range">
+                Our premium range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
+
+              <ToshibaProducts />
+                {/* ********************************************************************************
+                ********************* Toshiba Products end/  ***************************************
+                ******************************************************************************** */} 
+
+
+
+              
               {/* *******************************************************************************
               ********************* Daikin Products banner start ********************************
               ******************************************************************************** */} 
