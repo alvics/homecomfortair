@@ -81,6 +81,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
             <l1><Link to="/service-areas/coolangatta">Coolangatta</Link></l1>
             <l1><Link to="/service-areas/coomera">Coomera</Link></l1>
             <l1><Link to="/service-areas/currumbin">Currumbin</Link></l1>
+            <l1><Link to="/service-areas/eagleby">Eagleby</Link></l1>
+            <l1>To be continued ...</l1>
             </ul>
 </div>
           

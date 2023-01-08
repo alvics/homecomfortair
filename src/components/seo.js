@@ -8,7 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
+
+
+
+
 
 function SEO({ description, lang, meta, title, keywords, url, author }) {
   const { site } = useStaticQuery(
@@ -30,6 +34,8 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
 
   const metaDescription = description || site.siteMetadata.description
 
+
+
   return (
     <Helmet
       htmlAttributes={{
@@ -40,6 +46,14 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
       author={author}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+         {
+          property: `og:locale`,
+          content: "en_US",
+        },
+            {
+          name: `robots`,
+          content: "index, follow",
+        },
         {
           name: `description`,
           content: metaDescription,
@@ -50,7 +64,7 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         },
         {
           property: `og:site_name`,
-          content: `homecomfortair`,
+          content: `Home Comfort Air`,
         },
         {
           property: `og:description`,
@@ -60,17 +74,17 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
           name: `pinterest`,
           content: `nopin`,
         },
-        {
-          property: `og:type`,
-          content: `website`,
+       {
+          property: `og:url`,
+          content: `https://homecomfortair.net.au${window.location.pathname}` ,
         },
         {
-          property: `og:url`,
-          content: `https://homecomfortair.net.au`,
+          property: `og:type`,
+          content: url === '/' ? 'website' : 'article',
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -84,9 +98,25 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+         {
+          property: `og:image`,
+          content: 'https://res.cloudinary.com/ewebdesigns/image/upload/v1597993348/facebook-cover-3_rzv8bs.png',
+        },
+         {
+          property: `og:image:width`,
+          content: '800',
+        },
+         {
+          property: `og:image:height`,
+          content: '300',
+        },
         {
           name: `article:publisher`,
           content: `https://www.facebook.com/Home-Comfort-Air`,
+        },
+        {
+          name: `article:modified_time`,
+          content: new Date().toISOString(),
         },
       ]
         .concat(
@@ -99,6 +129,7 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
         )
         .concat(meta)}
     >
+    <link rel="canonical" href={`https://homecomfortair.net.au${window.location.pathname}`} />
     
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/8357275.js"></script>
 

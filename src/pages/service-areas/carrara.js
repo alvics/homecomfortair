@@ -119,6 +119,12 @@ Split systems,Ipswich,Brisbane,Specials`,
               />
             </div>
 
+            <div className="mt-5">
+                <h5 className="range">
+                Our standard range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
             <div className="mt-2">
               <HaierProducts />
             </div>
@@ -133,7 +139,21 @@ Split systems,Ipswich,Brisbane,Specials`,
 
                 <MyForm />
                 <div>
+
+                <div className="mt-5">
+                <h5 className="range">
+                Our entry-level range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
                 <MideaProducts />
+
+                <div className="mt-3">
+                <h5 className="range">
+                Our premium range a/c
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
                 <DaikinProducts />
                 </div>
               </div>

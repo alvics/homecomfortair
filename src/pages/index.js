@@ -32,11 +32,11 @@ const IndexPage = () => {
     <>
       <Layout>
         <SEO
-          title="Home Comfort Air | Gold Coast Split Systems A/C"
-          description={`Home Comfort Air installation of split system air conditioning here on the Gold Coast. From replacements units to new construction contact us today, call 0404602657  `}
+          title="Home Comfort Air | Gold Coast Air Conditioning"
+          description={`Home Comfort Air specialises in affordable air conditioning services here on the Gold Coast. From installation to maintenance, browse our services and range today!  `}
           keywords={[
             `Gold,Coast,Air,Conditioning,
-Split,systems,Ipswich,Brisbane,Specials`,
+Split,systems,service,install,sales`,
           ]}
         />
         <meta

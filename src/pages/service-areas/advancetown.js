@@ -17,10 +17,10 @@ const ServiceArea = () => {
     <Layout>
       <SEO
         title="Advancetown Air Conditioning | Gold Coast Split System Air Conditioning"
-        description={`Supply and install new bedroom split system air conditioning from $1099, We install all major brands of air conditioning units. Contact us today!`}
+        description={`New installation bedroom split system air conditioning from $1099, We install all major brands of air conditioning units. Advancetown air conditioning.`}
         keywords={[
-          `Advancetown,Gold,Coast,Air,Conditioning,
-Split,systems,Ipswich,Brisbane,Specials`,
+          `Advancetown,installation,Air,Conditioning,
+Split,systems,clean,service`,
         ]}
       />
 
@@ -106,6 +106,13 @@ Split,systems,Ipswich,Brisbane,Specials`,
               />
             </div>
 
+
+             <div className="mt-5">
+                <h5 className="range">Our standard range 
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
+
             <div className="mt-2">
               <HaierProducts />
             </div>
@@ -120,7 +127,22 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
                 <MyForm />
                 <div>
+
+             
+                <div className="mt-5">
+                <h5 className="range">
+                Our entry-level range
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
                 <MideaProducts />
+
+                <div className="mt-3">
+                <h5 className="range">
+                Our premium range a/c
+                <small class="text-muted"> air conditioners</small>
+                </h5>
+                </div>
                 <DaikinProducts />
                 </div>
               </div>

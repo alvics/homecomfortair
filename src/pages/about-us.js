@@ -13,7 +13,7 @@ const ProductsPage = () => {
     <Layout>
       <SEO
         title="About Home Comfort Air | Gold Coast Split System Air Conditioning"
-        description={`We've been servicing south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
+        description={`Find out how Home Comfort Air has been installing new residential split system air conditioners throughout Ipswich, Brisbane and the Gold Coast area's.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,Specials`,

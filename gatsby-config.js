@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Home Comfort Air | Residential Air Conditioning Solutions `,
-    description: `Home Comfort Air installs split system air conditioners for residential homes throughout Brisbane, Ipswich, Gold Coast and Tweed Heads areas.`,
-    keywords: `split, system, air, conditioning, coomera, oxenford, ashmore, labrador, helensvale, `,
+    description: `Discover Home Comfort Air residential air conditioning services throughout Brisbane, Ipswich, Gold Coast and Tweed Heads areas. Affordable sales, service and installations.`,
+    keywords: `split, system, air, conditioning, service, installation, domestic, ducted, sales, `,
     url: `https://homecomfortair.net.au`,
     author: `HOME COMFORT AIR`,
     siteUrl: `https://homecomfortair.net.au`,
@@ -35,6 +35,12 @@ module.exports = {
         types: ["html"],
         concurrency: 20,
         verbose: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://homecomfortair.net.au`,
       },
     },
     {
@@ -221,6 +227,13 @@ module.exports = {
           }),
       },
     },
-    `gatsby-plugin-robots-txt`,
+     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: "https://homecomfortair.net.au",
+        sitemap: 'https://homecomfortair.net.au/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
   ],
 }
