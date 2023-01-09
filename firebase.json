@@ -1,5 +1,11 @@
 {
     "hosting": {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
         "redirects": [{
                 "source": "/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20",
                 "destination": "products/daikin-2.0kW-cora-reverse-cycle-hi-wall-split-system-hca20",
@@ -62,14 +68,59 @@
                 "source": "/products/midea-2.6kw-aurora-wall-mounted-split-system-AURMI26",
                 "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
                 "type": 301
+            },
+
+            {
+                "source": "/products/daikin-5.0kW-cora-Inverter-hi-wall-split-system-FTXV50W",
+                "destination": "/products/daikin-5.0kW-cora-reverse-cycle-hi-wall-split-system-FTXV50W",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-8.5kW-cora-Inverter-hi-wall-split-system-FTXV85LVMA",
+                "destination": "/products/daikin-8.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV85LVMA",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-apollo-wall-mounted-split-system-MFAB26",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-apollo-wall-mounted-split-system-specials-april-2020-MFAB26",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-specials-april-2020-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-apollo-wall-mounted-split-system-specials-august-2020-MFAB26",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-specials-august-2020-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-3.5kw-apollo-wall-mounted-split-system-MFAB35",
+                "destination": "/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-5.0kw-apollo-wall-mounted-split-system-MFAB50",
+                "destination": "/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-7.0kw-apollo-wall-mounted-split-system-MFAB70",
+                "destination": "/products/midea-7.0kw-apollo-reverse-cycle-split-system-MFAB70",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-9.0kw-apollo-wall-mounted-split-system-MFAB90HN",
+                "destination": "/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-8.0kw-inverter-reverse-cycle-wall-mount-split-system-hcal2",
+                "destination": "/products/toshiba-8.0kw-inverter-reverse-cycle-wall-mount-split-system-RAS-30E2-VG",
+                "type": 301
             }
 
-        ],
-        "public": "public",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
         ]
     }
 }
