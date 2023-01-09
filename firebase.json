@@ -191,8 +191,138 @@
                 "source": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-specials-june-2020",
                 "destination": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-RAS-24E2-VG",
                 "type": 301
-            }
+            },
+            {
 
+                "source": "/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20",
+                "destination": "/products/daikin-2.0kW-cora-reverse-cycle-hi-wall-split-system-hca20",
+                "type": 301
+            },
+            {
+                "source": "/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-september-2020-special",
+                "destination": "/samsung-6.8kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR24AXHQAWK-september-2020-special",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-3.5kW-cora-Inverter-hi-wall-split-system-FTXV35W",
+                "destination": "/products/daikin-3.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV35W",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-9.0kw-apollo-wall-mounted-split-system-hcalg2",
+                "destination": "/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-2.5kw-inverter-reverse-cycle-wall-mount-split-system-hcasm1",
+                "destination": "/products/toshiba-2.5kw-inverter-reverse-cycle-wall-mount-split-system-RAS-10E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-apollo-wall-mounted-split-system-specials-august-2020",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-3.5kw-apollo-wall-mounted-split-system-AURMI35",
+                "destination": "/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-7.1kW-cora-Inverter-hi-wall-split-system-FTXV71W",
+                "destination": "/products/daikin-7.1kW-cora-reverse-cycle-hi-wall-split-system-FTXV71W",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-2.5kW-cora-Inverter-hi-wall-split-system-FTXV25W",
+                "destination": "/products/daikin-2.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV25W",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-9.5kW-cora-Inverter-hi-wall-split-system-FTXV95LVMA",
+                "destination": "/products/daikin-9.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV95LVMA",
+                "type": 301
+            },
+            {
+                "source": "/products/samsung-5.0kw-boracay-reverse-cycle-inverter-hi-wall-split-system-hca-pl202",
+                "destination": "/products/samsung-5.0kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-hca-pl202",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-10.1kw-inverter-reverse-cycle-wall-mount-split-system-hcalg4",
+                "destination": "/products/toshiba-10.1kw-inverter-reverse-cycle-wall-mount-split-system-RAS-36E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/haier-3.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System",
+                "destination": "/products/haier-3.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS35TBCHRA",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-2.5kW-cora-Inverter-hi-wall-split-system-hca25",
+                "destination": "/products/daikin-2.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV25W",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-2.5kW-cora-Inverter-hi-wall-split-system-hca25/",
+                "destination": "/products/daikin-2.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV25W",
+                "type": 301
+            },
+            {
+                "source": "/products/samsung-8.0kw-boracay-reverse-cycle-inverter-hi-wall-split-system-hcalg2-hcal1/",
+                "destination": "/products/samsung-6.8kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR24AXHQAWK",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-9.4kW-cora-Inverter-hi-wall-split-system-hca94/",
+                "destination": "/products/daikin-9.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV95LVMA",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-7.1kW-cora-Inverter-hi-wall-split-system-hca71",
+                "destination": "/products/daikin-7.1kW-cora-reverse-cycle-hi-wall-split-system-FTXV71W",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-3.4kw-inverter-reverse-cycle-call-mount-split-system-hcasm2/",
+                "destination": "/products/toshiba-3.4kw-inverter-reverse-cycle-call-mount-split-system-RAS-13E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-9.2kw-inverter-reverse-cycle-wall-mount-split-system-hcalg3",
+                "destination": "/products/toshiba-9.2kw-inverter-reverse-cycle-wall-mount-split-system-RAS-34E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-5.0kw-inverter-reverse-cycle-wall-mount-split-system-hcam2",
+                "destination": "/products/toshiba-5.0kw-inverter-reverse-cycle-wall-mount-split-system-RAS-18E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-5.0kW-cora-Inverter-hi-wall-split-system-hca50",
+                "destination": "/products/daikin-5.0kW-cora-reverse-cycle-hi-wall-split-system-FTXV50W",
+                "type": 301
+            },
+            {
+                "source": "/products/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-hcalg1",
+                "destination": "/products/samsung-6.8kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR24AXHQAWK",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-hcal1",
+                "destination": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-RAS-24E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-6.0kW-cora-Inverter-hi-wall-split-system-hca60",
+                "destination": "/products/daikin-6.0kW-cora-reverse-cycle-hi-wall-split-system-FTXV60W",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-5.0kw-aurora-wall-mounted-split-system-AURMI50",
+                "destination": "/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
+                "type": 301
+            }
 
         ]
     }
