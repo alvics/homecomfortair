@@ -1,10 +1,75 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+    "hosting": {
+        "redirects": [{
+                "source": "/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20",
+                "destination": "products/daikin-2.0kW-cora-reverse-cycle-hi-wall-split-system-hca20",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-aurora-wall-mounted-split-system-AURMI26/",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-8.5kW-cora-Inverter-hi-wall-split-system-hca85/",
+                "destination": "/products/daikin-8.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV85LVMA",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-7.0kw-aurora-wall-mounted-split-system-hcalg1/",
+                "destination": "/products/midea-7.0kw-apollo-reverse-cycle-split-system-MFAB70",
+                "type": 301
+            },
+            {
+                "source": "/products/haier-2.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price/",
+                "destination": "/products/haier-2.6kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS26TACHRA",
+                "type": 301
+            },
+            {
+                "source": "/midea-8.0kw-aurora-wall-mounted-split-system-hcalg2/",
+                "destination": "/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020/",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-specials-august-2020-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/haier-2.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System",
+                "destination": "/products/haier-2.6kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS26TACHRA",
+                "type": 301
+            },
+            {
+                "source": "/products/haier-2.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price",
+                "destination": "/products/haier-2.6kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price-AS26TBCHRA",
+                "type": 301
+            },
+
+            {
+                "source": "/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System",
+                "destination": "/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS82FFAHRA",
+                "type": 301
+            },
+
+            {
+                "source": "/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-specials-august-2020-MFAB26",
+                "type": 301
+            },
+
+            {
+                "source": "/products/midea-2.6kw-aurora-wall-mounted-split-system-AURMI26",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            }
+
+        ],
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
 }
