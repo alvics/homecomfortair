@@ -119,7 +119,80 @@
                 "source": "/products/toshiba-8.0kw-inverter-reverse-cycle-wall-mount-split-system-hcal2",
                 "destination": "/products/toshiba-8.0kw-inverter-reverse-cycle-wall-mount-split-system-RAS-30E2-VG",
                 "type": 301
+            },
+            {
+                "source": "/products/daikin-6.0kW-cora-Inverter-hi-wall-split-system-FTXV60W",
+                "destination": "/products/daikin-6.0kW-cora-reverse-cycle-hi-wall-split-system-FTXV60W",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-5.0kw-apollo-wall-mounted-split-system-AURMI50",
+                "destination": "/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
+                "type": 301
+            },
+            {
+                "source": "/midea-2.6kw-apollo-wall-mounted-split-system-specials-april-2020/",
+                "destination": "/midea-2.6kw-apollo-reverse-cycle-split-system-specials-april-2020-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-2.6kw-apollo-wall-mounted-split-system-specials-april-2020",
+                "destination": "/products/midea-2.6kw-apollo-reverse-cycle-split-system-specials-april-2020-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "/products/midea-7.0kw-apollo-wall-mounted-split-system-hcalg1",
+                "destination": "/products/midea-7.0kw-apollo-reverse-cycle-split-system-MFAB70",
+                "type": 301
+            },
+            {
+                "source": "/products/haier-5.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System/",
+                "destination": "/products/haier-5.3kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS53TCCHRA",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-3.5kW-cora-Inverter-hi-wall-split-system-hca35",
+                "destination": "/products/daikin-3.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV35W",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-3.5kW-cora-Inverter-hi-wall-split-system-hca35",
+                "destination": "/products/daikin-3.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV35W",
+                "type": 301
+            },
+            {
+                "source": "/products/toshiba-9.2kw-inverter-reverse-cycle-wall-mount-split-system-hcalg3/",
+                "destination": "/products/toshiba-9.2kw-inverter-reverse-cycle-wall-mount-split-system-RAS-34E2-VG",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-8.5kW-cora-Inverter-hi-wall-split-system-hca85",
+                "destination": "/products/daikin-8.5kW-cora-reverse-cycle-hi-wall-split-system-FTXV85LVMA",
+                "type": 301
+            },
+            {
+                "source": "/products/samsung-2.5kw-boracay-reverse-cycle-inverter-hi-wall-split-system-specials-july-2020/",
+                "destination": "/products/samsung-2.5kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR09AXHQAWK-specials-july-2020",
+                "type": 301
+            },
+            {
+                "source": "/products/daikin-5.0kW-cora-Inverter-hi-wall-split-system-hca50/",
+                "destination": "/products/daikin-5.0kW-cora-reverse-cycle-hi-wall-split-system-FTXV50W",
+                "type": 301
+            },
+
+            {
+                "source": "/products/midea-8.0kw-aurora-wall-mounted-split-system-hcalg2",
+                "destination": "/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
+                "type": 301
+            },
+
+            {
+                "source": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-specials-june-2020",
+                "destination": "/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-RAS-24E2-VG",
+                "type": 301
             }
+
 
         ]
     }
