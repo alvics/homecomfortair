@@ -9,8 +9,8 @@ const DropdownBtn = () => {
         style={{ fontFamily: `Open Sans, sans-serif`, fontSize: 24 }}
         class="fw-400 px-0 dropdown-toggle"
         type="button"
-        id="dropdownMenuButton"
-        data-toggle="dropdown"
+        id="dropdownMenuButton1 "
+        data-bs-toggle="dropdown"
         aria-expanded="false"
       >
         Air Conditioning
