@@ -1,3 +1,7 @@
+// ++++=========================================
+// ***** MOBILE MENU ***************************
+// *****=======================================
+
 import { Link } from "gatsby"
 
 import React, { useState } from "react"
@@ -5,6 +9,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import Image from "gatsby-image"
 import DropdownBtn from "../DropDownBtn"
+import DropdownShopBtn from "../DropDownShopBtn"
 
 const getImage = graphql`
   {
@@ -117,7 +122,7 @@ const HeaderNew = () => {
           </li>
           <div class="dropdown-divider"></div>
           <li>
-            <Link to="/products/specials">Specials</Link>
+            <DropdownShopBtn />
           </li>
           <div class="dropdown-divider"></div>
           <DropdownBtn />
@@ -127,7 +132,7 @@ const HeaderNew = () => {
           </li>
           <div class="dropdown-divider"></div>
           <li>
-            <a
+            <Link
               style={{ marginTop: `-3px` }}
               id="facebook-svg"
               to="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"
@@ -155,7 +160,7 @@ const HeaderNew = () => {
                   </g>
                 </g>
               </svg>
-            </a>
+            </Link>
           </li>
           <div class="dropdown-divider"></div>
         </ul>

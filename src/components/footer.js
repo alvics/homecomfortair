@@ -113,7 +113,7 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to="/service">Service</Link>
+                <Link to="/service">Service Maintenance</Link>
               </p>
             </div>
           </section>
@@ -121,10 +121,10 @@ const Footer = () => {
           <section className="footer-3 text-center">
             <div className="text-left">
               <h4>Brands</h4>
-              <p><Link to="/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20">Daikin</Link></p>
-              <p><Link to="/products/toshiba-2.5kw-inverter-reverse-cycle-wall-mount-split-system-hcasm1">Toshiba</Link></p>
-              <p><Link to="/products/carrier-2.6kw-pearl-reverse-cycle-inverter-hi-wall-split-system-42qhc026-hcas2">Carrier</Link></p>
-              <p> <Link to="/products/midea-2.6kw-aurora-wall-mounted-split-system-AURMI26">Midea</Link></p>
+              <p><Link to="/products/#daikin">Daikin</Link></p>
+              <p><Link to="/products/#toshiba">Toshiba</Link></p>
+              <p><Link to="/products/#samsung">Samsung</Link></p>
+              <p> <Link to="/products/#midea">Midea</Link></p>
             </div>
           </section>
 
@@ -132,24 +132,24 @@ const Footer = () => {
             <div className="text-left">
               <h4>Latest News</h4>
                 <p>
-                <Link to="/products/haier-2.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price">
-                  New Year Sale-Haier 2.5kW
+                <Link to="/products/specials">
+                  Special Deals
                 </Link>
               </p>
               <p>
-                <Link to="/products/carrier-5.0kw-pearl-reverse-cycle-inverter-hi-wall-split-system-specials-october-2020">
-                  October-Carrier 5.0kW
+                <Link to="/service-areas">
+                  Service Area's
                 </Link>
               </p>
               <p>
-                <Link to="/products/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-september-2020-special">
-                  September-Samsung 6.8kW
+                <Link to="/products">
+                  Shop Air Conditioning
                 </Link>
               </p>
               <p>
                 {" "}
-                <Link to="/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020">
-                  August-Midea 2.6kW
+                <Link to="/products/#haier">
+                  Most Popular A/C
                 </Link>
               </p>
             

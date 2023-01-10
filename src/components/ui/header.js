@@ -77,11 +77,35 @@ const Header = () => {
           <div className="desktop-links" id="links">
             <Link to="/">Home</Link>
             <Link to="/about-us">About</Link>
-            <Link to="/products/specials">Specials</Link>
+
+        <Link to="/products/#midea">
+              <span className="dropdown-- ">
+                <span className="dropbtn">
+                  <Link to="/products">Shop</Link>
+                  <span
+                    style={{ fontSize: `inherit`, fontWeight: `bold` }}
+                    class="material-icons"
+                  >
+                    keyboard_arrow_down
+                  </span>
+                </span>
+                <div className="dropdown-content">
+                   <Link to="/products/specials">Specials Deals</Link>
+                   <Link to="/products">Split System Packages</Link>
+                   <Link to="/products/#midea" >Midea Air Conditioning</Link>
+                   <Link to="/products/#carrier" >Carrier Air Conditioning</Link>
+                   <Link to="/products/#haier" >Haier Air Conditioning</Link>
+                   <Link to="/products/#samsung" >Samsung Air Conditioning</Link>
+                   <Link to="/products/#toshiba" >Toshiba Air Conditioning</Link>
+                   <Link to="/products/#daikin">Daikin Air Conditioning</Link>
+                  </div>
+              </span>
+        </Link>
+           
             <Link to="/split-systems">
               <span className="dropdown--">
                 <span className="dropbtn">
-                  <Link to="/products">Air Conditioning</Link>
+                  <Link to="/products">Air Conditioning Services</Link>
                   <span
                     style={{ fontSize: `inherit`, fontWeight: `bold` }}
                     class="material-icons"
@@ -94,39 +118,15 @@ const Header = () => {
                   <Link to="/split-systems">Split Systems</Link>
                   <Link to="/ducted-systems">Ducted Systems</Link>
                   <Link to="/multi-head-systems">Multi-Head Systems </Link>
-                  <Link to="/products">Supply & Install Price</Link>
+                  <Link to="/products">Split System Prices</Link>
                 </div>
               </span>
             </Link>
-            <Link to="/contact">Contact</Link>
-            <a
-              style={{ marginTop: `-3px` }}
-              id="facebook-svg"
-              href="https://www.facebook.com/Home-Comfort-Air-1713459065551004/"
-              target="blank"
-            >
-              <svg
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                viewBox="0 0 512 512"
-                style={{
-                  background: `new 0 0 512 512`,
-                  maxWidth: 25,
-                }}
-              >
-                <g>
-                  <g>
-                    <path
-                      d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80
-			h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z"
-                    />
-                  </g>
-                </g>
-              </svg>
-            </a>
+            <Link  to="/contact">Contact</Link>
+            <Link to="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"
+              target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook mb-1" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></Link>      
           </div>
         </div>
       </nav>

@@ -59,7 +59,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <p style={{ fontSize: 12 }}>Showing 40 products</p>
             </div>
 
-            <div className="split-system-archive products-archive">
+            <div className="split-system-archive products-archive" id="midea">
 
 
                 {/* *******************************************************************************
@@ -102,6 +102,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <div
                 style={{ backgroundColor: `#004178` }}
                 className="my-3 text-center rounded"
+                id="carrier"
               >
                 <h3
                   className="h5 text-white fw-600 cap mt-2 px-3"
@@ -124,7 +125,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                  ********************* Haier Products banner start *********************************
                  ******************************************************************************** */}
 
-                <div className="mb-2">
+                <div className="mb-2" id="haier">
                 <div
                   className="text-center border rounded"
                   style={{ backgroundColor: `#005AAB` }}
@@ -147,7 +148,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 <small class="text-muted"> air conditioners</small>
                 </h5>
                 </div>
-              <HaierProducts />
+                <div className="mb-5">
+                <HaierProducts />
+                </div>
+              
+              
 
                {/* ********************************************************************************
                ********************* Haier Products end/ ******************************************
@@ -157,8 +162,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
                {/* *******************************************************************************
                 ********************* Samsung Products banner start *******************************
                 ******************************************************************************** */} 
-
-              <div s className="text-center bg-dark my-3 text-center rounded">
+            
+              <div  className="text-center bg-dark my-3 text-center rounded" id="samsung">
                 <h3
                   className="text-white h5 fw-600 cap mt-2 px-3"
                   style={{ padding: `1.3rem 0` }}
@@ -184,6 +189,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <div
                 style={{ backgroundColor: `#D01C22` }}
                 className="my-3 text-center rounded"
+                id="toshiba"
               >
                 <h3
                   className="h5 text-white fw-600 cap mt-2 px-3"
@@ -216,7 +222,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               ********************* Daikin Products banner start ********************************
               ******************************************************************************** */} 
 
-                <div className="mb-2">
+                <div className="mb-2" id="daikin">
                 <div
                   className="text-center border rounded"
                   style={{ backgroundColor: `#00a1e5` }}
@@ -330,7 +336,34 @@ Split,systems,Ipswich,Brisbane,Specials`,
 
             </div>
           </div>
-          <div className="col mt-5 archive-category">
+          <div className="col mt-5 archive-category ">
+            <h3 className="h6 fw-600">Brands</h3>
+           
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#midea">Midea</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#carrier">Carrier</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#haier">Haier</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#samsung">Samsung</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#toshiba">Toshiba</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#daikin">Daikin</Link>
+            </p>
+            <hr />
             <h3 className="h6 fw-600">Categories</h3>
            
             <hr />
@@ -350,7 +383,6 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <Link to="/service">Service / Maintenance</Link>
             </p>
             <hr />
-            
           </div>
         </div>
 

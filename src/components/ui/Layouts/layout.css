@@ -779,8 +779,39 @@ pre tt:after {
 
 .dropdown-menu {
     border: none !important;
+    background-color: rgb(0, 196, 179) !important;
+    transform: translate3d(0px, 0px, 0px) !important;
 }
 
+.dropdown-menu a {
+    color: #eee !important;
+}
+
+.shop-mobile-menu-list {
+    position: fixed !important;
+}
+
+.dropdown-menu a:hover {
+    -webkit-text-stroke: 1px rgba(46, 145, 136, 0.685);
+    -webkit-text-fill-color: rgb(0, 117, 201);
+    color: rgb(0, 117, 201) !important;
+}
+
+.dropdown-content {
+    border: none !important;
+    background-color: rgb(0, 196, 179) !important;
+}
+
+.dropdown-content a {
+    color: #fff !important;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(46, 145, 136, 0.685) !important;
+    color: #eee !important;
+}
+
+;
 .single-products-side img,
 .products-archive img {
     border-radius: 5px;

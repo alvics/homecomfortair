@@ -81,7 +81,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               />
             </div>
 
-            <div className="mt-2">
+            <div className="mt-2 mb-3">
               <CarrierProducts />
             </div>
           </div>
@@ -105,9 +105,12 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
           </div>
         </div>
-        <div className="mt-2">
-          <Link to="/products">View all split systems ></Link>
-        </div>
+        <section>
+      <div className="lg mb-5">
+      <h5>View all our brands</h5>
+      <Link className="btn-- btn-primary--" to="/products" >SHOP</Link>
+      </div>
+      </section>
       </div>
     </Layout>
   )

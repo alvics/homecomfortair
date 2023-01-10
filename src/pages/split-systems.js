@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
@@ -339,6 +339,13 @@ Split,systems,service,supply,install`,
             </div>
           </Panel>
         </Tabs>
+      </section>
+
+      <section>
+      <div className="lg mb-5">
+      <h5>View all our brands</h5>
+      <Link className="btn-- btn-primary--" to="/products" >SHOP</Link>
+      </div>
       </section>
 
       <section>

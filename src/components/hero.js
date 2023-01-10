@@ -43,7 +43,7 @@ const Hero = props => {
                   </p>
                   <div className="pb-3">
                     <Link to="/products">
-                      <button className="btn-- btn-green--">A/C Pricing</button>
+                      <button className="btn-- btn-green--">Shop A/C</button>
                     </Link>
 
                     <Link to="/split-systems">

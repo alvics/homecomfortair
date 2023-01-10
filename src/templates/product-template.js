@@ -45,10 +45,10 @@ const SingleProduct = ({
     <Layout>
       <SEO
         title={ `${brand} Air Conditioning | Home Comfort Air` } 
-        description={`Supply and install a new ${title} for $${price} incl GST.`}
+        description={`Best price for a new ${title} for $${price} incl GST.`}
         keywords={[
           `${brand},installation,Air,Conditioning,
-Split,systems,clean,service`,
+Split,systems,price,service`,
         ]}
       />
       <section className="SingleProduct container pt-3">

@@ -28,6 +28,7 @@ const query = graphql`
   {
     allStrapiProduct(
       filter: { categories: { elemMatch: { brand: { eq: "specials" } } } }
+      sort: { fields: created_at, order: DESC }
     ) {
       nodes {
         capacity

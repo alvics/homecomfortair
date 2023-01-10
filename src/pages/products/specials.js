@@ -8,7 +8,8 @@ import SEO from "../../components/seo"
 // import MideaProducts from "../components/Products/MideaProducts"
 // import ToshibaProducts from "../../components/Products/Toshiba"
 // import CarrierProducts from "../components/Products/CarrierProducts"
-import HaierProducts from "../../components/Products/Haier"
+// import HaierProducts from "../../components/Products/Haier"
+import SamsungProducts from "../../components/Products/SamsungProducts"
 import Specials from "../../components/Products/Specials"
 
 const SpecialsComp = () => {
@@ -47,7 +48,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
           <div className="col-lg-4">
             <h3 className="h6 cam my-3 fw-600">Recommended leading brands</h3>
             <div className="product-grid">
-              <HaierProducts />
+              <SamsungProducts />
             </div>
           </div>
         </div>
