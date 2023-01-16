@@ -791,7 +791,7 @@ pre tt:after {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1480px) {
+@media (min-width: 1181px) and (max-width: 1480px) {
     #sidebar-sticky-top {
         position: fixed;
         right: 30px;
@@ -805,7 +805,7 @@ pre tt:after {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 1180) {
     #sidebar-sticky-top {
         position: relative;
         right: 0;
@@ -849,11 +849,13 @@ pre tt:after {
 
 .dropdown-content a {
     color: rgb(15, 14, 14) !important;
+    border: solid #eee 1px;
 }
 
 .dropdown-content a:hover {
     background-color: rgb(0, 117, 201) !important;
     color: #fff !important;
+    border: solid rgb(0, 117, 201) 1px;
 }
 
 ;
