@@ -29,6 +29,7 @@ const query = graphql`
   {
     allStrapiProduct(
       filter: { categories: { elemMatch: { brand: { eq: "Daikin" } } } }
+      sort: {fields: price, order: ASC}
     ) {
       nodes {
         capacity

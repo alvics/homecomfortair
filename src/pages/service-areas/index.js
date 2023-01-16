@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../../components/ui/Layouts/layout"
 import SEO from "../../components/seo"
 import StaticImage from "../../components/StaticQueryImages"
-// import ToshibaProducts from "../components/Products/Toshiba"
-import CarrierProducts from "../../components/Products/CarrierProducts"
+import SamsungProducts from "../../components/Products/SamsungProducts"
+import MideaProducts from "../../components/Products/MideaProducts"
 // import Tabs from "../components/pages/Multi-Systems/MyTabs"
 
 const ServiceArea = () => {
@@ -88,13 +88,13 @@ Split,systems,Ipswich,Brisbane,service`,
           
             <div className="img-wrapper-e">
               <StaticImage
-                filename="install-new.png"
-                alt="home comfort air image"
+                filename="splits-add.png"
+                alt="split systems from home comfort air"
               />
             </div>
 
             <div className="mt-2">
-              <CarrierProducts />
+              <MideaProducts />
             </div>
           </div>
           <div className="col-lg-4 pt-3">
@@ -115,6 +115,11 @@ Split,systems,Ipswich,Brisbane,service`,
                 alt="map-brisbane-distances"
               />
             </div>
+
+            <div className="mt-3">
+             <SamsungProducts />
+            </div>
+            
           </div>
         </div>
         <div className="mt-2">

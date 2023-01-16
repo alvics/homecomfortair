@@ -1,13 +1,13 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import Form from "./contactForm"
+// import Form from "./contactForm"
 
 const SplitsHero = props => {
   const data = useStaticQuery(getImages)
   console.log(data)
   return (
-    <>
+    <Fragment>
       <BackgroundImage id="hero-image" fluid={data.fluid.childImageSharp.fluid}>
         <div
           className="d-grid-- just-content-center pb-2"
@@ -16,7 +16,7 @@ const SplitsHero = props => {
           <div className="hidden-form"></div>
         </div>
       </BackgroundImage>
-    </>
+    </Fragment>
   )
 }
 

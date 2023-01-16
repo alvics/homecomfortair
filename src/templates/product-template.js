@@ -10,12 +10,18 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import DaikinProducts from "../components/Products/Daikin"
+import HaierProducts from "../components/Products/Haier"
 import Modal from "../components/Modal"
 import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 import StaticImage from "../components/StaticQueryImages"
 import RoomSizeTable from "../components/RoomSize"
 import BackToBack from "../components/BackToBack"
 import SEO from "../components/seo"
+import MideaPDF from "../images/Midea.pdf"
+import HaierPDF from "../images/haier-tempo.pdf"
+import SamsungPDF from "../images/bedarra.pdf"
+import DaikinPDF from "../images/daikin.pdf"
+import ToshibaPDF from "../images/Toshiba.pdf"
 
 // Destructuring all the properties from the query
 
@@ -136,6 +142,8 @@ Split,systems,price,service`,
           </div>
         </div>
         <hr />
+
+
  <div className="row">
           <div className="col-lg-8">
             {" "}
@@ -174,20 +182,32 @@ Split,systems,price,service`,
                   </table>
                 </div>
 
+
+                 
         <div className="mt-4">
+        
         <h5>What's included:</h5>
         <p>Your new air conditioning system package includes standard single storey back to back installation. This package includes:</p>
+         
          <div>
             <ul className="pl-3">
         <li>* Licensed Installers.</li>
         <li>* Up to 3 meters of pipework connecting indoor to outdoor unit.</li>
-        <li>* Up to 20 meters of electrical cable run in the roof to an existing and available circuit. Does NOT include additional electrical work, or new circuit added. </li>
-        <li>* New mounted weatherproof safety isolation switch.</li>
+
+        {capacity <= "5.4" ? ( 
+        <li>* Up to 20 meters of electrical cable run in the roof to an existing and available circuit.</li>
+        ) : ( <span></span>  )}
+
+
+        {capacity <= "5.4" ? (
+        <li>* New mounted weatherproof safety isolation.</li> ) : (
+        <li>* New mounted weatherproof safety isolation switch to existing circuit. <small>(For replacement units only, does NOT include new electrical circuit added. Additional charges will apply).</small> </li> )}
         <li>* PVC ducting to conceal pipe connection and electrical work.</li>
         <li>  {brand === "Toshiba"  ? "* 7 year manufacturer warranty." : "* 5 year manufacturer warranty."}</li> 
         <li>* 5 year Installation warranty.</li>
         </ul>
          </div>
+                   
 
 
          <div className="mb-4">
@@ -308,6 +328,62 @@ Split,systems,price,service`,
                 </div>
                 <ReactMarkdown source={description} />
               </article>
+
+<div>
+{ brand === "Toshiba" ? (
+   <p className='mt-4'>
+                    Toshiba brochure{" "}
+                  <a href={ToshibaPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+) : brand === "Midea" ?(
+
+     <p className='mt-4'>
+                    Midea brochure{" "}
+                  <a href={MideaPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+ ) : brand === "Daikin" ? (
+                   <p className='mt-4'>
+                    Daikin brochure{" "}
+                  <a href={DaikinPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+ ) : brand === "Samsung" ? (
+
+          <p className='mt-4'>
+                    Samsung brochure{" "}
+                  <a href={SamsungPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+ ) : brand === "Haier" ? (
+           
+            <p className='mt-4'>
+                    Haier brochure{" "}
+                  <a href={HaierPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+ ) : <span></span>
+
+
+}
+
+</div>
+
               <hr />
               <div id="backtoback">
                 <h5>Installation examples</h5>
@@ -489,6 +565,32 @@ Split,systems,price,service`,
             ) : (
               <div></div>
             )}
+
+               {brand === "Haier" ? (
+              <div className="single-side-products">
+                <div
+                  style={{ backgroundColor: `rgb(0, 90, 171)` }}
+                  className="my-2  text-center rounded"
+                >
+                  <h3
+                    className="h6 text-white fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Haier
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+                <HaierProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
+
+
+
             <div className="mt-2">
               <StaticImage
                 filename="install.png"

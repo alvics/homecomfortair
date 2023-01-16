@@ -249,7 +249,7 @@ Split,systems,service,supply,install`,
                 </p>
                 <p>
                   Toshiba range, download brochure{" "}
-                  <a href={ToshibaPDF}>
+                  <a href={ToshibaPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
                   </a>
@@ -439,6 +439,13 @@ Split,systems,service,supply,install`,
           <Form />
         </div>
       </section>
+
+      <section>
+            <p className="px-20 mt-4">
+             <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and Tweed Heads regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
+          </p>
+        </section> 
+
     </div>
   </Layout>
 )

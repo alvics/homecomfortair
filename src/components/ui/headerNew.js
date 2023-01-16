@@ -2,14 +2,15 @@
 // ***** MOBILE MENU ***************************
 // *****=======================================
 
-import { Link } from "gatsby"
-
 import React, { useState } from "react"
+import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import Image from "gatsby-image"
 import DropdownBtn from "../DropDownBtn"
 import DropdownShopBtn from "../DropDownShopBtn"
+import DropDownAboutBtn from "../DropDownAboutBtn"
+
 
 const getImage = graphql`
   {
@@ -118,7 +119,7 @@ const HeaderNew = () => {
           </li>
           <div class="dropdown-divider"></div>
           <li>
-            <Link to="/about-us">About</Link>
+            <DropDownAboutBtn />
           </li>
           <div class="dropdown-divider"></div>
           <li>

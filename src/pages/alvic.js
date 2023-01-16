@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Layout from "../components/ui/Layouts/layout"
 import SEO from "../components/seo"
 // import Sizes from "../components/Queries/GetCategories"

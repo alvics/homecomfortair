@@ -29,7 +29,7 @@ export default class Modal extends React.Component {
               <button
                 type="button"
                 className="close"
-                data-dismiss="modal"
+                data-bs-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">&times;</span>
@@ -50,7 +50,7 @@ export default class Modal extends React.Component {
                 </div>
 
                 <span style={{ fontSize: 20 }} className="mt-3">
-                  *Service Air Conditioning
+                  *Service Form
                 </span>
               </div>
             </div>
@@ -58,8 +58,7 @@ export default class Modal extends React.Component {
             <div className="modal-body">
               <br />
               <p className="font-italic">
-                Complete our form and we'll contact you to confirm your date and
-                time.
+                We'll contact you within 24 hours to confirm details.
               </p>
               <div className="form-bc">
                 <form
@@ -108,6 +107,8 @@ export default class Modal extends React.Component {
                       </button>
                       <div className="text-dark mt-2" style={{ fontSize: 12 }}>
                         <small>
+                          *If you have any questions or concerns, don't hesitate to reach out to us through our live chat feature on our website. Our team of experts is available to provide you with fast, accurate information and help you schedule an appointment or service call. We are happy to assist you any time you need it.
+                          <br />
                           *Please note when submitting a form we do not share
                           your details with any third party, and we'll not spam
                           your inbox.

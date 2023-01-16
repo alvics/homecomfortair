@@ -13,7 +13,7 @@ const DropdownBtn = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Air Conditioning
+        Our Services
       </button>
       <ul
         class="dropdown-menu px-3"
@@ -34,6 +34,10 @@ const DropdownBtn = () => {
         <div class="dropdown-divider"></div>
         <li>
           <Link to="/products">Supply & Install Price</Link>
+        </li>
+        <div class="dropdown-divider"></div>
+        <li>
+        <Link to="/installation-warranty">Installation Warranty</Link>
         </li>
       </ul>
     </div>

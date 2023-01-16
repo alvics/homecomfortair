@@ -121,10 +121,10 @@ const Footer = () => {
           <section className="footer-3 text-center">
             <div className="text-left">
               <h4>Brands</h4>
-              <p><Link to="/products/#daikin">Daikin</Link></p>
-              <p><Link to="/products/#toshiba">Toshiba</Link></p>
-              <p><Link to="/products/#samsung">Samsung</Link></p>
-              <p> <Link to="/products/#midea">Midea</Link></p>
+              <p><Link to="/products/daikin-air-conditioning">Daikin</Link></p>
+              <p><Link to="/products/toshiba-air-conditioning">Toshiba</Link></p>
+              <p><Link to="/products/samsung-air-conditioning">Samsung</Link></p>
+              <p> <Link to="/products/midea-air-conditioning">Midea</Link></p>
             </div>
           </section>
 
@@ -148,7 +148,7 @@ const Footer = () => {
               </p>
               <p>
                 {" "}
-                <Link to="/products/#haier">
+                <Link to="/products/haier-air-conditioning">
                   Most Popular A/C
                 </Link>
               </p>

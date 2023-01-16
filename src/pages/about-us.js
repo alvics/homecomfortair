@@ -5,7 +5,9 @@ import Layout from "../components/ui/Layouts/layout"
 import SEO from "../components/seo"
 import StaticImage from "../components/StaticQueryImages"
 // import ToshibaProducts from "../components/Products/Toshiba"
-import CarrierProducts from "../components/Products/CarrierProducts"
+// import CarrierProducts from "../components/Products/CarrierProducts"
+import MideaProducts from "../components/Products/MideaProducts"
+import SamsungProducts from "../components/Products/SamsungProducts"
 // import Tabs from "../components/pages/Multi-Systems/MyTabs"
 
 const ProductsPage = () => {
@@ -41,7 +43,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               />
             </div>
             <div className="mt-3">
-              <h1 className="h5 cap fw-600">About Us</h1>
+              <h2 className="h5 cap fw-600">Our Service</h2>
             </div>
 
             <p className="lead-20">
@@ -63,10 +65,14 @@ Split,systems,Ipswich,Brisbane,Specials`,
               major brand air conditioners, if you can see your location on the
               maps in our service area, we'll come to you. Our staff are
               licensed experts when it comes to installations or repairs, and we
-              offer a 5 year warranty on all new installations of split systems.
+              offer a <Link to="/installation-warranty">5-year warranty</Link> on all new installations of split systems.
               Furthermore, we pride ourselves on 100% customer satisfaction and
               quality workmanship. HOME COMFORT AIR operates 6 days a week and
               can be contacted between the hours of 8am and 5pm.{" "}
+            </p>
+
+            <p className="lead-20 mt-3">
+            We stand behind our work and our commitment to providing the best service possible. Our team of highly trained and experienced technicians are dedicated to ensuring that every installation is completed correctly and to the highest standards. And with our <Link to="/installation-warranty">5-year warranty</Link>, customers can rest assured that they are protected in the event of any issues.
             </p>
             <p className="lead-20">
               If your looking for air conditioning with professional and quality
@@ -82,11 +88,11 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </div>
 
             <div className="mt-2 mb-3">
-              <CarrierProducts />
+              <MideaProducts />
             </div>
           </div>
           <div className="col-lg-4 pt-3">
-            <div className="">
+            <div className="mb-2">
               <div>
                 <h3 className="h5 cap fw-600">Servicing Area's</h3>
               </div>
@@ -103,6 +109,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
                 alt="map-brisbane-distances"
               />
             </div>
+            <SamsungProducts />
           </div>
         </div>
         <section>

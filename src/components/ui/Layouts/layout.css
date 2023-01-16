@@ -777,6 +777,48 @@ pre tt:after {
     display: grid;
 }
 
+@media (min-width: 1481px) {
+    #sidebar-sticky-top {
+        position: fixed;
+        width: 200px;
+        top: 100px;
+        bottom: 0;
+        /* This will make the element stick to the bottom of the viewport */
+        right: 300px;
+        /* This will make the element stick to the left side of the viewport */
+        overflow-y: hidden;
+        /* This will make the element scrollable vertically */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1480px) {
+    #sidebar-sticky-top {
+        position: fixed;
+        right: 30px;
+        width: 200px;
+        top: 100px;
+        bottom: 0;
+        /* This will make the element stick to the bottom of the viewport */
+        overflow-y: scroll;
+        /* This will make the element scrollable vertically */
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar-sticky-top {
+        position: relative;
+        right: 0;
+        top: -30px;
+    }
+    #splits-hero {
+        display: none;
+    }
+}
+
+
+/* FOR MOBILE  MENU   */
+
 .dropdown-menu {
     border: none !important;
     background-color: rgb(0, 196, 179) !important;
@@ -797,18 +839,21 @@ pre tt:after {
     color: rgb(0, 117, 201) !important;
 }
 
+
+/* FOR DESKTOP  MENU   */
+
 .dropdown-content {
     border: none !important;
-    background-color: rgb(0, 196, 179) !important;
+    background-color: #fff !important;
 }
 
 .dropdown-content a {
-    color: #fff !important;
+    color: rgb(15, 14, 14) !important;
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(46, 145, 136, 0.685) !important;
-    color: #eee !important;
+    background-color: rgb(0, 117, 201) !important;
+    color: #fff !important;
 }
 
 ;
@@ -1100,10 +1145,44 @@ aside {
     line-height: 24px;
 }
 
+.exhFBj {
+    font-size: 1px !important;
+    display: none !important;
+}
+
 
 /* body {
     background-image: https://\images\new2020\christmas_background.png;
+    Mega Menu
 } */
+
+.headerLink a {
+    color: #fff;
+}
+
+.headerLink a:hover {
+    color: rgb(0, 196, 179);
+}
+
+
+/* .megaMenu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+} */
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.nav-ul {
+    padding-left: 0.15rem;
+}
 
 .SingleProduct,
 .body-wrapper {

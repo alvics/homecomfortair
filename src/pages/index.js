@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
@@ -29,7 +29,7 @@ const getImage = graphql`
 const IndexPage = () => {
   const data = useStaticQuery(getImage)
   return (
-    <>
+    <Fragment>
       <Layout>
         <SEO
           title="Home Comfort Air | Gold Coast Air Conditioning"
@@ -170,7 +170,7 @@ Split,systems,service,install,sales`,
                   <div className="card-body--">
                     <p className="card-text lead">
                       Fast professional service and maintenance for split
-                      systems air conditioners...
+                      systems air...
                     </p>
                   </div>
                   <div className="text-blue text-shadow-2 mt-2">
@@ -197,7 +197,7 @@ Split,systems,service,install,sales`,
             <div className="grid-2">
               <div className="span-col-3">
                 <h4 className="text-dark fw-400">
-                  Gold Coast Air Conditioning Service
+                  Home Comfort Air
                 </h4>
                 <Image
                   fluid={data.fluid.childImageSharp.fluid}
@@ -210,28 +210,23 @@ Split,systems,service,install,sales`,
                   }}
                 />
                 <p className="cap text-dark">Beat the heat</p>
+
+
                 <p className="mt-20 lead">
-                  The split system air conditioner is now more advanced than
-                  ever and has come a long way over the years, making it the
-                  most popular and most affordable cooling and heating solution
-                  for your home or office space. With its stylish look, and easy
-                  to use operations, it's the perfect solution for a single room
-                  or space to keep you cool in summer and warm in winter. If
-                  you're looking for a new air conditioning system and are a bit
-                  overwhelmed or confused with all the different type of units
-                  that are for sale, you're in the right place! With our
-                  expertise, experience and fast service, we can help you choose
-                  the right air conditioning system to suit your interior.
-                  Whether you're looking for a single room or the entire home,
-                  we've got you covered. We can help you over the phone, by{" "}
-                  <a href="mailto:homecomfortair.gc@gmail.com"> email</a>
-                  , and even face to face with a free in home consultation to
-                  better understand your needs. We've got over 10 years
-                  experience, talk to us to find out more about all the options,
-                  and we can provide a cost comparison to help you determine the
-                  best way to go. <br />
-                  Call <a href="tel:0404602657">0404 602 657</a>
+                  <Link to="/split-systems">Split system</Link> air conditioners  have come a long way in terms of technology and design, making them the most popular choice for homeowners and businesses looking for a cost-effective cooling and heating solution. With their sleek look and user-friendly features, they are perfect for single rooms or spaces, and are ideal for keeping you cool in the summer and warm in the winter.
                 </p>
+                <p className="mt-20 lead">
+                  At Home Comfort Air, we understand that choosing the right air conditioning system can be overwhelming. That's why we're here to help. With our expertise and experience, we can guide you through the process and help you find the perfect unit for your home or office space. Whether you're looking for a single room solution or a system for your entire home, we've got you covered.
+                </p>
+                
+                 <p className="mt-20 lead">
+                  We offer a range of services to help you make an informed decision. We are happy to assist you over the phone, by <a href="mailto:homecomfortair.gc@gmail.com"> email</a>, and even with a free in-home consultation. Our team of experts has over 10 years of experience, and we can provide cost comparisons to help you determine the best option for your needs and budget
+                </p>
+
+                 <p className="mt-20 lead">
+                  Don't hesitate to reach out to us at Home Comfort Air or call us at <a href="tel:0404602657">0404 602 657</a> to learn more about all the options available to you and to schedule your consultation today.
+                </p>
+
               </div>
               <div className="form-quote home-page mt-5">
                 <h4 className="h6 text-center text-white fw-600 heading-box-color p-20 rounded cap">
@@ -266,13 +261,28 @@ Split,systems,service,install,sales`,
                   </h4>
                 </div>
                 <div>
-                  <p className="lead mt-3 px-3">
+
+                   <p className="lead mt-3 px-3">
+                   At HOME COMFORT AIR, we have been providing high-quality air conditioning installation services to families and major builders in the Brisbane, Ipswich, <Link to="/gold-coast-air-conditioning">Gold Coast</Link>, and Tweed Heads regions for over a decade. We offer a wide range of options for high wall and <Link to="/multi-head-systems">multi head </Link> <Link to="/split-systems">split systems</Link>, including popular brands such as Kelvinator, Acrton, <Link to="/products/daikin-air-conditioning"> Daikin</Link>, Braemar, LG, Haier, Mitsubishi, and <Link to="/products/samsung-air-conditioning">Samsung</Link>, as well as ducted residential and commercial systems with Daikin and Actron air conditioners. Additionally, our team is experienced in installing cassette units and wall-mounted split systems in Queensland schools.
+                   </p>
+
+
+                   <p className="lead mt-3 px-3">
+                   We are proud to service the Gold Coast, <Link to="/ipswich-air-conditioning"> Ipswich</Link>, and <Link to="/brisbane-conditioning">Brisbane</Link> areas and our staff are licensed experts in air conditioning. We stand behind our work and offer a <Link to="/installation-warranty">5-year warranty</Link> on all new installations. Customer satisfaction is our top priority, so you can trust that you are in good hands when choosing air conditioning for your home. We are available 6 days a week and can be reached between the hours of 8am and 5pm. Contact us today to schedule an installation or for more information.
+                   </p>
+
+
+
+
+
+
+                 {/* <p className="lead mt-3 px-3">
                     We've been installing domestic air conditioners for family's
-                    and major builders around Brisbane, Ipswich, Gold Coast and
+                    and major builders around Brisbane, Ipswich, <Link to="/gold-coast-air-conditioning">Gold Coast</Link> and
                     Tweed Heads area's for over a decade. Everything from high
                     wall and <Link to="/multi-head-systems">multi head </Link>
                     split systems including major brands, Kelvinator, Acrton,
-                    Daikin, Braemar, LG, Haier, Mitsubishi and Samsung as well
+                    <Link to="/products/daikin-air-conditioning"> Daikin</Link>, Braemar, LG, <Link to="/products/haier-air-conditioning">Haier</Link>, Mitsubishi and <Link to="/products/samsung-air-conditioning">Samsung</Link> as well
                     as <Link to="/ducted-systems">ducted</Link> residential and
                     commercial systems with Daikin and Actron air conditioners.
                     Furthermore, we're experienced working in Queensland schools
@@ -282,14 +292,14 @@ Split,systems,service,install,sales`,
                   </p>
                   <p className="mt-20 lead px-3">
                     We <Link to="/service">service</Link> the Gold Coast,
-                    Ipswich and Brisbane areas. Our staff are licensed experts
-                    in air conditioning, and we offer a 5 year warranty on the
+                    <Link to="/ipswich-air-conditioning"> Ipswich</Link> and <Link to="/brisbane-conditioning">Brisbane</Link> areas. Our staff are licensed experts in air conditioning, and we offer a 5 year warranty on the
                     workmanship of new installation. HOME COMFORT AIR prides
                     itself on 100% customer satisfaction, so you know you're in
                     the right hands when choosing air conditioning for your
                     home. Furthermore, we operate 6 days a week and can be
                     contacted between the hours of 8am and 5pm.
                   </p>
+                  */} 
                 </div>
               </div>
               <div className="col-lg-5">
@@ -320,6 +330,13 @@ Split,systems,service,install,sales`,
                 <span>your satisfaction, is our guarantee!</span>
               </div>
             </div>
+
+            <section>
+            <p className="px-20 mt-4">
+             <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and Tweed Heads regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
+          </p>
+        </section> 
+
             <div className="why-us">
               <ul className="bg-light p-20 mr-4">
                 <li className="text-blue fw-600 text-shadow-2">
@@ -370,9 +387,11 @@ Split,systems,service,install,sales`,
             Supply & Install Split Systems
           </Link>
           <br />
+
+
         </div>
       </Layout>
-    </>
+    </Fragment>
   )
 }
 

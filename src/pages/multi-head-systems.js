@@ -1,5 +1,5 @@
 import React from "react"
-import { Tabs, Tab, Panel } from "@bumaga/tabs"
+// import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Layout from "../components/ui/Layouts/layout"
 import StaticImage from "../components/StaticQueryImages"
 import Form from "../components/quoteForm"

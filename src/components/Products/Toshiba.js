@@ -26,9 +26,10 @@ const ToshibaProducts = () => {
 }
 
 const query = graphql`
-  {
+ {
     allStrapiProduct(
-      filter: { categories: { elemMatch: { brand: { eq: "Toshiba" } } } }
+      filter: { categories: { elemMatch: { brand: { eq: "Toshiba" } } } },
+      sort: {fields: price, order: ASC}
     ) {
       nodes {
         capacity
@@ -50,6 +51,7 @@ const query = graphql`
       }
     }
   }
+
 `
 
 export default ToshibaProducts

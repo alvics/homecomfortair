@@ -78,6 +78,10 @@ svg:hover {
     margin-top: 5px;
 }
 
+.phone-nav a:hover {
+    color: rgb(0, 196, 179) !important;
+}
+
 #navbar a {
     color: #2d3136;
 }

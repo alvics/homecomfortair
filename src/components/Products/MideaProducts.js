@@ -29,6 +29,7 @@ const query = graphql`
   {
     allStrapiProduct(
       filter: { categories: { elemMatch: { brand: { eq: "Midea" } } } }
+      sort: {fields: price, order: ASC}
     ) {
       nodes {
         capacity

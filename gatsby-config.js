@@ -1,4 +1,10 @@
 module.exports = {
+  //  flags: {
+  //   PRESERVE_FILE_DOWNLOAD_CACHE: true,
+  //   PRESERVE_WEBPACK_CACHE: true,
+  //   FAST_DEV: true,
+  //   DEV_SSR: true,
+  // },
   siteMetadata: {
     title: ` `,
     description: `Discover Home Comfort Air residential air conditioning services throughout Brisbane, Ipswich, Gold Coast and Tweed Heads areas. Affordable sales, service and installations.`,
@@ -89,6 +95,12 @@ module.exports = {
         theme_color: `#0075c9`,
         display: `minimal-ui`,
         icon: `src/images/avatar-42x42.png`, // This path is relative to the root of the site.
+      },
+    },
+       {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -90,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -8,13 +8,13 @@ const CTA = () => {
   const data = useStaticQuery(getImages)
   console.log(data)
   return (
-    <>
+    <div>
       <div className="col d-flex align-items-center">
         <div className="pb-3 m-auto CTA-btn">
           <button
             type="button"
-            data-toggle="modal"
-            data-target="#serviceModal"
+            data-bs-toggle="modal"
+            data-bs-target="#serviceModal"
             style={{ fontSize: `0.8rem` }}
             className="btn-- btn-green--"
           >
@@ -24,8 +24,8 @@ const CTA = () => {
 
           <button
             type="button"
-            data-toggle="modal"
-            data-target="#exampleModal"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
             style={{ fontSize: `0.8rem` }}
             className="btn-- btn-primary-- mt-md-2"
           >
@@ -35,7 +35,7 @@ const CTA = () => {
           <Modal />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
