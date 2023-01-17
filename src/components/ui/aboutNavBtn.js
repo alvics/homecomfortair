@@ -32,6 +32,7 @@ const AboutNavMenu = () => {
                   <Link to="/products/samsung-air-conditioning" >Samsung Air Conditioning</Link>
                   <Link to="/products/toshiba-air-conditioning" >Toshiba Air Conditioning</Link>
                   <Link to="/products/daikin-air-conditioning">Daikin Air Conditioning</Link>
+                  <Link to="/products/mitsubishi-air-conditioning">Mitsubishi Air Conditioning</Link>
                  </div>
              </span>
       </Link>

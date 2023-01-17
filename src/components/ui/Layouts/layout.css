@@ -773,6 +773,14 @@ pre tt:after {
 
 /* MY STYLES  */
 
+
+/* Products Page  */
+
+img.mitsubishi {
+    width: 100px;
+    height: auto;
+}
+
 .book-service-form-a {
     display: grid;
 }
@@ -786,7 +794,7 @@ pre tt:after {
         /* This will make the element stick to the bottom of the viewport */
         right: 300px;
         /* This will make the element stick to the left side of the viewport */
-        overflow-y: hidden;
+        overflow-y: scroll;
         /* This will make the element scrollable vertically */
     }
 }

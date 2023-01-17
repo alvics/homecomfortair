@@ -12,6 +12,7 @@ import ToshibaProducts from "../components/Products/Toshiba"
 import SamsungProducts from "../components/Products/SamsungProducts"
 import DaikinProducts from "../components/Products/Daikin"
 import HaierProducts from "../components/Products/Haier"
+import MitsubishiProducts from "../components/Products/MitsubishProducts"
 import RoomSizeTable from "../components/RoomSize"
 import SplitsHero from "../components/BackgroundSplits"
 import CTA from "../components/CTA"
@@ -253,6 +254,35 @@ split,systems,price,installation,specials`,
               ********************* Daikin Products end/  ***************************************
               ******************************************************************************** */} 
 
+
+                
+              {/* *******************************************************************************
+              ********************* MITSUBISHI Products banner start ********************************
+              ******************************************************************************** */} 
+
+                <div className="mb-2" id="mitsubishi">
+                <div
+                  className="text-center border rounded"
+                  style={{ backgroundColor: `#ff0000` }}
+                >
+                  <h3
+                    className="h5 fw-600 cap mt-2 px-3  text-white "
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Mitsubishi
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+              </div>
+
+              <MitsubishiProducts />
+              {/* *******************************************************************************
+              ********************* MITSUBISHI Products end/  ***************************************
+              ******************************************************************************** */} 
+
               <div className="mt-3">
                 <StaticImage
                   filename="splits-add-11-lg.png"
@@ -401,6 +431,10 @@ split,systems,price,installation,specials`,
             <hr />
             <p style={{ fontSize: 13 }}>
               <Link to="#daikin">Daikin</Link>
+            </p>
+            <hr />
+            <p style={{ fontSize: 13 }}>
+              <Link to="#mitsubishi">Mitsubishi</Link>
             </p>
             <hr />
             <h3 className="h6 fw-600">Categories</h3>

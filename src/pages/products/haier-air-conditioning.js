@@ -76,6 +76,9 @@ const HaierProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Haier Tempo Series Air Conditioners</h3>
+        </div>
           <HaierProducts />
                 <p>
                     Haier brochure{" "}

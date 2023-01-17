@@ -51,6 +51,10 @@ const DropdownShopBtn = () => {
         <li>
           <Link to="/products/#daikin">Daikin Air Conditioning</Link>
         </li>
+       <div class="dropdown-divider"></div>
+        <li>
+          <Link to="/products/#mitsubishi">Mitsubishi Air Conditioning</Link>
+        </li>
        
       </ul>
     </div>

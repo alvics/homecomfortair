@@ -22,6 +22,8 @@ import HaierPDF from "../images/haier-tempo.pdf"
 import SamsungPDF from "../images/bedarra.pdf"
 import DaikinPDF from "../images/daikin.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
+import MitsubishiArticle from "../components/mitsubishi-md-query"
+import MitsubishiProducts from "../components/Products/MitsubishProducts"
 
 // Destructuring all the properties from the query
 
@@ -50,8 +52,8 @@ const SingleProduct = ({
   return (
     <Layout>
       <SEO
-        title={ `${brand} Air Conditioning | Home Comfort Air` } 
-        description={`Best price for a new ${title} for $${price} incl GST.`}
+        title={ `${brand} ${capacity} Air Conditioning | Home Comfort Air` } 
+        description={`Discover a new ${title} for $${price} incl GST.`}
         keywords={[
           `${brand},installation,Air,Conditioning,
 Split,systems,price,service`,
@@ -314,6 +316,18 @@ Split,systems,price,service`,
                   ) : (
                     <div></div>
                   )}
+                    {brand === "Mitsubishi" ? (
+                    <div className="single-side-products mitsubishi">
+                      <StaticImage
+                        filename="mitsubishi-banner.png"
+                        alt="Best-air-conditioner-MSZ-AP-banner"
+                      />
+                    </div>
+                  ) : (
+                    <div></div>
+                    
+                  )}
+
 
                   {brand === "Toshiba" ? (
                     <div className="single-side-products">
@@ -326,7 +340,9 @@ Split,systems,price,service`,
                     <div></div>
                   )}
                 </div>
-                <ReactMarkdown source={description} />
+              {brand === "Mitsubishi" ? <MitsubishiArticle />  : <ReactMarkdown source={description} />}   
+                
+                
               </article>
 
 <div>
@@ -589,6 +605,28 @@ Split,systems,price,service`,
               <div></div>
             )}
 
+              {brand === "Mitsubishi" ? (
+              <div className="single-side-products">
+                <div
+                  style={{ backgroundColor: `#ff0000` }}
+                  className="my-2  text-center rounded"
+                >
+                  <h3
+                    className="h6 text-white fw-600 cap mt-2"
+                    style={{ padding: `1.3rem 0` }}
+                  >
+                    Supply and Install Mitsubishi
+                    <br />{" "}
+                    <span className="lead cam text-white">
+                      <small>Air Conditioning Systems</small>
+                    </span>
+                  </h3>
+                </div>
+                <MitsubishiProducts />
+              </div>
+            ) : (
+              <div></div>
+            )}
 
 
             <div className="mt-2">

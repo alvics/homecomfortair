@@ -86,6 +86,9 @@ const ToshibaProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Toshiba SEIYA Classic Series Air Conditioners</h3>
+        </div>
         <ToshibaProducts />
          <p className='mt-4'>
                     Toshiba brochure{" "}

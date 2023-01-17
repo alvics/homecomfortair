@@ -83,6 +83,9 @@ const DaikinProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Carrier Pearl Series Air Conditioners</h3>
+        </div>
         <CarrierProducts />
            <p className='mt-4'>
                     Carrier brochure{" "}

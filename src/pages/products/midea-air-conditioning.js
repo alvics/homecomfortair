@@ -76,6 +76,9 @@ const MideaProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Midea Apollo Series Air Conditioners</h3>
+        </div>
         <MideaProducts />
         <p className='mt-4'>
                     Midea brochure{" "}

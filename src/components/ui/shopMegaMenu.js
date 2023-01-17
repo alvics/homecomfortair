@@ -33,6 +33,7 @@ const Header = () => {
                   <AnchorLink  to="/products/#samsung" >Samsung Split Systems</AnchorLink>
                   <AnchorLink  to="/products/#toshiba" >Toshiba Split Systems</AnchorLink>
                   <AnchorLink  to="/products/#daikin">Daikin Split Systems</AnchorLink>
+                  <AnchorLink  to="/products/#mitsubishi">Mitsubishi Split Systems</AnchorLink>
                  </div>
              </span>
        </Link>

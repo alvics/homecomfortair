@@ -92,6 +92,9 @@ const DaikinProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Daikin Cora Range Air Conditioners</h3>
+        </div>
         <DaikinProducts />
            <p className='mt-4'>
                     Daikin brochure{" "}

@@ -79,6 +79,9 @@ const SamsungProductsPage = () => {
         </section>
 
         <section>
+        <div>
+        <h3 className='h5 fw-600'>Samsung Bedarra Series Air Conditioners</h3>
+        </div>
         <SamsungProducts />
           <p className='mt-4'>
                     Samsung brochure{" "}
