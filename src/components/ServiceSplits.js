@@ -1,0 +1,57 @@
+import React, { Fragment } from "react"
+
+const ServiceSection = () => {
+  return (
+    <Fragment>
+      <section>
+        <div className="px-20 mt-5">
+          <h3 className="h5 cap fw-600">Air Conditioning Servicing and Maintenance</h3>
+        </div>
+        <div>
+         <p className="lead-20 px-20">
+          At Home Comfort Air, we understand the importance of keeping your air conditioning running smoothly, that's why we offer comprehensive service and maintenance on all types of air conditioning systems. Our team of experienced technicians are equipped to handle any type of maintenance, from routine cleaning and filter replacement to mould removal. We take pride in our quick response times, and we'll work with you to schedule service at a time that's convenient for you.
+         </p>
+        </div>
+        <div className="px-20 mt-5"><h4 className=" h5 fw-600">Split System Service</h4></div>
+        <div className="row px-20">
+        <div className="col">
+        
+           <ul className="list-group">
+        <li className="list-group-item"><strong>*1. Inspection of the air filter:</strong> Checking the air filter for dirt and debris and cleaning or replacing it as necessary.</li>
+        <li className="list-group-item"><strong>*2. Inspection of the coils:</strong> Checking the evaporator and condenser coils for dirt and debris and cleaning them as necessary.</li>
+        <li className="list-group-item"><strong>*3. Inspection of the refrigerant levels:</strong> Checking the refrigerant levels and adding more as needed to ensure proper cooling.</li>
+        <li className="list-group-item"><strong>*4. Inspection of the ductwork:</strong> Checking the ductwork for leaks and holes and making repairs as necessary.</li>
+        <li className="list-group-item"><strong>*5. Inspection of the electrical components:</strong> Checking the electrical components of the air conditioner, such as the compressor and fan motor, for proper operation.</li>
+        <li className="list-group-item"><strong>*6 Inspection of the thermostat:</strong> Checking the thermostat for proper operation and making any necessary adjustments.</li>
+        </ul>
+        </div>
+        <div className="col">
+            <ul className="list-group">
+        <li className="list-group-item"><strong>*7 Inspection of the compressor:</strong> Checking the compressor for any issues and making any necessary recommendations.</li>
+        <li className="list-group-item"><strong>*8 Inspection of the condensate drain:</strong> Checking the condensate drain for breakages, clogs and cleaning as necessary.</li>
+        <li className="list-group-item"><strong>*9 Inspection of the unit exterior:</strong> Checking the exterior of the unit for any physical damage or issues and making any necessary repairs.</li>
+        <li className="list-group-item"><strong>*10 Inspection of the unit interior:</strong> Checking the interior of the unit for any physical damage or issues and making any necessary repairs.</li>
+        <li className="list-group-item"><strong>*11 Final test run:</strong> Running the unit through a test cycle to ensure proper operation and making any final adjustments as necessary.</li>
+        <li className="list-group-item"><strong>*12 Provide a detailed report</strong> about the service, any issues found and any recommendations for maintenance or repairs.</li>
+        </ul>
+        
+        </div>
+         <div className="service-txt mt-3 px-20">
+        <p className="lead-20">
+          Our service and maintenance program includes regular check-ups to ensure optimal performance, and to catch any potential issues before they become major problems. We also offer a 5-year maintenance program that includes quarterly inspections and maintenance, as well as priority service and discounted rates on any outdoor rust treatments and Geco circuit board treatments.
+        </p>
+
+         <p className="lead-20">
+          We believe in providing our customers with the highest level of service and ensuring that their systems are running at peak performance. With Home Comfort Air, you can trust that your air conditioning will be in good hands and your home or business will be comfortable all year round.
+        </p>
+        </div>
+      
+        </div>
+      
+      </section>
+
+    </Fragment>
+  )
+}
+
+export default ServiceSection

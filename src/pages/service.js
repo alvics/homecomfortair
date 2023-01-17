@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import StaticImage from "../components/StaticQueryImages"
 import Form from "../components/quoteForm"
 import CTA from "../components/CTA"
+import ServiceSection from "../components/ServiceSplits"
 
 const ServicePage = () => (
   <Layout>
@@ -46,10 +47,10 @@ Split,systems,Ipswich,Brisbane,Specials`,
               of residential air conditioning systems.
             </p>
             <p className="lead-20 px-20">
-              Split System Maintenance includes, system check, clean filters +
+              Split System Maintenance includes, system checks, filter cleans +
               removal of mould, pressure wash evaporator coil and fan scroll,
               flush out drain, anti-bacterial-mould spray, check refrigerant
-              levels, test function and temperature test.
+              levels, test function and temperature test, detailed information down below.
             </p>
           </div>
           <div className="ducted-air mt-2">
@@ -81,6 +82,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
         </div>
       </section>
 
+      <ServiceSection />
+
       <section>
         <div className="heading-box-color grid-col-2 heading-avatar rounded my-3 mx-0">
           <div className="">
@@ -108,6 +111,8 @@ Split,systems,Ipswich,Brisbane,Specials`,
           </div>
           <Form />
         </div>
+
+
       </section>
     </div>
   </Layout>
