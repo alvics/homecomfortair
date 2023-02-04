@@ -82,7 +82,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </p>
             <div className="img-wrapper-e">
               <StaticImage
-                filename="install-new.png"
+                filename="install-450.png"
                 alt="home comfort air image"
               />
             </div>

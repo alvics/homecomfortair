@@ -39,7 +39,7 @@ const ToshibaProductsPage = () => {
         </section>
 
         <section>
-        <h2 className="h5 cap fw-600 mt-3">Air Conditioning Toshiba</h2>
+        <h2 className="h5 cap fw-600 mt-3">Toshiba Air Conditioner</h2>
         <p className="lead-20 mt-3">
         Toshiba is a well-known and respected brand in the air conditioning industry, known for producing high-performance and energy-efficient systems. The company is particularly renowned for offering some of the longest warranties in the market, with many of its split system air conditioners coming with a 7-year warranty. This speaks to the confidence that Toshiba has in the durability and reliability of its air conditioning systems.
         </p>

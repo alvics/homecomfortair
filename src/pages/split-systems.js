@@ -7,6 +7,7 @@ import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 
+
 // import SamsungProducts from "../components/Products/SamsungProducts"
 import DaikinProducts from "../components/Products/Daikin"
 import MideaProducts from "../components/Products/MideaProducts"
@@ -15,12 +16,13 @@ import CarrierProducts from "../components/Products/CarrierProducts"
 import MideaPDF from "../images/Midea.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
 import CTA from "../components/CTA"
+// import GoogleReviews from "../components/GoogleReviews"
 
 const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
     <SEO
       title="Split Systems A/C | Home Comfort Air Gold Coast"
-      description={`Check out how HOME COMFORT AIR affordable air conditioning services throughout Ipswich, Brisbane and the Gold Coast area's. New ac from $1099 incl GST.`}
+      description={`Discover HOME COMFORT AIR split system air conditioning services throughout Ipswich, Brisbane and the Gold Coast area's. New ac from $1099 incl GST.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
 Split,systems,service,supply,install`,
@@ -383,7 +385,7 @@ Split,systems,service,supply,install`,
               Replacement Split System Air Conditioning Service
             </h5>
             <p className="px-20">
-              Our replacement air conditioning service is widely used by
+              Our <Link to="/split-system-replacement">replacement</Link> air conditioning service is widely used by
               property managers and home owners throughout South East
               Queensland. Our service includes the decommissioning and disposal
               of your old air conditioning system, through to installing,
@@ -397,8 +399,8 @@ Split,systems,service,supply,install`,
           <div className="col-lg-6 ">
             <div className="mt-2 split-systems-bottom">
               <StaticImage
-                filename="install-new.png"
-                alt="air conditioning installation from $300 by Home Comfort Air"
+                filename="install-450.png"
+                alt="air conditioning installation from $450 by Home Comfort Air"
               />
               <div className="mt-3">
                 <StaticImage
@@ -438,13 +440,24 @@ Split,systems,service,supply,install`,
           </div>
           <Form />
         </div>
+        <div>
+        
+        </div>
       </section>
+
+      {/*<section className="mt-5">
+      <hr />
+       <GoogleReviews />
+    </section> */}
 
       <section>
             <p className="px-20 mt-4">
              <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and Tweed Heads regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
           </p>
         </section> 
+        <div>
+        <MideaProducts />
+        </div>
 
     </div>
   </Layout>

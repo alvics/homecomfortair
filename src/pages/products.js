@@ -45,7 +45,7 @@ split,systems,price,installation,specials`,
                     alt="home comfort air image"
                   />
                 </span>
-                Supply & Install Split Systems
+                Choose Your Perfect Air Conditioning System
               </h1>
               <div className="pb-3">
                 <CTA />
@@ -61,8 +61,13 @@ split,systems,price,installation,specials`,
             </div>
 
             <div className="split-system-archive products-archive" id="midea">
+                 <h2 className="h5 fw-600">Browse Our Selection of High-Quality Split Systems from Leading Brands</h2>
+                 <div>
+                 <p className="lead-20">Welcome to our shop page, where you'll find a wide selection of air conditioning split systems from top brands including <Link to="/products/carrier-air-conditioning">Carrier</Link>, <Link to="/products/daikin-air-conditioning">Daikin</Link>, <Link to="/products/mitsubishi-air-conditioning">Mitsubishi</Link> Electric, <Link to="/products/samsung-air-conditioning">Samsung</Link>, and <Link to="/products/toshiba-air-conditioning">Toshiba</Link>. Whether you're looking for a single room unit or a larger system for your entire home, we've got you covered. Browse through our selection to find the perfect system for your needs, and don't forget to check out our installation options as well. Our experienced technicians are ready to help you with the entire process, from selecting the right system to installing and maintaining it. Thank you for choosing Home Comfort Air for your air conditioning needs.</p>
+                 </div>
 
 
+      <section>  
                 {/* *******************************************************************************
                 ********************* Midea Products banner start *********************************
                 ******************************************************************************** */}     
@@ -96,13 +101,15 @@ split,systems,price,installation,specials`,
               {/* ********************************************************************************
               ********************* Midea Products banner end/ ***********************************
               ******************************************************************************** */} 
-
+      </section> 
 
 
               {/* ********************************************************************************
               ********************* Carrier Products banner start ********************************
               ******************************************************************************** */} 
 
+
+        <section>    
               <div
                 style={{ backgroundColor: `#004178` }}
                 className="my-3 text-center rounded"
@@ -124,11 +131,14 @@ split,systems,price,installation,specials`,
                 <CarrierProducts />
               </div>
             
-              {/* *********************************************************************************
+                {/* *********************************************************************************
                 ********************* Carrier Products end/ ***************************************
                 ******************************************************************************** */} 
-
-  {/* *******************************************************************************
+      </section>  
+      
+      
+      <section>
+                {/* *******************************************************************************
                  ********************* Haier Products banner start *********************************
                  ******************************************************************************** */}
 
@@ -157,7 +167,7 @@ split,systems,price,installation,specials`,
               //   </h5>
                 //   </div> */}
 
-                <div className="mb-5">
+                <div className="mb-2">
                 <HaierProducts />
                 </div>
               
@@ -166,8 +176,9 @@ split,systems,price,installation,specials`,
                {/* ********************************************************************************
                ********************* Haier Products end/ ******************************************
                ******************************************************************************** */}
+    </section>
 
-
+    <section>
                {/* *******************************************************************************
                 ********************* Samsung Products banner start *******************************
                 ******************************************************************************** */} 
@@ -189,7 +200,9 @@ split,systems,price,installation,specials`,
               {/* *******************************************************************************
               ********************* Samsung Products banner end/ ********************************
               ******************************************************************************** */} 
+    </section>
 
+    <section>
 
               {/* ********************************************************************************
               ********************* Toshiba Products banner start ********************************
@@ -218,15 +231,17 @@ split,systems,price,installation,specials`,
                 <small class="text-muted"> air conditioners</small>
                 </h5>
             </div> */}
-
+              
+            <div className="mb-2">
               <ToshibaProducts />
+              </div>
                 {/* ********************************************************************************
                 ********************* Toshiba Products end/  ***************************************
                 ******************************************************************************** */} 
+    </section>
 
 
-
-              
+    <section>        
               {/* *******************************************************************************
               ********************* Daikin Products banner start ********************************
               ******************************************************************************** */} 
@@ -248,12 +263,17 @@ split,systems,price,installation,specials`,
                   </h3>
                 </div>
               </div>
-
-              <DaikinProducts />
+              
+              <div className="mb-2">
+                 <DaikinProducts />
+              </div>
+              
               {/* *******************************************************************************
               ********************* Daikin Products end/  ***************************************
               ******************************************************************************** */} 
+    </section>  
 
+    <section>
 
                 
               {/* *******************************************************************************
@@ -282,130 +302,109 @@ split,systems,price,installation,specials`,
               {/* *******************************************************************************
               ********************* MITSUBISHI Products end/  ***************************************
               ******************************************************************************** */} 
+   </section>
+      
+              <section>
 
-              <div className="mt-3">
-                <StaticImage
-                  filename="splits-add-11-lg.png"
-                  alt="home comfort air image"
-                />
+                      <div className="mt-3">
+                        <StaticImage
+                          filename="splits-add-11-lg.png"
+                          alt="home comfort air image"
+                        />
+                      </div>
+
+                      <div className="px-2 my-2">
+                        <h5 class="fw-600 mt-3">
+                          Book Your Split System Installation Online
+                        </h5>
+                        <p className="lead">
+                          At Home Comfort Air, we understand the importance of having a functional and reliable air conditioning system in your home. That's why we offer fast and professional installation services to get you up and running in no time. Whether you're looking for a split system for a single room or your entire house, we've got you covered. Our team of experienced technicians can have your new air conditioning system installed in a matter of days, so you can enjoy comfortable living as soon as possible. Don't wait any longer, get a free quote now by submitting our form. Please include as many details as possible to help us understand your needs better. Thank you for choosing Home Comfort Air for your air conditioning needs.
+                        </p>
+                        <div>
+                          <CTA />
+                        </div>
+                      </div>
+
+                      <div className="row px-2">
+                        <h4 className="h5 fw-600">
+                          Split System Installation Examples
+                        </h4>
+
+                        <p>
+                          To assist in familiarizing with industry terminology and installation principles, we have provided two house plan images as examples. These examples are among the most commonly used solutions in the industry and may serve as a reference for future communication or when submitting an enquiry form. It's important to note that these are not the only ways to install split systems, but they are widely used and can help guide your decision making process.
+                        </p>
+                        <h6 className="fw-600 mb-3">Back to Back Installation</h6>
+                        <p>
+                        Back-to-back installation refers to the placement of two air conditioning units back-to-back, typically through-the-wall configuration. This type of installation is commonly used for commercial and residential properties where the indoor unit (evaporator) and outdoor unit (condenser) are installed on opposite sides of a common wall. This allows for the installation of the two units to be done in a relatively small space, making it ideal for situations where space is limited. Back-to-back installation is particularly useful in apartment buildings and townhouses where there may be limited space for the outdoor unit. It also helps to preserve the aesthetic of the building and can be less invasive then other types of installation.
+                        </p>
+                      
+                        <h6 className="fw-600 mb-3">Up & Over Installation</h6>
+                        <p>
+                        The Up-and-Over installation method is used when the outdoor unit needs to be located away from the indoor unit, often due to the layout of the building or to conceal the unit from view. This type of installation requires running copper pipes up and over to the new location. It's important to note that the further the distance between the indoor and outdoor unit, the more materials will be required and the cost of installation will increase. Additionally, the location of the indoor unit must have an existing drain for evaporated water measuring 20-25mm, as is necessary for all air conditioning systems.
+                        </p>
+
+                        <h6 className="fw-600 mb-3">Takeaways</h6>
+                        <p>
+                          When considering a split system air conditioning installation, it's important to keep in mind two key points. First, the indoor unit will always be connected to the outdoor unit. Second, the indoor unit will always require a drain to remove evaporated water. These are important factors to consider when determining the location of the units and planning the installation process.
+                        </p>
+
+                  
+                        <div className="col-md p-4">
+                          {" "}
+                          <StaticImage
+                            filename="back-to-back-img.png"
+                            alt="back to back air conditioning installation house plan example"
+                          />
+                        </div>
+                        <div className="col-md p-4">
+                          {" "}
+                          <StaticImage
+                            filename="up-over-img.png"
+                            alt="up and over air conditioning installation house plan example"
+                          />
+                        </div>
+                     </div>
+             
+                      
+              </section>    
+
+        <section>
+
+              <div className="grid-2">
+                    <div className="span-col-3 archive-img-cta">
+                      <h5 className="h6 text-dark fw-400">
+                        Split System Air Conditioning Service
+                      </h5>
+                      <StaticImage
+                        filename="hero-3.jpg"
+                        alt="split system air image"
+                        height="150"
+                      />
+                    </div>
+
+                    <div className="form-quote mt-sm-4 mt-lg-5 p-lg-3">
+                      <h4 className="h5 text-white text-center fw-600 cap heading-box-color p-20 rounded">
+                        Get a free quote
+                      </h4>
+                      <Form />
+                    </div>
               </div>
+        </section>
 
-              <div className="px-2 my-2">
-                <h5 class="fw-600 mt-3">
-                  Book Your Split System Installation Online
-                </h5>
-                <p className="lead">
-                  Get your air conditioning supplied and installed with our fast,
-                  professional service in a matter of days! Yes, you and your
-                  family can enjoy the home comforts you desire within days.
-                  Receive a free quote to have your air conditioning split
-                  system installed now. When submitting our form, fill in as
-                  many details as possible, this will help us quickly resolve
-                  your requirements.
-                </p>
-                <div>
-                  <CTA />
-                </div>
-              </div>
-
-              <div className="row px-2">
-                <h4 className="h5 fw-600">
-                  Split System Installation Examples
-                </h4>
-
-                <p>
-                  Below we have two house plans images examples to guide you
-                  through the terminology we use day to day, and to help you
-                  understand some principles of split system installation. These
-                  two installation examples are not the only solutions, but are
-                  the most widely used within the industry. This may help with
-                  future communication or when submitting and enquiry form.
-                </p>
-                <h6 className="fw-600 mb-3">Back to Back</h6>
-                <p>
-                  {" "}
-                  The "Back to Back" is the standard installation carried out
-                  when the indoor and outdoor units are being installed on the
-                  same wall (internal and external). The pipe work connecting to
-                  each unit usually doesn't exceed 3 meters in length, making
-                  this the most affordable option when installing split system
-                  air conditioning.
-                </p>
-                <h6 className="fw-600 mb-3">Up & Over</h6>
-                <p>
-                  The "Up & Over" (copper pipe is run up and over to new
-                  location) installation is when the outdoor unit location is
-                  away from the indoor unit wall. This could be because of the
-                  layout of the home, and you would like to hide the outdoor
-                  unit so it's not visible from the front of the street or for
-                  many other reasons. *Please note the further away the indoor
-                  unit is from the outdoor the more materials will be use, in
-                  effect the more costly the installation will get. The gotcha
-                  here is, the indoor unit wall location, will need to have an
-                  exiting evaporating water drain coming out of the wall,
-                  approximately 20-25mm (this is with every air conditioning
-                  system).
-                </p>
-
-                <h6 className="fw-600 mb-3">Takeaways</h6>
-                <p>
-                  Next time when you're thinking of split system air
-                  conditioning and deciding where you would like it installed,
-                  *remember 2 things, <strong>1</strong>. the indoor unit will
-                  always connect to the outdoor unit, and <strong>2</strong>.
-                  the indoor unit will always need to run a drain, to free the
-                  water created by the indoor unit.
-                </p>
-                <div className="col-md p-4">
-                  {" "}
-                  <StaticImage
-                    filename="back-to-back-img.png"
-                    alt="back to back air conditioning installation house plan example"
-                  />
-                </div>
-                <div className="col-md p-4">
-                  {" "}
-                  <StaticImage
-                    filename="up-over-img.png"
-                    alt="up and over air conditioning installation house plan example"
-                  />
-                </div>
-
-        <div className="grid-2">
-              <div className="span-col-3 archive-img-cta">
-                <h5 className="h6 text-dark fw-400">
-                  Split System Air Conditioning Service
-                </h5>
-                <StaticImage
-                  filename="hero-3.jpg"
-                  alt="split system air image"
-                  height="150"
-                />
-              </div>
-
-              <div className="form-quote mt-sm-4 mt-lg-5 p-lg-3">
-                <h4 className="h5 text-white text-center fw-600 cap heading-box-color p-20 rounded">
-                  Get a free quote
-                </h4>
-                <Form />
-              </div>
-        </div>
-
-            <div className="mt-3 p-lg-3">
-            <h4>Choose the right size air conditioner for your space</h4>
-            <RoomSizeTable />
-            <small style={{ fontSize: 12 }}>
-              This is a rough guide only, there are some factors to consider,
-              large windows with direct sunlight, opened areas and so on. We can
-              help you determine the right size air conditioner for your room.
-            </small>
-         </div>
-
-              </div>
-
+        <section>
+                <div className="mt-3 p-lg-3">
+                <h4>Choose the right size air conditioner for your space</h4>
+                <RoomSizeTable />
+                <small style={{ fontSize: 12 }}>
+                  This is a rough guide only, there are some factors to consider,
+                  large windows with direct sunlight, opened areas and so on. We can
+                  help you determine the right size air conditioner for your room.
+                </small>
             </div>
-          </div>
-          <div className="col mt-5 archive-category"  id="sidebar-sticky-top">
+        </section>
+            
+           <div className="position-relative">
+          <div className="col col-lg-2 mt-5 archive-category"  id="sidebar-sticky-top">
             <h3 className="h6 fw-600">Brands</h3>
            
             <hr />
@@ -457,8 +456,11 @@ split,systems,price,installation,specials`,
             </p>
             <hr />
           </div>
-        </div>
-
+          </div>
+      </div>
+      
+     </div>
+      </div>
       </div>
     </Layout>
   )

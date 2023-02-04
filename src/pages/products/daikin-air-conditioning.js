@@ -40,7 +40,7 @@ const DaikinProductsPage = () => {
         </section>
 
         <section>
-        <h2 className="h5 cap fw-600 mt-3">Air Conditioning Daikin</h2>
+        <h2 className="h5 cap fw-600 mt-3">Daikin Air Conditioner</h2>
         <p className="lead-20 mt-3">
         Daikin is a well-established and respected brand in the world of air conditioning. Known for their high-performance and energy-efficient systems, Daikin's split system air conditioners are a popular choice for homes and businesses looking to maintain a comfortable indoor environment year-round.
         </p>

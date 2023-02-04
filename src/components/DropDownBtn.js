@@ -32,12 +32,16 @@ const DropdownBtn = () => {
           <Link to="/multi-head-systems">Multi-Head Systems </Link>
         </li>
         <div class="dropdown-divider"></div>
-        <li>
-          <Link to="/products">Supply & Install Price</Link>
+       <li>
+        <Link to="/installation-warranty">Installation Warranty</Link>
         </li>
         <div class="dropdown-divider"></div>
         <li>
-        <Link to="/installation-warranty">Installation Warranty</Link>
+        <Link to="/split-ac-installation-cost">Split A/C Installation Cost</Link>
+        </li>
+        <div class="dropdown-divider"></div>
+        <li>
+        <Link to="/split-system-replacement">Split System Replacement</Link>
         </li>
       </ul>
     </div>

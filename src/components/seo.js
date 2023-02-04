@@ -15,7 +15,7 @@ import { renderToString } from 'react-dom/server';
 
 
 
-function SEO({ description, lang, meta, title, keywords, url, author }) {
+function SEO({ description, lang, meta, title, keywords, url, author, schemaMarkup }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -135,6 +135,10 @@ function SEO({ description, lang, meta, title, keywords, url, author }) {
     
     
       <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/8357275.js"></script>
+
+      {schemaMarkup && 
+        <script type="application/id+json">{JSON.stringify(schemaMarkup)}</script>
+      }
 
       </Helmet>
    

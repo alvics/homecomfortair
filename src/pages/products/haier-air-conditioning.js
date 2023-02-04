@@ -39,7 +39,7 @@ const HaierProductsPage = () => {
         </section>
 
         <section>
-        <h2 className="h5 cap fw-600 mt-3">Air Conditioning Haier</h2>
+        <h2 className="h5 cap fw-600 mt-3">Haier Air Conditioner</h2>
         <p className="lead-20 mt-3">
         When it comes to air conditioning, Haier is a brand that should not be overlooked. Known for their innovative technology and energy-efficient systems, Haier air conditioning split systems are an excellent choice for anyone looking to keep their home or office comfortable all year round.
         </p>

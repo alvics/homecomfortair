@@ -29,8 +29,10 @@ const Header = () => {
                   <Link to="/split-systems">Split Systems</Link>
                   <Link to="/ducted-systems">Ducted Systems</Link>
                   <Link to="/multi-head-systems">Multi-Head Systems </Link>
-                  <Link to="/products">Split System Prices</Link>
                   <Link to="/installation-warranty">Installation Warranty</Link>
+                  <Link to="/split-ac-installation-cost">Split A/C Installation Cost</Link>
+                  <Link to="/split-system-replacement">Split System Replacement</Link>
+                   
                 </div>
               </span>
             </Link>

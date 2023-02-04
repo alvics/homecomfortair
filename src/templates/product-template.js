@@ -25,6 +25,8 @@ import ToshibaPDF from "../images/Toshiba.pdf"
 import MitsubishiArticle from "../components/mitsubishi-md-query"
 import MitsubishiProducts from "../components/Products/MitsubishProducts"
 
+//import HaierProductImages from "../components/ProductImgDisplay"
+
 // Destructuring all the properties from the query
 
 const SingleProduct = ({
@@ -69,6 +71,7 @@ Split,systems,price,service`,
           <div className="col-lg-6 text-md-center">
             <div className="fluid">
               <Image fixed={fixed} alt={title} />
+             
             </div>
           </div>
 
@@ -203,7 +206,7 @@ Split,systems,price,service`,
 
         {capacity <= "5.4" ? (
         <li>* New mounted weatherproof safety isolation.</li> ) : (
-        <li>* New mounted weatherproof safety isolation switch to existing circuit. <small>(For replacement units only, does NOT include new electrical circuit added. Additional charges will apply).</small> </li> )}
+        <li>* New mounted weatherproof safety isolation switch to existing circuit. <small>(For replacement units only, does NOT include new electrical circuit added. Additional charges may apply).</small> </li> )}
         <li>* PVC ducting to conceal pipe connection and electrical work.</li>
         <li>  {brand === "Toshiba"  ? "* 7 year manufacturer warranty." : "* 5 year manufacturer warranty."}</li> 
         <li>* 5 year Installation warranty.</li>
@@ -399,6 +402,8 @@ Split,systems,price,service`,
 }
 
 </div>
+
+
 
               <hr />
               <div id="backtoback">

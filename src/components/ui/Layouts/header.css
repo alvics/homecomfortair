@@ -48,18 +48,18 @@ svg:hover {
 
 #links {
     display: grid;
-    justify-content: right;
+    justify-content: left;
     align-content: center;
     grid-auto-flow: column;
     grid-gap: 1.5em;
-    margin-top: 46px;
+    margin-top: 53px;
     font-family: "Open Sans", sans-serif;
 }
 
 #links a {
     text-decoration: none;
     font-size: 0.8rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
     transition: 300ms;
 }
@@ -239,10 +239,13 @@ a {
 
 /* to lg Tablet */
 
-@media (min-width: 320px) and (max-width: 1025px) {
+@media (min-width: 320px) and (max-width: 992px) {
     .mobile-nav .gatsby-image-wrapper {
         max-width: 240px !important;
         max-height: 48px !important;
+    }
+    #daikin-dealer-logo {
+        display: none !important;
     }
 }
 
@@ -274,3 +277,16 @@ a {
         box-shadow: none;
     }
 }
+
+@media (max-width: 992px) {
+    #daikin-dealer-logo {
+        display: none !important;
+    }
+}
+
+
+/* @media (min-width: 1024px) and (max-width: 1366px) {
+    #daikin-dealer-logo {
+        display: block;
+    }
+} */

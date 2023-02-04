@@ -19,7 +19,7 @@ export default class Modal extends React.Component {
       <div
         className="modal fade"
         id="serviceModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >

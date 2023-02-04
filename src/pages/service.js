@@ -11,7 +11,7 @@ import ServiceSection from "../components/ServiceSplits"
 const ServicePage = () => (
   <Layout>
     <SEO
-      title="Service Gold Coast | Ipswich Brisbane Air Conditioning"
+      title="Service Gold Coast Ipswich Brisbane Air Conditioning"
       description={`HOME COMFORT AIR installations, service and maintenance air conditioning, throughout Ipswich, Brisbane and the Gold Coast area's.`}
       keywords={[
         `Gold,Coast,Air,Conditioning,

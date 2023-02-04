@@ -39,7 +39,7 @@ const SamsungProductsPage = () => {
         </section>
 
         <section>
-        <h2 className="h5 cap fw-600 mt-3">Air Conditioning Samsung</h2>
+        <h2 className="h5 cap fw-600 mt-3">Samsung Air Conditioner</h2>
         <p className="lead-20 mt-3">
         Samsung is a well-known and respected brand in the world of electronics, and their air conditioning systems are no exception. Samsung's <Link to="/split-systems">split system</Link> air conditioners are known for their high performance and energy efficiency, making them a popular choice for homes and businesses.
         </p>

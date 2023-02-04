@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Link } from "gatsby"
 import StaticImage from "../components/StaticQueryImages"
 
@@ -21,7 +21,7 @@ import StaticImage from "../components/StaticQueryImages"
 const Footer = () => {
   //  const data = useStaticQuery(getImage)
   return (
-    <>
+    <Fragment>
       <div className="banner-blue container-fluid">
         <div className="container">
           <div className="row">
@@ -170,7 +170,7 @@ const Footer = () => {
           </a>
         </span>
       </div>
-    </>
+    </Fragment>
   )
 }
 

@@ -10,6 +10,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import MyForm from "../components/form"
 import StaticImage from "../components/StaticQueryImages"
+// import BrandsBtn from "../components/BrandBtn"
 
 // import SimpleSlider from "../components/HeroCarousel"
 
@@ -28,12 +29,59 @@ const getImage = graphql`
 
 const IndexPage = () => {
   const data = useStaticQuery(getImage)
+  const schema = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "Air Conditioning", "Installation","Split Systems", "Website"],
+  "name": "Home Comfort Air",
+  "description":"Air Conditioning Gold Coast - Sales, Installation Service. Browse our affordable reverse cycle split system range",
+  "image": "https://homecomfortair.net.au/static/a480d1793c1eefd2201dfbfc149f4be9/e781a/HCA-2-avatar.png",
+  "@id":  "https://homecomfortair.net.au/#website",
+  "url": "https://homecomfortair.net.au/",
+  "telephone": "0404602657",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "22 Beitz Ave",
+    "addressLocality": "Labrador",
+    "addressRegion": "QLD",
+    "postalCode": "4215",
+    "addressCountry": "AU"
+  },
+  "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+      },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -27.9403803,
+    "longitude": 153.3984457
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "sameAs": "https://www.facebook.com/profile.php?id=100067867194837" 
+
+  }
   return (
     <Fragment>
       <Layout>
         <SEO
-          title="Home Comfort Air | Gold Coast Air Conditioning"
-          description={`Home Comfort Air specialises in affordable air conditioning services here on the Gold Coast. From installation to maintenance, browse our services and range today!  `}
+          schemaMarkup={schema}
+          title="Home Comfort Air Gold Coast Air Conditioning"
+          description={`Home Comfort Air specialises in affordable air conditioning services on the Gold Coast. Find your new reverse cycle air conditioner  browse our range. `}
           keywords={[
             `Gold,Coast,Air,Conditioning,
 Split,systems,service,install,sales`,
@@ -179,7 +227,9 @@ Split,systems,service,install,sales`,
                 </Link>
               </div>
             </div>
+            
           </section>
+
           <section className="section-2 split-system-cta">
             <div className="heading-box-color heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4">

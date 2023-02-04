@@ -19,7 +19,7 @@ const AboutNavMenu = () => {
                  <Link to="/about-us">About</Link>
                  <span
                    style={{ fontSize: `inherit`, fontWeight: `bold` }}
-                   class="material-icons"
+                   className="material-icons"
                  >
                    keyboard_arrow_down
                  </span>

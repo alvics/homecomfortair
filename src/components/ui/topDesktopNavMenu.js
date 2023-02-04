@@ -31,7 +31,7 @@ import { Link } from "gatsby"
                 className="call-icon d-flex align-items-center text-shadow-1 btn-- btn-green-- my-1 px-3 "
                 href="tel:0404602657"
               >
-                <span style={{ fontSize: 22 }} class="material-icons">
+                <span style={{ fontSize: 22 }} className="material-icons">
                   local_phone
                 </span>{" "}
                 <span

@@ -30,6 +30,7 @@
         "gatsby-plugin-styled-components": "^3.3.9",
         "gatsby-plugin-web-font-loader": "^1.0.4",
         "gatsby-source-filesystem": "^2.3.14",
+        "gatsby-source-google-reviews-en": "^2.0.0",
         "gatsby-source-strapi": "^0.0.12",
         "gatsby-transformer-sharp": "^2.5.7",
         "mdbreact": "^5.2.0",

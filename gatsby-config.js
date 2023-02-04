@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   //  flags: {
   //   PRESERVE_FILE_DOWNLOAD_CACHE: true,
@@ -35,6 +39,13 @@ module.exports = {
         },
       },
     },
+   {
+    resolve: `gatsby-source-google-reviews-en`,
+    options: {
+      placeId: `ChIJw6qm0JoPkWsREb3XGqzvBlM`,
+      apiKey: `AIzaSyCgu86RDjZ7Dm5zqqWQJLRHNi04doDSdRE`,
+    },
+  },
     {
       resolve: `gatsby-plugin-prettier-build`,
       options: {
@@ -61,7 +72,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/slides`,
+        path: `${__dirname}/src/images/brands`,
       },
     },
     `gatsby-transformer-sharp`,
