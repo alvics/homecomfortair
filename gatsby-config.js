@@ -42,8 +42,8 @@ module.exports = {
    {
     resolve: `gatsby-source-google-reviews-en`,
     options: {
-      placeId: `ChIJw6qm0JoPkWsREb3XGqzvBlM`,
-      apiKey: `AIzaSyCgu86RDjZ7Dm5zqqWQJLRHNi04doDSdRE`,
+      placeId: ``,
+      apiKey: ``,
     },
   },
     {
