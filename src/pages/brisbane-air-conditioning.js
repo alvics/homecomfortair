@@ -29,7 +29,7 @@ Split,systems,hillcrest, brownsplains`,
               alt="home comfort air image"
             />
           </span>
-          Brisbane Split systems air conditioning
+          Brisbane Split system air conditioning
         </h1>
         <div className="pb-3">
           <CTA />
@@ -46,6 +46,10 @@ Split,systems,hillcrest, brownsplains`,
                   alt="home comfort air image"
                 />
               </div>
+
+              <div>
+                <h2 className="h5 mt-3">Air Conditioning Brisbane</h2>
+               </div>
 
               <p className="mt-3">
                Are you in search of a reputable air conditioning service in the Brisbane, Queensland area? Look no further than Home Comfort Air! Our team of skilled technicians is here to assist with all of your air conditioning needs, including the installation of split system units from top brands like <a href="/products">Daikin, Haier, Hisense, and Midea</a>.

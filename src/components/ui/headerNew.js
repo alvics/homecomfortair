@@ -9,7 +9,7 @@ import styled from "styled-components"
 import Image from "gatsby-image"
 import DropdownBtn from "../DropDownBtn"
 import DropdownShopBtn from "../DropDownShopBtn"
-import DropDownAboutBtn from "../DropDownAboutBtn"
+import DropDownBrand from "../DropDownBrand"
 
 
 const getImage = graphql`
@@ -119,7 +119,7 @@ const HeaderNew = () => {
           </li>
           <div class="dropdown-divider"></div>
           <li>
-            <DropDownAboutBtn />
+            <Link to="/about-us">About</Link> 
           </li>
           <div class="dropdown-divider"></div>
           <li>
@@ -128,11 +128,16 @@ const HeaderNew = () => {
           <div class="dropdown-divider"></div>
           <DropdownBtn />
           <div class="dropdown-divider"></div>
+           <li>
+            <DropDownBrand />
+          </li>
+          <div class="dropdown-divider"></div>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
           <div class="dropdown-divider"></div>
           <li>
+
             <Link
               style={{ marginTop: `-3px` }}
               id="facebook-svg"

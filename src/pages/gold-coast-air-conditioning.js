@@ -29,7 +29,7 @@ Split,systems,runaway,bay,ashmore, burleigh`,
               alt="home comfort air image"
             />
           </span>
-          Gold Coast Split systems air conditioning
+          Gold Coast Split system air conditioning
         </h1>
         <div className="pb-3">
           <CTA />
@@ -46,6 +46,10 @@ Split,systems,runaway,bay,ashmore, burleigh`,
                   alt="home comfort air image"
                 />
               </div>
+               
+              <div>
+                <h2 className="h5 mt-3">Air Conditioning Gold Coast</h2>
+               </div>
 
               <p className="mt-3">
                 Are you looking for a new split system air conditioner to be

@@ -14,8 +14,9 @@ import DaikinProducts from "../components/Products/Daikin"
 import HaierProducts from "../components/Products/Haier"
 import MitsubishiProducts from "../components/Products/MitsubishProducts"
 import RoomSizeTable from "../components/RoomSize"
-import SplitsHero from "../components/BackgroundSplits"
+// import SplitsHero from "../components/BackgroundSplits"
 import CTA from "../components/CTA"
+import BrandsBtn from "../components/BrandBtn"
 // import GetCategories from "../components/Queries/GetCategories"
 
 const ProductsPage = () => {
@@ -52,12 +53,12 @@ split,systems,price,installation,specials`,
               </div>
               
             </div>
-            <div className="w-100" id="splits-hero">
-            <SplitsHero />
-            </div>
+           <div className="mt-4">
+           <BrandsBtn />
+           </div>
 
             <div className="text-right mt-3">
-              <p style={{ fontSize: 12 }}>Showing 40 products</p>
+              <p style={{ fontSize: 12 }}>Showing 48 products</p>
             </div>
 
             <div className="split-system-archive products-archive" id="midea">

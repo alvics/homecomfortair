@@ -11,6 +11,7 @@ import SEO from "../../components/seo"
 // import HaierProducts from "../../components/Products/Haier"
 import SamsungProducts from "../../components/Products/SamsungProducts"
 import Specials from "../../components/Products/Specials"
+import BrandsBtn from "../../components/BrandBtn"
 
 const SpecialsComp = () => {
   return (
@@ -45,13 +46,20 @@ Split,systems,Ipswich,Brisbane,Specials`,
             </h2>
             <Specials />
           </div>
+           
           <div className="col-lg-4">
-            <h3 className="h6 cam my-3 fw-600">Recommended leading brands</h3>
+            <h3 className="h6 cam my-3 fw-600">Most popular</h3>
             <div className="product-grid">
               <SamsungProducts />
             </div>
           </div>
         </div>
+        <section>
+           <div className="mt-1">
+           <h3 className="h6 cam my-3 fw-600">Recommended leading brands</h3>
+             <BrandsBtn />
+            </div>
+        </section>
       </div>
     </Layout>
   )

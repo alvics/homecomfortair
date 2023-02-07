@@ -16,7 +16,7 @@ const Ipswich = () => {
 
       <div className="pt-3">
         <h1 className="h2 cam text-center text-blue fw-600 heading-box-color rounded py-3">
-          Ipswich Air Conditioning Service
+          Ipswich Split System Air Conditioning 
         </h1>
       </div>
 
@@ -30,6 +30,9 @@ const Ipswich = () => {
                   alt="home comfort air image"
                 />
               </div>
+              <div>
+                <h2 className="h5 mt-3">Air Conditioning Ipswich</h2>
+               </div>
               <p>
                 Are you looking for a reliable and experienced air conditioning service in the Ipswich, Queensland area? Look no further! Our team at Home Comfort Air is here to help with all of your air conditioning needs, including split system installations with top brands like <a href="/products">Daikin, Haier, Hisense, and Midea</a>.
               </p>

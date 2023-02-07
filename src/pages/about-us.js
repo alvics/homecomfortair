@@ -9,6 +9,7 @@ import StaticImage from "../components/StaticQueryImages"
 import MideaProducts from "../components/Products/MideaProducts"
 import SamsungProducts from "../components/Products/SamsungProducts"
 // import Tabs from "../components/pages/Multi-Systems/MyTabs"
+import BrandBtn from "../components/BrandBtn"
 
 const ProductsPage = () => {
   return (
@@ -118,6 +119,10 @@ Split,systems,Ipswich,Brisbane,Specials`,
       <Link className="btn-- btn-primary--" to="/products" >SHOP</Link>
       </div>
       </section>
+     <div>
+      <BrandBtn />
+     </div>
+
       </div>
     </Layout>
   )

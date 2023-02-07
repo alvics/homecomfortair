@@ -29,7 +29,7 @@ Split,systems,Kirra,banora point, cabarita, kingscliff `,
               alt="home comfort air image"
             />
           </span>
-          Tweed Heads Split systems air conditioning
+          Tweed Heads Split systems Air Conditioning
         </h1>
         <div className="pb-3">
           <CTA />
@@ -46,7 +46,9 @@ Split,systems,Kirra,banora point, cabarita, kingscliff `,
                   alt="home comfort air image"
                 />
               </div>
-
+               <div>
+                <h2 className="h5 mt-3">Air Conditioning Tweed Heads</h2>
+               </div>
               <p className="mt-3">
             If you live in the Tweed Heads, Queensland area and are in need of a reliable air conditioning service, look no further than Home Comfort Air. Our team of experienced technicians is here to assist with all of your air conditioning needs, including the installation of split system units from top brands like <a href="/products">Daikin, Haier, Hisense, and Midea</a>.
               </p>

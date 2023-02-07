@@ -31,6 +31,7 @@ const query = graphql`
       filter: { categories: { elemMatch: { brand: { eq: "Carrier" } } } }
       sort: {fields: price, order: ASC}
     ) {
+      totalCount
       nodes {
         capacity
         description

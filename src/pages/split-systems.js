@@ -17,6 +17,8 @@ import MideaPDF from "../images/Midea.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
 import CTA from "../components/CTA"
 // import GoogleReviews from "../components/GoogleReviews"
+import BrandsBtn from "../components/BrandBtn"
+
 
 const SplitPage = ({ data: { allStrapiProduct: title } }) => (
   <Layout>
@@ -92,6 +94,11 @@ Split,systems,service,supply,install`,
             <h2 className="h2 fw-600 mt-2 ">Brands We Recommend</h2>
           </div>
         </div>
+        
+         <div className="mt-3 mb-3">
+           <BrandsBtn />
+          </div>
+
         <Tabs>
           <div className="grid-300">
 
@@ -190,6 +197,7 @@ Split,systems,service,supply,install`,
               </div>
             </Tab>
           </div>
+         
 
           
           <Panel>

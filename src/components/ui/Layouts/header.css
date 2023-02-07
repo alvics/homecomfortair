@@ -95,6 +95,11 @@ svg:hover {
     display: inline-block;
 }
 
+.shopnav {
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -234,6 +239,15 @@ a {
         grid-template-columns: auto auto;
         grid-gap: 70px;
     }
+    .dropdown-menu {
+        white-space: nowrap !important;
+        position: absolute !important;
+        inset: auto 0px 0px auto !important;
+        margin: 0px !important;
+    }
+    .shop-mobile-menu-list {
+        inset: auto 0px -150px auto !important;
+    }
 }
 
 
@@ -290,3 +304,31 @@ a {
         display: block;
     }
 } */
+
+
+/* .brands-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". ." ". ." ". .";
+} */
+
+.dropdown--:hover .dropdown-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". ." ". ." ". .";
+}
+
+.shopnav:hover .dropdown-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: ". . ." ". . ." ". . .";
+}

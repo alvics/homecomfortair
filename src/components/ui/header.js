@@ -11,9 +11,10 @@ import Image from "gatsby-image"
 import ShopMegaMenu from "./shopMegaMenu"
 import OurServicesMenu from "./ourServicesMenu"
 import TopNavMenu from "./topDesktopNavMenu"
-import AboutNavMenu from "./aboutNavBtn"
+// import AboutNavMenu from "./aboutNavBtn"
 // import FacebookIcon from "@material-ui/icons/Facebook"
 import StaticImg from "./../StaticQueryImages"
+import BrandNavMenu from "./brandsNav"
 
 const getImage = graphql`
   {
@@ -56,11 +57,13 @@ const Header = () => {
           <div className="desktop-links" id="links">
             <Link to="/">Home</Link>
            
-         <AboutNavMenu />   
+         <Link to="/about-us">About</Link>  
 
          <ShopMegaMenu />
-           
+
          <OurServicesMenu />
+
+         <BrandNavMenu />
 
             <Link  to="/contact">Contact</Link>
             <a href="https://www.facebook.com/Home-Comfort-Air-1713459065551004/?ref=bookmarks"

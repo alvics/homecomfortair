@@ -7,13 +7,14 @@ import StaticImage from "../../components/StaticQueryImages"
 import SamsungProducts from "../../components/Products/SamsungProducts"
 import MideaProducts from "../../components/Products/MideaProducts"
 // import Tabs from "../components/pages/Multi-Systems/MyTabs"
+import BrandBtn from "../../components/BrandBtn"
 
 const ServiceArea = () => {
   return (
     <Layout>
       <SEO
         title="Home Comfort Air | Split System Air Conditioning"
-        description={`We've been servicing south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
+        description={`Discover how we've been servicing south east Queensland for over 10 years installing split system air conditioning throughout Ipswich, Brisbane and the Gold Coast area's.`}
         keywords={[
           `Gold,Coast,Air,Conditioning,
 Split,systems,Ipswich,Brisbane,service`,
@@ -49,14 +50,13 @@ Split,systems,Ipswich,Brisbane,service`,
             </p>
 
             <p className="lead-20 mt-3">
-              HOME COMFORT AIR services South East Queensland installing all
-              major brand air conditioners, if you can see your location on the
-              maps in our service area, we'll come to you. Our staff are
-              licensed experts when it comes to installations or repairs, and we
-              offer a 5 year warranty on all new installations of split systems.
-              Furthermore, we pride ourselves on 100% customer satisfaction and
-              quality workmanship. HOME COMFORT AIR operates 6 days a week and
-              can be contacted between the hours of 8am and 5pm.{" "}
+              At HOME COMFORT AIR, we are dedicated to providing first-rate air conditioning services to South East Queensland. We specialize in installing all major brand air conditioners and offer a 5-year warranty on all new split system installations.
+            </p>
+            <p className="lead-20 mt-3">
+              Our team of licensed experts are equipped to handle all of your installation and service needs, ensuring 100% customer satisfaction and quality workmanship. We cover a wide service area and will come to you if your location is within our maps.
+            </p>
+              <p className="lead-20 mt-3">
+               We are open 6 days a week and available for contact between 8am and 5pm. Our goal is to provide exceptional service and keep your home comfortable all year round. Contact us today to schedule an appointment or for any inquiries.
             </p>
             <p className="lead-20">
               If your looking for air conditioning with professional and quality
@@ -124,6 +124,9 @@ Split,systems,Ipswich,Brisbane,service`,
         </div>
         <div className="mt-2">
           <Link to="/products">View all split systems ></Link>
+        </div>
+        <div>
+         <BrandBtn />
         </div>
       </div>
     </Layout>

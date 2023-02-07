@@ -29,28 +29,7 @@ const DropdownBtn = () => {
           <Link to="/about-us">Home Comfort Air</Link>
         </li>
         <div class="dropdown-divider"></div>
-        <li>
-           <Link to="/products/midea-air-conditioning">Midea Air Conditioning</Link>
-        </li>
-        <div class="dropdown-divider"></div>
-        <li>
-           <Link to="/products/haier-air-conditioning">Haier Air Conditioning</Link>
-        </li>
-        <div class="dropdown-divider"></div>
-        <li>
-          <Link to="/products/carrier-air-conditioning">Carrier Air Conditioning</Link>
-        </li>
-        <div class="dropdown-divider"></div>
-        <li>
-           <Link to="/products/samsung-air-conditioning" >Samsung Air Conditioning</Link>
-        </li>
-        <div class="dropdown-divider"></div>
-        <li>
-         <Link to="/products/toshiba-air-conditioning" >Toshiba Air Conditioning</Link>
-        </li>
-         <li>
-         <Link to="/products/daikin-air-conditioning">Daikin Air Conditioning</Link>
-        </li>
+        
       </ul>
 
 </div>

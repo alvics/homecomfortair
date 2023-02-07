@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import { graphql, useStaticQuery } from 'gatsby';
-
+import StaticImage from './StaticQueryImages';
 
 
 
@@ -27,17 +27,34 @@ const GoogleReviews = () => {
   `)
 
   return (
-
+    <Fragment>
+     <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
+              <div className="col-sm-3 col-lg-2 pt-2 px-4">
+                <StaticImage
+                  filename="HCA-avatar-WHITE-1400.png"
+                  alt="home comfort air image"
+                />
+              </div>
+              <div className="col">
+                <h3 className="h2 fw-600 mt-2 ">
+                  Here's What Our Happy Customers Are Saying
+                </h3>
+              </div>
+            </div>
       
         <div className="container">
   {/* <h5><a href="https://g.page/r/CRG91xqs7wZTEAg/review" target="_blank">Write a review</a></h5> */}
-       <h5 className='fst-italic'>From our customers</h5>
-         {data.allGoogleReview.edges.map(review => (
-        <div className="row">
-      
-        <div className="col col-4" key={review.node.id}>
+
+           
+
+     
+         
+        <div className="row mt-4 mb-4">
+      {data.allGoogleReview.edges.map(review => (
+
+        <a href="https://g.page/r/CRG91xqs7wZTEAg/review" target="_blank" style={{width:190}} className="col col-4 card" key={review.node.id}>
           <p style={{textAlign: "left", paddingLeft:15,}}>
-           <img style={{width: 40 }} src={review.node.profile_photo_url} alt={review.node.author_name} />
+           <StaticImage style={{width: 40 }} src={review.node.profile_photo_url} alt={review.node.author_name} />
             </p>
 
             <p style={{textAlign: "left", marginTop: -20, fontSize:15}}>
@@ -68,13 +85,14 @@ const GoogleReviews = () => {
           </p>
           </small>
         
+        </a>
+          ))}
         </div>
-        
-        </div>
-            ))}
+          
         
     
     </div>
+    </Fragment>
   );
 };
 

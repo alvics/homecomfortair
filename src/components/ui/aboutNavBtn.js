@@ -25,15 +25,8 @@ const AboutNavMenu = () => {
                  </span>
                </span>
                <div className="dropdown-content">
-                  <Link to="/about-us">Home Comfort Air</Link>
-                  <Link to="/products/midea-air-conditioning">Midea Air Conditioning</Link>
-                  <Link to="/products/haier-air-conditioning">Haier Air Conditioning</Link>
-                  <Link to="/products/carrier-air-conditioning">Carrier Air Conditioning</Link>
-                  <Link to="/products/samsung-air-conditioning" >Samsung Air Conditioning</Link>
-                  <Link to="/products/toshiba-air-conditioning" >Toshiba Air Conditioning</Link>
-                  <Link to="/products/daikin-air-conditioning">Daikin Air Conditioning</Link>
-                  <Link to="/products/mitsubishi-air-conditioning">Mitsubishi Air Conditioning</Link>
-                 </div>
+                  
+               </div>
              </span>
       </Link>
   </Fragment>

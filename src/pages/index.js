@@ -10,9 +10,10 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import MyForm from "../components/form"
 import StaticImage from "../components/StaticQueryImages"
-// import BrandsBtn from "../components/BrandBtn"
-
+import BrandsBtn from "../components/BrandBtn"
 // import SimpleSlider from "../components/HeroCarousel"
+import GoogleReviews from "../components/GoogleReviews"
+import ServiceArea from "../components/ServiceArea"
 
 const getImage = graphql`
   {
@@ -227,6 +228,11 @@ Split,systems,service,install,sales`,
                 </Link>
               </div>
             </div>
+
+            <div className="mt-5">
+            <h3 className="h6 cam my-3 fw-600">Recommended leading brands</h3>
+             <BrandsBtn />
+            </div>
             
           </section>
 
@@ -240,7 +246,7 @@ Split,systems,service,install,sales`,
               </div>
               <div className="col">
                 <h3 className="h2 fw-600 mt-2 ">
-                  Split Systems Air Conditioning
+                  Split System Air Conditioning
                 </h3>
               </div>
             </div>
@@ -288,6 +294,16 @@ Split,systems,service,install,sales`,
               </div>
             </div>
           </section>
+
+          <section>
+           <GoogleReviews />
+          </section>
+
+           <section>
+           <ServiceArea />
+
+           </section>
+
           <section className="section-3">
             <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
@@ -298,7 +314,7 @@ Split,systems,service,install,sales`,
               </div>
               <div className="col">
                 <h3 className="h2 fw-600 mt-2 ">
-                  Residential Air Conditioning Professionals
+                   Air Conditioning Installation Professionals
                 </h3>
               </div>
             </div>
@@ -313,7 +329,7 @@ Split,systems,service,install,sales`,
                 <div>
 
                    <p className="lead mt-3 px-3">
-                   At HOME COMFORT AIR, we have been providing high-quality air conditioning installation services to families and major builders in the Brisbane, Ipswich, <Link to="/gold-coast-air-conditioning">Gold Coast</Link>, and Tweed Heads regions for over a decade. We offer a wide range of options for high wall and <Link to="/multi-head-systems">multi head </Link> <Link to="/split-systems">split systems</Link>, including popular brands such as Kelvinator, Acrton, <Link to="/products/daikin-air-conditioning"> Daikin</Link>, Braemar, LG, Haier, Mitsubishi, and <Link to="/products/samsung-air-conditioning">Samsung</Link>, as well as ducted residential and commercial systems with Daikin and Actron air conditioners. Additionally, our team is experienced in installing cassette units and wall-mounted split systems in Queensland schools.
+                   At HOME COMFORT AIR, we have been providing high-quality air conditioning installation services to families and major builders in the Brisbane, Ipswich, <Link to="/gold-coast-air-conditioning">Gold Coast</Link>, and <Link to="tweed-heads-air-conditioning">Tweed Heads</Link> regions for over a decade. We offer a wide range of options for high wall and <Link to="/multi-head-systems">multi head </Link> <Link to="/split-systems">split systems</Link>, including popular brands such as Kelvinator, Acrton, <Link to="/products/daikin-air-conditioning"> Daikin</Link>, Braemar, LG, Haier, Mitsubishi, and <Link to="/products/samsung-air-conditioning">Samsung</Link>, as well as ducted residential and commercial systems with Daikin and Actron air conditioners. Additionally, our team is experienced in installing cassette units and wall-mounted split systems in Queensland schools.
                    </p>
 
 
@@ -383,7 +399,7 @@ Split,systems,service,install,sales`,
 
             <section>
             <p className="px-20 mt-4">
-             <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and Tweed Heads regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
+             <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and <Link to="tweed-heads-air-conditioning">Tweed Heads</Link> regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
           </p>
         </section> 
 

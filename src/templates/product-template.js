@@ -137,8 +137,8 @@ Split,systems,price,service`,
               <button
                 type="button"
                 className="mt-4 btn-- btn-orange--"
-                data-toggle="modal"
-                data-target="#exampleModal"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
               >
                 Enquire Now
               </button>
