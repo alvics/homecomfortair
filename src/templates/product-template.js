@@ -22,6 +22,9 @@ import HaierPDF from "../images/haier-tempo.pdf"
 import SamsungPDF from "../images/bedarra.pdf"
 import DaikinPDF from "../images/daikin.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
+import CarrierPDF from "../images/Carrier.pdf"
+import MitsubishiPDF from "../images/mitsubishi.pdf"
+
 import MitsubishiArticle from "../components/mitsubishi-md-query"
 import MitsubishiProducts from "../components/Products/MitsubishProducts"
 
@@ -288,10 +291,10 @@ Split,systems,price,service`,
                   ) : (
                     <div></div>
                   )}
-                  {brand === "Carrier" ? (
+                  {brand === "Aura" ? (
                     <div className="single-side-products">
                       <StaticImage
-                        filename="carrier-add-11.png"
+                        filename="carrier-add.png"
                         alt="carrier air conditioning by Home Comfort Air"
                       />
                     </div>
@@ -351,7 +354,7 @@ Split,systems,price,service`,
 <div>
 { brand === "Toshiba" ? (
    <p className='mt-4'>
-                    Toshiba brochure{" "}
+                    Toshiba Seiya brochure{" "}
                   <a href={ToshibaPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
@@ -360,7 +363,7 @@ Split,systems,price,service`,
 ) : brand === "Midea" ?(
 
      <p className='mt-4'>
-                    Midea brochure{" "}
+                    Midea Apollo brochure{" "}
                   <a href={MideaPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
@@ -369,7 +372,7 @@ Split,systems,price,service`,
 
  ) : brand === "Daikin" ? (
                    <p className='mt-4'>
-                    Daikin brochure{" "}
+                    Daikin Cora brochure{" "}
                   <a href={DaikinPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
@@ -379,7 +382,7 @@ Split,systems,price,service`,
  ) : brand === "Samsung" ? (
 
           <p className='mt-4'>
-                    Samsung brochure{" "}
+                    Samsung Bedarra brochure{" "}
                   <a href={SamsungPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
@@ -389,8 +392,26 @@ Split,systems,price,service`,
  ) : brand === "Haier" ? (
            
             <p className='mt-4'>
-                    Haier brochure{" "}
+                    Haier Tempo brochure{" "}
                   <a href={HaierPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+) : brand === "Aura" ? (
+                  <p className='mt-4'>
+                    Carrier Aura brochure{" "}
+                  <a href={CarrierPDF} target="_blank" rel="noreferrer">
+                    {" "}
+                    <span class="material-icons">picture_as_pdf</span> here
+                  </a>
+                </p>
+
+) : brand === "Mitsubishi" ? (
+                  <p className='mt-4'>
+                    Mitsubishi Electric brochure{" "}
+                  <a href={MitsubishiPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
                   </a>
@@ -636,8 +657,8 @@ Split,systems,price,service`,
 
             <div className="mt-2">
               <StaticImage
-                filename="install.png"
-                alt="toshiba air conditioning by Home Comfort Air"
+                filename="install-450.png"
+                alt="install price split system air conditioning by Home Comfort Air"
               />
               <ul>
         <li>* 5 year Installation warranty.</li>

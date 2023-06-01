@@ -454,7 +454,9 @@ Split,systems,service,install,sales`,
           </Link>
           <br />
 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF1GKXN75R"></script> 
 
+      <script> {` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XF1GKXN75R');`} </script>
         </div>
       </Layout>
     </Fragment>

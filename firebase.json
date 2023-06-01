@@ -322,7 +322,147 @@
                 "source": "/products/midea-5.0kw-aurora-wall-mounted-split-system-AURMI50",
                 "destination": "/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
                 "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/toshiba-6.0kw-inverter-reverse-cycle-wall-mount-split-system-hcam3",
+                "destination": "https://homecomfortair.net.au/products/toshiba-6.0kw-inverter-reverse-cycle-wall-mount-split-system-RAS-22E2-VG-",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/samsung-2.5kw-boracay-reverse-cycle-inverter-hi-wall-split-system",
+                "destination": "https://homecomfortair.net.au/products/samsung-2.5kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR09AXHQAWK",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-wall-mounted-split-system-AURMI26",
+                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/midea-3.5kw-aurora-wall-mounted-split-system-AURMI35/",
+                "destination": "https://homecomfortair.net.au/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20/",
+                "destination": "https://homecomfortair.net.au/products/daikin-2.0kW-cora-reverse-cycle-hi-wall-split-system-hca20",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/samsung-8.0kw-boracay-reverse-cycle-inverter-hi-wall-split-system-hcalg2-hcal1",
+                "destination": "https://homecomfortair.net.au/products/samsung-6.8kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR24AXHQAWK",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/toshiba-3.4kw-inverter-reverse-cycle-call-mount-split-system-hcasm2",
+                "destination": "https://homecomfortair.net.au/products/toshiba-3.4kw-inverter-reverse-cycle-call-mount-split-system-RAS-13E2-VG",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/haier-7.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System/",
+                "destination": "https://homecomfortair.net.au/products/haier-7.1kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS71TECHRA",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System/",
+                "destination": "https://homecomfortair.net.au/products/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS82FFAHRA",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/samsung-2.5kw-boracay-reverse-cycle-inverter-hi-wall-split-system/",
+                "destination": "https://homecomfortair.net.au/products/samsung-2.5kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR09AXHQAWK",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/toshiba-4.4kw-inverter-reverse-cycle-wall-mount-split-system",
+                "destination": "https://homecomfortair.net.au/products/toshiba-4.2kw-inverter-reverse-cycle-wall-mount-split-system-RAS-16E2-VG",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/toshiba-6.0kw-inverter-reverse-cycle-wall-mount-split-system-hcam3/",
+                "destination": "https://homecomfortair.net.au/products/toshiba-6.0kw-inverter-reverse-cycle-wall-mount-split-system-RAS-22E2-VG-",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-april-2020",
+                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/samsung-6.8kw-boracay-reverse-cycle-inverter-hi-wall-split-system-september-2020-special/",
+                "destination": "https://homecomfortair.net.au/products/samsung-6.8kw-bedarra-reverse-cycle-inverter-hi-wall-split-system-AR24AXHQAWK",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/brisbane-conditioning",
+                "destination": "https://homecomfortair.net.au/brisbane-air-conditioning",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/haier-7.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System",
+                "destination": "https://homecomfortair.net.au/products/haier-7.1kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS71TECHRA",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-april-2020/",
+                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/daikin-2.0kW-cora-Inverter-hi-wall-split-system-hca20",
+                "destination": "https://homecomfortair.net.au/products/daikin-2.0kW-cora-reverse-cycle-hi-wall-split-system-hca20",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-5.0kw-aurora-wall-mounted-split-system-AURMI50/",
+                "destination": "https://homecomfortair.net.au/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-hcal1",
+                "destination": "https://homecomfortair.net.au/products/toshiba-7.1kw-inverter-reverse-cycle-wall-mount-split-system-RAS-24E2-VG",
+                "type": 301
+            },
+
+            {
+                "source": "https://homecomfortair.net.au/products/midea-3.5kw-aurora-wall-mounted-split-system-AURMI35",
+                "destination": "https://homecomfortair.net.au/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-8.0kw-aurora-wall-mounted-split-system-hcalg2/",
+                "destination": "https://homecomfortair.net.au/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-7.0kw-aurora-wall-mounted-split-system-hcalg1",
+                "destination": "https://homecomfortair.net.au/products/midea-7.0kw-apollo-reverse-cycle-split-system-MFAB70",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/haier-2.5kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price",
+                "destination": "https://homecomfortair.net.au/products/haier-2.6kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-special-price-AS26TBCHRA",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System",
+                "destination": "https://homecomfortair.net.au/products/Haier-8.0kW-Inverter-Reverse-Cycle-Wall-Mount-Split-System-AS82FFAHRA",
+                "type": 301
+            },
+            {
+                "source": "https://homecomfortair.net.au/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020",
+                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
             }
+
 
         ]
     }

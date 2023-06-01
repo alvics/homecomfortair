@@ -12,6 +12,7 @@ import HeaderMobile from "../headerNew"
 import Header from "../header"
 import Footer from "../../footer"
 import "../Layouts/layout.css"
+import { Script } from "gatsby"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -38,6 +39,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <Footer />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF1GKXN75R"></script> 
+
+      <script> {` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XF1GKXN75R');`} </script>
     </div>
   )
 }
@@ -45,5 +49,7 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+
 
 export default Layout

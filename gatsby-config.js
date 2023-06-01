@@ -212,9 +212,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `UA-101330928-5`,
+        trackingIds: [`G-XF1GKXN75R`],
+        PluginCongig: {
+          head: true
+        }
       },
     },
     {

@@ -291,7 +291,7 @@ Split,systems,service,supply,install`,
                   cooling system's since 1915. It flies under the radar here in
                   Australia, but its one of the largest air conditioning
                   manufactures in the world. Whether it’s consistent heating and
-                  cooling for the home, Carrier Pearl series is renowned for
+                  cooling for the home, Carrier Aura series is renowned for
                   better comfort and power saving. The system's inverter
                   technology will give you a comfortable and energy efficient
                   cooling and heating solution under budget for your home or
@@ -302,7 +302,7 @@ Split,systems,service,supply,install`,
                     title="Carrier air conditioning systems"
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/pnf4TD_Tr8E"
+                    src="https://www.youtube.com/embed/zh0OL7atI2g"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen

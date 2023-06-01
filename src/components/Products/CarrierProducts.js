@@ -28,7 +28,7 @@ const CarrierProducts = () => {
 const query = graphql`
   {
     allStrapiProduct(
-      filter: { categories: { elemMatch: { brand: { eq: "Carrier" } } } }
+      filter: { categories: { elemMatch: { brand: { eq: "Aura" } } } }
       sort: {fields: price, order: ASC}
     ) {
       totalCount
