@@ -5,6 +5,9 @@ import StaticImage from "../components/StaticQueryImages"
 import CTA from "../components/CTA"
 import Form from "../components/quoteForm"
 import SamsungProducts from "../components/Products/SamsungProducts"
+import MitsubishiProducts from '../components/Products/MitsubishProducts'
+// import MideaProducts from '../components/Products/MideaProducts'
+
 import { Link } from 'gatsby'
 
 export default function SplitSystemReplacement() {
@@ -13,7 +16,7 @@ export default function SplitSystemReplacement() {
       <Layout>
     <SEO
       title="Split System Air Conditioning Replacement"
-      description={`Discover how HOME COMFORT AIR can replace your reverse cycle air conditioning system. Replacement 2.5kw split systems from $1099, browse our range.`}
+      description={`Discover how HOME COMFORT AIR can replace your bedroom reverse cycle air conditioning system from $1149 supplied and installed`}
       keywords={[
         `Gold,Coast,Air,Conditioning,
                 Split,systems,replacement,reverse,cycle`,
@@ -137,6 +140,10 @@ export default function SplitSystemReplacement() {
               alt="mitsubishi split-replacement"
             />
      </div>
+     <div className='p-2'>
+     <h6>Mitsubishi Electric MSZ-AP</h6>
+     <MitsubishiProducts />
+     </div>
    
   
 
@@ -146,7 +153,9 @@ export default function SplitSystemReplacement() {
      <div className="col" style={{padding:55}}>
      <h5 className='h6 fw-600 px-20  mt-3'>Samsung A/C</h5>
      <SamsungProducts />
+     <div>
      
+     </div>
      </div>
      
      </div>

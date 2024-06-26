@@ -437,7 +437,7 @@
                 "destination": "https://homecomfortair.net.au/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
                 "type": 301
             },
-            {
+             {
                 "source": "https://homecomfortair.net.au/products/midea-8.0kw-aurora-wall-mounted-split-system-hcalg2/",
                 "destination": "https://homecomfortair.net.au/products/midea-9.0kw-apollo-reverse-cycle-split-system-MFAB90HN",
                 "type": 301
@@ -459,10 +459,36 @@
             },
             {
                 "source": "https://homecomfortair.net.au/products/midea-2.6kw-aurora-wall-mounted-split-system-specials-august-2020",
-                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "destination": "https://homecomfAortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "type": 301
+            },
+        
+             {
+                "source": "https://homecomfortair.net.au/products/midea-2.0kw-apollo-reverse-cycle-split-system-MFAB20",
+                "destination": "https://homecomfortair.net.au/products/midea-2.0kw-xtreme-save-reverse-cycle-split-system-MFAB20NC",
+                "type": 301
+            }, {
+                "source": "https://homecomfortair.net.au/products/midea-2.6kw-apollo-reverse-cycle-split-system-MFAB26",
+                "destination": "https://homecomfortair.net.au/products/midea-2.6kw-xtreme-save-reverse-cycle-split-system-MFAB26NC",
+                "type": 301
+            },
+             {
+                "source": "https://homecomfortair.net.au/products/midea-3.5kw-apollo-reverse-cycle-split-system-MFAB35",
+                "destination": "https://homecomfortair.net.au/products/midea-3.5kw-xtreme-save-reverse-cycle-split-system-MFAB35NC",
+                "type": 301
+            },
+             {
+                "source": "https://homecomfortair.net.au/products/midea-5.0kw-apollo-reverse-cycle-split-system-MFAB50",
+                "destination": "https://homecomfortair.net.au/products/midea-5.0kw-xtreme-save-reverse-cycle-split-system-MFAB50NC",
+                "type": 301
+            },
+             {
+                "source": "https://homecomfortair.net.au/products/midea-7.0kw-apollo-reverse-cycle-split-system-MFAB70",
+                "destination": "https://homecomfortair.net.au/products/midea-7.0kw-xtreme-save-reverse-cycle-split-system-MFAB70NC",
                 "type": 301
             }
-
+             
+          
 
         ]
     }

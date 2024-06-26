@@ -35,8 +35,10 @@ split,systems,price,installation,specials`,
         content="https://res.cloudinary.com/ewebdesigns/image/upload/v1597706415/Toshiba_lg_8ebbee010f.png"
       ></meta>
       <div className="container body-wrapper products-page">
-        <div className="row">
-          <div className="col-lg-10">
+       
+           <div className="row">
+             <div className="col-lg-10 col-xxl-12">
+       
             <div className="pt-2 split-systems-avatar heading-box-color rounded">
               <h1 className="h1 cam text-center text-white fw-600 p-3">
                 <span>
@@ -61,19 +63,20 @@ split,systems,price,installation,specials`,
               <p style={{ fontSize: 12 }}>Showing 48 products</p>
             </div>
 
-            <div className="split-system-archive products-archive" id="midea">
+            <div className="split-system-archive products-archive p-2" >
                  <h2 className="h5 fw-600">Browse Our Selection of High-Quality Split Systems from Leading Brands</h2>
                  <div>
                  <p className="lead-20">Welcome to our shop page, where you'll find a wide selection of air conditioning split systems from top brands including <Link to="/products/carrier-air-conditioning">Carrier</Link>, <Link to="/products/daikin-air-conditioning">Daikin</Link>, <Link to="/products/mitsubishi-air-conditioning">Mitsubishi</Link> Electric, <Link to="/products/samsung-air-conditioning">Samsung</Link>, and <Link to="/products/toshiba-air-conditioning">Toshiba</Link>. Whether you're looking for a single room unit or a larger system for your entire home, we've got you covered. Browse through our selection to find the perfect system for your needs, and don't forget to check out our installation options as well. Our experienced technicians are ready to help you with the entire process, from selecting the right system to installing and maintaining it. Thank you for choosing Home Comfort Air for your air conditioning needs.</p>
                  </div>
+                 </div>
 
-
-      <section>  
+              <section>  
                 {/* *******************************************************************************
                 ********************* Midea Products banner start *********************************
                 ******************************************************************************** */}     
               <div className="mb-2">
                 <div
+                id="midea"
                   className="text-center border rounded"
                   style={{ backgroundColor: `#7DCDFF` }}
                 >
@@ -401,11 +404,12 @@ split,systems,price,installation,specials`,
                   large windows with direct sunlight, opened areas and so on. We can
                   help you determine the right size air conditioner for your room.
                 </small>
+                </div>
+                </section>
             </div>
-        </section>
-            
-           <div className="position-relative">
-          <div className="col col-lg-2 mt-5 archive-category"  id="sidebar-sticky-top">
+             <div className="col col-lg-2 mt-5 archive-category">
+          <div className="position-fixed">
+          <div className="products-list-side-bar ml-3">
             <h3 className="h6 fw-600">Brands</h3>
            
             <hr />
@@ -458,11 +462,17 @@ split,systems,price,installation,specials`,
             <hr />
           </div>
           </div>
+          </div>
+            </div>
+        
+            
+           
+         
       </div>
       
-     </div>
-      </div>
-      </div>
+     
+     
+      
     </Layout>
   )
 }

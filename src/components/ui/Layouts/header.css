@@ -125,6 +125,10 @@ svg:hover {
     display: block;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 @media (max-width: 992px) {
     #links {
         display: none;

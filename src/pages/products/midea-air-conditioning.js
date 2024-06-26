@@ -7,7 +7,7 @@ import StaticImage from "../../components/StaticQueryImages"
 import Form from "../../components/quoteForm"
 import CTA from "../../components/CTA"
 import MideaProducts from '../../components/Products/MideaProducts'
-import MideaPDF from "../../images/Midea.pdf"
+import MideaPDF from "../../images/Midea-Xtreme.pdf"
 
 const MideaProductsPage = () => {
   
@@ -77,7 +77,7 @@ const MideaProductsPage = () => {
 
         <section>
         <div>
-        <h3 className='h5 fw-600'>Midea Apollo Series Air Conditioners</h3>
+        <h3 className='h5 fw-600'>Midea Xtreme Series Air Conditioners</h3>
         </div>
         <MideaProducts />
         <p className='mt-4'>

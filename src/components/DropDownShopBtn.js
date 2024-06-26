@@ -16,7 +16,7 @@ const DropdownShopBtn = () => {
         Shop
       </button>
       <ul
-        class="dropdown-menu px-3 shop-mobile-menu-list"
+        class="dropdown-menu px-3"
         aria-labelledby="dropdownMenuButton"
         style={{ whiteSpace: `nowrap` }}
       >

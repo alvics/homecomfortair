@@ -17,7 +17,7 @@ const BrandNavMenu = () => {
       <Link to="/about-us">
              <span className="dropdown-- ">
                <span className="dropbtn">
-                 <Link to="/about-us">Brands</Link>
+                 <Link to="/products">Brands</Link>
                  <span
                    style={{ fontSize: `inherit`, fontWeight: `bold` }}
                    className="material-icons"

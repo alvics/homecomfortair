@@ -14,6 +14,8 @@ import BrandsBtn from "../components/BrandBtn"
 // import SimpleSlider from "../components/HeroCarousel"
 import GoogleReviews from "../components/GoogleReviews"
 import ServiceArea from "../components/ServiceArea"
+import MideaSplitSystems from "../components/Products/MideaProducts"
+import DaikinSplitSystems from "../components/Products/Daikin"
 
 const getImage = graphql`
   {
@@ -34,7 +36,7 @@ const IndexPage = () => {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "Air Conditioning", "Installation","Split Systems", "Website"],
   "name": "Home Comfort Air",
-  "description":"Air Conditioning Gold Coast - Sales, Installation Service. Browse our affordable reverse cycle split system range",
+  "description":"Air Conditioning Gold Coast - Sales, Installation Service. Browse our affordable supplied and installation prices",
   "image": "https://homecomfortair.net.au/static/a480d1793c1eefd2201dfbfc149f4be9/e781a/HCA-2-avatar.png",
   "@id":  "https://homecomfortair.net.au/#website",
   "url": "https://homecomfortair.net.au/",
@@ -82,10 +84,10 @@ const IndexPage = () => {
         <SEO
           schemaMarkup={schema}
           title="Home Comfort Air Gold Coast Air Conditioning"
-          description={`Home Comfort Air specialises in affordable air conditioning services on the Gold Coast. Find your new reverse cycle air conditioner  browse our range. `}
+          description={`Home Comfort Air specialises in affordable air conditioning services on the Gold Coast. Find your new reverse cycle air conditioner browse our range. `}
           keywords={[
             `Gold,Coast,Air,Conditioning,
-Split,systems,service,install,sales`,
+Split,systems,service,install,sales,replacement`,
           ]}
         />
         <meta
@@ -94,6 +96,7 @@ Split,systems,service,install,sales`,
         ></meta>
         <meta name="pinterest" content="nopin" />
       
+        {/*
         <section className="specials-section">
           <div className="text-center body-wrapper">
             <h5
@@ -113,9 +116,11 @@ Split,systems,service,install,sales`,
               </Link>
             </div>
           </div>
-        </section>
-
-        <Hero />
+        </section> */}
+<section className="mb-3">
+ <Hero /> 
+</section>
+        
 
         <div className="body-wrapper">
        
@@ -124,7 +129,7 @@ Split,systems,service,install,sales`,
               <div className="col-sm-3 col-lg-2 pt-2 px-4 m-auto">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
-                  alt="home comfort air image"
+                  alt="home comfort air logo image"
                 />
               </div>
               <div className="col">
@@ -210,7 +215,7 @@ Split,systems,service,install,sales`,
                   <div className="card-top">
                     <StaticImage
                       filename="ducted-2.jpg"
-                      alt="ducted air image"
+                      alt="service and preventive maintenance air image"
                     />
                   </div>
                   <div className="card-heading">
@@ -230,7 +235,7 @@ Split,systems,service,install,sales`,
             </div>
 
             <div className="mt-5">
-            <h3 className="h6 cam my-3 fw-600">Recommended leading brands</h3>
+            <h3 className="h6 cam my-3 fw-600 pl-2">Recommended leading brands</h3>
              <BrandsBtn />
             </div>
             
@@ -241,7 +246,7 @@ Split,systems,service,install,sales`,
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
-                  alt="home comfort air image"
+                  alt="home comfort air logo image"
                 />
               </div>
               <div className="col">
@@ -250,6 +255,18 @@ Split,systems,service,install,sales`,
                 </h3>
               </div>
             </div>
+
+            <div className="px-3">
+
+            <MideaSplitSystems />
+
+            <div className="py-3">
+             <Link to="/products" className="btn-- btn-primary-- text-white">
+            View All Split Systems
+          </Link>
+            </div>
+            </div>
+
             <div className="grid-2">
               <div className="span-col-3">
                 <h4 className="text-dark fw-400">
@@ -258,7 +275,7 @@ Split,systems,service,install,sales`,
                 <Image
                   fluid={data.fluid.childImageSharp.fluid}
                   data-pin-nopin="true"
-                  alt=""
+                  alt="living room split system air conditioning"
                   style={{
                     height: "350px",
                     width: "auto",
@@ -309,7 +326,7 @@ Split,systems,service,install,sales`,
               <div className="col-sm-3 col-lg-2 pt-2 px-4">
                 <StaticImage
                   filename="HCA-avatar-WHITE-1400.png"
-                  alt="home comfort air image"
+                  alt="home comfort air logo image"
                 />
               </div>
               <div className="col">
@@ -373,7 +390,7 @@ Split,systems,service,install,sales`,
                   {" "}
                   <StaticImage
                     filename="homecomfort.jpg"
-                    alt="home comfort air image"
+                    alt="home comfort air logo image"
                   />
                 </div>
                 HOME COMFORT AIR
@@ -445,13 +462,36 @@ Split,systems,service,install,sales`,
             {" "}
             <StaticImage
               filename="split-systems-add.png"
-              alt="home comfort air image"
+              alt="home comfort air logo image"
             />
           </div>
 
-          <Link to="/products" className="btn-- btn-primary-- text-white">
-            Supply & Install Split Systems
+           <div className="heading-box-color heading-avatar rounded row d-flex align-items-center mb-2 mx-0">
+              <div className="col-sm-3 col-lg-2 pt-2 px-4">
+                <StaticImage
+                  filename="HCA-avatar-WHITE-1400.png"
+                  alt="home comfort air logo image"
+                />
+              </div>
+              <div className="col">
+                <h3 className="h2 fw-600 mt-2 ">
+                  Daikin Air Conditioning
+                </h3>
+              </div>
+            </div>
+
+          <div className="px-3">
+          <DaikinSplitSystems />
+<div className="py-2">
+ <Link to="/products" className="btn-- btn-primary-- text-white">
+            View Split Systems
           </Link>
+</div>
+          
+          
+          </div>
+
+         
           <br />
 
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF1GKXN75R"></script> 

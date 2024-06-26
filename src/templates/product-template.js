@@ -17,7 +17,7 @@ import StaticImage from "../components/StaticQueryImages"
 import RoomSizeTable from "../components/RoomSize"
 import BackToBack from "../components/BackToBack"
 import SEO from "../components/seo"
-import MideaPDF from "../images/Midea.pdf"
+import MideaPDF from "../images/Midea-Xtreme.pdf"
 import HaierPDF from "../images/haier-tempo.pdf"
 import SamsungPDF from "../images/bedarra.pdf"
 import DaikinPDF from "../images/daikin.pdf"
@@ -58,7 +58,7 @@ const SingleProduct = ({
     <Layout>
       <SEO
         title={ `${brand} ${capacity} Air Conditioning | Home Comfort Air` } 
-        description={`Discover a new ${title} for $${price} incl GST.`}
+        description={`Supplied & installed a new ${title} for $${price} incl GST. Split System air conditioning GOLD COAST`}
         keywords={[
           `${brand},installation,Air,Conditioning,
 Split,systems,price,service`,
@@ -66,6 +66,7 @@ Split,systems,price,service`,
       />
       <section className="SingleProduct container pt-3">
         <Breadcrumb
+        className='fsz-12'
           crumbs={crumbs}
           crumbSeparator=" / "
           crumbLabel={brand + " " + capacity}
@@ -80,8 +81,12 @@ Split,systems,price,service`,
 
           <div className="col-lg-6 gx-5">
             <article className=" p-4">
-              <h2 className="cap brand-single">{brand}</h2>
-              <h1 className="h3">{title}</h1>
+            <div className="">
+            <h2 className="cap brand-single">{brand}</h2>
+              <h1 className="h5 fw-600">{title}</h1>
+              <p className=''>Supplied & installed</p>
+              </div>
+              
 
               {price && saleprice ? (
                 <span>
@@ -100,9 +105,8 @@ Split,systems,price,service`,
                   </small>
                 </span>
               ) : (
-                <span className="price-single primary fw-600">
-                  ${price}.00 <span className="GST-text">Inc GST</span>
-                </span>
+                
+               <div style={{marginTop:'-15px'}} className="fsz-38 fw-700 shrink-text position-relative" ><span className='fsz-16 position-absolute top-0 start-0 fx-700' style={{marginTop: '10px'}}>$</span><span  className='ml-2'>{price}</span> <span className='fsz-12 fw-400' data-bs-toggle="tooltip" data-bs-placement="top" title="This is the standard retail price at which this exclusive product is offered for sale by home comfort air."><del style={{cursor:'grab'}}>SRP ${price + 100}</del></span>  </div>
               )}
 
               <div
@@ -123,7 +127,7 @@ Split,systems,price,service`,
                 {room_sizes.map(item => {
                   return (
                     <span id="single-room-size">
-                      Supply and install a new {title}. Suit{" "}
+                      Relax in comfort with a new {title}. Suit{" "}
                       <span style={{ textTransform: `lowercase` }}>
                         {item.size}
                       </span>{" "}
@@ -133,7 +137,7 @@ Split,systems,price,service`,
                 })}
 
                 <small>
-                  *Price is based on a <a href="#backtoback">back to back</a>{" "}
+                  *Price includes GST and is based on a <a href="#backtoback">back to back</a>{" "}
                   installation (maximum pipe length 3 metres).
                 </small>
               </div>
@@ -195,7 +199,7 @@ Split,systems,price,service`,
         <div className="mt-4">
         
         <h5>What's included:</h5>
-        <p>Your new air conditioning system package includes standard single storey back to back installation. This package includes:</p>
+        <p>Your new air conditioning system includes standard single storey back to back installation. This package includes:</p>
          
          <div>
             <ul className="pl-3">
@@ -284,8 +288,8 @@ Split,systems,price,service`,
                   {brand === "Midea" ? (
                     <div className="mb-2">
                       <StaticImage
-                        filename="midea-add-11.png"
-                        alt="midea air conditioning by Home Comfort Air"
+                        filename="xtreme-series.png"
+                        alt="midea xtremesave series split system air conditioning"
                       />
                     </div>
                   ) : (
@@ -363,7 +367,7 @@ Split,systems,price,service`,
 ) : brand === "Midea" ?(
 
      <p className='mt-4'>
-                    Midea Apollo brochure{" "}
+                    Midea Xtreme Series brochure{" "}
                   <a href={MideaPDF} target="_blank" rel="noreferrer">
                     {" "}
                     <span class="material-icons">picture_as_pdf</span> here
@@ -469,8 +473,8 @@ Split,systems,price,service`,
               <div className="border rounded bg-green-- my-3">
                 <blockquote style={{ color: `#f8f8f8` }} className="mt-20 ">
                   <i style={{ fontSize: 15 }}>
-                    *We offer seniors and pensioners discounts for new air
-                    conditioning installation. You can save 10% with our supply
+                    *We offer the best prices for new air
+                    conditioning installation. You can save with our supply
                     and install offers
                     <button
                       style={{ color: `#0075C9` }}
@@ -515,7 +519,7 @@ Split,systems,price,service`,
             ) : (
               <div></div>
             )}
-            {brand === "Carrier" ? (
+            {brand === "Aura" ? (
               <div className="single-side-products mb-2">
                 <div
                   style={{ backgroundColor: `#004178` }}

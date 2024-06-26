@@ -31,9 +31,9 @@ const MitsubishiArticle = () => {
    <section>
 
    
-<div className="feature-text lead-20">
+<div className="feature-text">
   <h4>Features and Benefits of Mitsubishi Split Systems</h4>
-Experience optimal comfort all year round with our MSZ-AP series - the perfect choice for single rooms and small spaces. Keep cool in the summer and warm in the winter with this versatile and energy efficient air conditioning system.
+<p className="mits-p">Experience optimal comfort all year round with our MSZ-AP series - the perfect choice for single rooms and small spaces. Keep cool in the summer and warm in the winter with this versatile and energy efficient air conditioning system.</p>
 </div>
 <div  className="row">
   <div className="col">

@@ -12,7 +12,7 @@ import HeaderMobile from "../headerNew"
 import Header from "../header"
 import Footer from "../../footer"
 import "../Layouts/layout.css"
-import { Script } from "gatsby"
+
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`

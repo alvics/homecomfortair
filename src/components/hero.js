@@ -36,17 +36,17 @@ const Hero = props => {
                       The smart choice in air conditioning
                     </span>
                   </h2>
-                  <p className="px-5">
+                  <p className="px-5 lead fw-400">
                     Residential air conditioning specialists, we supply and
                     install all major brands throughout south east Queensland,
                     from Ipswich, Brisbane and the Gold Coast.
                   </p>
-                  <div className="pb-3">
+                  <div className="pb-2">
                     <Link to="/products">
                       <button className="btn-- btn-green--">Shop A/C</button>
                     </Link>
 
-                    <Link to="/split-systems">
+                    <Link to="/products">
                       <button className="btn-- btn-primary-- ml-2">
                         Split Systems
                       </button>
@@ -57,13 +57,13 @@ const Hero = props => {
               <div className="col-lg-4">
                 <div className="form-overlay p-4">
                   <span
-                    className="h3 fw-600 d-flex justify-content-center"
+                    className="h3 fw-600 d-flex justify-content-center mt-4"
                     style={{ color: `#2d3136` }}
                   >
                     Request a quote
                   </span>
-                  <i className="text-center text-blue">
-                    If you're looking for new air conditioning
+                  <i className="text-center text-black">
+                    Air Conditioning Installations
                   </i>
                   <div id="hero-form">
                     <MyForm />

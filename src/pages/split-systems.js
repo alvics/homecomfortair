@@ -7,13 +7,14 @@ import { Tabs, Tab, Panel } from "@bumaga/tabs"
 import Form from "../components/quoteForm"
 import SEO from "../components/seo"
 
-
-// import SamsungProducts from "../components/Products/SamsungProducts"
+import HaierSplits from "../components/Products/Haier"
+import SamsungProducts from "../components/Products/SamsungProducts"
 import DaikinProducts from "../components/Products/Daikin"
 import MideaProducts from "../components/Products/MideaProducts"
 import ToshibaProducts from "../components/Products/Toshiba"
 import CarrierProducts from "../components/Products/CarrierProducts"
-import MideaPDF from "../images/Midea.pdf"
+import MitsubishiElectricSplits from "../components/Products/MitsubishProducts"
+import MideaPDF from "../images/Midea-Xtreme.pdf"
 import ToshibaPDF from "../images/Toshiba.pdf"
 import CTA from "../components/CTA"
 // import GoogleReviews from "../components/GoogleReviews"
@@ -321,23 +322,19 @@ Split,systems,service,supply,install`,
             <MideaProducts />
             <div className="grid-col-2 pt-20">
               <div className="tabs-img">
-                <StaticImage
-                  filename="midea-main.jpg"
-                  alt="midea split system air image"
-                />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/F6BzRW_2EQ4?si=6mwNgK-uegAP-s0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <div className="p-20">
                 <h5 className="fw-600 cap">Midea air conditioning</h5>
                 <p>
                   Midea have come a long way over the past 50 years with its
                   manufacturing of air conditioners at affordable prices. The
-                  Aurora range is known for its pure comfort, clean, filtered
-                  air, quiet operations and smart mobile connect technology. It
-                  has a powerful and fast cooling system that uses an efficient
+                  XtremeSave series is known for its pure comfort, clean, filtered
+                  air, quiet operations and power saving technology. You have full control of your system that uses an efficient
                   and effective compressor that allows strong air flow for
                   immediate comfort. Tested and built to last, the outdoor unit
                   will withstand the Australian harsh conditions, and the whole
-                  Aurora series is backed by a 5-year warranty.
+                  XtremeSave series is backed by a 7-year warranty.
                 </p>
                 <p>
                   Midea range, download brochure{" "}
@@ -352,10 +349,34 @@ Split,systems,service,supply,install`,
       </section>
 
       <section>
-      <div className="lg mb-5">
+      <div className="lg mb-5 mt-3 text-center pl-2">
       <h5>View all our brands</h5>
-      <Link className="btn-- btn-primary--" to="/products" >SHOP</Link>
+      <Link className="btn-- btn-orange--" to="/products" >SHOP SPLIT SYSTEMS</Link>
       </div>
+      </section>
+
+       <section>
+        <div className="heading-box-color  heading-avatar rounded row d-flex align-items-center my-2 mx-0">
+          <div className="col-sm-3 col-lg-2 mt-1 px-2">
+            <StaticImage
+              filename="HCA-avatar-WHITE-1400.png"
+              alt="home comfort air image"
+            />
+          </div>
+          <div className="col">
+            <h3 className="h2 fw-600 mt-2">
+              Hi Wall Split System Air Conditioning 
+            </h3>
+          </div>
+        </div>
+
+        <div className="p-2">
+          <h6>Mitsubishi Electric MSZ-AP</h6>
+        <MitsubishiElectricSplits />
+        <br />
+        <h6>Samsung Bedarra</h6>
+        <SamsungProducts />
+        </div>
       </section>
 
       <section>
@@ -363,7 +384,7 @@ Split,systems,service,supply,install`,
           <div className="col-sm-3 col-lg-2 mt-1 px-2">
             <StaticImage
               filename="HCA-avatar-WHITE-1400.png"
-              alt="home comfort air image"
+              alt="home comfort air logo image"
             />
           </div>
           <div className="col">
@@ -418,6 +439,7 @@ Split,systems,service,supply,install`,
               </div>
             </div>
           </div>
+          <HaierSplits />
         </div>
       </section>
 
@@ -463,7 +485,8 @@ Split,systems,service,supply,install`,
              <small>At Home Comfort Air, we aim to exceed our customer's expectations by offering the finest air conditioning systems and services. Our dedication to providing top-notch, energy-efficient, and dependable solutions extends to the Gold Coast, Brisbane, Ipswich and Tweed Heads regions. Reach out to us today to schedule an installation or to learn more about our offerings.</small>
           </p>
         </section> 
-        <div>
+        <div className="p-2">
+        <h6>Midea XtremeSave</h6>
         <MideaProducts />
         </div>
 

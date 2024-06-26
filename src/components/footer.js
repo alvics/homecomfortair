@@ -132,8 +132,8 @@ const Footer = () => {
             <div className="text-left">
               <h4>Latest News</h4>
                 <p>
-                <Link to="/products/specials">
-                  Special Deals
+                <Link to="/privacy-policy">
+                  Privacy Policy
                 </Link>
               </p>
               <p>

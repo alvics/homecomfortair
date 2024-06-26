@@ -38,27 +38,44 @@ const ServiceSection = () => {
 
       
         <div>
-          <p className="lead-20 mt-3">Our split system service includes regular check-ups to ensure optimal performance, and to catch any potential issues before they become major problems. We have a seasonal inspection, cleaning of the unit, and any necessary repairs or adjustments and also offer a 5-year maintenance program that includes twice-yearly inspections and maintenance, as well as priority service and discounted rates on any outdoor rust treatments and gecko circuit board treatments.</p>
+          <p className="lead-20 mt-3">Our split system service includes regular check-ups to ensure optimal performance, and to catch any potential issues before they become major problems. We have a seasonal inspection, cleaning of the unit, and any necessary repairs or adjustments and also offer a Preventative Maintenance program that includes yearly inspections and maintenance, as well as priority service and discounted rates on any outdoor rust treatments and gecko circuit board treatments.</p>
 
         <p className="lead-20">We believe in providing our customers with the highest level of service and ensuring that their systems are running at peak performance. With Home Comfort Air, you can trust that your air conditioning will be in good hands and your home or business will be comfortable all year round.</p>
         </div>
          <div className="service-txt px-20">
-         <div className="mt-4"><h4 className=" h5 fw-600">5 year Maintenance Program</h4></div>
+         <div className="mt-4"><h4 className=" h5 fw-600">Preventative Maintenance Program</h4></div>
         <p className="lead-20">
-          Our 5 year maintenance program is designed to keep your air conditioning system running at peak performance and efficiency. The program includes twice-yearly inspections to ensure your system is working properly and to identify any potential issues before they become major problems. Our inspections cover all major components of the system, including the compressor, condenser, and evaporator coils, as well as the refrigerant levels and the electrical connections.
+          Our Preventative Maintenance program is designed to keep your air conditioning system running at it's peak performance, efficiency and being safe and healthy for you. The program includes once-yearly inspection to ensure your system is working properly and to identify any potential issues before they become major problems. Our inspections cover all major components of the system, including the compressor, condenser, and evaporator coils, as well as the refrigerant levels and the electrical connections.
         </p>
 
-         <p className="lead-20">
-         Our technician will also clean the filters and check the air flow to make sure the system is running as efficiently as possible. Any necessary repairs or maintenance will be performed on the spot during the inspection.
-        </p>
         <p className="lead-20">
          Our technician will also clean the filters and check the air flow to make sure the system is running as efficiently as possible. Any necessary repairs or maintenance will be performed on the spot during the inspection.
           In addition to the regular inspections, the program also includes priority service, so you can rest assured that if you ever need repairs outside of the regular inspection schedule, we will be there to help as soon as possible. All covered repairs will be performed at a discounted rate, this way you can have peace of mind knowing that your air conditioning system is protected
         </p>
-        <p className="lead-20">
+       
+
+        <div>
+        <h4 className=" h5 fw-600">Preventative Maintenance Cost</h4>
+ <p className="lead-20">
          This program is a cost-effective way to ensure that your air conditioning system stays in good working order and lasts as long as possible, while also providing you with peace of mind and comfort.
-         Our expert technicians will conduct regular inspections, cleanings, and repairs to ensure that your unit is always operating at its best. Sign up for our 5-year program and enjoy the added benefits of twice-yearly check-ups, priority service, and special pricing on additional services such as rust treatments and circuit board protection. Don't wait for problems to arise, trust us to keep your system running smoothly.
+         Our expert technicians will conduct regular inspections, cleanings, and repairs to ensure that your unit is always operating at its best. Sign up for our Preventative Maintenance program and enjoy the added benefits of yearly check-ups, priority service, and special pricing on additional services such as rust treatments and circuit board protection. Don't wait for problems to arise, trust us to keep your system running smoothly.
         </p>
+        <div className="row">
+        <div className="col-6">
+        <h5 className=" h6 fw-600">Hi-Wall Split Systems</h5>
+        <p>*1 Year <strong>$155</strong> <small>Incl GST</small> <br/>*5 Year <strong>$699</strong> <small>Incl GST</small></p>
+        
+        </div>
+
+        <div className="col-6">
+        <h5 className=" h6 fw-600">Ducted Systems</h5>
+        <p>*1 Year <strong>$220</strong> <small>Incl GST</small><br/>*5 Year <strong>$999</strong> <small>Incl GST</small></p>
+        
+        </div>
+        
+        </div>
+         
+        </div>
         </div>
       
         </div>

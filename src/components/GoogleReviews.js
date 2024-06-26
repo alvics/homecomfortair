@@ -50,11 +50,13 @@ const GoogleReviews = () => {
      
          
         <div className="row mt-4 mb-4">
+        
+       
       {data.allGoogleReview.edges.map(review => (
 
-        <a href="https://g.page/r/CRG91xqs7wZTEAg/review" target="_blank" style={{width:190}} className="col col-4 card" key={review.node.id}>
+        <a href="https://g.page/r/CRG91xqs7wZTEAg/review" target="_blank" style={{width:190}} className="col-sm-12 col-md-4 card" key={review.node.id}>
           <p style={{textAlign: "left", paddingLeft:15,}}>
-           <StaticImage style={{width: 40 }} src={review.node.profile_photo_url} alt={review.node.author_name} />
+           <img style={{width: 40 }} src={review.node.profile_photo_url} alt={review.node.author_name} />
             </p>
 
             <p style={{textAlign: "left", marginTop: -20, fontSize:15}}>
@@ -90,7 +92,7 @@ const GoogleReviews = () => {
         </div>
           
         
-    
+   
     </div>
     </Fragment>
   );

@@ -42,13 +42,8 @@ module.exports = {
    {
     resolve: `gatsby-source-google-reviews-en`,
     options: {
-<<<<<<< HEAD
       placeId: process.env.place_id,
       apiKey: process.env.GOOGLE_API_KEY,
-=======
-      placeId: ``,
-      apiKey: ``,
->>>>>>> de8219969765fcfbe601e9ee1e3afc65b16ee975
     },
   },
     {

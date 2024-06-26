@@ -47,19 +47,7 @@ Split,systems,Ipswich,Brisbane,Specials`,
               <h2 className="h5 cap fw-600">Our Service</h2>
             </div>
 
-            <p className="lead-20">
-              We've been installing domestic air conditioners for family's and
-              major builders around Brisbane, Gold Coast and Tweed Heads area's
-              for over a decade. Everything from{" "}
-              <Link to="/split-systems">high wall split</Link> and{" "}
-              <Link to="/multi-head-systems">multi head systems</Link> with
-              major brands, Daikin, Haier, Kelvinator, Toshiba, Acrton, Braemar,
-              Carrier, Midea, LG, Mitsubishi and Samsung as well as{" "}
-              <Link to="/ducted-systems">ducted residential</Link> and
-              commercial systems with Daikin and Actron air conditioners.
-              Furthermore, experienced working in Queensland schools installing
-              air conditioning systems.{" "}
-            </p>
+           
 
             <p className="lead-20 mt-3">
               HOME COMFORT AIR services South East Queensland installing all
